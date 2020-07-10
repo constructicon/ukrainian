@@ -1,0 +1,72 @@
+---
+spraakbanken_url: |
+    https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--какой_%2F_какое_(там)_VP-Inf.Imp!&map=false
+year: 2018
+name: какой (там)/какое там VP-Inf.Imp!
+illustration: Какое там гулять! У нас нет времени!
+cefr_level: C1
+definitions:
+  - russian: |
+        Конструкция обозначает, что говорящий отклоняет
+        [действие]Action , названное в предыдущем контексте, потому что
+        считает это действие неуместным или несвоевременным. Обычно
+        конструкция используется в ситуации диалога и выражает реакцию
+        говорящего на предшествующую реплику собеседника. Конструкция
+        также встречается при передаче внутренней речи говорящего,
+        которая конструируется как диалог говорящего с самим собой.
+  - english: |
+        This construction means that the speaker rejects the suggested
+        action named in the preceding context, because he/she finds
+        this action inappropriate or poorly timed. Usually, this
+        construction is used in a dialogue and expresses the speaker’s
+        reaction to the preceding remark of his/her conversation
+        partner. The construction can also occur when presenting the
+        inner monologue of the speaker that is constructed as a
+        conversation in which the speaker is talking to him- or
+        herself.
+examples:
+  - |
+    "― Ладно, пойду [спать]Action! ― [ Какой [спать]Action]какой_VP-Inf!,
+    Марина Михайловна? ― возмутилась Ира. ― Посидите
+    с нами, хоть чайку попейте."
+  - |
+    "― Вам суп [наливать]Action? Я посмотрела на суп.
+    [ Какое там [наливать]Action! ]какой_VP-Inf!
+    Серый, непрозрачный, он не вызывал у меня аппетита.
+    ― Нет, благодарю, ответила я."
+  - |
+    "И вот народ галдит. Я там присел, попытался
+    [помедитировать]Action как-то.
+    [ Какое там [медитировать]Action ]какой_VP-Inf! !
+    Ничего подобного там и близко невозможно – весь этот галдеж и тусовка."
+  - "[ [Какой]какой [петь]Action ]какой_VP-Inf! — время уже позднее!"
+morphology: VP, Inf
+syntactic_function_of_construction: Clause
+syntactic_function_of_anchor: ModalAdv
+syntactic_structure_of_anchor: Not Applicable
+part_of_speech_of_anchor:
+  - Adv
+  - Pron
+semantic_types:
+  - type: Reaction to the previous discourse
+    subtypes:
+      - type: Disagreement
+semantic_roles:
+  - Action
+intonation: Exclamatory
+usage_label: Colloquial
+anchor_words:
+  - какой
+  - какое
+  - там
+common_fillers:
+  - спать
+  - работать
+  - гулять
+  - отдыхать
+comment: |
+    см. конструкцию какой / какое (там) VP-Past! – Какой там поел!
+    и конструкцию какой / какое (там) Adv/Adj! – Какое там быстро!
+structure_in_ud: |
+    [[advmod какой [advmod там]] VP-Inf.Imp!] [[advmod какое
+    [advmod там]] VP-Inf.Imp!]

@@ -1,12 +1,10 @@
 import yaml
 import pprint
 
-with open("example.yml", "r") as f:
+with open("0017.yml", "r") as f:
     try:
         data = yaml.safe_load(f)
     except yaml.YAMLError as e:
         print(e)
 
 pprint.pprint(data)
-pprint.pprint(data[165])
-pprint.pprint(data[17])

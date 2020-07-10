@@ -1,0 +1,65 @@
+---
+spraakbanken_url: |
+    https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--(NP-Dat)_давно_пора_VP-Inf&map=false
+year: 2018
+name: (NP-Dat) давно пора VP-Inf
+illustration: Детям давно пора поесть
+cefr_level: B1
+definitions:
+  - russian: |
+        Конструкция обозначает, что, по мнению говорящего, [событие]Goal
+        должно было наступить раньше настоящего момента или [участник
+        ситуации]Stimulus должен был выполнить
+  - english: |
+        This construction means that, according to the speaker, a given
+        [event]Goal should already have taken place, or a [participant in the
+        situation]Stimulus should already have performed a certain
+        [Action]Goal.
+  - norwegian: |
+        Ved hjelp av denne konstruksjonen uttrykker taleren at en gitt
+        [hendelse]Goal etter vedkommendes mening allerede burde ha funnet
+        sted, eller at [deltageren i en viss situasjon]Stimulus allerede
+        burde ha utført en gitt [handling]Goal.
+examples:
+  - |
+    "Да и [ [спать]Goal [давно]давно [пора]пора ]давно_пора_VP !"
+  - |
+    "Она говорит, что [ [дочери]Stimulus [давно]давно [пора]пора [найти
+    мужа]Goal ]давно_пора_VP, но она говорит, что пока ещё не хочет замуж."
+  - |
+    "Отец объявляет, что [ [сыну]Experiencer [давно]давно [пора]пора
+    [домой]Goal ]давно_пора_VP."
+morphology: NP, Dat, VP, Inf
+syntactic_function_of_construction: Clause
+syntactic_function_of_anchor: Praedic
+syntactic_structure_of_anchor: NP
+part_of_speech_of_anchor:
+  - Adv
+  - Noun
+semantic_types:
+  - type: Temporal expression
+    subtypes:
+      - type: Proper time
+  - type: Causation
+    subtypes:
+      - type: Direct
+  - type: Root modality
+    subtypes:
+      - type: Necessity
+        subtypes:
+          - type: Internal
+semantic_roles:
+  - Stimulus
+  - Goal
+intonation: Assertive
+usage_label: NA
+anchor_words:
+  - давно
+  - пора
+common_fillers:
+  - спать
+  - есть
+  - ложиться
+structure_in_ud: |
+    [root [nmod NP-Dat] [advmod давно] пора [nsubj VP-Inf]] [root [nmod
+    детям] [advmod давно] пора [nsubj поесть]]

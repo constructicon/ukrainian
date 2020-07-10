@@ -1,0 +1,53 @@
+---
+spraakbanken_url: |
+    https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--%D0%BD%D0%B8_%D1%81%D0%BB%D0%BE%D0%B2%D0%B0_NP-Dat_%D0%BE_NP-Dat!&map=false
+year: 2018
+name: ни слова NP-Dat о NP-Loc!
+illustration: ни слова маме о нашей поездке!
+cefr_level: C1
+definitions:
+  - russian: |
+        Конструкция обозначает, что говорящий угрожает, настоятельно
+        советует [участнику ситуации]Experiencer не говорить ничего
+        касательно [кого-либо]Theme или [чего-либо]Theme.
+examples:
+  - |
+    "Но самое главное — [ [никому]Experiencer  [ни]ни  [слова]слова
+    [о]о  [нашей находке!]Theme]ни_слова_NP-Dat_о_NP-Dat!"
+  - |
+    "[ [Ни]ни  [слова]слова  [своим друзьям]Experiencer  [о]о
+    [случившейся драке]Theme  ]ни_слова_NP-Dat_о_NP-Dat! в школе!"
+  - |
+    "[ [Ни]ни  [слова]слова  [отцу]Experiencer  [о]о
+    [нашем споре!]Theme  ]ни_слова_NP-Dat_о_NP-Dat!"
+morphology: NP, Dat, NP, Loc
+syntactic_function_of_construction: Clause
+syntactic_function_of_anchor: Praedic
+syntactic_structure_of_anchor: Negation
+part_of_speech_of_anchor:
+  - Noun
+  - Simplex prep
+semantic_types:
+  - type: Non-existence
+    subtypes:
+      - type: Unaffected small portion
+  - type: Degree of intensity
+    subtypes:
+      - type: Minimizer
+        subtypes:
+          - type: Absence
+  - type: Prohibition
+    subtypes:
+      - type: Prohibitive
+semantic_roles:
+  - Experiencer
+  - Theme
+intonation: Exclamatory
+usage_label: Colloquial
+anchor_words:
+  - ни
+  - слова
+  - о
+structure_in_ud: |
+    [root [advmod ни] слова [nmod маме] [nmod [case о] [amod нашей]
+    поездке]] [root [advmod ни] слова [nmod NP-Dat] [nmod [case о] NP-Dat!]]

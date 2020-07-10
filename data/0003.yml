@@ -1,0 +1,52 @@
+---
+spraakbanken_url: |
+    https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--(%D0%B0)_%D0%BA%D0%B0%D0%BA_%D0%B6%D0%B5_NP-Nom%3F&map=false
+year: 2018
+name: (а) как же NP-Nom?
+illustration: А как же мама?
+cefr_level: A1
+definitions:
+  - russian: |
+        Конструкция используется для того, чтобы напомнить адресату о
+        [каком-либо факте]Theme, который он должен принять во внимание.
+        Этот факт известен всем участникам беседы.
+  - english: |
+        This construction is used to remind the addressee of some
+        [fact]Theme, which they should take into consideration.
+        This fact is known to all participants in the conversation.
+examples:
+  - |
+    "Иван поднял голову и спросил: ― [ [А]а  [как]как  [же]же
+    [я]Theme](а)_как_же_NP-Nom?? ― Ты будешь жить с женой и воспитывать
+    сына, ― ответила Ирина."
+  - |
+    "― Всё, ― объявил водитель, ― дальше не поеду. ― [ [Как]как  [же]же
+    [деньги]Theme](а)_как_же_NP-Nom?? Я заплатил за билет!"
+  - |
+    "В нашем городе ему предложили хорошую работу, поэтому он недолго
+    думая сорвался с насиженного места и уехал. ― [ [А]а  [как]как
+    [же]же  [жена и дети]Theme](а)_как_же_NP-Nom? ? ― поинтересовалась Машa."
+morphology: NP, Nom
+syntactic_function_of_construction: Clause
+syntactic_function_of_anchor: Praedic
+syntactic_structure_of_anchor: Adv
+part_of_speech_of_anchor:
+  - Pron
+  - Adv
+  - Conj
+semantic_types:
+  - type: Reaction to the previous discourse
+    subtypes:
+      - type: Surprise
+  - type: Mirative
+semantic_roles:
+  - Theme
+intonation: Interrogative
+usage_label: NA
+anchor_words:
+  - а
+  - как
+  - же
+structure_in_ud: |
+    [root как [advmod же] [nsubj NP-Nom]] [root [cc а] как
+    [advmod же] [nsubj NP-Nom]]
