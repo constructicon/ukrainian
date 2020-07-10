@@ -45,7 +45,9 @@
   syntactic_function_of_construction: Clause
   syntactic_function_of_anchor: ModalAdv
   syntactic_structure_of_anchor: Not Applicable
-  part_of_speech_of_anchor: Adv, Pron
+  part_of_speech_of_anchor:
+    - Adv
+    - Pron
   semantic_types:
     - type: Reaction to the previous discourse
       subtype: Disagreement
@@ -104,7 +106,9 @@
   syntactic_function_of_construction: Clause
   syntactic_function_of_anchor: Praedic
   syntactic_structure_of_anchor: NP
-  part_of_speech_of_anchor: Adv, Noun
+  part_of_speech_of_anchor:
+    - Adv
+    - Noun
   semantic_types:
     - type: Temporal expression
       subtype: Proper time
@@ -161,7 +165,10 @@
   syntactic_function_of_construction: Clause
   syntactic_function_of_anchor: Praedic
   syntactic_structure_of_anchor: Adv
-  part_of_speech_of_anchor: Pron, Adv, Conj
+  part_of_speech_of_anchor:
+    - Pron
+    - Adv
+    - Conj
   semantic_types:
     - type: Reaction to the previous discourse
       subtype: Surprise
@@ -219,7 +226,10 @@
   syntactic_function_of_construction: Praedic
   syntactic_function_of_anchor: Praedic
   syntactic_structure_of_anchor: AP
-  part_of_speech_of_anchor: V, Pron, Simplex prep
+  part_of_speech_of_anchor:
+    - V
+    - Pron
+    - Simplex prep
   semantic_types:
     - type: Comparison
       subtype: Similarity
@@ -329,7 +339,10 @@
   syntactic_function_of_construction: Clause
   syntactic_function_of_anchor: Adj, Parenth
   syntactic_structure_of_anchor: Pron, PP
-  part_of_speech_of_anchor: Pron, Simplex prep, Noun
+  part_of_speech_of_anchor:
+    - Pron
+    - Simplex prep
+    - Noun
   semantic_types:
     - type: Reaction to the previous discourse
       subtype: Disagreement
@@ -378,7 +391,9 @@
   syntactic_function_of_construction: Clause
   syntactic_function_of_anchor: Praedic
   syntactic_structure_of_anchor: Negation
-  part_of_speech_of_anchor: Noun, Simplex prep
+  part_of_speech_of_anchor:
+    - Noun
+    - Simplex prep
   semantic_types:
     - type: Non-existence
       subtype: Unaffected small portion
@@ -425,7 +440,9 @@
   syntactic_function_of_construction: Adj, Adv
   syntactic_function_of_anchor: Not Applicable
   syntactic_structure_of_anchor: Not Applicable
-  part_of_speech_of_anchor: Prefix, Suffix
+  part_of_speech_of_anchor:
+    - Prefix
+    - Suffix
   semantic_types:
     - type: Comparison
       subtype: Inequality
@@ -476,7 +493,9 @@
   syntactic_function_of_construction: NP
   syntactic_function_of_anchor: Adj
   syntactic_structure_of_anchor: Pron
-  part_of_speech_of_anchor: Pron, Adj
+  part_of_speech_of_anchor:
+    - Pron
+    - Adj
   semantic_types:
     - type: Assessment
       subtype: Negative
@@ -524,7 +543,9 @@
   syntactic_function_of_construction: Clause
   syntactic_function_of_anchor: Adv
   syntactic_structure_of_anchor: PP
-  part_of_speech_of_anchor: Simplex prep, Pron
+  part_of_speech_of_anchor:
+    - Simplex prep
+    - Pron
   semantic_types:
     - type: Assessment
       subtype: Positive, Negative
