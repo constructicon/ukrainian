@@ -50,7 +50,8 @@
     - Pron
   semantic_types:
     - type: Reaction to the previous discourse
-      subtype: Disagreement
+      subtypes:
+        - type: Disagreement
   semantic_roles:
     - Action
   intonation: Exclamatory
@@ -111,12 +112,16 @@
     - Noun
   semantic_types:
     - type: Temporal expression
-      subtype: Proper time
+      subtypes:
+        - type: Proper time
     - type: Causation
-      subtype: Direct
+      subtypes:
+        - type: Direct
     - type: Root modality
-      subtype: Necessity
-      subsubtype: Internal
+      subtypes:
+        - type: Necessity
+          subtypes:
+            - type: Internal
   semantic_roles:
     - Stimulus
     - Goal
@@ -171,7 +176,8 @@
     - Conj
   semantic_types:
     - type: Reaction to the previous discourse
-      subtype: Surprise
+      subtypes:
+        - type: Surprise
     - type: Mirative
   semantic_roles:
     - Theme
@@ -232,7 +238,8 @@
     - Simplex prep
   semantic_types:
     - type: Comparison
-      subtype: Similarity
+      subtypes:
+        - type: Similarity
   semantic_roles:
     - Theme
   usage_label: NA
@@ -287,11 +294,14 @@
   part_of_speech_of_anchor: Pron
   semantic_types:
     - type: Assessment
-      subtype: Positive
+      subtypes:
+        - type: Positive
     - type: Comparison
-      subtype: Contrast
+      subtypes:
+        - type: Contrast
     - type: Reaction to the previous discourse
-      subtype: Unspecified
+      subtypes:
+        - type: Unspecified
   semantic_roles:
     - Theme
   usage_label: NA
@@ -345,11 +355,14 @@
     - Noun
   semantic_types:
     - type: Reaction to the previous discourse
-      subtype: Disagreement
+      subtypes:
+        - type: Disagreement
     - type: Routine
-      subtype: Swearing
+      subtypes:
+        - type: Swearing
     - type: Attitude
-      subtype: Negative
+      subtypes:
+        - type: Negative
   semantic_roles:
     - Theme
   intonation: Interrogative / Exclamatory
@@ -396,12 +409,16 @@
     - Simplex prep
   semantic_types:
     - type: Non-existence
-      subtype: Unaffected small portion
+      subtypes:
+        - type: Unaffected small portion
     - type: Degree of intensity
-      subtype: Minimizer
-      subsubtype: Absence
+      subtypes:
+        - type: Minimizer
+          subtypes:
+            - type: Absence
     - type: Prohibition
-      subtype: Prohibitive
+      subtypes:
+        - type: Prohibitive
   semantic_roles:
     - Experiencer
     - Theme
@@ -445,9 +462,11 @@
     - Suffix
   semantic_types:
     - type: Comparison
-      subtype: Inequality
+      subtypes:
+        - type: Inequality
     - type: Degree of intensity
-      subtype: Diminisher
+      subtypes:
+        - type: Diminisher
   semantic_roles:
     - Property
   usage_label: NA
@@ -498,7 +517,8 @@
     - Adj
   semantic_types:
     - type: Assessment
-      subtype: Negative
+      subtypes:
+        - type: Negative
   semantic_roles:
     - Evaluation
   usage_label: Colloquial
@@ -548,9 +568,12 @@
     - Pron
   semantic_types:
     - type: Assessment
-      subtype: Positive, Negative
+      subtypes:
+        - type: Positive
+        - type: Negative
     - type: Degree of intensity
-      subtype: Booster
+      subtypes:
+        - type: Booster
   semantic_roles:
     - Evaluation
     - Participant
