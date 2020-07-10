@@ -3,8 +3,21 @@
 'use strict';
 
 
-axios.get('https://raw.githubusercontent.com/bast/constructicon/gh-pages/data/example.yml')
-    .then(function(response) {
-        var doc = jsyaml.load(response.data);
-        console.log(doc);
-    });
+async function add_data(url_prefix) {
+    var records = {};
+
+    const responses = await Promise.all([
+        axios.get(url_prefix + '0112.yml'),
+        axios.get(url_prefix + '0117.yml')
+    ]);
+
+    for (var response of responses) {
+        var json_data = jsyaml.load(response.data);
+        records[json_data.record] = json_data;
+    }
+
+    console.log(records);
+}
+
+
+add_data('https://raw.githubusercontent.com/bast/constructicon/1cea1189525a77aac88ae77ae8e197556965bbb8/data/');
