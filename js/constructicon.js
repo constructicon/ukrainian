@@ -21,3 +21,11 @@ async function add_data(url_prefix) {
 
 
 add_data('https://raw.githubusercontent.com/bast/constructicon/1cea1189525a77aac88ae77ae8e197556965bbb8/data/');
+
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        something: 'anything'
+    }
+})
