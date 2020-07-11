@@ -22,11 +22,11 @@ async function add_data(data, url_prefix) {
 var app = new Vue({
     el: '#app',
     data: {
-        something: 'anything',
-        records: {},
-        record: 117
+        all_data_loaded: false,
+        records: {}
     },
     created: function() {
         add_data(this, 'https://raw.githubusercontent.com/bast/constructicon/1cea1189525a77aac88ae77ae8e197556965bbb8/data/');
+        this.all_data_loaded = true;
     }
 })
