@@ -1,0 +1,26 @@
+body {
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+input[type="text"], textarea {
+  background-color: #99eeff;
+}
+
+.top-buffer { margin-top: 25px; }
+
+.bottom-buffer { margin-bottom: 25px; }
+
+.highlight { background-color: #8fe6fe; }
+
+[v-cloak] {
+  display: none;
+}
+
+table {
+  white-space: nowrap;
+}
+
+.modal {
+  font-size: 13px;
+}
