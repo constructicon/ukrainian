@@ -55,61 +55,61 @@
         <!-- end navigation -->
 
         <!-- tab content -->
-            <div id="tab_content" class="tab-content">
+        <div id="tab_content" class="tab-content">
 
-              <!-- browse -->
-              <div class="tab-pane fade" id="browse">
-                <label>Browse</label>
+          <!-- browse -->
+          <div class="tab-pane fade" id="browse">
+            <label>Browse</label>
+          </div>
+          <!-- end browse -->
+
+          <!-- daily dose -->
+          <div class="tab-pane fade active show" id="daily_dose">
+            <div v-if="all_data_loaded">
+              <div class="row top-buffer">
+                <div class="col-md-3">
+                  <label>Level</label>
+                  <select v-model="daily_dose_level" class="form-control">
+                    <option v-for="level in levels">
+                      {{ level }}
+                    </option>
+                  </select>
+                </div>
+                <div class="col-md-9">
+                  <label>Get 5 random (now only 2) records for level {{ daily_dose_level }}</label>
+                  <br>
+                  <button v-on:click="get_random_selection()" type="button" class="btn btn-primary">
+                    Get random records
+                  </button>
+                </div>
               </div>
-              <!-- end browse -->
 
-              <!-- daily dose -->
-              <div class="tab-pane fade active show" id="daily_dose">
-                <div v-if="all_data_loaded">
-                  <div class="row top-buffer">
-                    <div class="col-md-3">
-                      <label>Level</label>
-                      <select v-model="daily_dose_level" class="form-control">
-                        <option v-for="level in levels">
-                          {{ level }}
-                        </option>
-                      </select>
-                    </div>
-                    <div class="col-md-9">
-                      <label>Get 5 random (now only 2) records for level {{ daily_dose_level }}</label>
-                      <br>
-                      <button v-on:click="get_random_selection()" type="button" class="btn btn-primary">
-                        Get random records
-                      </button>
-                    </div>
-                  </div>
-
-                  <div class="row top-buffer">
-                    <div class="col-md-12">
-                      <div v-if="record_numbers_random_selection.length > 0">
-                        <select v-model="current_record_number" class="form-control" size="5">
-                          <option v-for="record_number in record_numbers_random_selection" :value="record_number">
-                            {{ record_number }}
-                            -
-                            <b>{{ records[record_number].name }}</b>
-                            -
-                            <i>{{ records[record_number].illustration }}</i>
-                          </option>
-                        </select>
-                      </div>
-                    </div>
+              <div class="row top-buffer">
+                <div class="col-md-12">
+                  <div v-if="record_numbers_random_selection.length > 0">
+                    <select v-model="current_record_number" class="form-control" size="5">
+                      <option v-for="record_number in record_numbers_random_selection" :value="record_number">
+                        {{ record_number }}
+                        -
+                        <b>{{ records[record_number].name }}</b>
+                        -
+                        <i>{{ records[record_number].illustration }}</i>
+                      </option>
+                    </select>
                   </div>
                 </div>
               </div>
-              <!-- end daily dose -->
-
-              <!-- advanced search -->
-              <div class="tab-pane fade" id="advanced_search">
-                <label>Advanced search</label>
-              </div>
-              <!-- end advanced search -->
-
             </div>
+          </div>
+          <!-- end daily dose -->
+
+          <!-- advanced search -->
+          <div class="tab-pane fade" id="advanced_search">
+            <label>Advanced search</label>
+          </div>
+          <!-- end advanced search -->
+
+        </div>
         <!-- end tab content -->
 
         <!-- record detail -->
@@ -117,7 +117,11 @@
           <div class="col-md-12">
             <div v-if="all_data_loaded">
               <div v-if="current_record_number != null">
+                <b>{{ current_record_number }}</b>
+                <br>
+
                 <b>NAME</b> <b>{{ records[current_record_number].name }}</b> - <i>{{ records[current_record_number].illustration }}</i>
+
                 <div v-for="definition in records[current_record_number].definitions">
                   <br>
                   <b>DEFINITION ({{ key(definition) }})</b> {{ value(definition) }}
