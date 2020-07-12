@@ -53,12 +53,26 @@ var app = new Vue({
         current_record_number: null,
         record_numbers: [],
         record_numbers_random_selection: [],
+        record_numbers_matching_search: [],
         records: {},
         daily_dose_level: 'A1',
+        search_string_names: '',
+        search_string_illustrations: '',
         levels: []
     },
     created: function() {
         fetch_data(this, 'https://raw.githubusercontent.com/bast/constructicon/1cea1189525a77aac88ae77ae8e197556965bbb8/data/');
+
+        // https://lodash.com/docs#debounce
+        this.debounced_search = _.debounce(this.search, 500);
+    },
+    watch: {
+        search_string_names: function(new_string, old_string) {
+            this.debounced_search()
+        },
+        search_string_illustrations: function(new_string, old_string) {
+            this.debounced_search()
+        }
     },
     methods: {
         // for x={'this': 'that'} returns 'this'
@@ -68,6 +82,21 @@ var app = new Vue({
         // for x={'this': 'that'} returns 'that'
         value: function(x) {
             return x[Object.keys(x)[0]];
+        },
+        search: function() {
+            var record_numbers_matching_search = [];
+            if (this.search_string_names != '' || this.search_string_illustrations != '') {
+                var search_string_names_re = new RegExp(this.search_string_names.toLowerCase());
+                var search_string_illustrations_re = new RegExp(this.search_string_illustrations.toLowerCase());
+                for (var record_number of this.record_numbers) {
+                    if (search_string_names_re.test(this.records[record_number].name.toLowerCase())) {
+                        if (search_string_illustrations_re.test(this.records[record_number].illustration.toLowerCase())) {
+                            record_numbers_matching_search.push(record_number);
+                        }
+                    }
+                }
+            }
+            this.record_numbers_matching_search = record_numbers_matching_search;
         },
         get_random_selection: function() {
             var records_with_this_level = [];
