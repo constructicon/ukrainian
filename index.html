@@ -30,6 +30,29 @@
     <div id="app" v-cloak>
       <div class="container">
 
+        <!-- navigation -->
+        <div class="row top-buffer">
+          <div class="col-md-12">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link show active" data-toggle="tab" href="#browse">Browse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link show" data-toggle="tab" href="#daily_topic">Daily dose</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link show" data-toggle="tab" href="#advanced_search">Advanced search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link show" data-toggle="modal" href="#instructions_modal">Instructions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link show" data-toggle="modal" href="#about_modal">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <div class="row top-buffer">
           <div class="col-md-12">
             <div v-if="all_data_loaded">
