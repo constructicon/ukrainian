@@ -32,8 +32,27 @@
 
         <div class="row top-buffer">
           <div class="col-md-12">
-            Record: {{ record }}
-            Records: {{ records }}
+            <div v-if="all_data_loaded">
+              <b>NAME</b> <b>{{ records[3].name }}</b> - <i>{{ records[3].illustration }}</i>
+              <div v-for="definition in records[3].definitions">
+                <br>
+		<b>DEFINITION ({{ key(definition) }})</b> {{ value(definition) }}
+                <br>
+              </div>
+
+              <br>
+              <b>STRUCTURE</b> {{ records[3].structure_in_ud }}
+              <br>
+
+              <br>
+              <b>EXAMPLES</b>
+              <ul v-for="example in records[3].examples">
+                <li>{{ example }}</li>
+              </ul>
+
+              <br>
+              <b>CEFR LEVEL</b> {{ records[3].cefr_level }}
+            </div>
           </div>
         </div>
 
