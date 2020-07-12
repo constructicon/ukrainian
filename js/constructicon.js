@@ -3,7 +3,7 @@
 'use strict';
 
 
-async function add_data(data, url_prefix) {
+async function fetch_data(data, url_prefix) {
     var arr = [];
     for (var record of ['0003', '0112', '0117']) {
         arr.push(axios.get(url_prefix + record + '.yml'));
@@ -11,11 +11,14 @@ async function add_data(data, url_prefix) {
     let responses = await axios.all(arr);
 
     var records = {};
+    var record_numbers = [];
     for (var response of responses) {
         var json_data = jsyaml.load(response.data);
         records[json_data.record] = json_data;
+        record_numbers.push(json_data.record);
     }
     data.records = records;
+    data.record_numbers = record_numbers;
     data.all_data_loaded = true;
 }
 
@@ -24,10 +27,12 @@ var app = new Vue({
     el: '#app',
     data: {
         all_data_loaded: false,
+        current_record_number: null,
+        record_numbers: [],
         records: {}
     },
     created: function() {
-        add_data(this, 'https://raw.githubusercontent.com/bast/constructicon/1cea1189525a77aac88ae77ae8e197556965bbb8/data/');
+        fetch_data(this, 'https://raw.githubusercontent.com/bast/constructicon/1cea1189525a77aac88ae77ae8e197556965bbb8/data/');
     },
     methods: {
         // for x={'this': 'that'} returns 'this'

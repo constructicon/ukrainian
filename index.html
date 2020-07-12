@@ -33,25 +33,39 @@
         <div class="row top-buffer">
           <div class="col-md-12">
             <div v-if="all_data_loaded">
-              <b>NAME</b> <b>{{ records[3].name }}</b> - <i>{{ records[3].illustration }}</i>
-              <div v-for="definition in records[3].definitions">
+              <select v-model="current_record_number" class="form-control">
+                <option v-for="record_number in record_numbers">
+                  {{ record_number }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row top-buffer">
+          <div class="col-md-12">
+            <div v-if="all_data_loaded">
+              <div v-if="current_record_number != null">
+                <b>NAME</b> <b>{{ records[current_record_number].name }}</b> - <i>{{ records[current_record_number].illustration }}</i>
+                <div v-for="definition in records[current_record_number].definitions">
+                  <br>
+                  <b>DEFINITION ({{ key(definition) }})</b> {{ value(definition) }}
+                  <br>
+                </div>
+
                 <br>
-		<b>DEFINITION ({{ key(definition) }})</b> {{ value(definition) }}
+                <b>STRUCTURE</b> {{ records[current_record_number].structure_in_ud }}
                 <br>
+
+                <br>
+                <b>EXAMPLES</b>
+                <ul v-for="example in records[current_record_number].examples">
+                  <li>{{ example }}</li>
+                </ul>
+
+                <br>
+                <b>CEFR LEVEL</b> {{ records[current_record_number].cefr_level }}
               </div>
-
-              <br>
-              <b>STRUCTURE</b> {{ records[3].structure_in_ud }}
-              <br>
-
-              <br>
-              <b>EXAMPLES</b>
-              <ul v-for="example in records[3].examples">
-                <li>{{ example }}</li>
-              </ul>
-
-              <br>
-              <b>CEFR LEVEL</b> {{ records[3].cefr_level }}
             </div>
           </div>
         </div>
