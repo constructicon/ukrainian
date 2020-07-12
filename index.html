@@ -52,19 +52,25 @@
             </ul>
           </div>
         </div>
+        <!-- end navigation -->
 
         <div class="row top-buffer">
           <div class="col-md-12">
             <div v-if="all_data_loaded">
-              <select v-model="current_record_number" class="form-control">
-                <option v-for="record_number in record_numbers">
+              <select v-model="current_record_number" class="form-control" size="5">
+                <option v-for="record_number in record_numbers" :value="record_number">
                   {{ record_number }}
+                  -
+                  <b>{{ records[record_number].name }}</b>
+                  -
+                  <i>{{ records[record_number].illustration }}</i>
                 </option>
               </select>
             </div>
           </div>
         </div>
 
+        <!-- record detail -->
         <div class="row top-buffer">
           <div class="col-md-12">
             <div v-if="all_data_loaded">
@@ -92,6 +98,7 @@
             </div>
           </div>
         </div>
+        <!-- end record detail -->
 
         <!-- instructions -->
         <div class="modal fade" id="instructions_modal" tabindex="-1" role="dialog" aria-labelledby="instructions_modal_label" aria-hidden="true">
