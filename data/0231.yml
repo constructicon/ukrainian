@@ -27,9 +27,12 @@ morphology:
   - Dat
   - NP
   - Loc
-syntactic_function_of_construction: Clause
-syntactic_function_of_anchor: Praedic
-syntactic_structure_of_anchor: Negation
+syntactic_function_of_construction:
+  - Clause
+syntactic_function_of_anchor:
+  - Praedic
+syntactic_structure_of_anchor:
+  - Negation
 part_of_speech_of_anchor:
   - Noun
   - Simplex prep

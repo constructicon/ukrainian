@@ -33,9 +33,12 @@ examples:
 morphology:
   - NP
   - Nom
-syntactic_function_of_construction: NP
-syntactic_function_of_anchor: Adj
-syntactic_structure_of_anchor: Pron
+syntactic_function_of_construction:
+  - NP
+syntactic_function_of_anchor:
+  - Adj
+syntactic_structure_of_anchor:
+  - Pron
 part_of_speech_of_anchor:
   - Pron
   - Adj

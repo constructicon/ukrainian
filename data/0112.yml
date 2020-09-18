@@ -29,9 +29,12 @@ morphology:
   - Nom
   - Adv
   - VP
-syntactic_function_of_construction: Clause
-syntactic_function_of_anchor: Adv
-syntactic_structure_of_anchor: PP
+syntactic_function_of_construction:
+  - Clause
+syntactic_function_of_anchor:
+  - Adv
+syntactic_structure_of_anchor:
+  - PP
 part_of_speech_of_anchor:
   - Simplex prep
   - Pron

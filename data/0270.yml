@@ -24,9 +24,13 @@ examples:
 morphology:
   - AP
   - AdvP
-syntactic_function_of_construction: Adj, Adv
-syntactic_function_of_anchor: Not Applicable
-syntactic_structure_of_anchor: Not Applicable
+syntactic_function_of_construction:
+  - Adj
+  - Adv
+syntactic_function_of_anchor:
+  - Not Applicable
+syntactic_structure_of_anchor:
+  - Not Applicable
 part_of_speech_of_anchor:
   - Prefix
   - Suffix

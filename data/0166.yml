@@ -31,9 +31,14 @@ examples:
 morphology:
   - NP
   - Acc
-syntactic_function_of_construction: Clause
-syntactic_function_of_anchor: Adj, Parenth
-syntactic_structure_of_anchor: Pron, PP
+syntactic_function_of_construction:
+  - Clause
+syntactic_function_of_anchor:
+  - Adj
+  - Parenth
+syntactic_structure_of_anchor:
+  - Pron
+  - PP
 part_of_speech_of_anchor:
   - Pron
   - Simplex prep

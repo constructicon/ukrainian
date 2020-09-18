@@ -36,9 +36,12 @@ morphology:
   - NP
   - Nom
   - Sing
-syntactic_function_of_construction: Clause
-syntactic_function_of_anchor: Adj
-syntactic_structure_of_anchor: Adj
+syntactic_function_of_construction:
+  - Clause
+syntactic_function_of_anchor:
+  - Adj
+syntactic_structure_of_anchor:
+  - Adj
 part_of_speech_of_anchor: Pron
 semantic_types:
   - type: Assessment

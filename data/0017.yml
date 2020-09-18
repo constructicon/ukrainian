@@ -36,9 +36,12 @@ morphology:
   - Dat
   - VP
   - Inf
-syntactic_function_of_construction: Clause
-syntactic_function_of_anchor: Praedic
-syntactic_structure_of_anchor: NP
+syntactic_function_of_construction:
+  - Clause
+syntactic_function_of_anchor:
+  - Praedic
+syntactic_structure_of_anchor:
+  - NP
 part_of_speech_of_anchor:
   - Adv
   - Noun

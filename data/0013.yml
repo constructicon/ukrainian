@@ -40,9 +40,12 @@ examples:
 morphology:
   - NP
   - Acc
-syntactic_function_of_construction: Praedic
-syntactic_function_of_anchor: Praedic
-syntactic_structure_of_anchor: AP
+syntactic_function_of_construction:
+  - Praedic
+syntactic_function_of_anchor:
+  - Praedic
+syntactic_structure_of_anchor:
+  - AP
 part_of_speech_of_anchor:
   - V
   - Pron
