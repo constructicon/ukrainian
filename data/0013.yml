@@ -4,6 +4,7 @@ spraakbanken_url: |
     https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--(%D0%BF%D0%BE%D0%B9%D1%82%D0%B8)_%D0%B2%D0%B5%D1%81%D1%8C_%D0%B2_NP-Acc&map=false
 year: 2018
 name: (пойти) весь в NP-Acc
+UD_name: needs to be added
 illustration: Он пошел весь в отца
 cefr_level: B1
 definitions:

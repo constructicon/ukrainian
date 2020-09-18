@@ -4,6 +4,7 @@ spraakbanken_url: |
     https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--%D0%BD%D0%B8_%D1%81%D0%BB%D0%BE%D0%B2%D0%B0_NP-Dat_%D0%BE_NP-Dat!&map=false
 year: 2018
 name: ни слова NP-Dat о NP-Loc!
+UD_name: needs to be added
 illustration: ни слова маме о нашей поездке!
 cefr_level: C1
 definitions:

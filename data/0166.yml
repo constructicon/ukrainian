@@ -4,6 +4,7 @@ spraakbanken_url: |
     https://spraakbanken.gu.se/karp/#?mode=konstruktikon-rus&lang=eng&advanced=false&hpp=25&extended=and%7Crus-construction%7Cequals%7C&searchTab=special&page=1&search=sense%7C%7Ckonstruktikon-rus--%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9,_%D0%BA_%D1%87%D1%91%D1%80%D1%82%D1%83,_NP&map=false
 year: 2018
 name: какой, к чёрту, NP
+UD_name: needs to be added
 illustration: Какой, к чёрту, сон! Мне нужно работать!
 cefr_level: C1
 definitions:
