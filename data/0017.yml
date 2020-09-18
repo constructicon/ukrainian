@@ -64,3 +64,6 @@ common_fillers:
 structure_in_ud: |
     [root [nmod NP-Dat] [advmod давно] пора [nsubj VP-Inf]] [root [nmod
     детям] [advmod давно] пора [nsubj поесть]]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

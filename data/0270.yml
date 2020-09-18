@@ -44,3 +44,6 @@ anchor_words:
 structure_in_ud: |
     [root [obl [case к] сыну] относись [advmod помягче]
     [root VP [advmod/amod по-XP-ее(ей)]]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

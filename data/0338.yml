@@ -55,3 +55,6 @@ comment: |
 structure_in_ud: |
     [root [amod тот] [advmod ещё] NP-Nom]  [root [amod то]
     [advmod ещё] удовольствие]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

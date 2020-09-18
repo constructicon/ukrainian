@@ -62,3 +62,6 @@ common_fillers:
 structure_in_ud: |
     [root (пойти) [acl весь [nmod [case в] NP-Acc]]]
     [root [nsubj он] пошел [acl весь] [nmod [case в] отца]]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

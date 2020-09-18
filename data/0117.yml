@@ -60,3 +60,6 @@ common_fillers:
   - история
 structure_in_ud: |
     [root [amod другой] NP-Nom]  [root [nsubj это] [amod другое] дело]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

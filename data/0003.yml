@@ -51,3 +51,6 @@ anchor_words:
 structure_in_ud: |
     [root как [advmod же] [nsubj NP-Nom]] [root [cc а] как
     [advmod же] [nsubj NP-Nom]]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

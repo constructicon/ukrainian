@@ -54,3 +54,6 @@ common_fillers:
 structure_in_ud: |
     [root [nmod [case до] чего] [nsubj NP-Nom] Adj-Nom
     [root [nmod [case до] чего] [nsubj ты] злой]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

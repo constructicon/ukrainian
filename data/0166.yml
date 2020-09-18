@@ -59,3 +59,6 @@ anchor_words:
   - черту
 structure_in_ud: |
     [root [amod какой], [advmod к чёрту], сон]!
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

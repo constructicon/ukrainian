@@ -52,3 +52,6 @@ anchor_words:
 structure_in_ud: |
     [root [advmod ни] слова [nmod маме] [nmod [case о] [amod нашей]
     поездке]] [root [advmod ни] слова [nmod NP-Dat] [nmod [case о] NP-Dat!]]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.

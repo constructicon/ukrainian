@@ -71,3 +71,6 @@ comment: |
 structure_in_ud: |
     [[advmod какой [advmod там]] VP-Inf.Imp!] [[advmod какое
     [advmod там]] VP-Inf.Imp!]
+comment: |
+    Example comment in here,
+    which can go over multiple lines.
