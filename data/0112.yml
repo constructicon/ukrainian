@@ -24,7 +24,11 @@ examples:
   - |
     "И [ [до]до  [чего]чего  [старуха]Participant
     [докучливая]Evaluation  ]до_чего_NP-Nom_Adj-Nom !"
-morphology: Adj, Nom, Adv, VP
+morphology:
+  - Adj
+  - Nom
+  - Adv
+  - VP
 syntactic_function_of_construction: Clause
 syntactic_function_of_anchor: Adv
 syntactic_structure_of_anchor: PP

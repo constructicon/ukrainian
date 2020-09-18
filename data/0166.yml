@@ -28,7 +28,9 @@ examples:
     "Район называется Центральный. Тут метро есть, можно на нем
     доехать. ― [ [Какое]какой, [к]к[черту]чёрту,
     [метро]Theme]какой,_к_чёрту,_NP-Nom, я на машине."
-morphology: NP, Acc
+morphology:
+  - NP
+  - Acc
 syntactic_function_of_construction: Clause
 syntactic_function_of_anchor: Adj, Parenth
 syntactic_structure_of_anchor: Pron, PP

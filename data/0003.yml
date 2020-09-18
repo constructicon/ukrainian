@@ -28,7 +28,9 @@ examples:
     "В нашем городе ему предложили хорошую работу, поэтому он недолго
     думая сорвался с насиженного места и уехал. ― [ [А]а  [как]как
     [же]же  [жена и дети]Theme](а)_как_же_NP-Nom? ? ― поинтересовалась Машa."
-morphology: NP, Nom
+morphology:
+  - NP
+  - Nom
 syntactic_function_of_construction: Clause
 syntactic_function_of_anchor: Praedic
 syntactic_structure_of_anchor: Adv

@@ -42,7 +42,9 @@ examples:
     [ Какое там [медитировать]Action ]какой_VP-Inf! !
     Ничего подобного там и близко невозможно – весь этот галдеж и тусовка."
   - "[ [Какой]какой [петь]Action ]какой_VP-Inf! — время уже позднее!"
-morphology: VP, Inf
+morphology:
+  - VP
+  - Inf
 syntactic_function_of_construction: Clause
 syntactic_function_of_anchor: ModalAdv
 syntactic_structure_of_anchor: Not Applicable

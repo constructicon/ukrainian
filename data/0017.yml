@@ -31,7 +31,11 @@ examples:
   - |
     "Отец объявляет, что [ [сыну]Experiencer [давно]давно [пора]пора
     [домой]Goal ]давно_пора_VP."
-morphology: NP, Dat, VP, Inf
+morphology:
+  - NP
+  - Dat
+  - VP
+  - Inf
 syntactic_function_of_construction: Clause
 syntactic_function_of_anchor: Praedic
 syntactic_structure_of_anchor: NP

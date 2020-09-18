@@ -37,7 +37,9 @@ examples:
     — говорил иногда старик, рассматривая внучку."
   - |
     "Дочь [ [вся]весь  [в]в  [папу]Theme ]весь_в_NP-Acc пошла."
-morphology: NP, Acc
+morphology:
+  - NP
+  - Acc
 syntactic_function_of_construction: Praedic
 syntactic_function_of_anchor: Praedic
 syntactic_structure_of_anchor: AP

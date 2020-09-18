@@ -22,7 +22,11 @@ examples:
   - |
     "[ [Ни]ни  [слова]слова  [отцу]Experiencer  [о]о
     [нашем споре!]Theme  ]ни_слова_NP-Dat_о_NP-Dat!"
-morphology: NP, Dat, NP, Loc
+morphology:
+  - NP
+  - Dat
+  - NP
+  - Loc
 syntactic_function_of_construction: Clause
 syntactic_function_of_anchor: Praedic
 syntactic_structure_of_anchor: Negation

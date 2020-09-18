@@ -32,7 +32,10 @@ examples:
   - |
     "Я не люблю картины, а вот скульптуры — [ [другой]другой
     [разговор]Theme ]другой_NP-Nom.Sing."
-morphology: NP, Nom, Sing
+morphology:
+  - NP
+  - Nom
+  - Sing
 syntactic_function_of_construction: Clause
 syntactic_function_of_anchor: Adj
 syntactic_structure_of_anchor: Adj

@@ -21,7 +21,9 @@ examples:
     [ [поумнее.]Property  ]по-XP-ее(ей)"
   - |
     "Он искал работу [ [поближе]Property]по-XP-ее(ей) к дому."
-morphology: AP, AdvP
+morphology:
+  - AP
+  - AdvP
 syntactic_function_of_construction: Adj, Adv
 syntactic_function_of_anchor: Not Applicable
 syntactic_structure_of_anchor: Not Applicable

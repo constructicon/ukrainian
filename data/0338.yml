@@ -30,7 +30,9 @@ examples:
   - |
     "― Чудовищная игра, что мы видели, ― [ [та]тот  [еще]еще
     [затея]Evaluation  ]тот_ещё_NP-Nom !"
-morphology: NP, Nom
+morphology:
+  - NP
+  - Nom
 syntactic_function_of_construction: NP
 syntactic_function_of_anchor: Adj
 syntactic_structure_of_anchor: Pron
