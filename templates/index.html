@@ -1,0 +1,17 @@
+{% extends "browse.html" %}
+
+{% block search %}
+  <form>
+    <div class="form-group">
+      <label>Search in names</label>
+      <input v-model="search_string_names" class="form-control">
+      <small class="form-text text-muted">Uses regular expressions. Case-insensitive.</small>
+    </div>
+
+    <div class="form-group">
+      <label>Search in illustrations</label>
+      <input v-model="search_string_illustrations" class="form-control">
+      <small class="form-text text-muted">Uses regular expressions. Case-insensitive.</small>
+    </div>
+  </form>
+{% endblock search %}

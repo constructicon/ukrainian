@@ -1,0 +1,24 @@
+{% extends "browse.html" %}
+
+{% block search %}
+  <div class="row top-buffer">
+    Semantic roles:
+    <treeselect
+      :multiple="true"
+      :options="semantic_roles_tree"
+      placeholder="Select semantic roles"
+      v-model="semantic_roles_selected"
+      />
+    <treeselect-value :value="semantic_roles_selected" />
+  </div>
+  <div class="row top-buffer">
+    Morphology:
+    <treeselect
+      :multiple="true"
+      :options="morphology_tree"
+      placeholder="Select morphology"
+      v-model="morphology_selected"
+      />
+    <treeselect-value :value="morphology_selected" />
+  </div>
+{% endblock search %}

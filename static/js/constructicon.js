@@ -87,12 +87,12 @@ Vue.component('treeselect', VueTreeselect.Treeselect);
 
 var app = new Vue({
     el: '#app',
+    delimiters: ['{[', ']}'],
     data: {
         search_index: null,
         all_data_loaded: false,
         current_record_number: null,
         record_numbers: [],
-        record_numbers_random_selection: [],
         record_numbers_matching_search: [],
         records: {},
         daily_dose_level: 'A1',
@@ -162,6 +162,7 @@ var app = new Vue({
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         get_random_selection: function() {
+            console.log("raooooofff!", this.daily_dose_level);
             var records_with_this_level = [];
             for (var record_number of this.record_numbers) {
                 if (this.records[record_number].cefr_level == this.daily_dose_level) {
@@ -170,7 +171,7 @@ var app = new Vue({
             }
             var selected = random_selection(records_with_this_level, 2);
             selected.sort();
-            this.record_numbers_random_selection = selected;
+            this.record_numbers_matching_search = selected;
         }
     }
 })
