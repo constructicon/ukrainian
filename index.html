@@ -16,6 +16,10 @@
             integrity="sha256-ngFW3UnAN0Tnm76mDuu7uUtYEcG3G5H1+zioJw3t+68="
             crossorigin="anonymous"></script>
 
+    <!-- https://vue-treeselect.js.org/ -->
+    <script src="https://cdn.jsdelivr.net/npm/@riophae/vue-treeselect@^0.4.0/dist/vue-treeselect.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@riophae/vue-treeselect@^0.4.0/dist/vue-treeselect.min.css">
+
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"
             integrity="sha256-8mtDTinb8+d2bC/9KhCJoCRBEylWUIV/3YEt5cSUvRk="
             crossorigin="anonymous"></script>
@@ -24,6 +28,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js"
             integrity="sha256-Jvh9+A4HNbbWsWl1Dw7kAzNsU3y8elGIjLnUSUNMtLg="
+            crossorigin="anonymous"></script>
+
+    <!-- https://github.com/bvaughn/js-search -->
+    <script src="https://cdn.jsdelivr.net/npm/js-search@2.0.0/dist/umd/js-search.min.js"
+            integrity="sha256-LD9UsSATk+xTzAbk8nD2gA2bjHKvetXtCMDAFkM2K5Q="
             crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -39,13 +48,13 @@
           <div class="col-md-12">
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link show active" data-toggle="tab" href="#browse">Browse</a>
+                <a class="nav-link show" data-toggle="tab" href="#browse">Browse</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link show" data-toggle="tab" href="#daily_dose">Daily dose</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link show" data-toggle="tab" href="#advanced_search">Advanced search</a>
+                <a class="nav-link show active" data-toggle="tab" href="#advanced_search">Advanced search</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link show" data-toggle="modal" href="#instructions_modal">Instructions</a>
@@ -62,7 +71,7 @@
         <div id="tab_content" class="tab-content">
 
           <!-- browse -->
-          <div class="tab-pane fade active show" id="browse">
+          <div class="tab-pane fade" id="browse">
             <div v-if="all_data_loaded">
               <div class="row top-buffer">
 
@@ -142,8 +151,50 @@
           <!-- end daily dose -->
 
           <!-- advanced search -->
-          <div class="tab-pane fade" id="advanced_search">
-            <label>Advanced search</label>
+          <div class="tab-pane fade active show" id="advanced_search">
+            <div v-if="all_data_loaded">
+              <div class="row top-buffer">
+
+                <div class="col-md-6">
+                  <div class="row">
+                    Semantic roles:
+                    <treeselect
+                      :multiple="true"
+                      :options="semantic_roles_tree"
+                      placeholder="Select semantic roles"
+                      v-model="semantic_roles_selected"
+                      />
+                    <treeselect-value :value="semantic_roles_selected" />
+                  </div>
+                  <div class="row">
+                    Morphology:
+                    <treeselect
+                      :multiple="true"
+                      :options="morphology_tree"
+                      placeholder="Select semantic roles"
+                      v-model="morphology_selected"
+                      />
+                    <treeselect-value :value="morphology_selected" />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div v-if="record_numbers_matching_search.length > 0">
+                    <select v-model="current_record_number" class="form-control" size="5">
+                      <option v-for="record_number in record_numbers_matching_search" :value="record_number">
+                        {{ record_number }}
+                        -
+                        <b>{{ records[record_number].name }}</b>
+                        -
+                        <i>{{ records[record_number].illustration }}</i>
+                      </option>
+                    </select>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
           </div>
           <!-- end advanced search -->
 

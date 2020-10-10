@@ -3,6 +3,37 @@
 'use strict';
 
 
+function build_search_index(record_numbers, records) {
+    var search_index = new JsSearch.Search('record');
+    search_index.addIndex('semantic_roles');
+    search_index.addIndex('morphology');
+    for (var record_number of record_numbers) {
+        search_index.addDocuments([records[record_number]]);
+    }
+    return search_index;
+}
+
+
+function build_tree_for_advanced_search(record_numbers, records, key) {
+    var s = new Set();
+    for (var record_number of record_numbers) {
+        for (var element of records[record_number][key]) {
+            s.add(element);
+        }
+    }
+
+    var tree = [];
+    for (var element of Array.from(s)) {
+        tree.push({
+            id: element,
+            label: element
+        });
+    }
+
+    return tree;
+}
+
+
 async function fetch_data(data, url_prefix) {
     var arr = [];
     for (var record of ['0003', '0013', '0017', '0112', '0117', '0165', '0166', '0231', '0270', '0338']) {
@@ -27,6 +58,11 @@ async function fetch_data(data, url_prefix) {
     data.levels = Array.from(levels);
     data.levels.sort();
 
+    data.semantic_roles_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'semantic_roles');
+    data.morphology_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'morphology');
+
+    data.search_index = build_search_index(data.record_numbers, data.records);
+
     data.all_data_loaded = true;
 }
 
@@ -46,9 +82,13 @@ function random_selection(arr, n_max) {
 }
 
 
+Vue.component('treeselect', VueTreeselect.Treeselect);
+
+
 var app = new Vue({
     el: '#app',
     data: {
+        search_index: null,
         all_data_loaded: false,
         current_record_number: null,
         record_numbers: [],
@@ -58,21 +98,32 @@ var app = new Vue({
         daily_dose_level: 'A1',
         search_string_names: '',
         search_string_illustrations: '',
-        levels: []
+        levels: [],
+        semantic_roles_tree: [],
+        semantic_roles_selected: null,
+        morphology_tree: [],
+        morphology_selected: null,
     },
     created: function() {
         fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/46cc47cfcf6862b21c2dc5fc990c7b16eac8568f/');
 
         // https://lodash.com/docs#debounce
-        this.debounced_search = _.debounce(this.search, 500);
+        this.search_debounced = _.debounce(this.search, 500);
+        this.advanced_search_debounced = _.debounce(this.advanced_search, 500);
     },
     watch: {
-        search_string_names: function(new_string, old_string) {
-            this.debounced_search()
+        search_string_names: function(new_, old_) {
+            this.search_debounced();
         },
-        search_string_illustrations: function(new_string, old_string) {
-            this.debounced_search()
-        }
+        search_string_illustrations: function(new_, old_) {
+            this.search_debounced();
+        },
+        semantic_roles_selected: function(new_, old_) {
+            this.advanced_search_debounced();
+        },
+        morphology_selected: function(new_, old_) {
+            this.advanced_search_debounced();
+        },
     },
     methods: {
         // for x={'this': 'that'} returns 'this'
@@ -95,6 +146,18 @@ var app = new Vue({
                         }
                     }
                 }
+            }
+            this.record_numbers_matching_search = record_numbers_matching_search;
+        },
+        advanced_search: function() {
+            var record_numbers_matching_search = [];
+            var l = [];
+            l = l.concat(this.semantic_roles_selected);
+            l = l.concat(this.morphology_selected);
+
+            var search_string = '"' + l.join('" "') + '"';
+            for (var result of this.search_index.search(search_string)) {
+                record_numbers_matching_search.push(result.record);
             }
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
