@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/img/logo-hashbang.ico">
+    <!-- <link rel="shortcut icon" href="/img/logo-hashbang.ico"> -->
 
     <title>Constructicon</title>
 
@@ -60,7 +60,7 @@
             integrity="sha256-LD9UsSATk+xTzAbk8nD2gA2bjHKvetXtCMDAFkM2K5Q="
             crossorigin="anonymous"></script>
 
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="{{ config.base_url | safe }}/css/style.css" rel="stylesheet">
   </head>
 
   <body>
@@ -110,7 +110,7 @@
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
 
-    <script src="/js/constructicon.js"></script>
+    <script src="{{ config.base_url | safe }}/js/constructicon.js"></script>
 
   </body>
 </html>
