@@ -61,7 +61,7 @@ var app = new Vue({
         levels: []
     },
     created: function() {
-        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/27f7a46a62f7e1e33c755c535858b61e51f62da7/data/');
+        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/27f7a46a62f7e1e33c755c535858b61e51f62da7/');
 
         // https://lodash.com/docs#debounce
         this.debounced_search = _.debounce(this.search, 500);
