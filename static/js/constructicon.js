@@ -69,6 +69,8 @@ async function fetch_data(data, url_prefix) {
     var keys = ['semantic_roles', 'morphology', 'syntactic_function_of_construction', 'syntactic_function_of_anchor', 'syntactic_structure_of_anchor', 'part_of_speech_of_anchor'];
     data.search_index_advanced = build_search_index(data.record_numbers, data.records, keys);
 
+    data.search_index_simple = build_search_index(data.record_numbers, data.records, ['name', 'illustration']);
+
     data.all_data_loaded = true;
 }
 
@@ -96,14 +98,14 @@ var app = new Vue({
     delimiters: ['{[', ']}'],
     data: {
         search_index_advanced: null,
+        search_index_simple: null,
         all_data_loaded: false,
         current_record_number: null,
         record_numbers: [],
         record_numbers_matching_search: [],
         records: {},
         daily_dose_level: 'A1',
-        search_string_names: '',
-        search_string_illustrations: '',
+        search_string: '',
         levels: [],
         semantic_roles_tree: [],
         semantic_roles_selected: null,
@@ -126,10 +128,7 @@ var app = new Vue({
         this.advanced_search_debounced = _.debounce(this.advanced_search, 500);
     },
     watch: {
-        search_string_names: function(new_, old_) {
-            this.search_debounced();
-        },
-        search_string_illustrations: function(new_, old_) {
+        search_string: function(new_, old_) {
             this.search_debounced();
         },
         semantic_roles_selected: function(new_, old_) {
@@ -162,16 +161,8 @@ var app = new Vue({
         },
         search: function() {
             var record_numbers_matching_search = [];
-            if (this.search_string_names != '' || this.search_string_illustrations != '') {
-                var search_string_names_re = new RegExp(this.search_string_names.toLowerCase());
-                var search_string_illustrations_re = new RegExp(this.search_string_illustrations.toLowerCase());
-                for (var record_number of this.record_numbers) {
-                    if (search_string_names_re.test(this.records[record_number].name.toLowerCase())) {
-                        if (search_string_illustrations_re.test(this.records[record_number].illustration.toLowerCase())) {
-                            record_numbers_matching_search.push(record_number);
-                        }
-                    }
-                }
+            for (var result of this.search_index_simple.search(this.search_string)) {
+                record_numbers_matching_search.push(result.record);
             }
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
