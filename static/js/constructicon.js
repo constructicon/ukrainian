@@ -3,10 +3,11 @@
 'use strict';
 
 
-function build_search_index(record_numbers, records) {
+function build_search_index(record_numbers, records, keys) {
     var search_index = new JsSearch.Search('record');
-    search_index.addIndex('semantic_roles');
-    search_index.addIndex('morphology');
+    for (var key of keys) {
+        search_index.addIndex(key);
+    }
     for (var record_number of record_numbers) {
         search_index.addDocuments([records[record_number]]);
     }
@@ -65,7 +66,8 @@ async function fetch_data(data, url_prefix) {
     data.syntactic_structure_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_structure_of_anchor');
     data.part_of_speech_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'part_of_speech_of_anchor');
 
-    data.search_index = build_search_index(data.record_numbers, data.records);
+    var keys = ['semantic_roles', 'morphology', 'syntactic_function_of_construction', 'syntactic_function_of_anchor', 'syntactic_structure_of_anchor', 'part_of_speech_of_anchor'];
+    data.search_index_advanced = build_search_index(data.record_numbers, data.records, keys);
 
     data.all_data_loaded = true;
 }
@@ -93,7 +95,7 @@ var app = new Vue({
     el: '#app',
     delimiters: ['{[', ']}'],
     data: {
-        search_index: null,
+        search_index_advanced: null,
         all_data_loaded: false,
         current_record_number: null,
         record_numbers: [],
@@ -184,7 +186,7 @@ var app = new Vue({
             l = l.concat(this.part_of_speech_of_anchor_selected);
 
             var search_string = '"' + l.join('" "') + '"';
-            for (var result of this.search_index.search(search_string)) {
+            for (var result of this.search_index_advanced.search(search_string)) {
                 record_numbers_matching_search.push(result.record);
             }
             this.record_numbers_matching_search = record_numbers_matching_search;
