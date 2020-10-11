@@ -117,7 +117,7 @@ var app = new Vue({
         part_of_speech_of_anchor_selected: null,
     },
     created: function() {
-        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/46cc47cfcf6862b21c2dc5fc990c7b16eac8568f/');
+        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/master/');
 
         // https://lodash.com/docs#debounce
         this.search_debounced = _.debounce(this.search, 500);
