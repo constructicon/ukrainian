@@ -60,6 +60,10 @@ async function fetch_data(data, url_prefix) {
 
     data.semantic_roles_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'semantic_roles');
     data.morphology_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'morphology');
+    data.syntactic_function_of_construction_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_function_of_construction');
+    data.syntactic_function_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_function_of_anchor');
+    data.syntactic_structure_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_structure_of_anchor');
+    data.part_of_speech_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'part_of_speech_of_anchor');
 
     data.search_index = build_search_index(data.record_numbers, data.records);
 
@@ -103,6 +107,14 @@ var app = new Vue({
         semantic_roles_selected: null,
         morphology_tree: [],
         morphology_selected: null,
+        syntactic_function_of_construction_tree: [],
+        syntactic_function_of_construction_selected: null,
+        syntactic_function_of_anchor_tree: [],
+        syntactic_function_of_anchor_selected: null,
+        syntactic_structure_of_anchor_tree: [],
+        syntactic_structure_of_anchor_selected: null,
+        part_of_speech_of_anchor_tree: [],
+        part_of_speech_of_anchor_selected: null,
     },
     created: function() {
         fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/46cc47cfcf6862b21c2dc5fc990c7b16eac8568f/');
@@ -122,6 +134,18 @@ var app = new Vue({
             this.advanced_search_debounced();
         },
         morphology_selected: function(new_, old_) {
+            this.advanced_search_debounced();
+        },
+        syntactic_function_of_construction_selected: function(new_, old_) {
+            this.advanced_search_debounced();
+        },
+        syntactic_function_of_anchor_selected: function(new_, old_) {
+            this.advanced_search_debounced();
+        },
+        syntactic_structure_of_anchor_selected: function(new_, old_) {
+            this.advanced_search_debounced();
+        },
+        part_of_speech_of_anchor_selected: function(new_, old_) {
             this.advanced_search_debounced();
         },
     },
@@ -154,6 +178,10 @@ var app = new Vue({
             var l = [];
             l = l.concat(this.semantic_roles_selected);
             l = l.concat(this.morphology_selected);
+            l = l.concat(this.syntactic_function_of_construction_selected);
+            l = l.concat(this.syntactic_function_of_anchor_selected);
+            l = l.concat(this.syntactic_structure_of_anchor_selected);
+            l = l.concat(this.part_of_speech_of_anchor_selected);
 
             var search_string = '"' + l.join('" "') + '"';
             for (var result of this.search_index.search(search_string)) {

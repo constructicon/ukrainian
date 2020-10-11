@@ -1,0 +1,12 @@
+{% macro treeselect(key) %}
+  <div class="row top-buffer">
+    {{ key }}:
+    <treeselect
+      :multiple="true"
+      :options="{{ key }}_tree"
+      placeholder="Select {{ key }}"
+      v-model="{{ key }}_selected"
+      />
+    <treeselect-value :value="{{ key }}_selected" />
+  </div>
+{% endmacro treeselect %}
