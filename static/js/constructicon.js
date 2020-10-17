@@ -19,7 +19,9 @@ function build_tree_for_advanced_search(record_numbers, records, key) {
     var s = new Set();
     for (var record_number of record_numbers) {
         for (var element of records[record_number][key]) {
-            s.add(element);
+            if (element != null) {
+                s.add(element);
+            }
         }
     }
 
@@ -36,24 +38,18 @@ function build_tree_for_advanced_search(record_numbers, records, key) {
 
 
 async function fetch_data(data, url_prefix) {
-    let r = await axios.get(url_prefix + 'files.yml');
-    var files_data = jsyaml.load(r.data);
-
-    var arr = [];
-    for (var record of files_data.files) {
-        arr.push(axios.get(url_prefix + record));
-    }
-    let responses = await axios.all(arr);
+    let r = await axios.get(url_prefix + 'data-combined.yml');
+    var json_data = jsyaml.load(r.data);
 
     var records = {};
     var record_numbers = [];
     var levels = new Set();
 
-    for (var response of responses) {
-        var json_data = jsyaml.load(response.data);
-        records[json_data.record] = json_data;
-        record_numbers.push(json_data.record);
-        levels.add(json_data.cefr_level);
+    for (var key of Object.keys(json_data)) {
+        records[key] = json_data[key];
+        records[key].record = key;
+        record_numbers.push(key);
+        levels.add(json_data[key].cefr_level);
     }
 
     data.records = records;
@@ -124,7 +120,7 @@ var app = new Vue({
         part_of_speech_of_anchor_selected: null,
     },
     created: function() {
-        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/master/');
+        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/25fe75fb91e1ac7c963f6ca1efde2b58cffca052/');
 
         // https://lodash.com/docs#debounce
         this.search_debounced = _.debounce(this.search, 500);
