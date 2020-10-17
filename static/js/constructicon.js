@@ -36,9 +36,12 @@ function build_tree_for_advanced_search(record_numbers, records, key) {
 
 
 async function fetch_data(data, url_prefix) {
+    let r = await axios.get(url_prefix + 'files.yml');
+    var files_data = jsyaml.load(r.data);
+
     var arr = [];
-    for (var record of ['0003', '0013', '0017', '0112', '0117', '0165', '0166', '0231', '0270', '0338']) {
-        arr.push(axios.get(url_prefix + record + '.yml'));
+    for (var record of files_data.files) {
+        arr.push(axios.get(url_prefix + record));
     }
     let responses = await axios.all(arr);
 
