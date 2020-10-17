@@ -48,8 +48,8 @@ For more details on this resource see the project page <https://site.uit.no/russ
 
 ## Code and data
 
-Source code: <https://github.com/constructicon/russian>
-Source data: <https://github.com/constructicon/russian-data>
+- Source code: <https://github.com/constructicon/russian>
+- Source data: <https://github.com/constructicon/russian-data>
 
 
 ## Team behind this project
