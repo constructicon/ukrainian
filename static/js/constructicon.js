@@ -186,7 +186,6 @@ var app = new Vue({
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         get_random_selection: function() {
-            console.log("raooooofff!", this.daily_dose_level);
             var records_with_this_level = [];
             for (var record_number of this.record_numbers) {
                 if (this.records[record_number].cefr_level == this.daily_dose_level) {
