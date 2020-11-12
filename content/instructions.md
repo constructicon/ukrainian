@@ -4,19 +4,19 @@
 # Instructions
 ## **1. Explanation of tabs**
 ### **Browse**
-This button will bring the user to a list of over 2200 constructions that they can scroll through. On this page the user can search for any string that is part of the name of a construction and get the construction(s) that match the string. For each construction we list the Name and the Illustration, and the user clicks to get the whole entry for the construction.  
+This button will bring the user to a list of over 2200 constructions that they can scroll through. On this page the user can search for any string that is part of the name of a construction and get the construction(s) that match the string. For each construction we list the Name and the Illustration, and the user clicks to get the whole entry for the construction.
 ### **Daily Dose**
-On this page the user can choose their proficiency level from a menu and then will receive five constructions chosen at random from their proficiency level. Like on Browse, the user sees just the Name and Illustration in this list and then clicks to get the full construction entry.  
+On this page the user can choose their proficiency level from a menu and then will receive five constructions chosen at random from their proficiency level. Like on Browse, the user sees just the Name and Illustration in this list and then clicks to get the full construction entry.
 ### **Advanced Search**
-On this page the user can filter constructions according to various parameters that can be combined (multiple filters on the same search).  
+On this page the user can filter constructions according to various parameters that can be combined (multiple filters on the same search).
 ### **Instructions**
 This page contains instructions for users.
 ### **About**
-On this page the user can find information about the project and the team.  
+On this page the user can find information about the project and the team.
 
 ___
 ## **2. Abbreviations and symbols**
-Each construction is represented by its name and a short illustration: e.g. **найти-Pst NP-Acc!** _Нашли развлечение!_ (‘What a bad way to amuse yourself! [lit. found amusement]’). The name of a construction is a short morphosyntactic formula that usually includes fixed lexical parts as well as grammatical slots indicated by means of common abbreviations like NP, VP, etc. When necessary, we specify morphological characteristics of the fixed lexeme or a slot, where we use abbreviations according the Leipzig Glossing rules.  
+Each construction is represented by its name and a short illustration: e.g. **найти-Pst NP-Acc!** _Нашли развлечение!_ (‘What a bad way to amuse yourself! [lit. found amusement]’). The name of a construction is a short morphosyntactic formula that usually includes fixed lexical parts as well as grammatical slots indicated by means of common abbreviations like NP, VP, etc. When necessary, we specify morphological characteristics of the fixed lexeme or a slot, where we use abbreviations according the Leipzig Glossing rules.
 
 |   Gloss     |     Explanation     |
 |-------------|---------------------|
@@ -83,15 +83,15 @@ Each construction is represented by its name and a short illustration: e.g. **н
 
 ___
 ## **3. Explanation of conventions**
-Each slot and morphological specifications are verified by the data from the Russian National Corpus, supplemented by internet searches where data is sparse.  
+Each slot and morphological specifications are verified by the data from the Russian National Corpus, supplemented by internet searches where data is sparse.
 
-In representing the syntactic structure of constructions, we adopt the following strategies.  
+In representing the syntactic structure of constructions, we adopt the following strategies.
 
 1. If a construction contains a noun phrase (NP) that can be used not only in the predicative function marked with the nominative case but also in other roles (e.g. object, instrument, etc.) encoded with oblique cases, we do not specify the case in the construction name: e.g. **NP на нуле** [lit. NP on zero], as in _Иммунитет на нуле_ ‘Immunity is at the zero level’ vs. _Выписали пациента с иммунитетом на нуле_ ‘They released a patient with immunity at the zero level’.
 
-2. If a construction contains a noun phrase (NP) that is only used in the predicative function, we indicate its form as the default NP-Nom (= a noun phrase with the head noun in the Nominative case), as it appears with the present tense copula: e.g. **NP-Nom Cop NP-Nom VP-Inf**  (as in _Он мастер готовить_ ‘He is good at cooking [lit. expert cook]’). 
+2. If a construction contains a noun phrase (NP) that is only used in the predicative function, we indicate its form as the default NP-Nom (= a noun phrase with the head noun in the Nominative case), as it appears with the present tense copula: e.g. **NP-Nom Cop NP-Nom VP-Inf**  (as in _Он мастер готовить_ ‘He is good at cooking [lit. expert cook]’).
 
-3. We assume that the Instrumental case marking of the predicative NP that appears with the past and/or future tense copula is a general rule of Russian grammar and this is mentioned in the commentary field on each entry and illustrated in examples: e.g. _Он был мастером готовить_ ‘He was good at cooking [lit. expert cook]’. 
+3. We assume that the Instrumental case marking of the predicative NP that appears with the past and/or future tense copula is a general rule of Russian grammar and this is mentioned in the commentary field on each entry and illustrated in examples: e.g. _Он был мастером готовить_ ‘He was good at cooking [lit. expert cook]’.
 
 4. We include the copula in the name of a construction only if the copula verb can be used in this construction not only in the present tense but also in other tense(s): e.g. **NP-Nom Cop ne očen’**, as in _Для стоянки место не очень_ (Past: _было не очень_; Future: _будет не очень_).
 
