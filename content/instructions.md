@@ -2,20 +2,37 @@
 +++
 
 # Instructions
-## **1. Explanation of tabs**
-### **Browse**
+
+## 1. Explanation of tabs
+
+### Browse
+
 This button will bring the user to a list of over 2200 constructions that they can scroll through. On this page the user can search for any string that is part of the name of a construction and get the construction(s) that match the string. For each construction we list the Name and the Illustration, and the user clicks to get the whole entry for the construction.
-### **Daily Dose**
+
+
+### Daily Dose
+
 On this page the user can choose their proficiency level from a menu and then will receive five constructions chosen at random from their proficiency level. Like on Browse, the user sees just the Name and Illustration in this list and then clicks to get the full construction entry.
-### **Advanced Search**
+
+
+### Advanced Search
+
 On this page the user can filter constructions according to various parameters that can be combined (multiple filters on the same search).
-### **Instructions**
+
+
+### Instructions
+
 This page contains instructions for users.
-### **About**
+
+
+### About
+
 On this page the user can find information about the project and the team.
 
-___
-## **2. Abbreviations and symbols**
+---
+
+## 2. Abbreviations and symbols
+
 Each construction is represented by its name and a short illustration: e.g. **найти-Pst NP-Acc!** _Нашли развлечение!_ (‘What a bad way to amuse yourself! [lit. found amusement]’). The name of a construction is a short morphosyntactic formula that usually includes fixed lexical parts as well as grammatical slots indicated by means of common abbreviations like NP, VP, etc. When necessary, we specify morphological characteristics of the fixed lexeme or a slot, where we use abbreviations according the Leipzig Glossing rules.
 
 |   Gloss     |     Explanation     |
@@ -81,8 +98,10 @@ Each construction is represented by its name and a short illustration: e.g. **н
 |      VP      |    Verb phrase |
 |      XP      |    Any phrasal unit (a slot that can be NP or VP or AP or PP) |
 
-___
-## **3. Explanation of conventions**
+---
+
+## 3. Explanation of conventions
+
 Each slot and morphological specifications are verified by the data from the Russian National Corpus, supplemented by internet searches where data is sparse.
 
 In representing the syntactic structure of constructions, we adopt the following strategies.
@@ -107,9 +126,12 @@ In representing the syntactic structure of constructions, we adopt the following
 
 10. We do not include morphophonological variants of prepositions (like с and со) in the name of a construction. Only the default allomorph is represented: e.g. **VP с NP-Gen**, as in _Она с досады топнула ногой_.
 
-___
-## **4. Explanation of terms**
-### **Stylistic terms (Usage labels)**
+---
+
+## 4. Explanation of terms
+
+### Stylistic terms (Usage labels)
+
 In the Russian Constructicon, we adopt a set of usage labels to mark those constructions that are restricted to certain styles. The usage labels assigned to constructions can therefore be used as guidelines for second language learners.
 
 If a construction is stylistically neutral and can be used in both informal and formal situations, we mark it with no usage label. Compare the following examples of neutral constructions: e.g. **NP-Nom Cop похожий-Short на NP-Acc (NP-Ins/по NP-Dat)** as in _Вася похож на папу_ ‘Vasja looks like his dad’.
@@ -125,8 +147,11 @@ Types of stylistically restricted constructions:
 + **Obsolete** – Construction is obsolete and rarely used in Modern Russian: e.g. **(со)благоволить-Imp VP-Inf!** as in _Благоволите ответить!_ ‘Favor me with an answer!’
 
 In the Russian Constructicon, there are no constructions tagged as Specialized. In other words, there are no constructions that can only be used by speakers who belong to a certain profession.
-___
-### **Syntactic terms**
+
+---
+
+### Syntactic terms
+
 In the Russian Constructicon, we adopt a set of terms to tag syntactic types of constructions:
 
 + **Biclausal Construction** – A construction contains two clauses: e.g. **кто бы ни VP-Pst, Cl**, as in _Кто бы ни звал её в кино, она не соглашалась_.
@@ -150,7 +175,9 @@ In the Russian Constructicon, we adopt a set of terms to tag syntactic types of 
 + **Morphological Construction** – A construction contains a specific derivational affix: e.g. **Adv-овато/-евато**, as in _После переезда в доме было пустовато_.
 
 + **Predicate Argument Construction** – A construction features an argument structure of a specific predicate (verb, noun, adjective, participle): e.g. **NP-Nom тянуть с NP-Ins**, as in _Зачем тянуть с ответом?_; **готовность NP-Gen VP-Inf**, as in _Готовность родителей бороться поразила всех_; **главный/дежурный по NP-Dat**, as in _Главный по кухне_.
-___
-### **Semantic terms**
+
+---
+
+### Semantic terms
+
 Our system of semantic annotation includes 53 tags that describe general semantic types of constructions and 157 secondary tags that specify their sub-types. For explanations of individual semantic tags please use the mouse-over function.
-___
