@@ -189,7 +189,7 @@ var app = new Vue({
                 }
             }
             var selected = random_selection(records_with_this_level, 5);
-            selected.sort();
+            selected.sort((a,b)=>a-b);
             this.record_numbers_matching_search = selected;
         }
     }
