@@ -12,15 +12,19 @@
 
         <div class="col-md-6">
           <div v-if="record_numbers_matching_search.length > 0">
-            <select v-model="current_record_number" class="form-control" size="5">
-              <option v-for="record_number in record_numbers_matching_search" :value="record_number">
-                {[ record_number ]}
-                -
-                <b>{[ records[record_number].name ]}</b>
-                -
-                <i>{[ records[record_number].illustration ]}</i>
-              </option>
-            </select>
+
+            <div class="form-group">
+              <label>Results</label>
+              <select v-model="current_record_number" class="form-control" size="10">
+                <option v-for="record_number in record_numbers_matching_search" :value="record_number">
+                  {[ record_number ]}
+                  -
+                  <b>{[ records[record_number].name ]}</b>
+                  -
+                  <i>{[ records[record_number].illustration ]}</i>
+                </option>
+              </select>
+            </div>
           </div>
         </div>
       <div>
