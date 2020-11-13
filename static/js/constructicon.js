@@ -163,6 +163,7 @@ var app = new Vue({
             for (var result of this.search_index_simple.search(this.search_string)) {
                 record_numbers_matching_search.push(result.record);
             }
+            record_numbers_matching_search.sort((a,b)=>a-b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         advanced_search: function() {
@@ -179,6 +180,7 @@ var app = new Vue({
             for (var result of this.search_index_advanced.search(search_string)) {
                 record_numbers_matching_search.push(result.record);
             }
+            record_numbers_matching_search.sort((a,b)=>a-b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         get_random_selection: function() {
