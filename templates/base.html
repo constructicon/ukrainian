@@ -106,6 +106,35 @@
         {% block content %}
         {% endblock content %}
       </div>
+
+      <div class="more-buffer">
+		{% block footer %}
+          <hr>
+
+          <a href="https://diku.no/" target="_blank">
+            <figure class="figure">
+              <img src="{{ resize_image(path="logo/diku.jpg", width=100, op="fit_width") | safe }}"
+                   class="figure-img img-fluid rounded" alt="Diku logo">
+            </figure>
+          </a>
+
+          <span style="display:inline-block; width: 25px;"></span>
+
+          <a href="https://uit.no/" target="_blank">
+            <figure class="figure">
+              <img src="{{ resize_image(path="logo/uit.png", width=90, op="fit_width") | safe }}"
+                   class="figure-img img-fluid rounded" alt="UiT logo">
+            </figure>
+          </a>
+
+          <a href="https://www.hse.ru/en/" target="_blank">
+            <figure class="figure">
+              <img src="{{ resize_image(path="logo/hse.jpg", width=150, op="fit_width") | safe }}"
+                   class="figure-img img-fluid rounded" alt="HSE logo">
+            </figure>
+          </a>
+        {% endblock footer %}
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
