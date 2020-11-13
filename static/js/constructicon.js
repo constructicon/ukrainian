@@ -38,6 +38,7 @@ function build_tree_for_advanced_search(record_numbers, records, key) {
 
 
 async function fetch_data(data, url_prefix) {
+    console.log(url_prefix + 'data-combined.yml');
     let r = await axios.get(url_prefix + 'data-combined.yml');
     var json_data = jsyaml.load(r.data);
 
@@ -60,12 +61,12 @@ async function fetch_data(data, url_prefix) {
 
     data.semantic_roles_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'semantic_roles');
     data.morphology_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'morphology');
-    data.syntactic_function_of_construction_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_function_of_construction');
+    data.syntactic_type_of_construction_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_type_of_construction');
     data.syntactic_function_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_function_of_anchor');
     data.syntactic_structure_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_structure_of_anchor');
     data.part_of_speech_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'part_of_speech_of_anchor');
 
-    var keys = ['semantic_roles', 'morphology', 'syntactic_function_of_construction', 'syntactic_function_of_anchor', 'syntactic_structure_of_anchor', 'part_of_speech_of_anchor'];
+    var keys = ['semantic_roles', 'morphology', 'syntactic_type_of_construction', 'syntactic_function_of_anchor', 'syntactic_structure_of_anchor', 'part_of_speech_of_anchor'];
     data.search_index_advanced = build_search_index(data.record_numbers, data.records, keys);
 
     data.search_index_simple = build_search_index(data.record_numbers, data.records, ['name', 'illustration']);
@@ -110,8 +111,8 @@ var app = new Vue({
         semantic_roles_selected: null,
         morphology_tree: [],
         morphology_selected: null,
-        syntactic_function_of_construction_tree: [],
-        syntactic_function_of_construction_selected: null,
+        syntactic_type_of_construction_tree: [],
+        syntactic_type_of_construction_selected: null,
         syntactic_function_of_anchor_tree: [],
         syntactic_function_of_anchor_selected: null,
         syntactic_structure_of_anchor_tree: [],
@@ -120,7 +121,7 @@ var app = new Vue({
         part_of_speech_of_anchor_selected: null,
     },
     created: function() {
-        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/25fe75fb91e1ac7c963f6ca1efde2b58cffca052/');
+        fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/generated/');
 
         // https://lodash.com/docs#debounce
         this.search_debounced = _.debounce(this.search, 500);
@@ -136,7 +137,7 @@ var app = new Vue({
         morphology_selected: function(new_, old_) {
             this.advanced_search_debounced();
         },
-        syntactic_function_of_construction_selected: function(new_, old_) {
+        syntactic_type_of_construction_selected: function(new_, old_) {
             this.advanced_search_debounced();
         },
         syntactic_function_of_anchor_selected: function(new_, old_) {
@@ -171,8 +172,8 @@ var app = new Vue({
             var l = [];
             l = l.concat(this.semantic_roles_selected);
             l = l.concat(this.morphology_selected);
-            l = l.concat(this.syntactic_function_of_construction_selected);
-            l = l.concat(this.syntactic_function_of_anchor_selected);
+            l = l.concat(this.syntactic_type_of_construction_selected);
+            l = l.concat(this.syntactic_type_of_anchor_selected);
             l = l.concat(this.syntactic_structure_of_anchor_selected);
             l = l.concat(this.part_of_speech_of_anchor_selected);
 
