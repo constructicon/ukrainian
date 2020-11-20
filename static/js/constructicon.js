@@ -38,7 +38,6 @@ function build_tree_for_advanced_search(record_numbers, records, key) {
 
 
 async function fetch_data(data, url_prefix) {
-    console.log(url_prefix + 'data-combined.yml');
     let r = await axios.get(url_prefix + 'data-combined.yml');
     var json_data = jsyaml.load(r.data);
 
