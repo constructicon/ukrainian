@@ -30,30 +30,32 @@
       <div>
 
       <div class="row top-buffer">
-        <div v-if="current_record_number != null">
-          <b>{[ current_record_number ]}</b>
-          <br>
-
-          <b>NAME</b> <b>{[ records[current_record_number].name ]}</b> - <i>{[ records[current_record_number].illustration ]}</i>
-
-          <div v-for="definition in records[current_record_number].definitions">
+        <div class="col-md-12">
+          <div v-if="current_record_number != null">
+            <b>{[ current_record_number ]}</b>
             <br>
-            <b>DEFINITION ({[ key(definition) ]})</b> {[ value(definition) ]}
+
+            <b>NAME</b> <b>{[ records[current_record_number].name ]}</b> - <i>{[ records[current_record_number].illustration ]}</i>
+
+            <div v-for="definition in records[current_record_number].definitions">
+              <br>
+              <b>DEFINITION ({[ key(definition) ]})</b> {[ value(definition) ]}
+              <br>
+            </div>
+
             <br>
+            <b>STRUCTURE</b> {[ records[current_record_number].structure_in_ud ]}
+            <br>
+
+            <br>
+            <b>EXAMPLES</b>
+            <ul v-for="example in records[current_record_number].examples">
+              <li>{[ example ]}</li>
+            </ul>
+
+            <br>
+            <b>CEFR LEVEL</b> {[ records[current_record_number].cefr_level ]}
           </div>
-
-          <br>
-          <b>STRUCTURE</b> {[ records[current_record_number].structure_in_ud ]}
-          <br>
-
-          <br>
-          <b>EXAMPLES</b>
-          <ul v-for="example in records[current_record_number].examples">
-            <li>{[ example ]}</li>
-          </ul>
-
-          <br>
-          <b>CEFR LEVEL</b> {[ records[current_record_number].cefr_level ]}
         </div>
       </div>
 
