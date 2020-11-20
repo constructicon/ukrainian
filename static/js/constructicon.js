@@ -128,6 +128,10 @@ var app = new Vue({
         this.advanced_search_debounced = _.debounce(this.advanced_search, 500);
     },
     watch: {
+        all_data_loaded: function(new_, old_) {
+            // to make sure that when we load the page first time, we see all results
+            this.search();
+        },
         search_string: function(new_, old_) {
             this.search_debounced();
         },
@@ -161,8 +165,12 @@ var app = new Vue({
         },
         search: function() {
             var record_numbers_matching_search = [];
-            for (var result of this.search_index_simple.search(this.search_string)) {
-                record_numbers_matching_search.push(result.record);
+            if (this.search_string == '') {
+                record_numbers_matching_search = this.record_numbers;
+            } else {
+                for (var result of this.search_index_simple.search(this.search_string)) {
+                    record_numbers_matching_search.push(result.record);
+                }
             }
             record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
