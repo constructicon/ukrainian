@@ -164,7 +164,7 @@ var app = new Vue({
             for (var result of this.search_index_simple.search(this.search_string)) {
                 record_numbers_matching_search.push(result.record);
             }
-            record_numbers_matching_search.sort((a,b)=>a-b);
+            record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         advanced_search: function() {
@@ -181,7 +181,7 @@ var app = new Vue({
             for (var result of this.search_index_advanced.search(search_string)) {
                 record_numbers_matching_search.push(result.record);
             }
-            record_numbers_matching_search.sort((a,b)=>a-b);
+            record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         get_random_selection: function() {
@@ -192,7 +192,7 @@ var app = new Vue({
                 }
             }
             var selected = random_selection(records_with_this_level, 5);
-            selected.sort((a,b)=>a-b);
+            selected.sort((a, b) => a - b);
             this.record_numbers_matching_search = selected;
         }
     }
