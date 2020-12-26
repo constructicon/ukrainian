@@ -39,7 +39,7 @@
 
             <div v-for="definition in records[current_record_number].definitions">
               <br>
-              <b>DEFINITION ({[ key(definition) ]})</b> {[ value(definition) ]}
+              <b>DEFINITION ({[ key(definition) ]})</b> <span v-html="annotate(value(definition))"></span>
               <br>
             </div>
 
@@ -50,7 +50,7 @@
             <br>
             <b>EXAMPLES</b>
             <ul v-for="example in records[current_record_number].examples">
-              <li>{[ example ]}</li>
+              <span v-html="annotate(example)"></span>
             </ul>
 
             <br>

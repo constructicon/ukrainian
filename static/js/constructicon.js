@@ -193,6 +193,14 @@ var app = new Vue({
             record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
+        annotate: function(text) {
+            // renders words that come right after [...] as subscript with color
+            let matches = text.match(/(?<=\])[A-Za-z]+/g);
+            for (var substring of matches) {
+                text = text.replace(substring, '<sub><span style="color: #db2f6d">' + substring + '</span></sub>');
+            }
+            return text;
+        },
         get_random_selection: function() {
             var records_with_this_level = [];
             for (var record_number of this.record_numbers) {
