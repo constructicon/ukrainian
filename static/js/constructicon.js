@@ -15,14 +15,21 @@ function build_search_index(record_numbers, records, keys) {
 }
 
 
-function build_tree_for_advanced_search(record_numbers, records, key) {
+function collect_options(record_numbers, records, key, is_list) {
     var s = new Set();
     for (var record_number of record_numbers) {
-        for (var element of records[record_number][key]) {
-            if (element != null) {
-                s.add(element);
+        if (is_list) {
+            for (var element of records[record_number][key]) {
+                if (element != null) {
+                    s.add(element);
+                }
             }
-        }
+        } else {
+            var element = records[record_number][key];
+                if (element != null) {
+                    s.add(element);
+                }
+		}
     }
 
     var tree = [];
@@ -60,14 +67,15 @@ async function fetch_data(data, url_prefix) {
     data.levels = Array.from(levels);
     data.levels.sort();
 
-    data.semantic_roles_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'semantic_roles');
-    data.morphology_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'morphology');
-    data.syntactic_type_of_construction_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_type_of_construction');
-    data.syntactic_function_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_function_of_anchor');
-    data.syntactic_structure_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'syntactic_structure_of_anchor');
-    data.part_of_speech_of_anchor_tree = build_tree_for_advanced_search(data.record_numbers, data.records, 'part_of_speech_of_anchor');
+    data.semantic_roles_options = collect_options(data.record_numbers, data.records, 'semantic_roles', true);
+    data.morphology_options = collect_options(data.record_numbers, data.records, 'morphology', true);
+    data.syntactic_type_of_construction_options = collect_options(data.record_numbers, data.records, 'syntactic_type_of_construction', true);
+    data.syntactic_function_of_anchor_options = collect_options(data.record_numbers, data.records, 'syntactic_function_of_anchor', true);
+    data.syntactic_structure_of_anchor_options = collect_options(data.record_numbers, data.records, 'syntactic_structure_of_anchor', true);
+    data.part_of_speech_of_anchor_options = collect_options(data.record_numbers, data.records, 'part_of_speech_of_anchor', true);
+    data.level_options = collect_options(data.record_numbers, data.records, 'cefr_level', false);
 
-    var keys = ['semantic_roles', 'morphology', 'syntactic_type_of_construction', 'syntactic_function_of_anchor', 'syntactic_structure_of_anchor', 'part_of_speech_of_anchor'];
+    var keys = ['semantic_roles', 'morphology', 'syntactic_type_of_construction', 'syntactic_function_of_anchor', 'syntactic_structure_of_anchor', 'part_of_speech_of_anchor', 'cefr_level'];
     data.search_index_advanced = build_search_index(data.record_numbers, data.records, keys);
 
     data.search_index_simple = build_search_index(data.record_numbers, data.records, ['name', 'illustration']);
@@ -110,18 +118,20 @@ var app = new Vue({
         daily_dose_level: 'A1',
         search_string: '',
         levels: [],
-        semantic_roles_tree: [],
+        semantic_roles_options: [],
         semantic_roles_selected: null,
-        morphology_tree: [],
+        morphology_options: [],
         morphology_selected: null,
-        syntactic_type_of_construction_tree: [],
+        syntactic_type_of_construction_options: [],
         syntactic_type_of_construction_selected: null,
-        syntactic_function_of_anchor_tree: [],
+        syntactic_function_of_anchor_options: [],
         syntactic_function_of_anchor_selected: null,
-        syntactic_structure_of_anchor_tree: [],
+        syntactic_structure_of_anchor_options: [],
         syntactic_structure_of_anchor_selected: null,
-        part_of_speech_of_anchor_tree: [],
+        part_of_speech_of_anchor_options: [],
         part_of_speech_of_anchor_selected: null,
+        level_options: [],
+        level_selected: null,
     },
     created: function () {
         this.show_data_spinner = true;
@@ -188,6 +198,7 @@ var app = new Vue({
             l = l.concat(this.syntactic_type_of_anchor_selected);
             l = l.concat(this.syntactic_structure_of_anchor_selected);
             l = l.concat(this.part_of_speech_of_anchor_selected);
+            l = l.concat(this.level_selected);
 
             var search_string = '"' + l.join('" "') + '"';
             for (var result of this.search_index_advanced.search(search_string)) {

@@ -3,7 +3,7 @@
     {{ key | replace(from="_", to=" ") | capitalize }}
     <treeselect
       :multiple="true"
-      :options="{{ key }}_tree"
+      :options="{{ key }}_options"
       placeholder="Select {{ key }}"
       v-model="{{ key }}_selected"
       />
