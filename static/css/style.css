@@ -39,7 +39,3 @@ input[type="text"], textarea {
 table {
   white-space: nowrap;
 }
-
-.modal {
-  font-size: 13px;
-}
