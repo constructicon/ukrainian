@@ -1,6 +1,6 @@
 {% macro treeselect(key) %}
   <div class="row top-buffer">
-    {{ key }}:
+    {{ key | replace(from="_", to=" ") | capitalize }}
     <treeselect
       :multiple="true"
       :options="{{ key }}_tree"
