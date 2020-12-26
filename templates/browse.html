@@ -44,12 +44,16 @@
       <div class="row top-buffer">
         <div class="col-md-12">
           <div v-if="current_record_number != null">
+            <input type="checkbox" id="checkbox" v-model="show_additional_information">
+            <label for="checkbox">Show additional information</label>
+
             <hr>
 
-            <b>{[ current_record_number ]}</b>
+            {[ current_record_number ]}
             <br>
 
-            <b>NAME</b> <b>{[ records[current_record_number].name ]}</b> - <i>{[ records[current_record_number].illustration ]}</i>
+            <b>NAME</b>
+            <b>{[ records[current_record_number].name ]}</b> - <i>{[ records[current_record_number].illustration ]}</i>
 
             <div v-for="definition in records[current_record_number].definitions">
               <br>
@@ -64,11 +68,67 @@
             <br>
             <b>EXAMPLES</b>
             <ul v-for="example in records[current_record_number].examples">
-              <span v-html="annotate(example)"></span>
+              <li><span v-html="annotate(example)"></span></li>
             </ul>
 
             <br>
             <b>CEFR LEVEL</b> {[ records[current_record_number].cefr_level ]}
+            <br>
+
+            <div v-if="show_additional_information">
+              <br>
+              <b>MORPHOLOGY</b>
+              <ul v-for="item in records[current_record_number].morphology">
+                <li>{[ item ]}</li>
+              </ul>
+
+              <br>
+              <b>SYNTACTIC TYPE OF CONSTRUCTION</b>
+              <ul v-for="item in records[current_record_number].syntactic_type_of_construction">
+                <li>{[ item ]}</li>
+              </ul>
+
+              <br>
+              <b>SYNTACTIC FUNCTION OF ANCHOR</b>
+              <ul v-for="item in records[current_record_number].syntactic_function_of_anchor">
+                <li>{[ item ]}</li>
+              </ul>
+
+              <br>
+              <b>SEMANTIC STRUCTURE OF ANCHOR</b>
+              <ul v-for="item in records[current_record_number].syntactic_structure_of_anchor">
+                <li>{[ item ]}</li>
+              </ul>
+
+              <br>
+              <b>PART OF SPEECH OF ANCHOR</b>
+              <ul v-for="item in records[current_record_number].part_of_speech_of_anchor">
+                <li>{[ item ]}</li>
+              </ul>
+
+              <br>
+              <b>SEMANTIC ROLES</b>
+              <ul v-for="item in records[current_record_number].semantic_roles">
+                <li>{[ item ]}</li>
+              </ul>
+
+              <br>
+              <b>INTONATION</b>
+              <ul v-for="item in records[current_record_number].intonation">
+                <li>{[ item ]}</li>
+              </ul>
+
+              <br>
+              <b>USAGE LABEL</b> {[ records[current_record_number].usage_label ]}
+              <br>
+
+              <br>
+              <b>REFERENCES</b>
+              <ul v-for="item in records[current_record_number].references">
+                <li>{[ item ]}</li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </div>

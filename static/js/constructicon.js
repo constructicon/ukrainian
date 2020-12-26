@@ -109,6 +109,7 @@ var app = new Vue({
     data: {
         search_index_advanced: null,
         search_index_simple: null,
+        show_additional_information: false,
         show_data_spinner: true,
         all_data_loaded: false,
         current_record_number: null,
