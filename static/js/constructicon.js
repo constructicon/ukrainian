@@ -121,7 +121,7 @@ var app = new Vue({
         part_of_speech_of_anchor_tree: [],
         part_of_speech_of_anchor_selected: null,
     },
-    created: function() {
+    created: function () {
         fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/generated/');
 
         // https://lodash.com/docs#debounce
@@ -129,42 +129,42 @@ var app = new Vue({
         this.advanced_search_debounced = _.debounce(this.advanced_search, 500);
     },
     watch: {
-        all_data_loaded: function(new_, old_) {
+        all_data_loaded: function (new_, old_) {
             // to make sure that when we load the page first time, we see all results
             this.search();
         },
-        search_string: function(new_, old_) {
+        search_string: function (new_, old_) {
             this.search_debounced();
         },
-        semantic_roles_selected: function(new_, old_) {
+        semantic_roles_selected: function (new_, old_) {
             this.advanced_search_debounced();
         },
-        morphology_selected: function(new_, old_) {
+        morphology_selected: function (new_, old_) {
             this.advanced_search_debounced();
         },
-        syntactic_type_of_construction_selected: function(new_, old_) {
+        syntactic_type_of_construction_selected: function (new_, old_) {
             this.advanced_search_debounced();
         },
-        syntactic_function_of_anchor_selected: function(new_, old_) {
+        syntactic_function_of_anchor_selected: function (new_, old_) {
             this.advanced_search_debounced();
         },
-        syntactic_structure_of_anchor_selected: function(new_, old_) {
+        syntactic_structure_of_anchor_selected: function (new_, old_) {
             this.advanced_search_debounced();
         },
-        part_of_speech_of_anchor_selected: function(new_, old_) {
+        part_of_speech_of_anchor_selected: function (new_, old_) {
             this.advanced_search_debounced();
         },
     },
     methods: {
         // for x={'this': 'that'} returns 'this'
-        key: function(x) {
+        key: function (x) {
             return Object.keys(x)[0];
         },
         // for x={'this': 'that'} returns 'that'
-        value: function(x) {
+        value: function (x) {
             return x[Object.keys(x)[0]];
         },
-        search: function() {
+        search: function () {
             var record_numbers_matching_search = [];
             if (this.search_string == '') {
                 record_numbers_matching_search = this.record_numbers;
@@ -176,7 +176,7 @@ var app = new Vue({
             record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
-        advanced_search: function() {
+        advanced_search: function () {
             var record_numbers_matching_search = [];
             var l = [];
             l = l.concat(this.semantic_roles_selected);
@@ -193,7 +193,7 @@ var app = new Vue({
             record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
-        annotate: function(text) {
+        annotate: function (text) {
             // renders words that come right after [...] as subscript with color
             let matches = text.match(/(?<=\])[A-Za-z]+/g);
             for (var substring of matches) {
@@ -201,7 +201,7 @@ var app = new Vue({
             }
             return text;
         },
-        get_random_selection: function() {
+        get_random_selection: function () {
             var records_with_this_level = [];
             for (var record_number of this.record_numbers) {
                 if (this.records[record_number].cefr_level == this.daily_dose_level) {
