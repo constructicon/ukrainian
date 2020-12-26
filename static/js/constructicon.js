@@ -73,6 +73,7 @@ async function fetch_data(data, url_prefix) {
     data.search_index_simple = build_search_index(data.record_numbers, data.records, ['name', 'illustration']);
 
     data.all_data_loaded = true;
+    data.show_data_spinner = false;
 }
 
 
@@ -100,6 +101,7 @@ var app = new Vue({
     data: {
         search_index_advanced: null,
         search_index_simple: null,
+        show_data_spinner: true,
         all_data_loaded: false,
         current_record_number: null,
         record_numbers: [],
@@ -122,6 +124,7 @@ var app = new Vue({
         part_of_speech_of_anchor_selected: null,
     },
     created: function () {
+        this.show_data_spinner = true;
         fetch_data(this, 'https://raw.githubusercontent.com/constructicon/russian-data/generated/');
 
         // https://lodash.com/docs#debounce
