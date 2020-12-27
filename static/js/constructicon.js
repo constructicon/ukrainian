@@ -26,10 +26,10 @@ function collect_options(record_numbers, records, key, is_list) {
             }
         } else {
             var element = records[record_number][key];
-                if (element != null) {
-                    s.add(element);
-                }
-		}
+            if (element != null) {
+                s.add(element);
+            }
+        }
     }
 
     var tree = [];
@@ -39,6 +39,75 @@ function collect_options(record_numbers, records, key, is_list) {
             label: element
         });
     }
+
+    return tree;
+}
+
+
+function object_is_empty(obj) {
+    for (var key in obj) {
+        if (obj.hasOwnProperty(key))
+            return false;
+    }
+    return true;
+}
+
+
+// translates array to list of items
+function _helper(array) {
+    var tree = [];
+
+    for (var prop in array) {
+        if (Object.prototype.hasOwnProperty.call(array, prop)) {
+            if (object_is_empty(prop)) {
+                tree.push({
+                    id: prop,
+                    label: prop,
+                });
+            } else {
+                tree.push({
+                    id: prop,
+                    label: prop,
+                    children: _helper(array[prop]),
+                });
+            }
+        }
+    }
+
+    return tree;
+}
+
+
+function collect_options_tree(record_numbers, records, key) {
+    // first we build up a simpler array tree from all entries
+    var tree_array = {};
+    for (var record_number of record_numbers) {
+        for (var element_0 of records[record_number][key]) {
+            let type_0 = element_0["type"];
+            if (!(type_0 in tree_array)) {
+                tree_array[type_0] = {};
+            }
+            if ("subtypes" in element_0) {
+                for (var element_1 of element_0["subtypes"]) {
+                    let type_1 = element_1["type"];
+                    if (!(type_1 in tree_array[type_0])) {
+                        tree_array[type_0][type_1] = {};
+                    }
+                    if ("subtypes" in element_1) {
+                        for (var element_2 of element_1["subtypes"]) {
+                            let type_2 = element_2["type"];
+                            if (!(type_2 in tree_array[type_0][type_1])) {
+                                tree_array[type_0][type_1][type_2] = {};
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // in the second step we translate this to a structure required by https://vue-treeselect.js.org/
+    var tree = _helper(tree_array);
 
     return tree;
 }
@@ -75,7 +144,18 @@ async function fetch_data(data, url_prefix) {
     data.part_of_speech_of_anchor_options = collect_options(data.record_numbers, data.records, 'part_of_speech_of_anchor', true);
     data.level_options = collect_options(data.record_numbers, data.records, 'cefr_level', false);
 
-    var keys = ['semantic_roles', 'morphology', 'syntactic_type_of_construction', 'syntactic_function_of_anchor', 'syntactic_structure_of_anchor', 'part_of_speech_of_anchor', 'cefr_level'];
+    data.semantic_types_options = collect_options_tree(data.record_numbers, data.records, 'semantic_types');
+
+    var keys = [
+        'semantic_roles',
+        'morphology',
+        'syntactic_type_of_construction',
+        'syntactic_function_of_anchor',
+        'syntactic_structure_of_anchor',
+        'part_of_speech_of_anchor',
+        'cefr_level',
+        'semantic_types',
+    ];
     data.search_index_advanced = build_search_index(data.record_numbers, data.records, keys);
 
     data.search_index_simple = build_search_index(data.record_numbers, data.records, ['name', 'illustration']);
@@ -133,6 +213,8 @@ var app = new Vue({
         part_of_speech_of_anchor_selected: null,
         level_options: [],
         level_selected: null,
+        semantic_types_options: [],
+        semantic_types_selected: null,
     },
     created: function () {
         this.show_data_spinner = true;
@@ -168,6 +250,12 @@ var app = new Vue({
         part_of_speech_of_anchor_selected: function (new_, old_) {
             this.advanced_search_debounced();
         },
+        level_selected: function (new_, old_) {
+            this.advanced_search_debounced();
+        },
+        semantic_types_selected: function (new_, old_) {
+            this.advanced_search_debounced();
+        },
     },
     methods: {
         // for x={'this': 'that'} returns 'this'
@@ -199,6 +287,7 @@ var app = new Vue({
             l = l.concat(this.syntactic_type_of_anchor_selected);
             l = l.concat(this.syntactic_structure_of_anchor_selected);
             l = l.concat(this.part_of_speech_of_anchor_selected);
+            l = l.concat(this.semantic_types_selected);
             l = l.concat(this.level_selected);
 
             var search_string = '"' + l.join('" "') + '"';
