@@ -82,22 +82,24 @@ function collect_options_tree(record_numbers, records, key) {
     // first we build up a simpler array tree from all entries
     var tree_array = {};
     for (var record_number of record_numbers) {
-        for (var element_0 of records[record_number][key]) {
-            let type_0 = element_0["type"];
-            if (!(type_0 in tree_array)) {
-                tree_array[type_0] = {};
-            }
-            if ("subtypes" in element_0) {
-                for (var element_1 of element_0["subtypes"]) {
-                    let type_1 = element_1["type"];
-                    if (!(type_1 in tree_array[type_0])) {
-                        tree_array[type_0][type_1] = {};
-                    }
-                    if ("subtypes" in element_1) {
-                        for (var element_2 of element_1["subtypes"]) {
-                            let type_2 = element_2["type"];
-                            if (!(type_2 in tree_array[type_0][type_1])) {
-                                tree_array[type_0][type_1][type_2] = {};
+        if (records[record_number][key] != null) {
+            for (var element_0 of records[record_number][key]) {
+                let type_0 = element_0["type"];
+                if (!(type_0 in tree_array)) {
+                    tree_array[type_0] = {};
+                }
+                if ("subtypes" in element_0) {
+                    for (var element_1 of element_0["subtypes"]) {
+                        let type_1 = element_1["type"];
+                        if (!(type_1 in tree_array[type_0])) {
+                            tree_array[type_0][type_1] = {};
+                        }
+                        if ("subtypes" in element_1) {
+                            for (var element_2 of element_1["subtypes"]) {
+                                let type_2 = element_2["type"];
+                                if (!(type_2 in tree_array[type_0][type_1])) {
+                                    tree_array[type_0][type_1][type_2] = {};
+                                }
                             }
                         }
                     }
