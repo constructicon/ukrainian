@@ -286,15 +286,11 @@ var app = new Vue({
         advanced_search: function () {
             var record_numbers_matching_search = [];
             var l = [];
-            l = l.concat(this.semantic_roles_selected);
-            l = l.concat(this.morphology_selected);
-            l = l.concat(this.syntactic_type_of_construction_selected);
-            l = l.concat(this.syntactic_function_of_anchor_selected);
-            l = l.concat(this.syntactic_structure_of_anchor_selected);
-            l = l.concat(this.part_of_speech_of_anchor_selected);
-            l = l.concat(this.level_selected);
-            l = l.concat(this.semantic_types_selected);
-
+            for (var selected_options of [this.semantic_roles_selected, this.morphology_selected, this.syntactic_type_of_construction_selected, this.syntactic_function_of_anchor_selected, this.syntactic_structure_of_anchor_selected, this.part_of_speech_of_anchor_selected, this.level_selected, this.semantic_types_selected]) {
+                if (selected_options != null) {
+                    l = l.concat(selected_options);
+                }
+            }
             var search_string = '"' + l.join('" "') + '"';
             for (var result of this.search_index_advanced.search(search_string)) {
                 record_numbers_matching_search.push(result.record);
