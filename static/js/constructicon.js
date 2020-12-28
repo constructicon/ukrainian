@@ -32,8 +32,11 @@ function collect_options(record_numbers, records, key, is_list) {
         }
     }
 
+    let items = Array.from(s);
+    items.sort();
+
     var tree = [];
-    for (var element of Array.from(s)) {
+    for (var element of items) {
         tree.push({
             id: element,
             label: element
