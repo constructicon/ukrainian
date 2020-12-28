@@ -289,11 +289,11 @@ var app = new Vue({
             l = l.concat(this.semantic_roles_selected);
             l = l.concat(this.morphology_selected);
             l = l.concat(this.syntactic_type_of_construction_selected);
-            l = l.concat(this.syntactic_type_of_anchor_selected);
+            l = l.concat(this.syntactic_function_of_anchor_selected);
             l = l.concat(this.syntactic_structure_of_anchor_selected);
             l = l.concat(this.part_of_speech_of_anchor_selected);
-            l = l.concat(this.semantic_types_selected);
             l = l.concat(this.level_selected);
+            l = l.concat(this.semantic_types_selected);
 
             var search_string = '"' + l.join('" "') + '"';
             for (var result of this.search_index_advanced.search(search_string)) {
