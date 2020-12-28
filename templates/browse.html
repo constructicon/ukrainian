@@ -67,9 +67,9 @@
 
             <br>
             <b>EXAMPLES</b>
-            <ul v-for="example in records[current_record_number].examples">
-              <li><span v-html="annotate(example)"></span></li>
-            </ul>
+            <ol>
+              <li v-for="example in records[current_record_number].examples"><span v-html="annotate(example)"></span></li>
+            </ol>
 
             <br>
             <b>CEFR LEVEL</b> {[ records[current_record_number].cefr_level ]}
@@ -78,44 +78,44 @@
             <div v-if="show_additional_information">
               <br>
               <b>MORPHOLOGY</b>
-              <ul v-for="item in records[current_record_number].morphology">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].morphology">{[ item ]}</li>
               </ul>
 
               <br>
               <b>SYNTACTIC TYPE OF CONSTRUCTION</b>
-              <ul v-for="item in records[current_record_number].syntactic_type_of_construction">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].syntactic_type_of_construction">{[ item ]}</li>
               </ul>
 
               <br>
               <b>SYNTACTIC FUNCTION OF ANCHOR</b>
-              <ul v-for="item in records[current_record_number].syntactic_function_of_anchor">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].syntactic_function_of_anchor">{[ item ]}</li>
               </ul>
 
               <br>
               <b>SEMANTIC STRUCTURE OF ANCHOR</b>
-              <ul v-for="item in records[current_record_number].syntactic_structure_of_anchor">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].syntactic_structure_of_anchor">{[ item ]}</li>
               </ul>
 
               <br>
               <b>PART OF SPEECH OF ANCHOR</b>
-              <ul v-for="item in records[current_record_number].part_of_speech_of_anchor">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].part_of_speech_of_anchor">{[ item ]}</li>
               </ul>
 
               <br>
               <b>SEMANTIC ROLES</b>
-              <ul v-for="item in records[current_record_number].semantic_roles">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].semantic_roles">{[ item ]}</li>
               </ul>
 
               <br>
               <b>INTONATION</b>
-              <ul v-for="item in records[current_record_number].intonation">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].intonation">{[ item ]}</li>
               </ul>
 
               <br>
@@ -124,8 +124,8 @@
 
               <br>
               <b>REFERENCES</b>
-              <ul v-for="item in records[current_record_number].references">
-                <li>{[ item ]}</li>
+              <ul>
+                <li v-for="item in records[current_record_number].references">{[ item ]}</li>
               </ul>
             </div>
 
