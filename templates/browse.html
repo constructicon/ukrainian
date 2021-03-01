@@ -62,8 +62,16 @@
             </div>
 
             <br>
-            <b>STRUCTURE</b> {[ records[current_record_number].structure_in_ud ]}
+            <b>DEPENDENCY STRUCTURE</b>
+            <ol>
+              <li v-for="item in records[current_record_number].dependency_structure">{[ item ]}</li>
+            </ol>
+
             <br>
+            <b>DEPENDENCY STRUCTURE OF ILLUSTRATIONS</b>
+            <ol>
+              <li v-for="item in records[current_record_number].dependency_structure_of_illustration">{[ item ]}</li>
+            </ol>
 
             <br>
             <b>EXAMPLES</b>
