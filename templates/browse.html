@@ -44,9 +44,6 @@
       <div class="row top-buffer">
         <div class="col-md-12">
           <div v-if="current_record_number != null">
-            <input type="checkbox" id="checkbox" v-model="show_additional_information">
-            <label for="checkbox">Show additional information</label>
-
             {[ current_record_number ]}
             <br>
 
@@ -68,6 +65,10 @@
             <br>
             <b>CEFR LEVEL</b> {[ records[current_record_number].cefr_level ]}
             <br>
+
+            <br>
+            <input type="checkbox" id="checkbox" v-model="show_additional_information">
+            <label for="checkbox">Show additional information</label>
 
             <div v-if="show_additional_information">
               <br>
