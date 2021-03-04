@@ -145,7 +145,7 @@ following strategies.
 
 4. We include the copula in the name of a construction only if the copula verb
    can be used in this construction not only in the present tense but also in
-   other tense(s): e.g. **NP-Nom Cop ne očen’**, as in _Для стоянки место не
+   other tense(s): e.g. **NP-Nom Cop не очень**, as in _Для стоянки место не
    очень_ (Past: _было не очень_; Future: _будет не очень_).
 
 5. Some constructions contain reduplicated nouns rather than NPs, and we
