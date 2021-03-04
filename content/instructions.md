@@ -231,7 +231,7 @@ who belong to a certain profession.
 
 ### 4.2. Syntactic terms
 
-**4.2.1. Syntactic type of construction**
+### 4.2.1. Syntactic type of construction
 
 In the Russian Constructicon, we adopt a set of terms to tag syntactic types of
 constructions:
@@ -263,7 +263,9 @@ constructions:
 
 + **Predicate Argument Construction** – The construction features the argument structure of a specific predicate or a type of predicates (verb, noun, adjective, participle): e.g. **NP-Nom тянуть с NP-Ins**, as in _Зачем тянуть с ответом?_; **главный/дежурный по NP-Dat**, as in _Главный по кухне_; **VP NP-Acc под NP-Acc**, as in _Однако после революции они переделали церковь под склад_.
 
-**4.2.2. Syntactic function of anchor (of the fixed part of construction)**
+---
+
+### 4.2.2. Syntactic function of anchor (of the fixed part of construction)
 
 + **Argument** – The anchor can have various argument roles: e.g. **деньги на NP-Acc**, as in _Он откладывал деньги на покупку машины_ vs. _А кто меня защитит, кто поможет деньгами на хлеб_.
 
@@ -293,7 +295,9 @@ constructions:
 
 + **Word-Formation** – The anchor is a derivational affix: e.g. **NP-Nom пере-Verb-ся NP-Ins**, as in _Они перекидываются шутками_.
 
-**4.2.3. Syntactic structure of anchor (of the fixed part of construction)**
+---
+
+### 4.2.3. Syntactic structure of anchor (of the fixed part of construction)
 
 + **Argument Structure** - The anchor contains both the verb and its argument expressed by a prepositional phrase (or a preposition and specific case marking of the noun phrase): e.g. **NP-Nom знать NP-Acc по NP-Dat**, as in _Он знал актера по фильмам_; **NP-Nom краснеть за NP-Acc**, as in _Мама краснела за оценки сына_; **NP-Nom Cop близкий-Short к NP-Gen**, as in _Мы как никогда близки к победе_.
 
@@ -325,7 +329,9 @@ constructions:
 
 + **Verb Pattern** - The construction contains two verbal elements, where one verb is the head and the other (usually an infinitive) is dependent. This structure can apply to both anchors and slots as its elements. We apply this tag to both matrix verbs with infinitival complements as well as to verbs that go with an infinitive of purpose or converbs that function as adjuncts of the main verbs (cf. Тестелец 2001: 180): e.g. **а хотел бы PronPers знать/посмотреть/послушать, Sconj Cl**, as in _А хотел бы я знать, почему дети ещё не в постели!_; **NP-Nom бросить VP-Inf**, as in _Я бросил курить_; **NP-Nom за-Verb VP-Pfv.Inf**, as in _Я зашел поговорить_, **VP не переставая**, as in _Телефон звонит не переставая_.
 
-**4.2.4. Part of speech of anchor (of the fixed part of construction)**
+---
+
+### 4.2.4. Part of speech of anchor (of the fixed part of construction)
 
 + **Adjective** - A word that signifies a property of an object. An adjective modifies a noun and agrees with the noun (that is, an adjective alters its shape in order to match the grammatical categories of the noun). We apply this tag to both short and full forms of adjectives: e.g.: **NP-Nom Cop готовый-Short VP-Inf**, as in _Он готов открыть счёт в банке_.
 
