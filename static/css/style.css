@@ -20,10 +20,6 @@ h3, h4, h5, h6 {
   font-size: 16px;
 }
 
-input[type="text"], textarea {
-  background-color: #99eeff;
-}
-
 .top-buffer { margin-top: 25px; }
 
 .more-buffer { margin-top: 150px; }
