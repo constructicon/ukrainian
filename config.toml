@@ -10,13 +10,15 @@ Description of the Constructicon.
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+
+[markdown]
+
 highlight_code = true
 highlight_theme = "cheerfully-light"
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
 
 [extra]
 # Put all your custom variables here
