@@ -5,6 +5,8 @@
 
 function build_search_index(record_numbers, records, keys) {
     var search_index = new JsSearch.Search('record');
+    // https://github.com/bvaughn/js-search#configuring-the-index-strategy
+    search_index.indexStrategy = new JsSearch.AllSubstringsIndexStrategy();
     for (var key of keys) {
         search_index.addIndex(key);
     }
