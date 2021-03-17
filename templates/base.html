@@ -69,7 +69,13 @@
 
       <!-- navigation -->
       <div class="row top-buffer">
-        <div class="col-md-10">
+        <div class="col-md-3">
+          <figure class="figure">
+            <img src="{{ resize_image(path="logo/constructicon.png", width=300, op="fit_width") | safe }}"
+                 class="figure-img img-fluid rounded" alt="Constructicon logo">
+          </figure>
+        </div>
+        <div class="col-md-9">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
@@ -94,13 +100,6 @@
               </ul>
             </div>
           </nav>
-        </div>
-        <div class="col-md-2">
-          <figure class="figure">
-            <img src="{{ resize_image(path="logo/constructicon.png", width=150, op="fit_width") | safe }}"
-                 class="figure-img img-fluid rounded" alt="Constructicon logo">
-            <figcaption class="figure-caption text-center">Russian Constructicon</figcaption>
-          </figure>
         </div>
       </div>
       <!-- end navigation -->
