@@ -10,9 +10,10 @@
 This button will bring the user to a list of over 2200 constructions that they
 can scroll through. On this page the user can search for any string that is
 part of the name of a construction and get the construction(s) that match the
-string. For each construction we list the Name and the Illustration, and the
-user clicks to get the whole entry for the construction.
+string. For each construction we list the ID Number, the Name and the Illustration, and the
+user clicks to get the whole entry for the construction. Some of the numbers of constructions are not consecutive. This is not an error. This is the result of a long process of collecting constructions and removing duplicates.
 
+NB! It may take a few seconds for the constructions to load on the website. If you are experiencing delays, you might try opening the webpage on a different browser, since some browsers work faster than others.
 
 ### Daily Dose
 
@@ -44,7 +45,7 @@ On this page the user can find information about the project and the team.
 Each construction is represented by its name and a short illustration: e.g.
 **найти-Pst NP-Acc!** _Нашли развлечение!_ (‘What a bad way to amuse yourself!
 [lit. found amusement]’). The name of a construction is a short morphosyntactic
-formula that usually includes fixed lexical parts as well as grammatical slots
+formula that usually includes fixed lexical parts (called the **anchor**) as well as grammatical **slots**
 indicated by means of common abbreviations like NP, VP, etc. When necessary, we
 specify morphological characteristics of the fixed lexeme or a slot, where we
 use abbreviations according the Leipzig Glossing rules.
@@ -84,7 +85,7 @@ use abbreviations according the Leipzig Glossing rules.
 |      N-      |    Non- (e.g. Nsg=nonsingular, Npst=Nonpast) |
 |      Intj    |    Interjection |
 |      Nom     |    Nominative |
-|      Noun    |    Noun |
+|      Noun    |    bare noun (often appears in reduplicative constructions) |
 |      NP      |    Noun phrase |
 |      NumColl |    Collective numeral (e.g. _двое, трое_) |
 |      NumCrd  |    Cardinal numeral (e.g. _один, два_) |
@@ -107,7 +108,7 @@ use abbreviations according the Leipzig Glossing rules.
 |      Sg      |    Singular |
 |      Short   |    Short form |
 |      Superl  |    Superlative |
-|      Verb    |    Verb     |
+|      Verb    |    bare verb (often in constructions with verbal prefixes) |
 |      Voc     |    Vocative |
 |      VP      |    Verb phrase |
 |      XP      |    Any phrasal unit (a slot that can be NP or VP or AP or PP) |
@@ -137,8 +138,8 @@ following strategies.
    present tense copula: e.g. **NP-Nom Cop NP-Nom VP-Inf**  (as in _Он мастер
    готовить_ ‘He is good at cooking [lit. expert cook]’).
 
-3. We assume that the Instrumental case marking of the predicative NP that
-   appears with the past and/or future tense copula is a general rule of
+3. We assume that the Instrumental case marking of the predicative NP that may
+   appear with the past and/or future tense copula is a general rule of
    Russian grammar and this is mentioned in the commentary field on each entry
    and illustrated in examples: e.g. _Он был мастером готовить_ ‘He was good at
    cooking [lit. expert cook]’.
@@ -371,5 +372,4 @@ constructions:
 
 Our system of semantic annotation includes 53 tags that describe general
 semantic types of constructions and 157 secondary tags that specify their
-sub-types. For explanations of individual semantic tags please use the
-mouse-over function.
+sub-types. Explanations of individual semantic tags will be available here later.
