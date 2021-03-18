@@ -29,9 +29,14 @@ On this page the user can filter constructions according to various parameters
 that can be combined (multiple filters on the same search).
 
 
-### Instructions
+### Instructions (English)
 
-This page contains instructions for users.
+This page contains instructions for users in English.
+
+
+### Instructions (Russian)
+
+This page contains instructions for users in Russian.
 
 
 ### About
