@@ -85,7 +85,7 @@ use abbreviations according the Leipzig Glossing rules.
 |      N-      |    Non- (e.g. Nsg=nonsingular, Npst=Nonpast) |
 |      Intj    |    Interjection |
 |      Nom     |    Nominative |
-|      Noun    |    bare noun (often appears in reduplicative constructions) |
+|      Noun    |    Bare noun (often appears in reduplicative constructions) |
 |      NP      |    Noun phrase |
 |      NumColl |    Collective numeral (e.g. _двое, трое_) |
 |      NumCrd  |    Cardinal numeral (e.g. _один, два_) |
@@ -108,7 +108,7 @@ use abbreviations according the Leipzig Glossing rules.
 |      Sg      |    Singular |
 |      Short   |    Short form |
 |      Superl  |    Superlative |
-|      Verb    |    bare verb (often in constructions with verbal prefixes) |
+|      Verb    |    Bare verb (often in constructions with verbal prefixes) |
 |      Voc     |    Vocative |
 |      VP      |    Verb phrase |
 |      XP      |    Any phrasal unit (a slot that can be NP or VP or AP or PP) |
@@ -230,9 +230,46 @@ who belong to a certain profession.
 
 ---
 
-### 4.2. Syntactic terms
+### 4.2. Morphological terms
 
-### 4.2.1. Syntactic type of construction
+In Advanced Search, it is possible to search for constructions that contain slots and anchors restricted by certain morphological categories. In the search window, the morphological tags are listed in alphabetical order. The tables below offer an overview of these tags as a system. The first table lists the tags for grammatical categories, whereas the second table lists the tags for grammatical classes, that is parts of speech and syntactic units (which also indicate parts of speech). The third table lists the morphological tags that apply to several parts of speech.
+
+We list the tags as full words and provide corresponding abbreviations that appear in the Advanced Search window in parentheses (). All items listed with bullet points and abbreviations are tags available in Advanced Search (Morphology), others are headings that organise them.
+
+|Case |Gender|Number|Person|
+|-----------------|-----------------|----------------|-------------------|
+|• Nominative (Nom)|• Masculine (M)|• Singular (Sg)|• First person (1)|
+|• Genitive (Gen)|• Feminine (F)|• Plural (Pl)|• Second person (2)|
+|• Partitive genitive (Gen2)|• Neuter (N)|                |• Third person (3)|
+|• Dative (Dat)|    **Tense**   |   **Aspect**   |   **Mood**   |
+|• Accusative (Acc)|• Past (Pst)|• Perfective (Pfv)|• Imperative (Imp)|
+|• Instrumental (Ins)|• Present (Prs)|• Imperfective (Ipfv)|• Subjunctive (Sbjv)|
+|• Locative (Loc)|• Future (Fut)|               |              |
+
+|Lexical parts of speech|Lexical parts of speech|Functional parts of speech|
+|---------------------|---------------------|---------------------|
+|• Bare noun (Noun)|   • Adverb (Adv) | • Interjection (Intj) |
+|• Adjective (Adj)|   • Predicative (Pred) |• Preposition (Prep) |
+|   Numeral: |   Verb: |      Conjunction: |
+|   • Collective numeral (NumColl)|   • Auxiliary (Aux) |   • Coordinating conjunction (Cconj) |
+|   • Cardinal numeral (NumCrd)|   • Bare stem (Bare) |• Subordinating conjunction (Sconj) |
+|   • Ordinal numeral (NumOrd)|   • Copula (Cop) |**Syntactic units** |
+|   Pronoun:|   • Converb (Cvb) |• Clause (Cl)|
+|   • Demonstrative pronoun (PronDem)|   • Infinitive (Inf) |• Noun phrase (NP)|
+|   •  Interrogative/relative pronoun (PronInt)|   • Active participle (PtcpAct) |• Prepositional phrase (PP)|
+|   • Personal pronoun (PronPers)|   • Passive participle (PtcpPass) |• Verb phrase (VP)|
+|   • Possessive pronoun (PronPoss) |   • Bare verb (Verb) |• Any phrasal unit (XP)|
+
+|Morphology tags that apply to several parts of speech|
+|---------------|
+|• Comparative form of adjective or adverb (Cmp)|
+|• Short form of adjective or participle (Short)|
+ 
+---
+
+### 4.3. Syntactic terms
+
+### 4.3.1. Syntactic type of construction
 
 In the Russian Constructicon, we adopt a set of terms to tag syntactic types of
 constructions:
@@ -266,7 +303,7 @@ constructions:
 
 ---
 
-### 4.2.2. Syntactic function of anchor (of the fixed part of construction)
+### 4.3.2. Syntactic function of anchor (of the fixed part of construction)
 
 + **Argument** – The anchor can have various argument roles: e.g. **деньги на NP-Acc**, as in _Он откладывал деньги на покупку машины_ vs. _А кто меня защитит, кто поможет деньгами на хлеб_.
 
@@ -298,7 +335,7 @@ constructions:
 
 ---
 
-### 4.2.3. Syntactic structure of anchor (of the fixed part of construction)
+### 4.3.3. Syntactic structure of anchor (of the fixed part of construction)
 
 + **Argument Structure** - The anchor contains both the verb and its argument expressed by a prepositional phrase (or a preposition and specific case marking of the noun phrase): e.g. **NP-Nom знать NP-Acc по NP-Dat**, as in _Он знал актера по фильмам_; **NP-Nom краснеть за NP-Acc**, as in _Мама краснела за оценки сына_; **NP-Nom Cop близкий-Short к NP-Gen**, as in _Мы как никогда близки к победе_.
 
@@ -332,7 +369,7 @@ constructions:
 
 ---
 
-### 4.2.4. Part of speech of anchor (of the fixed part of construction)
+### 4.3.4. Part of speech of anchor (of the fixed part of construction)
 
 + **Adjective** - A word that signifies a property of an object. An adjective modifies a noun and agrees with the noun (that is, an adjective alters its shape in order to match the grammatical categories of the noun). We apply this tag to both short and full forms of adjectives: e.g.: **NP-Nom Cop готовый-Short VP-Inf**, as in _Он готов открыть счёт в банке_.
 
@@ -368,7 +405,7 @@ constructions:
 
 ---
 
-### 4.3. Semantic terms
+### 4.4. Semantic terms
 
 Our system of semantic annotation includes 53 tags that describe general
 semantic types of constructions and 157 secondary tags that specify their
