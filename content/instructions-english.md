@@ -251,6 +251,7 @@ We list the tags as full words and provide corresponding abbreviations that appe
 |• Instrumental (Ins)|• Present (Prs)|• Imperfective (Ipfv)|• Subjunctive (Sbjv)|
 |• Locative (Loc)|• Future (Fut)|               |              |
 
+
 |Lexical parts of speech|Lexical parts of speech|Functional parts of speech|
 |---------------------|---------------------|---------------------|
 |• Bare noun (Noun)|   • Adverb (Adv) | • Interjection (Intj) |
@@ -265,12 +266,15 @@ We list the tags as full words and provide corresponding abbreviations that appe
 |   • Personal pronoun (PronPers)|   • Passive participle (PtcpPass) |• Verb phrase (VP)|
 |   • Possessive pronoun (PronPoss) |   • Bare verb (Verb) |• Any phrasal unit (XP)|
 
+
 |Morphology tags that apply to several parts of speech|
 |---------------|
 |• Comparative form of adjective or adverb (Cmp)|
 |• Short form of adjective or participle (Short)|
  
+ 
 ---
+
 
 ### 4.3. Syntactic terms
 
