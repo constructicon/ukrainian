@@ -75,7 +75,7 @@ If you want to suggest a new construction for this resource, please enter it in 
 - **Francis M. Tyers** (Indiana University; earlier affiliated with UiT The Arctic
   University of Norway and National Research University Higher School of
   Economics): Concept, Design, UD for Russian
-- **Radovan Bast** (UiT The Arctic University of Norway, Department of information
+- [Radovan Bast](https://bast.fr/) (UiT The Arctic University of Norway, Department of information
   technology): New user interface, design and programming
 - **Valentina Zhukova** (National Research University Higher School of Economics in
   Moscow): Content, Design, Data mining, Semantic and syntactic annotation,
