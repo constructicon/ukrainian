@@ -48,7 +48,7 @@ International Cooperation and Quality Enhancement in Higher Education (Diku,
 
 For more details on this resource see the project page <https://site.uit.no/russian-constructicon/>.
 
-If you want to suggest a new construction for this resource, please enter it in the form HERE.
+If you want to suggest a new construction for this resource, please enter it in the [electronic form](https://forms.gle/tkyDAY6UM6QbizGs7).
 
 
 ## 2. Code and data
@@ -125,7 +125,7 @@ If you want to suggest a new construction for this resource, please enter it in 
  
 Дополнительная информация о ресурсе доступна на сайте <https://site.uit.no/russian-constructicon/>.
  
-Если вы хотите предложить конструкцию для пополнения нашего ресурса, заполните форму по ссылке HERE.
+Если вы хотите предложить конструкцию для пополнения нашего ресурса, заполните [форму](https://forms.gle/tkyDAY6UM6QbizGs7).
 
 
 
