@@ -59,31 +59,31 @@ If you want to suggest a new construction for this resource, please enter it in 
 
 ## 3. Team behind this project
 
-- **Laura A. Janda** (UiT The Arctic University of Norway): Background research,
+- [Laura A. Janda](https://uit.no/ansatte/person?p_document_id=41561) (UiT The Arctic University of Norway): Background research,
   Concept, Design, Data mining, Editing of content, Dissemination of findings
   and results
-- **Tore Nesset** (UiT The Arctic University of Norway): Background research,
+- [Tore Nesset](https://en.uit.no/ansatte/person?p_document_id=41533) (UiT The Arctic University of Norway): Background research,
   Concept, Design, Editing of content, Dissemination of findings and results 
-- **Ekaterina Rakhilina** (National Research University Higher School of Economics
+- [Ekaterina Rakhilina](https://www.hse.ru/en/org/persons/26736782) (National Research University Higher School of Economics
   in Moscow, Vinogradov Institute of Russian Language at Russian Academy of
   Sciences): Background research, Concept, Design, Content, Data mining,
   Semantic annotation, Editing, Dissemination of findings and results
-- **Olga Lyashevskaya** (National Research University Higher School of Economics in
+- [Olga Lyashevskaya](https://www.hse.ru/en/staff/olesar) (National Research University Higher School of Economics in
   Moscow, Vinogradov Institute of Russian Language at Russian Academy of
   Sciences): Concept, Design, Data mining, UD analysis, Syntactic annotation,
   Dissemination of findings and results
-- **Francis M. Tyers** (Indiana University; earlier affiliated with UiT The Arctic
+- [Francis M. Tyers](https://github.com/ftyers) (Indiana University; earlier affiliated with UiT The Arctic
   University of Norway and National Research University Higher School of
   Economics): Concept, Design, UD for Russian
 - [Radovan Bast](https://bast.fr/) (UiT The Arctic University of Norway, Department of information
   technology): New user interface, design and programming
-- **Valentina Zhukova** (National Research University Higher School of Economics in
+- [Valentina Zhukova](https://www.researchgate.net/profile/Valentina-Zhukova-4) (National Research University Higher School of Economics in
   Moscow): Content, Design, Data mining, Semantic and syntactic annotation,
   Dissemination of findings and results
-- **Daria Mordashova** (Lomonosov Moscow State University, Institute of Linguistics
+- [Daria Mordashova](https://iling-ran.ru/web/en/scholars/mordashova) (Lomonosov Moscow State University, Institute of Linguistics
   of the Russian Academy of Sciences): Content, Design, Data mining, Semantic
   and syntactic annotation, Dissemination of findings and results
-- **Anna Endresen** (UiT The Arctic University of Norway): Content, Design, Data
+- [Anna Endresen](https://en.uit.no/ansatte/person?p_document_id=585584) (UiT The Arctic University of Norway): Content, Design, Data
   mining, Editing, Semantic and syntactic annotation, Usage labels,
   Dissemination of findings and results, Coordination of teamwork
 
