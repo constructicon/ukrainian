@@ -109,7 +109,14 @@ If you want to suggest a new construction for this resource, please enter it in 
 5. Janda, Laura A., Mikhail Kopotev, Tore Nesset. 2020. **Constructions, their families and their neighborhoods: the case of durak durakom ‘a fool times two’.** In _Russian Linguistics_ 44, 109-127. <https://doi.org/10.1007/s11185-020-09225-y>
 
 
-## 5. Что такое Русский Конструктикон
+## 5. How to cite
+
+We hope that you will use information that you have found in the Russian Constructicon in your scholarly work (for example in oral presentations or publications). If you do, please be sure to give appropriate credit by citing the Russian Constructicon as follows:
+
+**The Russian Constructicon. An electronic database of the Russian grammatical constructions. Available at <https://constructicon.github.io/russian/>.**
+
+
+## 6. Что такое Русский Конструктикон
 
 Русский Конструктикон – это бесплатный электронный ресурс, который находится в открытом доступе и предлагает пользователям обширную базу данных, содержащую неоднословные грамматические конструкции русского языка. Русский Конструктикон является на настоящий момент самым большим конструктиконом среди других аналогичных ресурсов. Он включает более 2200 конструкций и продолжает постоянно пополняться.
 
@@ -127,5 +134,9 @@ If you want to suggest a new construction for this resource, please enter it in 
  
 Если вы хотите предложить конструкцию для пополнения нашего ресурса, заполните [форму](https://forms.gle/tkyDAY6UM6QbizGs7).
 
+**Как ссылаться**
 
+Мы надеемся, что информация и данные, представленные в Русском Конструктиконе, окажутся актуальными для вашей научной работы и пригодятся в подготовке докладов и публикаций. Если вы будете использовать или приводить материалы этого ресурса, не забудьте дать соответствующую ссылку, цитируя Русский Конструктикон следующим образом:
+
+**The Russian Constructicon. An electronic database of the Russian grammatical constructions. Available at <https://constructicon.github.io/russian/>.**
 
