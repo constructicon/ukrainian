@@ -77,7 +77,7 @@ If you want to suggest a new construction for this resource, please enter it in 
   Economics): Concept, Design, UD for Russian
 - [Radovan Bast](https://bast.fr/) (UiT The Arctic University of Norway, Department of information
   technology): New user interface, design and programming
-- Marianne Lunde: Translation of definitions to Norwegian
+- Marianne Lund: Translation of definitions to Norwegian
 - [Valentina Zhukova](https://www.researchgate.net/profile/Valentina-Zhukova-4) (National Research University Higher School of Economics in
   Moscow): Content, Design, Data mining, Semantic and syntactic annotation,
   Dissemination of findings and results
