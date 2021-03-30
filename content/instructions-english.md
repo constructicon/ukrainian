@@ -288,9 +288,9 @@ constructions:
 + **Biclausal Construction** – The construction contains two clauses. This tag is used first of all for annotation of paratactic biclausal structures. Such constructions consist of clauses that are placed one after another without connecting words: e.g. **кто
   бы ни VP-Pst, Cl**, as in _Кто бы ни звал её в кино, она не соглашалась_; **будучи NP-Ins, Cl**, as in _Будучи американцем, он мечтал разбогатеть_. Biclausal constructions with connecting words as well as biclausal constructions with matrix predicates are annotated with separate tags.
 
-+ **Cl + Modifier Construction** – The construction contains an adverbial that modifies an entire clause: e.g. **как-то/что-то Cl**, as in _Что-то мне душно_.
++ **Clause and Modifier Construction** – The construction contains an adverbial that modifies an entire clause: e.g. **как-то/что-то Cl**, as in _Что-то мне душно_.
 
-+ **Cl/XP with parentheticals** – The construction contains a parenthetical, that is an expression with a discourse function that is syntactically not part of a clause: **само собой (разумеется), Cl**, as in _Само собой, мы придем на твой концерт_.
++ **Clause/XP with parentheticals** – The construction contains a parenthetical, that is an expression with a discourse function that is syntactically not part of a clause: **само собой (разумеется), Cl**, as in _Само собой, мы придем на твой концерт_.
 
 + **Clause** – The construction constitutes an independent clause: e.g. **NP-Nom (как) давай VP-Inf**, as in _Он как давай петь_.
 
@@ -300,12 +300,12 @@ constructions:
 
 + **Discourse "Echo" Construction** – The construction refers to a relevant part of the previous discourse, often quoting a relevant lexeme in the same morphosyntactic form (thus creating an "echo" effect) and adding a comment: e.g. **Скажешь тоже – XP**, as in – _Он такой хороший! – Скажешь тоже – "хороший"!_
 
-+ **Head + Modifier Construction** – The construction contains a head and its modifier; the head can be a VP, a NP or any other phrasal unit: e.g. **VP под
++ **Head and Modifier Construction** – The construction contains a head and its modifier; the head can be a VP, a NP or any other phrasal unit: e.g. **VP под
   рукой**, as in _У меня всегда есть запасной ключ под рукой_; **NP на имя NP-Gen**, as in _Нужно написать заявление на имя директора_.
 
-+ **Matrix + Infinitival Complement Construction** - This is a subtype of the Predicate Argument Construction. The construction contains a matrix predicate that takes an infinitival complement without a complementizer. The matrix predicate can be a verb, a noun, an adjective or an adverb: **(NP-Dat) хочется/хотелось VP-Inf**, as in _Мне хочется уехать на море_; **готовность NP-Gen VP-Inf**, as in _Готовность родителей бороться поразила всех_; **Рад VP-Inf**, as in _Рада вас видеть!_; **NP-Nom Cop вправе VP-Inf**, as in _Он вправе сам решать, как ему жить_. The constructions with matrix predicates that take sentential complements with complementizers (_что_, _как_, _чтобы_, etc.) are tagged as a separate type (see a similar approach in Yoon & Wulff 2016 for Spanish, Arndt 2019 for English, see also Noonan 1985: 53 for discusssion of sentence-like vs. infinitive complements).
++ **Matrix and Infinitival Complement Construction** - This is a subtype of the Predicate Argument Construction. The construction contains a matrix predicate that takes an infinitival complement without a complementizer. The matrix predicate can be a verb, a noun, an adjective or an adverb: **(NP-Dat) хочется/хотелось VP-Inf**, as in _Мне хочется уехать на море_; **готовность NP-Gen VP-Inf**, as in _Готовность родителей бороться поразила всех_; **Рад VP-Inf**, as in _Рада вас видеть!_; **NP-Nom Cop вправе VP-Inf**, as in _Он вправе сам решать, как ему жить_. The constructions with matrix predicates that take sentential complements with complementizers (_что_, _как_, _чтобы_, etc.) are tagged as a separate type (see a similar approach in Yoon & Wulff 2016 for Spanish, Arndt 2019 for English, see also Noonan 1985: 53 for discusssion of sentence-like vs. infinitive complements).
 
-+ **Matrix + Sentential Complement Construction** – The construction contains a matrix predicate that has a valency for a sentential complement that can be represented by a finite or infinitival subordinate clause attached to the main clause by a complementizer (_что_, _как_, _чтобы_, etc.). It is often the case in our data that the same predicate allows for both types of sentential complements: e.g. **NP-Nom Cop за то, чтобы Cl/VP-Inf**, as in _Я за то, чтобы ты у нас жил_ (sentential complement is a finite clause) vs. _Я за то, чтобы поехать в отпуск_ (sentential complement is a non-finite clause). Other examples: **(все/вся) дело/суть Cop в том, что Cl**, as in _Дело в том, что она переживает трудные времена_; **знать-Fut, как VP-Ipfv.Inf!**, as in _Будет знать, как убегать от родителей!_; **NP-Nom и без NP-Gen знать, (что Cl)**, as in _Мы и без вас знаем, что делать_ vs. _Мы и без вас знаем, что нужно делать_. The constructions with matrix predicates that take infinitival complements without a complementizer are tagged as a separate type (see a similar approach in Yoon & Wulff 2016 for Spanish, Arndt 2019 for English among others, see also Noonan 1985: 53 for discusssion of sentence-like vs. infinitive complements).
++ **Matrix and Sentential Complement Construction** – The construction contains a matrix predicate that has a valency for a sentential complement that can be represented by a finite or infinitival subordinate clause attached to the main clause by a complementizer (_что_, _как_, _чтобы_, etc.). It is often the case in our data that the same predicate allows for both types of sentential complements: e.g. **NP-Nom Cop за то, чтобы Cl/VP-Inf**, as in _Я за то, чтобы ты у нас жил_ (sentential complement is a finite clause) vs. _Я за то, чтобы поехать в отпуск_ (sentential complement is a non-finite clause). Other examples: **(все/вся) дело/суть Cop в том, что Cl**, as in _Дело в том, что она переживает трудные времена_; **знать-Fut, как VP-Ipfv.Inf!**, as in _Будет знать, как убегать от родителей!_; **NP-Nom и без NP-Gen знать, (что Cl)**, as in _Мы и без вас знаем, что делать_ vs. _Мы и без вас знаем, что нужно делать_. The constructions with matrix predicates that take infinitival complements without a complementizer are tagged as a separate type (see a similar approach in Yoon & Wulff 2016 for Spanish, Arndt 2019 for English among others, see also Noonan 1985: 53 for discusssion of sentence-like vs. infinitive complements).
 
 + **Morphological Construction** – The construction contains a specific derivational affix: e.g. **Adv-овато/-евато**, as in _После переезда в доме
   было пустовато_.
@@ -314,7 +314,10 @@ constructions:
 
 ---
 
-### 4.3.2. Syntactic function of anchor (of the fixed part of construction)
+### 4.3.2. Syntactic function of anchor
+
+An anchor is a fixed part of a construction, it can be specific words or it can be the structure of a construction like word order or reduplication.
+In the Russian Constructicon, we adopt a set of terms to tag syntactic functions of anchors:
 
 + **Argument** – The anchor can have various argument roles: e.g. **деньги на NP-Acc**, as in _Он откладывал деньги на покупку машины_ vs. _А кто меня защитит, кто поможет деньгами на хлеб_.
 
@@ -346,7 +349,10 @@ constructions:
 
 ---
 
-### 4.3.3. Syntactic structure of anchor (of the fixed part of construction)
+### 4.3.3. Syntactic structure of anchor
+
+An anchor is a fixed part of a construction, it can be specific words or it can be the structure of a construction like word order or reduplication.
+In the Russian Constructicon, we adopt a set of terms to tag syntactic structures of anchors:
 
 + **Argument Structure** - The anchor contains both the verb and its argument expressed by a prepositional phrase (or a preposition and specific case marking of the noun phrase): e.g. **NP-Nom знать NP-Acc по NP-Dat**, as in _Он знал актера по фильмам_; **NP-Nom краснеть за NP-Acc**, as in _Мама краснела за оценки сына_; **NP-Nom Cop близкий-Short к NP-Gen**, as in _Мы как никогда близки к победе_.
 
@@ -380,7 +386,10 @@ constructions:
 
 ---
 
-### 4.3.4. Part of speech of anchor (of the fixed part of construction)
+### 4.3.4. Part of speech of anchor
+
+An anchor is a fixed part of a construction, it can be specific words or it can be the structure of a construction like word order or reduplication.
+In the Russian Constructicon, we adopt a set of terms to tag the parts of speech the anchors represent:
 
 + **Adjective** - A word that signifies a property of an object. An adjective modifies a noun and agrees with the noun (that is, an adjective alters its shape in order to match the grammatical categories of the noun). We apply this tag to both short and full forms of adjectives: e.g.: **NP-Nom Cop готовый-Short VP-Inf**, as in _Он готов открыть счёт в банке_.
 
@@ -418,6 +427,11 @@ constructions:
 
 ### 4.4. Semantic terms
 
+### 4.4.1. Semantic types
+
 Our system of semantic annotation includes 53 tags that describe general
 semantic types of constructions and 157 secondary tags that specify their
 sub-types. Explanations of individual semantic tags will be available here later.
+
+### 4.4.2. Semantic roles
+
