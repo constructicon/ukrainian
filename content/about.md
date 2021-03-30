@@ -21,8 +21,8 @@ semantic roles, and CEFR levels of language proficiency.
 The resource is designed for both researchers and L2 learners of Russian and
 strategically targets highly frequent but non-transparent constructions that
 are most essential for learners of Russian. We focus on those language specific
-constructions that have both “fixed” lexical elements (called **anchors**) and open **slots**. A good
-example is the construction **net-net da i VP-Pfv** (lit. ‘no-no and do X’) used
+constructions that have both fixed and variable elements. The fixed part of a construction is called **anchor**, it can be specific words or it can be the structure of a construction like word order or reduplication. The variable elements of a construction are called **slots**, they can be filled with a restricted set of lexemes. A good
+example of such a construction is **net-net da i VP-Pfv** (lit. ‘no-no and do X’) used
 for referring to irregular events, as in *On net-net da i sprosit* ‘He can
 occasionally ask a question’. Other peculiar constructions collected in this
 resource include **(NP-Gen) ne napaseš’sja (na NP-Acc)**, as in *Na vsex ne
@@ -77,6 +77,7 @@ If you want to suggest a new construction for this resource, please enter it in 
   Economics): Concept, Design, UD for Russian
 - [Radovan Bast](https://bast.fr/) (UiT The Arctic University of Norway, Department of information
   technology): New user interface, design and programming
+- Marianne Lunde: Translation of definitions to Norwegian
 - [Valentina Zhukova](https://www.researchgate.net/profile/Valentina-Zhukova-4) (National Research University Higher School of Economics in
   Moscow): Content, Design, Data mining, Semantic and syntactic annotation,
   Dissemination of findings and results
@@ -87,26 +88,25 @@ If you want to suggest a new construction for this resource, please enter it in 
   mining, Editing, Semantic and syntactic annotation, Usage labels,
   Dissemination of findings and results, Coordination of teamwork
 
-
 ## 4. Key publications
 
 1. Janda, Laura A., Olga Lyashevskaya, Tore Nesset, Ekaterina Rakhilina,
-   Francis M. Tyers. 2018. **“Chapter 6. A Constructicon for Russian: Filling in the Gaps”.** In Benjamin Lyngfelt, Lars Borin, Kyoko Ohara, & Tiago Timponi
+   Francis M. Tyers. 2018. [“Chapter 6. A Constructicon for Russian: Filling in the Gaps”.](http://ansatte.uit.no/laura.janda/mypubs/cal.22.06jan.pdf) In Benjamin Lyngfelt, Lars Borin, Kyoko Ohara, & Tiago Timponi
    Torrent (eds.), _Constructicography: Constructicon development across languages_ [Constructional Approaches to Language 22], 165-181. Amsterdam:
    John Benjamins Publishing Co. DOI: [10.1075/cal.22.06jan] <https://doi.org/10.1075/cal.22.06jan>
 
 2. Janda, Laura A., Anna Endresen, Valentina Zhukova, Daria Mordashova,
-   Ekaterina Rakhilina. 2020. **“How to build a constructicon in five years: The Russian Example”.** In:  Frank Brisard, Timothy Colleman, Astrid De
+   Ekaterina Rakhilina. 2020. [“How to build a constructicon in five years: The Russian Example”.](https://www.researchgate.net/publication/350411506_How_to_build_a_constructicon_in_five_years_The_Russian_example) In:  Frank Brisard, Timothy Colleman, Astrid De
    Wit, Renata Enghels, Nikos Koutsoukos, Tanja Mortelmans, and María Sol
    Sansiñena (eds.) _The Wealth and Breadth of Construction-Based Research_ [a thematic issue of _Belgian Journal of Linguistics_ 34]. pp. 162-175. <https://benjamins.com/catalog/bjl.00043.jan>
 
 3. Endresen, Anna, Valentina Zhukova, Daria Mordashova, Ekaterina Rakhilina,
-   Olga Lyashevskaya. 2020. **“Русский конструктикон: Nовый лингвистический ресурс, его устройство и специфика” [= The Russian Constructicon: A new linguistic resource, its design and key characteristics].** In: _Computational linguistics and Intellectual Technologies. Papers from the Annual International Conference “Dialogue-2020”._ Issue 19, 226-241. DOI: [10.28995/2075-7182-2020-19-241-255] <https://doi.org/10.28995/2075-7182-2020-19-241-255>
+   Olga Lyashevskaya. 2020. [“Русский конструктикон: Nовый лингвистический ресурс, его устройство и специфика” [= The Russian Constructicon: A new linguistic resource, its design and key characteristics].](https://www.researchgate.net/publication/342420695_The_Russian_Constructicon_A_new_linguistic_resource_its_design_and_key_characteristics_Russkij_Konstruktikon_Novyj_lingvisticeskij_resurs_ego_ustrojstvo_i_specifika) In: _Computational linguistics and Intellectual Technologies. Papers from the Annual International Conference “Dialogue-2020”._ Issue 19, 226-241. DOI: [10.28995/2075-7182-2020-19-241-255] <https://doi.org/10.28995/2075-7182-2020-19-241-255>
 
-4. Endresen, Anna, Laura A. Janda. 2020. **“Taking Construction Grammar One Step Further: Families, Clusters, and Networks of Evaluative Constructions in Russian”.** In Mike Putnam, Matthew Carlson, Antonio Fábregas, Eva Wittenberg (eds.) _Defining Construction: Insights into the Emergence and Generation of Linguistic Representations_ [special issue of _Frontiers in Psychology_ 11]. pp. 1-22. ISSN 1664-1078. <https://doi.org/10.3389/fpsyg.2020.574353>
+4. Endresen, Anna, Laura A. Janda. 2020. [“Taking Construction Grammar One Step Further: Families, Clusters, and Networks of Evaluative Constructions in Russian”.](https://www.researchgate.net/publication/346032978_Taking_Construction_Grammar_One_Step_Further_Families_Clusters_and_Networks_of_Evaluative_Constructions_in_Russian) In Mike Putnam, Matthew Carlson, Antonio Fábregas, Eva Wittenberg (eds.) _Defining Construction: Insights into the Emergence and Generation of Linguistic Representations_ [special issue of _Frontiers in Psychology_ 11]. pp. 1-22. ISSN 1664-1078. <https://doi.org/10.3389/fpsyg.2020.574353>
    
 
-5. Janda, Laura A., Mikhail Kopotev, Tore Nesset. 2020. **Constructions, their families and their neighborhoods: the case of durak durakom ‘a fool times two’.** In _Russian Linguistics_ 44, 109-127. <https://doi.org/10.1007/s11185-020-09225-y>
+5. Janda, Laura A., Mikhail Kopotev, Tore Nesset. 2020. [Constructions, their families and their neighborhoods: the case of durak durakom ‘a fool times two’.](https://www.researchgate.net/publication/343086140_Constructions_their_families_and_their_neighborhoods_the_case_of_durak_durakom_%27a_fool_times_two%27Konstrukcii_ih_semi_i_sosedi_Durak_durakom) In _Russian Linguistics_ 44, 109-127. <https://doi.org/10.1007/s11185-020-09225-y>
 
 
 ## 5. How to cite
