@@ -21,7 +21,7 @@ semantic roles, and CEFR levels of language proficiency.
 The resource is designed for both researchers and L2 learners of Russian and
 strategically targets highly frequent but non-transparent constructions that
 are most essential for learners of Russian. We focus on those language specific
-constructions that have both fixed and variable elements. The fixed part of a construction is called **anchor**, it can be specific words or it can be the structure of a construction like word order or reduplication. The variable elements of a construction are called **slots**, they can be filled with a restricted set of lexemes. A good
+constructions that have both fixed and variable elements. The fixed part of a construction is called the **anchor**. The anchor can be specific words or it can be the structure of a construction like word order or reduplication. The variable elements of a construction are called **slots**. Slots can be filled with a restricted set of lexemes. A good
 example of such a construction is **net-net da i VP-Pfv** (lit. ‘no-no and do X’) used
 for referring to irregular events, as in *On net-net da i sprosit* ‘He can
 occasionally ask a question’. Other peculiar constructions collected in this
