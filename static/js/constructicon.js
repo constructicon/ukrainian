@@ -3,6 +3,17 @@
 'use strict';
 
 
+// https://stackoverflow.com/a/196991
+function to_title_case(str) {
+    return str.replace(
+        /\w\S*/g,
+        function(txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        }
+    );
+}
+
+
 function build_search_index(record_numbers, records, keys) {
     var search_index = new JsSearch.Search('record');
     // https://github.com/bvaughn/js-search#configuring-the-index-strategy

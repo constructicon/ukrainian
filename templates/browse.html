@@ -54,7 +54,7 @@
 
             <div v-for="definition in records[current_record_number].definitions">
               <br>
-              <b>DEFINITION ({[ key(definition) ]})</b> <span v-html="annotate(value(definition))"></span>
+              <b>DEFINITION ({[ to_title_case(key(definition)) ]})</b> <span v-html="annotate(value(definition))"></span>
               <br>
             </div>
 
