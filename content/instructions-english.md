@@ -431,7 +431,8 @@ In the Russian Constructicon, we adopt a set of terms to tag the parts of speech
 
 Our system of semantic annotation includes 53 tags that describe general
 semantic types of constructions and 157 secondary tags that specify their
-sub-types. Explanations of individual semantic tags will be available here later.
+sub-types. Explanations of individual semantic tags are available [here](https://constructicon.github.io/russian/semantic-types/).
 
 ### 4.4.2. Semantic roles
 
+Our understanding of semantic roles does not deviate from the standard. Explanations and illustrations of semantic roles available for Advanced Search will appear here later.
