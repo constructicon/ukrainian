@@ -5,11 +5,11 @@
 
 In the Russian Constructicon, we adopt a set of terms to tag syntactic types of constructions:
 
-## Semantic class **QUALIA**
+## 1. Semantic class **QUALIA**
 
 Qualia is a term borrowed from philosophy where it is defined as individual instances or forms of conscious experience and intrinsic qualitative properties of experience. We use this term to refer to a large class of constructions that describe the properties of the given objective physical world, external to the speaker. In this sense, Qualia as a class is contrasted with the other four large classes of constructions termed Subjectivity, Modality & its neighborhood, Discourse, and Parameters. We apply the term Qualia as an umbrella notion that includes seven groups of semantic types of constructions, namely: Situation structure, Situation modifiers, Major roles, Logical relations, Properties, Magnitude, and Sets & elements.
 
-### Sub-class of QUALIA: Situation structure
+### 1.1. Sub-class Situation Structure
 Situation structure is an umbrella term for those semantic types of constructions that specify structural caharecteristics of a situation, namely Timeline, Taxis, Actionality, Pluractionality, Phase of Action, Result, and Actuality.
 
 +  **Timeline** – Localization of a situation on a timeline (in terms of past, present, and future).
@@ -22,11 +22,13 @@ Situation structure is an umbrella term for those semantic types of construction
     + **Near future** –  The construction locates a situation in the near future: e.g. **вот-вот VP-Fut NP-Nom**, as in _Вот-вот прилетит самолёт._
     + **Distant future** –  The construction locates a situation in the near future: e.g. **когда-нибудь (потом) VP-Fut**, as in _Я прочитаю эту книгу когда-нибудь потом._
 
+
 + **Taxis** – Taxis, or relative time, is understood as a category of temporal localization of events with respect to each other (simultaneity, anteriority, and posteriority). Whereas it is usually marked with special verb forms (Khrakovski 2003: 39-40; 2009: 21-22), here we observe constructional means to signify taxis relations between events.
 
   + **Preceding action** –  The construction indicates that an action precedes another action: e.g. **перед тем как Cl, Cl**, as in _Перед тем как сесть за стол, помой руки._
   + **Simultaneous action** –  The construction indicates that several actions take place simultaneously: e.g. **в тот NP-Acc, как/когда VP**, as in _Все ахнули в тот момент, когда она заговорила._
   + **Subsequent action** –  The construction indicates that an action follows another action: e.g. **XP, после чего XP**, as in _Нужно довести до кипения, после чего добавить овощи._
+
 
 + **Actionality** – This term refers to a cluster of constructions with aspectual semantics that correspond to various types of Aktionsarten ('types of action'). Some of these constructions contain a verb formed by a typical Aktionsart morphological marker (a prefix or a suffix) and the arguments of that verb, whereas other constructions encode Aktionsart lexically, in the fixed part of the construction (anchor words).
 
@@ -81,7 +83,7 @@ Situation structure is an umbrella term for those semantic types of construction
 
 ------
 
-### Sub-class of QUALIA: Major roles
+### 1.2. Sub-class Major Roles
 
 The terminology we employ in this section overlaps with the terms of semantic roles (Апресян 1974/1995). Here, the subtypes we distinguish refer to the semantics of the whole constructions, and the terms indicate various ways of interaction between the participants of a situation or different types of situations (e.g. possession, absence of a participant, etc.).
 
@@ -115,7 +117,7 @@ The terminology we employ in this section overlaps with the terms of semantic ro
 
 ------
 
-### Sub-class of QUALIA: Situation modifiers
+### 1.3. Sub-class Situation Modifiers
 
 Constructions of this type provide information regarding spatial, temporal, and manner characteristics of a situation.
 
@@ -144,7 +146,7 @@ Constructions of this type provide information regarding spatial, temporal, and 
 
 ------
 
-### Sub-class of QUALIA: Logical relations
+### 1.4. Sub-class Logical Relations
 
 The construction refers to the relationship between events in terms of cause, purpose, consequence, condition, or concession.
 
@@ -180,7 +182,7 @@ The construction refers to the relationship between events in terms of cause, pu
 
 ------
 
-###	Sub-class of QUALIA: Properties
+###	1.5. Sub-class Properties
 
 This group of constructions includes three semantic types: Salient Property, Temporary Characteristics, and Comparison.
 
@@ -262,7 +264,7 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
 ------
 
-### Sub-class of QUALIA: Sets and elements
+### 1.6. Sub-class Sets and Elements
 
 The constructions of this type contain information on the relationship between an element and a set. We distinguish between quantifiers and operators. The operators modify a proposition or a set and "apply" to simplex quantifiers to derive complex quantifiers.
 
@@ -294,7 +296,7 @@ The constructions of this type contain information on the relationship between a
 
 ------
 
-### Sub-class of QUALIA: Magnitude
+### 1.7. Sub-class Magnitude
 
 This group of constructions includes three semantic types: Non-Existence, Measure, and Calculation.
 
@@ -352,11 +354,11 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
 ---
 
-## Semantic class **MODALITY AND ITS NEIGHBORHOOD**
+## 2. Semantic class MODALITY AND ITS NEIGHBORHOOD
 
 On the one hand, we adopt the traditional widely accepted approach and take a narrow understanding of modality that refers to Root and Epistemic modality. On the other hand, we consider categories closely related to modality as its "neighborhood", and suggest that it includes Volition, Causation, Prohibition, Threat, Request, Apprehension, and Curse.
 
-###	Core modal meanings
+###	2.1. Subclass Core Modal Meanings
 
 + **Root modality** – We adopt the traditional widely accepted approach and take a narrow understanding of modality. According to this approach, this category includes necessity and possibility (cf. van der Auwera & Plungian 1998; Nuyts 2016). For deontic participant-external possibility we use a separate tag Permission.
 
@@ -374,7 +376,7 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
   + **Low degree of certainty** – The construction refers to a low degree of confidence in the proposition: the situation is assessed as highly improbable: e.g. **вроде (как) XP/Cl**, as in _Он вроде как идёт._
 
-###	Neighborhood of core modal meanings
+###	2.2. Subclass Neighborhood of Core Modal Meanings
 
 + **Volition** – The construction denotes a desire or a wish. This type of constructions includes both expressions of the desires of the speaker (optative) and expressions of the desires of any participant of the situation (desiderative): e.g. **вот бы (NP-Dat) (никогда не/всегда) VP-Inf!**, as in _Вот бы никогда не работать!_
   + No subtypes
@@ -407,7 +409,7 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
 ---
 
-## Semantic class **SUBJECTIVITY**
+## 3. Semantic class SUBJECTIVITY
 
 A large class of constructions incoding assessment, attitude, polarity value, mirativity, and source of opinion.
 
@@ -454,11 +456,11 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
 ---
 
-## Semantic class **DISCOURSE**
+## 4. Semantic class DISCOURSE
 
 Discourse is written and spoken communication between the speaker and the conversation partner. We use the term Discourse to refer to a distinct large class of constructions that function at the discourse level. These constructions structure the text, organize the communication and often refer to a broader context than a single sentence.
 
-###	Sub-class of DISCOURSE: Discourse organization
+###	4.1. Sub-class Discourse Organization
 
 This group includes the constructions that organize the communication process, usually by adding an optional commentary information in the form of parentheticals inserted or added to the main content of the clause. Here we distinguish between two types of constructions: Discourse structure constructions and Source of information constructions.
 
@@ -489,7 +491,7 @@ This group includes the constructions that organize the communication process, u
 + **Source of information** – The construction indicates the source of the provided information: e.g. **по словам NP-Gen, Cl**, as in _По словам учителя, провести урок дистанционно не так просто._
   + No subtypes
 
-### Sub-class of DISCOURSE: Discourse clauses
+### 4.2. Sub-class Discourse Clauses
 
 This group includes the constructions that have a prominent communicative function and constitute an entire clause. Here we distinguish between two types: the constructions that express Reaction to the previous discourse and Routines.
 
@@ -539,7 +541,7 @@ This group includes the constructions that have a prominent communicative functi
 
 ---
 
-## Semantic class PARAMETERS
+## 5. Semantic class PARAMETERS
 
 Parameters are understood here as the meanings of intensity and accuracy that can apply and "build over" some other meanings (for example, temporal, spatial, or quantitative semantics, etc.). Parameters imply a certain scale (intensity scale or accuracy scale) that serves as a point of reference for a property or a situation characterized by a construction.
 
