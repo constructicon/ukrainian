@@ -15,7 +15,7 @@ Situation structure is an umbrella term for those semantic types of construction
 +  **Timeline** – Localization of a situation on a timeline (in terms of past, present, and future).
 
     + **Distant past** –  The construction locates a situation in the distant past: e.g. **было время, (когда) Cl**, as in _Было время, когда её стихи очень любили._
-    + **Recent past** –  The construction locates a situation in the recent past: e.g. **(NP-Nom) только что VP-Pfv.Pst**, as in _Вася только что принес деньги._
+    + **Recent past** –  The construction locates a situation in the recent past: e.g. **только что VP-Pfv.Pst**, as in _Вася только что принес деньги._
     + **Past** –  The construction locates a situation in the past without additional specification for whether it is distant or recent past: e.g. **как-то раз VP**, as in _Я как-то раз видела её на концерте._
     + **Present** –  The construction locates a situation in the moment of speech, in the present: e.g. **NP-Nom Cop на дворе**, as in _Куда ты собралась, ночь на дворе?!_
     + **Future** –  The construction locates a situation in the future without additional specification for whether it is near or distant future: e.g. **со временем Cl**, as in _Со временем она обязательно научится готовить._
@@ -25,7 +25,7 @@ Situation structure is an umbrella term for those semantic types of construction
 
 + **Taxis** – Taxis, or relative time, is understood as a category of temporal localization of events with respect to each other (simultaneity, anteriority, and posteriority). Whereas it is usually marked with special verb forms (Храковский 2003: 39-40; Храковский 2009: 21-22), here we observe constructional means to signify taxis relations between events.
 
-  + **Preceding action** –  The construction indicates that an action precedes another action: e.g. **перед тем как Cl, Cl**, as in _Перед тем как сесть за стол, помой руки._
+  + **Preceding action** –  The construction indicates that an action precedes another action: e.g. **Cl, перед тем как Cl**, as in _Перед тем как сесть за стол, помой руки._
   + **Simultaneous action** –  The construction indicates that several actions take place simultaneously: e.g. **в тот NP-Acc, как/когда VP**, as in _Все ахнули в тот момент, когда она заговорила._
   + **Subsequent action** –  The construction indicates that an action follows another action: e.g. **XP, после чего XP**, as in _Нужно довести до кипения, после чего добавить овощи._
 
@@ -100,10 +100,10 @@ The terminology we employ in this section overlaps with the terms of semantic ro
 + **Instrument** – The construction encodes an instrument or a tool, that is, an object used by a participant in order to carry out an action: e.g. **VP с помощью/при помощи NP-Gen**, as in _Он всё починил с помощью отвёртки._
   + No subtypes
 
-+ **Possession** – The construction denotes that a participant possesses an object or, more rarely, a quality or a right. This type is broader than the term _possessive_, which is traditionally understood merely as the possession of an object: e.g. **NP-Nom Cop у NP-Gen на руках**, as in _Документы у меня на руках._
++ **Possession** – The construction denotes that a participant possesses an object or, more rarely, a quality or a right. This type is broader than the term _possessive_, which is traditionally understood merely as the possession of an object: e.g. **NP-Nom Cop/VP у NP-Gen на руках**, as in _Документы у меня на руках._
   + No subtypes
 
-+ **Comitative** – The construction expresses that a participant performs an action together with another participant or a group of participants. Unlike the Possession type, the Comitative type requires that both participants are animate: e.g. **VP за компанию**, as in _Пойдёшь с нами за компанию?_
++ **Comitative** – The construction expresses that a participant performs an action together with another participant or a group of participants. Unlike the Possession type, the Comitative type requires that both participants are animate: e.g. **VP за компанию (с NP-Ins)**, as in _Пойдёшь с нами за компанию?_
   + No subtypes
 
 + **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2003: 170): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._
@@ -141,7 +141,7 @@ Constructions of this type provide information regarding spatial, temporal, and 
 
   + **Time period** – The construction refers to a time span during which an action or a situation takes place: e.g. **VP за NP-Ins**, as in _Он молчал за обедом._
 
-+ **Manner** – The construction specifies the manner of action, i.e. provides information on how the action is carried out. The construction refers to a qualitative characteristics of an activity, the method used in performing an activity: e.g. **без устали VP-Imp**, as in _Жена без устали готовила на кухне._
++ **Manner** – The construction specifies the manner of action, i.e. provides information on how the action is carried out. The construction refers to a qualitative characteristics of an activity, the method used in performing an activity: e.g. **VP-Ipfv без устали**, as in _Жена без устали готовила на кухне._
   + No subtypes
 
 ------
@@ -198,9 +198,9 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
   + **Essence** – The construction characterizes a participant or an object by referring to their core nature, the most important qualities: e.g. **Noun-Nom – это ~Noun-Nom**, as in _Москва – это Москва._
 
-  + **Experience** – The construction characterizes a participant or an object by referring to their personal experience or the experience of use (for an object): e.g. **Noun-Nom – это ~Noun-Nom**, as in _Москва – это Москва._
+  + **Experience** – The construction characterizes a participant or an object by referring to their personal experience or the experience of use (for an object): e.g. **NP-Nom иметь дело с NP-Ins**, as in _Он когда-то имел дело с трудными подростками._
 
-  + **Functionality** – The construction characterizes an object by referring to the way it is used or will be used: e.g. **NP-Nom иметь дело с NP-Ins**, as in _Он когда-то имел дело с трудными подростками._
+  + **Functionality** – The construction characterizes an object by referring to the way it is used or will be used: e.g. **NP от NP-Gen**, as in _Ключ от двери._
 
   + **Matching the standard** – The construction characterizes a participant, an object or an action by evaluating whether they correspond to a certain standard, the norm: e.g. **чем NP-Nom Cop не NP-Nom?**, as in _Чем картошка не еда?_
 
