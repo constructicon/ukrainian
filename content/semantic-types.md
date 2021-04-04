@@ -20,10 +20,10 @@ Situation structure is an umbrella term for those semantic types of construction
     + **Present** –  The construction locates a situation in the moment of speech, in the present: e.g. **NP-Nom Cop на дворе**, as in _Куда ты собралась, ночь на дворе?!_
     + **Future** –  The construction locates a situation in the future without additional specification for whether it is near or distant future: e.g. **со временем Cl**, as in _Со временем она обязательно научится готовить._
     + **Near future** –  The construction locates a situation in the near future: e.g. **вот-вот VP-Fut NP-Nom**, as in _Вот-вот прилетит самолёт._
-    + **Distant future** –  The construction locates a situation in the near future: e.g. **когда-нибудь (потом) VP-Fut**, as in _Я прочитаю эту книгу когда-нибудь потом._
+    + **Distant future** –  The construction locates a situation in the distant future: e.g. **когда-нибудь (потом) VP-Fut**, as in _Я прочитаю эту книгу когда-нибудь потом._
 
 
-+ **Taxis** – Taxis, or relative time, is understood as a category of temporal localization of events with respect to each other (simultaneity, anteriority, and posteriority). Whereas it is usually marked with special verb forms (Khrakovski 2003: 39-40; 2009: 21-22), here we observe constructional means to signify taxis relations between events.
++ **Taxis** – Taxis, or relative time, is understood as a category of temporal localization of events with respect to each other (simultaneity, anteriority, and posteriority). Whereas it is usually marked with special verb forms (Храковский 2003: 39-40; Храковский 2009: 21-22), here we observe constructional means to signify taxis relations between events.
 
   + **Preceding action** –  The construction indicates that an action precedes another action: e.g. **перед тем как Cl, Cl**, as in _Перед тем как сесть за стол, помой руки._
   + **Simultaneous action** –  The construction indicates that several actions take place simultaneously: e.g. **в тот NP-Acc, как/когда VP**, as in _Все ахнули в тот момент, когда она заговорила._
@@ -44,21 +44,21 @@ Situation structure is an umbrella term for those semantic types of construction
 
   + **Saturative** – The construction refers to an action that is performed up to a full saturation level (or even oversaturation) and focuses on the state of the subject that performs the action (Зализняк, Шмелев 2000: 114). The saturative Aktionsart is often viewed as a subtype of the cumulative Aktionsart: e.g. **на-Verb-ся (NP-Ins)**, as in _Земля напиталась водой._
 
-+ **Pluractionality** – Pluractionality describes the number of occurences of a situation or the repetition of identical phases in its internal structure (cf. Shluinsky 2005: 4; see also Newman 1980).
++ **Pluractionality** – Pluractionality describes the number of occurences of a situation or the repetition of identical phases in its internal structure (cf. Шлуинский 2005: 4; see also Newman 1980).
 
-  + **Alternation** – The construction indicates that several situations take place in turns, alternate with each other (cf. Ladygina, Rakhilina 2016): e.g. **когда XP, когда XP**, as in _Когда вовремя придёт, когда опоздает._
+  + **Alternation** – The construction indicates that several situations take place in turns, alternate with each other (cf. Ладыгина, Рахилина 2016): e.g. **когда XP, когда XP**, as in _Когда вовремя придёт, когда опоздает._
 
-  + **Discontinuative** – The construction indicates that a situation is carried out with breaks or interruptions (cf. Shluinsky 2005: 49): e.g. **VP урывками**, as in _Этой ночью она спала урывками._
+  + **Discontinuative** – The construction indicates that a situation is carried out with breaks or interruptions (cf. Шлуинский 2005: 49): e.g. **VP урывками**, as in _Этой ночью она спала урывками._
 
-  + **Frequentative** – The construction indicates that a situation takes place regularly, but more often than expected (cf. Shluinsky 2005: 49): e.g. **то и дело VP**, as in _Маме то и дело звонили._
+  + **Frequentative** – The construction indicates that a situation takes place regularly, but more often than expected (cf. Шлуинский 2005: 49): e.g. **то и дело VP**, as in _Маме то и дело звонили._
 
-  + **Habitual** – The construction indicates that an action is repeated regularly or that the performance of this action is characteristic of a participant (cf. Shluinsky 2005: 49): e.g. **каждый/всякий раз VP, (когда/как Cl)**, as in _Каждый раз улыбаюсь, когда вижу её._
+  + **Habitual** – The construction indicates that an action is repeated regularly or that the performance of this action is characteristic of a participant (cf. Шлуинский 2005: 49): e.g. **каждый/всякий раз VP, (когда/как Cl)**, as in _Каждый раз улыбаюсь, когда вижу её._
 
-  + **Iterative** – The construction indicates that a situation takes place repeatedly, more than once (cf. Shluinsky 2005: 49): e.g. **VP ещё и ещё**, as in _Он ударил ещё и ещё._
+  + **Iterative** – The construction indicates that a situation takes place repeatedly, more than once (cf. Шлуинский 2005: 49): e.g. **VP ещё и ещё**, as in _Он ударил ещё и ещё._
 
-  + **Multiplicative** – The construction indicates that a situation consists of multiple repeated portions of action (Shluinsky 2005: 49): e.g. **VP по NP-Dat**, as in _Курочка по зернышку клюёт._
+  + **Multiplicative** – The construction indicates that a situation consists of multiple repeated portions of action (Шлуинский 2005: 49): e.g. **VP по NP-Dat**, as in _Курочка по зернышку клюёт._
 
-  + **Raritive** – The construction indicates that a situation takes place regularly, but more rarely than expected (cf. Shluinsky 2005: 49): e.g. **время от времени Cl**, as in _Время от времени я перестаю что-либо успевать._
+  + **Raritive** – The construction indicates that a situation takes place regularly, but more rarely than expected (cf. Шлуинский 2005: 49): e.g. **время от времени Cl**, as in _Время от времени я перестаю что-либо успевать._
 
 + **Phase of action** – Phase of action constructions refer to one of logically possible temporal parts of a situation. Such constructions instantiate "an independent semantic area of "phasal values" consisting of four elementary values termed Inchoative, Continuative, Terminative, and Cunctative", according to Plungian 1999: 317. According to this in-depth study of phasal semantics, these four values "are concerned with the very fact of the existence or non-existence of the situation at the point of reference as compared to an earlier moment" (rather than with the inner structure of a situation), which means that phasal values belong to the periphery of the aspectual domain. See also Плунгян 2011: 315.
 
@@ -72,13 +72,13 @@ Situation structure is an umbrella term for those semantic types of construction
 
 + **Result** – Constructions of this type group around the concept of result and can denote a range of meanings: achieving a result; unachieved result; an attempt towards performing and action, thus achieving a result. Note that the term Result in the Russian Constructicon covers a larger scope of meanings than the term resultative, which normally refers to only resultative phase of action (Плунгян 2011: 282; e.g. _дверь открыта_ ‘the door is open’, _машина сломана_ ‘the car is broken’).
 
-  + **Antiresultative** – The construction refers to a violated resultative stage (cf. Plungian 2001). There are two types of the antiresultative meaning: 1) a result has not been achieved as the movement towards the result has been interrupted; 2) a result has been achieved but then cancelled: e.g. **едва не VP-Pst**, as in _Иван Иванович едва не умер после такого розыгрыша._
+  + **Antiresultative** – The construction refers to a violated resultative stage (cf. Плунгян 2001). There are two types of the antiresultative meaning: 1) a result has not been achieved as the movement towards the result has been interrupted; 2) a result has been achieved but then cancelled: e.g. **едва не VP-Pst**, as in _Иван Иванович едва не умер после такого розыгрыша._
 
   + **Conative** – The construction indicates an attempt to perform an action: e.g. **NP-Nom пробовать VP-Inf**, as in _Вася несколько раз пробовал открыть окно._
 
   + **Unspecified** – The construction refers to an actual event or a state triggered by a preceding situation: e.g. **VP до NP-Gen**, as in _Все овощи нужно залить кипятком и варить до готовности._
 
-+ **Actuality** – The construction refers to a successful realization of an action (compare the English verb manage, cf. Plungian & van der Auwera 1998: 104), or “the successful result of the ability” (Aijmer 2004: 62). Actuality as a category lies at the intersection of Aspectuality and Modality (Mordashova Forthcoming): **NP-Dat удалось VP-Inf**, as in _Мише удалось покурить._
++ **Actuality** – The construction refers to a successful realization of an action (compare the English verb manage, cf. Plungian & van der Auwera 1998: 104), or “the successful result of the ability” (Aijmer 2004: 62). Actuality as a category lies at the intersection of Aspectuality and Modality (Мордашова Forthcoming): **NP-Dat удалось VP-Inf**, as in _Мише удалось покурить._
   + No subtypes
 
 ------
@@ -106,7 +106,7 @@ The terminology we employ in this section overlaps with the terms of semantic ro
 + **Comitative** – The construction expresses that a participant performs an action together with another participant or a group of participants. Unlike the Possession type, the Comitative type requires that both participants are animate: e.g. **VP за компанию**, as in _Пойдёшь с нами за компанию?_
   + No subtypes
 
-+ **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2010: 170): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._
++ **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2003: 170): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._
   + No subtypes
 
 + **Non-standard subject** – This tag refers to different ways of encoding the logical subject of an action, either by non-standard marking of the subject or denoting the substitution of the subject.
@@ -198,7 +198,9 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
   + **Essence** – The construction characterizes a participant or an object by referring to their core nature, the most important qualities: e.g. **Noun-Nom – это ~Noun-Nom**, as in _Москва – это Москва._
 
-  + **Functionality** – The construction characterizes an object by referring to the way it can be used: e.g. **NP от NP-Gen**, as in _Ключ от двери._
+  + **Experience** – The construction characterizes a participant or an object by referring to their personal experience or the experience of use (for an object): e.g. **Noun-Nom – это ~Noun-Nom**, as in _Москва – это Москва._
+
+  + **Functionality** – The construction characterizes an object by referring to the way it is used or will be used: e.g. **NP-Nom иметь дело с NP-Ins**, as in _Он когда-то имел дело с трудными подростками._
 
   + **Matching the standard** – The construction characterizes a participant, an object or an action by evaluating whether they correspond to a certain standard, the norm: e.g. **чем NP-Nom Cop не NP-Nom?**, as in _Чем картошка не еда?_
 
@@ -220,6 +222,8 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
   + **Status** – The construction characterizes a participant by referring to their status. The constructions of this type refer to family relations, friendship, job positions, academic ranks, hierarchy at work (employer vs employee), reputation, etc. The constructions of this type share the semantic component 'assign a certain status, place or role in a hierarchy or community to a participant': e.g. **NP-Nom приходиться NP-Dat NP-Ins**, as in _Этот мальчик приходится мне сыном._
 
+  + **Temporal characteristics** – The construction characterizes an object by referring to a period of time: e.g. **NP за NP-Acc**, as in _Журнал за ноябрь._
+  
 + **Temporary characteristics** – The constructions with this tag refer to temporary, non-constant characteristics that do not define the core nature of the participant, but rather describe their external manifestations, such as behavior, emotional and physical state, circumstances, etc.
 
   + **Appropriateness** – The construction refers to appropriateness of an action or an object: e.g. **VP (не) по делу**, as in _Он всё говорил по делу._
@@ -545,7 +549,7 @@ This group includes the constructions that have a prominent communicative functi
 
 Parameters are understood here as the meanings of intensity and accuracy that can apply and "build over" some other meanings (for example, temporal, spatial, or quantitative semantics, etc.). Parameters imply a certain scale (intensity scale or accuracy scale) that serves as a point of reference for a property or a situation characterized by a construction.
 
-+ **Degree of intensity** – Degree of intensity construction is "any device that scales a quality, whether up or down or somewhere between the two". Degree of intensity is an indication of "a point on an abstractly conceived intensity scale; and the point indicated may be relatively low or relatively high" (Quirk et al. 1985: 589). Distinctions between the subtypes of intensifiers proposed in Quirk et al. (1985: 589) are applied to the Russian constructions in Zhukova 2020.
++ **Degree of intensity** – Degree of intensity construction is "any device that scales a quality, whether up or down or somewhere between the two". Degree of intensity is an indication of "a point on an abstractly conceived intensity scale; and the point indicated may be relatively low or relatively high" (Quirk et al. 1985: 589). Distinctions between the subtypes of intensifiers proposed in Quirk et al. 1985 are applied to the Russian constructions in Zhukova 2020.
 
   + **Maximizer** – The construction denotes the top extreme of an intensity scale and indicates that the quality cannot be increased further or that the action has reached its limit. Corresponds to English _absolutely, totally_: e.g. **как нельзя Adv-Cmp VP**, as in _Порошок как нельзя лучше отстирал жирные пятна._
 
@@ -567,15 +571,73 @@ Parameters are understood here as the meanings of intensity and accuracy that ca
 
 ## List of references
 
-Nuyts, J. 2016. Analyses of the modal meanings. In Nuyts J. & J. van der Auwera (Eds.) The Oxford Handbook of Modality and Mood. Oxford University Press, 2016. 31-49.
+**Works written in English**
 
-Plungian, V.A. 1999. A typology of phasal meanings. In: Abraham, W., Kulikov, L. (eds.) Tense-aspect, transitivity, and causativity. John Benjamins, Amsterdam.
+Aijmer, Karin. 2004. The semantic path from modality to aspect: _Be able to_ in a cross-linguistic perspective. In: Hans Lindquist and Christian Mair (eds.) Corpus approaches to grammaticalization in English. Amsterdam / Philadelphia: John Benjamins. 57-78.
 
-Plungian, Vladimir A. 2011. Vvedenie v grammatičeskuju semantiku: Grammatičeskie značenija i grammatičeskie sistemy jazykov mira [An introduction to grammatical semantics: Grammatical meanings and grammatical systems in the languages of the world]. Moscow: Russian State University for the Humanities Press.
+Aikhenvald, Alexandra. 2012. The essence of mirativity. In: Linguistic Typology, Vol. 16. 435–485. 
+
+Baydina, Ekaterina. 2016. The Russian apprehensive construction: Syntactic status reassessed, negation vindicated. Leiden: Leiden University MA Thesis.
+
+Boye, Kasper.  2016. The expression of epistemic modality. In: Jan Nuyts and Johan van der Auwera (eds.). The Oxford Handbook of Modality and Mood. 117-140. Oxford: Oxford University Press.
+
+Comrie, Bernard. 1976. Aspect: An introduction to the study of verbal aspect and related problems. Cambridge: Cambridge University Press.
+
+DeLancey, S. 1997. Mirativity: The grammatical marking of unexpected information. In: Linguistic Typology, Vol. 1. 33–52.
+
+Endresen, Anna, Laura A. Janda. 2020. Taking Construction Grammar One Step Further: Families, Clusters, and Networks of Evaluative Constructions in Russian. In: Mike Putnam, Matthew Carlson, Antonio Fábregas, Eva Wittenberg (eds.) Defining construction: Insights into the emergence and generation of linguistic representations (special issue of Frontiers in Psychology 11). pp. 1-22.
+
+Mitrofanova, Natalia. 2016. Paths and Places: Aspects of Grammar and Acquisition. Doctoral dissertation. UiT: The Arctic University of Norway.
+
+Newman, Paul. 1980. Nominal and Verbal Plurality in Chadic. Berlin: Walter de Gruyter.
+
+Nuyts, Jan. 2005. Modality: Overview and linguistic issues. In: William Frawley (ed.) The Expression of Modality, 1-26. (The Expression of Cognitive Categories 1.) Berlin / New York: Mouton de Gruyter.
+
+Nuyts, Jan. 2016. Analyses of modal meanings. In: Jan Nuyts and Johan van der Auwera (eds.). The Oxford Handbook of Modality and Mood. 31-49. Oxford: Oxford University Press.
+
+Paperno, Denis. 2012. Quantification in Standard Russian. In: Edward L. Keenan, Denis Paperno. 2012. Handbook of quantifiers in natural language. (Studies in Linguistics and Philosophy 90), Vol. 1, 729-80. Dordrecht: Springer.
+
+Plungian, V.A. 1999. A typology of phasal meanings, Abraham, W., Kulikov, L. (eds.) Tense-aspect, transitivity, and causativity: Essays in honor of Vladimir Nedjalkov, John Benjamins, Amsterdam.
+
+Quirk, Randolph, Sidney Greenbaum, Geoffrey Leech, and Jan Svartvik. 1985. A Comprehensive Grammar of the English Language. London: Longman.
+
+Treis, Yvonne 2018. Comparative Constructions: An Introduction. In: Linguistic Discovery 16 (1). i–xxvi.
 
 van der Auwera, Johan and Plungian, Vladimir. 1998. Modality's Semantic Map. In: Linguistic Typology 2. 79-124.
 
-Ладыгина А.С., Рахилина, Е.В. 2016. Русские конструкции со значением чередования ситуаций. In: Язык: поиски, факты, гипотезы. Сборник статей к 100-летию со дня рождения академика Н.Ю. Шведовой. Москва. 320-336.
+Zhukova, Valentina. 2020. Intensifying constructions in Russian based on data from Russian Constructicon. Moscow: National Research University Higher School of Economics, MA Thesis.
+
+**Works written in Russian / Русскоязычные работы**
+ 
+Апресян В. Ю. 1999. Уступительность в языке и слова со значением уступки. In: Вопросы языкознания. 1999. № 5. 24-44.
+
+Апресян Ю. Д. 1974/1995. Лексическая семантика. Москва. Издательство «Языки русской культуры».
+
+Добрушина Н. Р. 2006. Грамматические формы и конструкции со значением опасения и предостережения. In: Вопросы языкознания. 2006. № 2. 28-67.
+
+Зализняк А. А., Шмелев А.Д. 2000. Введение в русскую аспектологию. Москва.
+Издательство «Языки русской культуры».
+
+Ладыгина А. С., Рахилина, Е. В. 2016. Русские конструкции со значением чередования ситуаций. In: Язык: поиски, факты, гипотезы. Сборник статей к 100-летию со дня рождения академика Н.Ю. Шведовой. Москва. 320-336. 
+
+Мордашова Д. Д. (в процессе работы) Значение реализованной возможности как зона пересечения модальности и аспекта. Кандидатская диссертация. Московский государственный университет им. М.В. Ломоносова. Москва.
+
+Плунгян, В. А. 2001. Антирезультатив: до и после результата. In: В. А. Плунгян (ред.). Исследования по теории грамматики. Вып. 1. Грамматические категории. Москва. Издательство «Русские словари», 50-88.
+
+Плунгян В. А. 2003. Общая морфология: введение в проблематику. 2-е изд. Москва. Издательство «Едиториал УРСС».
+
+Плунгян, В. А. 2011. Введение в грамматическую семантику: Грамматические значения и грамматические системы языков мира. Москва. Издательство Российского государственного гуманитарного университета.
+
+Рахилина, Е. В. 2013. Кондуктор, нажми на тормоза... In:  Компьютерная лингвистика и интеллектуальные технологии: По материалам ежегодной Международной конференции «Диалог». Т. 1: Основная программа конференции. Вып. 12 (19). Москва. Издательство Российского государственного гуманитарного университета. 665-673. 
+
+Татевосов, С. Г. 2002. Семантика составляющих именной группы: кванторные слова. Москва. ИМЛИ РАН.
+
+Храковский, В. С. 2003. Категория таксиса (Общая характеристика). In: Вопросы языкознания, 2003, № 2. 33-54.
+
+Храковский В. С. 2009. Таксис: Семантика, синтаксис, типология. In:  Храковский В. С. (отв. ред.) Типология таксисных конструкций. Москва. Издательство «Знак». 11-113.
+
+Шлуинский, А. В. 2005. Типология предикатной множественности: количественные аспектуальные значения. Кандидатская диссертация. Московский государственный университет им. М.В. Ломоносова. Москва.
+
 
 
 
