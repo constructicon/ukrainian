@@ -328,13 +328,13 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
   + **Speed** – The construction denotes measurement of the speed: e.g. **Cl, а как чешет!**, as in _Такой маленький, а как чешет!_
 
-  + **Surface area** – The construction denotes measurement of surface area: e.g. **NP площадью (в) NumCrd-Acc NP-Gen**, as in _Участок площадью сто гектаров._
+  + **Surface area** – The construction denotes measurement of surface area: e.g. **NP площадью (в) NumCrd-Acc NP**, as in _Участок площадью сто гектаров._
 
   + **Time** – The construction denotes measurement of a certain time period: e.g. **VP NumCrd-Nom NP-Gen**, as in _Он писал письмо четыре часа._
 
-  + **Volume** – The construction denotes measurement of an object's volume. The construction is relevant for both the volume of a physical container or a metaphorical container of information, such as a book: e.g. **NP объёмом (в) NumCrd-Acc NP-Gen**, as in _Книга объёмом в сто страниц._
+  + **Volume** – The construction denotes measurement of an object's volume. The construction is relevant for both the volume of a physical container or a metaphorical container of information, such as a book: e.g. **NP объёмом (в) NumCrd-Acc NP**, as in _Книга объёмом в сто страниц._
 
-  + **Weight** – The construction denotes measurement of an object's weight: e.g. **NP весом/массой (в) NumCrd-Acc NP-Gen**, as in _Баржа весом в шесть тонн._
+  + **Weight** – The construction denotes measurement of an object's weight: e.g. **NP весом/массой (в) NumCrd-Acc NP**, as in _Баржа весом в шесть тонн._
 
   + **Unspecified** – This subtype includes constructions that are not limited to a single measurement parameter: e.g. **куча NP-Gen**, as in _У меня всегда куча дел._
 
@@ -342,7 +342,7 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
   + **Addition** – The construction encodes a mathematical operation of addition: e.g. **NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat**, as in _Два плюс два равно четыре._
 
-  + **Division** – The construction encodes a mathematical operation of division: e.g. **NumCrd-Nom разделить/поделить/делить на NumCrd-Acc – (равно/VP) NumCrd-Nom**, as in _Пятнадцать разделить на три равно пять._
+  + **Division** – The construction encodes a mathematical operation of division: e.g. **NumCrd-Acc разделить/поделить/делить на NumCrd-Acc – (равно/VP) NumCrd-Nom**, as in _Пятнадцать разделить на три равно пять._
 
   + **Equation** – The construction expresses mathematical equations and inequations: e.g. **Cl (не) равно/равняется NumCrd-Dat/NumCrd-Nom**, as in _Два плюс один не равно пяти._
 
@@ -352,7 +352,7 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
   + **Fraction** – The construction names mathematical fractions, including both simple and decimal fractions: e.g. **одна NumOrd-Sg.F (часть/доля) (NP-Gen)**, as in _Добавить одну пятую ложки сахара._
 
-  + **Multiplication** – The construction encodes a mathematical operation of multiplication: e.g. **NumCrd-Nom (умножить/помножить) на NumCrd-Acc – (равно/VP) NumCrd-Nom**, as in _Семь на восемь – пятьдесят шесть._
+  + **Multiplication** – The construction encodes a mathematical operation of multiplication: e.g. **NumCrd-Acc (умножить/помножить) на NumCrd-Acc – (равно/VP) NumCrd-Nom**, as in _Семь на восемь – пятьдесят шесть._
 
   + **Subtraction** – The construction encodes a mathematical operation of subtraction: e.g. **NumCrd-Nom минус NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat**, as in _Пять минус три будет два._
 
@@ -437,7 +437,7 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
   + **Dissatisfaction** – The construction denotes that the speaker is dissatisfied with another participant, their actions or the entire situation. The attitudes of this type form a scale from mild Discontent to strong Disapproval to Swearing to Curse: e.g. **(NP-Dat) только NP-Gen (ещё) не хватало!**, as in _Только дождя не хватало!_
 
-  + **Emotional Attitude** – The construction denotes the emotional attitude of the speaker towards a situation. The constructions can name specific emotional attitudes, refer to strong uncontrolled emotions or emphasize the depth or scope of the feeling: e.g. **NP-Dat Noun-Nom Cop не (в) ~Noun-Acc (без NP-Gen)**, as in _Девочкам радость не в радость_
+  + **Emotional Attitude** – The construction denotes the emotional attitude of the speaker towards a situation. The constructions can name specific emotional attitudes, refer to strong uncontrolled emotions or emphasize the depth or scope of the feeling: e.g. **NP-Dat Noun-Nom Cop не (в) ~Noun (без NP-Gen)**, as in _Девочкам радость не в радость._
 
   + **Mental Attitude** – The construction denotes attitude motivated by the speaker’s knowledge or expectations. The constructions encode skepticism, confidence, perplexity, or mirativity: e.g. **рассказывай/рассказывайте, Cl**, as in _Рассказывай, не было денег!_
 
@@ -453,7 +453,7 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
   + **Asking for opinion** – The construction formulates a question to a participant about their opinion regarding a certain topic: e.g. **PronPers-Nom не находить, что Cl?**, as in _Вы не находите, что это немного странно?_
 
-  + **Expressing opinion** – The construction expresses the opinion of the participant regarding a certain topic: e.g. **по мнению NP-Gen/по PronPoss-Dat мнению, Cl**, as in _По мнению властей, необходимо принять меры и остановить загрязнение реки._
+  + **Expressing opinion** – The construction expresses the opinion of the participant regarding a certain topic: e.g. **по мнению NP-Gen, Cl**, as in _По мнению властей, необходимо принять меры и остановить загрязнение реки._
 
 + **Mirative** – The construction expresses that the speaker is surprised with the new unexpected information (DeLancey 1997; Aikhenvald 2012): e.g. **NP-Nom возьми и VP-Imp**, as in _А он возьми и купи новую машину!_
   + No subtypes
@@ -476,7 +476,7 @@ This group includes the constructions that organize the communication process, u
 
   + **Emphasis** – The construction emphasizes a certain element of the utterance: e.g. **(и) без того XP**, as in _Капитан и без того знал, что нужно делать._
 
-  + **Exеmplification** – The construction clarifies a certain statement by providing an example: e.g. **к примеру, Cl**, as in _Вот, к примеру, мне нравится Мерилин Монро._
+  + **Exеmplification** – The construction clarifies a certain statement by providing an example: e.g. **к примеру, Cl/XP**, as in _Вот, к примеру, мне нравится Мерилин Монро._
 
   + **Sequence** – The construction shows that one part of the text follows another one: e.g. **в-NumOrd-ых, Cl**, as in _Во-первых, я бы хотел поблагодарить своего тренера._
 
