@@ -9,7 +9,7 @@ In the Russian Constructicon, we adopt a set of terms to tag syntactic types of 
 
 Qualia is a term borrowed from philosophy where it is defined as individual instances or forms of conscious experience and intrinsic qualitative properties of experience. We use this term to refer to a large class of constructions that describe the properties of the given objective physical world, external to the speaker. In this sense, Qualia as a class is contrasted with the other four large classes of constructions termed Subjectivity, Modality & its neighborhood, Discourse, and Parameters. We apply the term Qualia as an umbrella notion that includes seven groups of semantic types of constructions, namely: Situation structure, Situation modifiers, Major roles, Logical relations, Properties, Magnitude, and Sets & elements.
 
-### 1.1. Sub-class Situation Structure
+### 1.1. Subclass Situation Structure
 Situation structure is an umbrella term for those semantic types of constructions that specify structural caharecteristics of a situation, namely Timeline, Taxis, Actionality, Pluractionality, Phase of Action, Result, and Actuality.
 
 +  **Timeline** – Localization of a situation on a timeline (in terms of past, present, and future).
@@ -83,7 +83,7 @@ Situation structure is an umbrella term for those semantic types of construction
 
 ------
 
-### 1.2. Sub-class Major Roles
+### 1.2. Subclass Major Roles
 
 The terminology we employ in this section overlaps with the terms of semantic roles (Апресян 1974/1995). Here, the subtypes we distinguish refer to the semantics of the whole constructions, and the terms indicate various ways of interaction between the participants of a situation or different types of situations (e.g. possession, absence of a participant, etc.).
 
@@ -106,7 +106,7 @@ The terminology we employ in this section overlaps with the terms of semantic ro
 + **Comitative** – The construction expresses that a participant performs an action together with another participant or a group of participants. Unlike the Possession type, the Comitative type requires that both participants are animate: e.g. **VP за компанию (с NP-Ins)**, as in _Пойдёшь с нами за компанию?_
   + No subtypes
 
-+ **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2003: 170): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._
++ **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2011: 125): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._
   + No subtypes
 
 + **Non-standard subject** – This tag refers to different ways of encoding the logical subject of an action, either by non-standard marking of the subject or denoting the substitution of the subject.
@@ -117,7 +117,7 @@ The terminology we employ in this section overlaps with the terms of semantic ro
 
 ------
 
-### 1.3. Sub-class Situation Modifiers
+### 1.3. Subclass Situation Modifiers
 
 Constructions of this type provide information regarding spatial, temporal, and manner characteristics of a situation.
 
@@ -127,7 +127,7 @@ Constructions of this type provide information regarding spatial, temporal, and 
 
   + **Path:Goal** – The construction refers to the direction of motion in space and encodes the endpoint or destination, i.e. the Goal, of the Path: e.g. **NP-Nom вести в NP-Acc**, as in _Дверь вела в комнату._
 
-  + **Path:Route** – The construction refers to the directed motion in space and encodes the trajectory, or the Route, of the Path: e.g. **VP вдоль по NP-Dat**, as in _Мы пошли по улице._
+  + **Path:Route** – The construction refers to the directed motion in space and encodes the trajectory, or the Route, of the Path: e.g. **VP вдоль по NP-Dat**, as in _Мы пошли вдоль по улице._
 
   + **Location** – The construction refers to location of an object in space (with no reference to either motion or its direction): e.g. **NP в NP-Loc**, as in _Боль в животе._
 
@@ -146,7 +146,7 @@ Constructions of this type provide information regarding spatial, temporal, and 
 
 ------
 
-### 1.4. Sub-class Logical Relations
+### 1.4. Subclass Logical Relations
 
 The construction refers to the relationship between events in terms of cause, purpose, consequence, condition, or concession.
 
@@ -182,7 +182,7 @@ The construction refers to the relationship between events in terms of cause, pu
 
 ------
 
-###	1.5. Sub-class Properties
+###	1.5. Subclass Properties
 
 This group of constructions includes three semantic types: Salient Property, Temporary Characteristics, and Comparison.
 
@@ -204,7 +204,7 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
   + **Matching the standard** – The construction characterizes a participant, an object or an action by evaluating whether they correspond to a certain standard, the norm: e.g. **чем NP-Nom Cop не NP-Nom?**, as in _Чем картошка не еда?_
 
-  + **Naming** – The construction refers to the name of an animate participant or an object (including lastname, patronymic, pseudonym, nickname, by-name, street name, etc.): e.g. **NP-Acc звать NP-Ins/NP-Nom**, as in _Мальчика звать Юрой._
+  + **Naming** – The construction refers to the name of an animate participant or an object (including lastname, patronymic, pseudonym, nickname, by-name, street name, etc.): e.g. **NP-Acc звать-Inf NP-Ins/NP-Nom**, as in _Мальчика звать Юрой._
 
   + **Paragon** – The construction characterizes a participant or an object by referring to the prototypical examplar, perfect example of a particular quality: e.g. **(ну) Noun-Nom и ~Noun-Nom**, as in _Мужик здоровый такой. Ну медведь и медведь._
 
@@ -222,7 +222,7 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
   + **Status** – The construction characterizes a participant by referring to their status. The constructions of this type refer to family relations, friendship, job positions, academic ranks, hierarchy at work (employer vs employee), reputation, etc. The constructions of this type share the semantic component 'assign a certain status, place or role in a hierarchy or community to a participant': e.g. **NP-Nom приходиться NP-Dat NP-Ins**, as in _Этот мальчик приходится мне сыном._
 
-  + **Temporal characteristics** – The construction characterizes an object by referring to a period of time: e.g. **NP за NP-Acc**, as in _Журнал за ноябрь._
+  + **Temporal characteristics** – The construction characterizes an object by referring to a period of time: e.g. **NP за NP-Acc**, as in _Журнал за ноябрь скоро выйдет из печати._
   
 + **Temporary characteristics** – The constructions with this tag refer to temporary, non-constant characteristics that do not define the core nature of the participant, but rather describe their external manifestations, such as behavior, emotional and physical state, circumstances, etc.
 
@@ -234,7 +234,7 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
   + **Bodily position** – The construction refers to the spatial configuration of the body of an object or a participant: e.g. **VP вниз головой**, as in _Девочка висит вниз головой._
 
-  + **Circumstances** – The construction characterizes a participant by referring to the external circumstances, the situation faced by the participant: e.g. **NP-Nom иметь дело с NP-Ins**, as in _Он когда-то имел дело с трудными подростками._
+  + **Circumstances** – The construction characterizes a participant by referring to the external circumstances, the situation faced by the participant: e.g. **NP-Nom оказаться в NP-Loc**, as in _Он оказался в трудной ситуации._
 
   + **Context** – The construction refers to the context of an action or a situation: e.g. **Cl в свете NP-Gen**, as in _В свете приближающихся выборов партии оживили свою работу._
 
@@ -268,7 +268,7 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
 ------
 
-### 1.6. Sub-class Sets and Elements
+### 1.6. Subclass Sets and Elements
 
 The constructions of this type contain information on the relationship between an element and a set. We distinguish between quantifiers and operators. The operators modify a proposition or a set and "apply" to simplex quantifiers to derive complex quantifiers.
 
@@ -300,7 +300,7 @@ The constructions of this type contain information on the relationship between a
 
 ------
 
-### 1.7. Sub-class Magnitude
+### 1.7. Subclass Magnitude
 
 This group of constructions includes three semantic types: Non-Existence, Measure, and Calculation.
 
@@ -316,7 +316,7 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
 + **Measure** – Constructions of this type encode the quantity of discrete objects, amount of substance or values of quantified properties of objects such as size, length, volume, weight, etc. This type includes constructions with numerals or other, non-conventional, means of expressing amount or quantity.
 
-  + **Age** – The construction denotes age: e.g. **NP под Num-Acc (лет)**, as in _Людмиле Петровне под пятьдесят._
+  + **Age** – The construction denotes age: e.g. **NP под NumCrd-Acc (лет)**, as in _Людмиле Петровне под пятьдесят._
 
   + **Dimensions** – The construction denotes measurement of a certain parameter of a single object. This parameter is linear (length, height, depth, radius, diameter). We do not separate these parameters since the same constructions are used to encode them: e.g. **NP длиной/шириной/толщиной/высотой/глубиной (в) NumCrd-Acc NP-Gen**, as in _Велодорожка длиной шесть километров._
 
@@ -391,7 +391,7 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
   + **Indirect** – The construction expresses implicit or covert causation to perform an action (for example, in the form of a question): e.g. **как насчёт XP?**, as in _Как насчёт выпить?_
 
-+ **Prohibition** – This tag refers to different ways of expressing prohibition: standard (Prohibitive) and attenuated (Attenuated prohibitive). Following [Рахилина 2013], we also include in this category continuative prohibitives as a separate subtype. 
++ **Prohibition** – This tag refers to different ways of expressing prohibition: standard (Prohibitive) and attenuated (Attenuated prohibitive). Following (Рахилина 2013), we also include in this category continuative prohibitives as a separate subtype. 
 
   + **Attenuated prohibitive** – The construction expresses prohibition to perform an action in the future. The prohibition is expressed in a mild, attenuated form and is pronounced in a less categorical tone compared to the standard prohibitive: e.g. **(NP-Dat) не стоит VP-Ipfv.Inf**, as in _Не стоит разговаривать с ним._
 
@@ -464,7 +464,7 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
 Discourse is written and spoken communication between the speaker and the conversation partner. We use the term Discourse to refer to a distinct large class of constructions that function at the discourse level. These constructions structure the text, organize the communication and often refer to a broader context than a single sentence.
 
-###	4.1. Sub-class Discourse Organization
+###	4.1. Subclass Discourse Organization
 
 This group includes the constructions that organize the communication process, usually by adding an optional commentary information in the form of parentheticals inserted or added to the main content of the clause. Here we distinguish between two types of constructions: Discourse structure constructions and Source of information constructions.
 
@@ -495,7 +495,7 @@ This group includes the constructions that organize the communication process, u
 + **Source of information** – The construction indicates the source of the provided information: e.g. **по словам NP-Gen, Cl**, as in _По словам учителя, провести урок дистанционно не так просто._
   + No subtypes
 
-### 4.2. Sub-class Discourse Clauses
+### 4.2. Subclass Discourse Clauses
 
 This group includes the constructions that have a prominent communicative function and constitute an entire clause. Here we distinguish between two types: the constructions that express Reaction to the previous discourse and Routines.
 
@@ -537,7 +537,7 @@ This group includes the constructions that have a prominent communicative functi
 
   + **Politeness marker** – The construction serves to mark politeness on behalf of the speaker: e.g. **Уж простить-Imp/извинить-Imp, но Cl**, as in _Уж простите, но всё будет по договору._
 
- + **Praise** – The construction expresses a praise: e.g. **Слава NP-Dat, (что) Cl**, as in _Слава богу, вижу прекрасно и всё слышу._
+  + **Praise** – The construction expresses a praise: e.g. **Слава NP-Dat, (что) Cl**, as in _Слава богу, вижу прекрасно и всё слышу._
 
   + **Swearing** – Highly expressive constructions that contain taboo vocabulary and usually convey negative emotions of the speaker about the situation: e.g. **ни черта́ не VP**, as in _Я ни черта не вижу._
 
@@ -636,7 +636,7 @@ Zhukova, Valentina. 2020. Intensifying constructions in Russian based on data fr
 
 Храковский В. С. 2009. Таксис: Семантика, синтаксис, типология. In:  Храковский В. С. (отв. ред.) Типология таксисных конструкций. Москва. Издательство «Знак». 11-113.
 
-Шлуинский, А. В. 2005. Типология предикатной множественности: количественные аспектуальные значения. Кандидатская диссертация. Московский государственный университет им. М.В. Ломоносова. Москва.
+Шлуинский, А. Б. 2005. Типология предикатной множественности: количественные аспектуальные значения. Кандидатская диссертация. Московский государственный университет им. М.В. Ломоносова. Москва.
 
 
 
