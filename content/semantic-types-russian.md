@@ -306,47 +306,47 @@ The constructions of this type contain information on the relationship between a
 
   + **Unaffected small portion** (Незатронутый квант) – Указание на то, что действие не затрагивает ни одну малейшую порцию объекта: **ни крошки не VP** – _Он так и не съел ни крошки._
 
-+ **Measure** – Constructions of this type encode the quantity of discrete objects, amount of substance or values of quantified properties of objects such as size, length, volume, weight, etc. This type includes constructions with numerals or other, non-conventional, means of expressing amount or quantity.
++ **Measure** (Измерение количества) – Конструкции данного типа выражают количество дискретных предметов или вещества, а также величину измеряемых характеристик этих объектов (размер, длина, объём, вес и т. д.). Данный семантический тип включает конструкции с числами и другими нечисловыми способами выразить количество.
 
-  + **Age** – The construction denotes age: e.g. **NP под NumCrd-Acc (лет)**, as in _Людмиле Петровне под пятьдесят._
+  + **Age** (Возраст) – Указание на возраст: **NP под NumCrd-Acc (лет)** – _Людмиле Петровне под пятьдесят._
 
-  + **Dimensions** – The construction denotes measurement of a certain parameter of a single object. This parameter is linear (length, height, depth, radius, diameter). We do not separate these parameters since the same constructions are used to encode them: e.g. **NP длиной/шириной/толщиной/высотой/глубиной (в) NumCrd-Acc NP-Gen**, as in _Велодорожка длиной шесть километров._
+  + **Dimensions** (Линейные величины) – Указание на измерение линейных величин некоторого объекта (длины, ширины, глубины, радиуса, диаметра). Такое объединение основано на использовании одних и тех же конструкций для этих параметров: **NP длиной/шириной/толщиной/высотой/глубиной (в) NumCrd-Acc NP-Gen** – _Велодорожка длиной шесть километров._
 
-  + **Distance** – The construction denotes measurement of the distance between two objects: e.g. **Cl в NumCrd-Loc кварталах/домах (от NP-Gen)**, as in _Этот магазин был в трёх кварталах от почты._
+  + **Distance** (Расстояние) – Указание на измерение расстояния между двумя объектами: **Cl в NumCrd-Loc кварталах/домах (от NP-Gen)** – _Этот магазин был в трёх кварталах от почты._
 
-  + **Money** – The construction denotes prices and other amounts of money: e.g. **VP на NumCrd-Acc рублей**, as in _На сто рублей можно купить хлеб и колбасу._
+  + **Money** (Деньги) – Указание на цену или иное количество денежных средств: **VP на NumCrd-Acc рублей** – _На сто рублей можно купить хлеб и колбасу._
 
-  + **Size** – The construction denotes measurement of an object's size: e.g. **NP (размером/величиной) с NP-Acc**, as in _Собака была размером с лошадь._
+  + **Size** (Размер) – Указание на размер объекта или участника: **NP (размером/величиной) с NP-Acc** – _Собака была размером с лошадь._
 
-  + **Speed** – The construction denotes measurement of the speed: e.g. **Cl, а как чешет!**, as in _Такой маленький, а как чешет!_
+  + **Speed** (Скорость) – Указание на измерение скорости: **Cl, а как чешет!** – _Такой маленький, а как чешет!_
 
-  + **Surface area** – The construction denotes measurement of surface area: e.g. **NP площадью (в) NumCrd-Acc NP**, as in _Участок площадью сто гектаров._
+  + **Surface area** (Площадь) – Указание на измерение площади некоторой территории или поверхности: **NP площадью (в) NumCrd-Acc NP** – _Участок площадью сто гектаров._
 
-  + **Time** – The construction denotes measurement of a certain time period: e.g. **VP NumCrd-Nom NP-Gen**, as in _Он писал письмо четыре часа._
+  + **Time** (Время) – Указание на количество времени: **VP NumCrd-Nom NP-Gen** – _Он писал письмо четыре часа._
 
   + **Volume** – The construction denotes measurement of an object's volume. The construction is relevant for both the volume of a physical container or a metaphorical container of information, such as a book: e.g. **NP объёмом (в) NumCrd-Acc NP**, as in _Книга объёмом в сто страниц._
 
-  + **Weight** – The construction denotes measurement of an object's weight: e.g. **NP весом/массой (в) NumCrd-Acc NP**, as in _Баржа весом в шесть тонн._
+  + **Weight** (Объем) – Указание на измерение количества в единицах объема. Релевантно для физических и абстрактных контейнеров (типа книг и др. носителей информации): **NP весом/массой (в) NumCrd-Acc NP** – _Баржа весом в шесть тонн._
 
-  + **Unspecified** – This subtype includes constructions that are not limited to a single measurement parameter: e.g. **куча NP-Gen**, as in _У меня всегда куча дел._
+  + **Unspecified** (Измерение: Без уточнения) – Этот подтип объединяет конструкции, которые не ограничиваются одним параметром измерения количества: **куча NP-Gen** – _У меня всегда куча дел._
 
-+ **Calculation** – Constructions encode various mathematical operations (addition, subtraction, division, multiplication, exponentiation, and radical expression) as well as equations and fractions.
++ **Calculation** (Счет) – Конструкции формулируют различные математические операции (сложение, вычитание, деление, умножение, возведение в степень, извлечениe корня), а также равенства, неравенства и дроби.
 
-  + **Addition** – The construction encodes a mathematical operation of addition: e.g. **NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat**, as in _Два плюс два равно четыре._
+  + **Addition** (Сложение) – Формулировка математической операции сложения: **NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat** – _Два плюс два равно четыре._
 
-  + **Division** – The construction encodes a mathematical operation of division: e.g. **NumCrd-Acc разделить/поделить/делить на NumCrd-Acc – (равно/VP) NumCrd-Nom**, as in _Пятнадцать разделить на три равно пять._
+  + **Division** (Деление) – Формулировка математической операции деления: **NumCrd-Acc разделить/поделить/делить на NumCrd-Acc – (равно/VP) NumCrd-Nom** – _Пятнадцать разделить на три равно пять._
 
-  + **Equation** – The construction expresses mathematical equations and inequations: e.g. **Cl (не) равно/равняется NumCrd-Dat/NumCrd-Nom**, as in _Два плюс один не равно пяти._
+  + **Equation** (Равенства) – Формулировка математического равенства или неравенства: **Cl (не) равно/равняется NumCrd-Dat/NumCrd-Nom** – _Два плюс один не равно пяти._
 
-  + **Exponentiation** – The construction encodes a mathematical operation of exponentiation: e.g. **NumCrd-Nom в NumOrd-Loc (степени) – (равно/VP) NumCrd-Nom/NumCrd-Dat**, as in _Десять в пятой степени – сто тысяч._
+  + **Exponentiation** (Возведение в степень) – Формулировка математической операции возведения в степень. Включает частные операции по возведению во вторую степень (квадрат) и в третью степень (куб): **NumCrd-Nom в NumOrd-Loc (степени) – (равно/VP) NumCrd-Nom/NumCrd-Dat** – _Десять в пятой степени – сто тысяч._
 
-  + **Extraction of a root** – The construction encodes a mathematical operation of extraction of a root: e.g. **(квадратный) корень из NumCrd-Gen – (это) NumCrd-Nom/равен NumCrd-Dat**, as in _Десять в пятой степени – сто тысяч._
+  + **Extraction of a root** (Извлечение корня) – Формулировка математической операции извлечения корня: **(квадратный) корень из NumCrd-Gen – (это) NumCrd-Nom/равен NumCrd-Dat** – _Десять в пятой степени – сто тысяч._
 
-  + **Fraction** – The construction names mathematical fractions, including both simple and decimal fractions: e.g. **одна NumOrd-Sg.F (часть/доля) (NP-Gen)**, as in _Добавить одну пятую ложки сахара._
+  + **Fraction** (Дроби) – Формулировка математических дробей. Включает обыкновенные и десятичные дроби: **одна NumOrd-Sg.F (часть/доля) (NP-Gen)** –  _Добавить одну пятую ложки сахара._
 
-  + **Multiplication** – The construction encodes a mathematical operation of multiplication: e.g. **NumCrd-Acc (умножить/помножить) на NumCrd-Acc – (равно/VP) NumCrd-Nom**, as in _Семь на восемь – пятьдесят шесть._
+  + **Multiplication** (Умножение) – Формулировка математической операции умножения: **NumCrd-Acc (умножить/помножить) на NumCrd-Acc – (равно/VP) NumCrd-Nom** – _Семь на восемь – пятьдесят шесть._
 
-  + **Subtraction** – The construction encodes a mathematical operation of subtraction: e.g. **NumCrd-Nom минус NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat**, as in _Пять минус три будет два._
+  + **Subtraction** (Вычитание) – Формулировка математической операции вычитания: **NumCrd-Nom минус NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat** – _Пять минус три будет два._
 
 ---
 
