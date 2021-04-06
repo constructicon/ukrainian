@@ -79,8 +79,7 @@ Situation structure is an umbrella term for those semantic types of construction
 
   + **Unspecified** – The construction refers to an actual event or a state triggered by a preceding situation: e.g. **VP до NP-Gen**, as in _Все овощи нужно залить кипятком и варить до готовности._
 
-+ **Actuality** – The construction refers to a successful realization of an action (compare the English verb manage, cf. Plungian & van der Auwera 1998: 104), or “the successful result of the ability” (Aijmer 2004: 62). Actuality as a category lies at the intersection of Aspectuality and Modality (Мордашова Forthcoming): **NP-Dat удалось VP-Inf**, as in _Мише удалось покурить._
-  + No subtypes
++ **Actuality** – The construction refers to a successful realization of an action (compare the English verb manage, cf. Plungian & van der Auwera 1998: 104), or “the successful result of the ability” (Aijmer 2004: 62). Actuality as a category lies at the intersection of Aspectuality and Modality (Мордашова Forthcoming): **NP-Dat удалось VP-Inf**, as in _Мише удалось покурить._ No subtypes.
 
 ------
 
@@ -98,17 +97,13 @@ The terminology we employ in this section overlaps with the terms of semantic ro
 
   + **Maleficiary** – The construction encodes a participant who is negatively affected by an event: e.g. **VP назло NP-Dat**, as in _Назло кондуктору куплю билет._
 
-+ **Instrument** – The construction encodes an instrument or a tool, that is, an object used by a participant in order to carry out an action: e.g. **VP с помощью/при помощи NP-Gen**, as in _Он всё починил с помощью отвёртки._
-  + No subtypes
++ **Instrument** – The construction encodes an instrument or a tool, that is, an object used by a participant in order to carry out an action: e.g. **VP с помощью/при помощи NP-Gen**, as in _Он всё починил с помощью отвёртки._ No subtypes.
 
-+ **Possession** – The construction denotes that a participant possesses an object or, more rarely, a quality or a right. This type is broader than the term _possessive_, which is traditionally understood merely as the possession of an object: e.g. **NP-Nom Cop/VP у NP-Gen на руках**, as in _Документы у меня на руках._
-  + No subtypes
++ **Possession** – The construction denotes that a participant possesses an object or, more rarely, a quality or a right. This type is broader than the term _possessive_, which is traditionally understood merely as the possession of an object: e.g. **NP-Nom Cop/VP у NP-Gen на руках**, as in _Документы у меня на руках._ No subtypes.
 
-+ **Comitative** – The construction expresses that a participant performs an action together with another participant or a group of participants. Unlike the Possession type, the Comitative type requires that both participants are animate: e.g. **VP за компанию (с NP-Ins)**, as in _Пойдёшь с нами за компанию?_
-  + No subtypes
++ **Comitative** – The construction expresses that a participant performs an action together with another participant or a group of participants. Unlike the Possession type, the Comitative type requires that both participants are animate: e.g. **VP за компанию (с NP-Ins)**, as in _Пойдёшь с нами за компанию?_ No subtypes.
 
-+ **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2011: 125): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._
-  + No subtypes
++ **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2011: 125): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._ No subtypes.
 
 + **Non-standard subject** – This tag refers to different ways of encoding the logical subject of an action, either by non-standard marking of the subject or denoting the substitution of the subject.
 
@@ -142,8 +137,7 @@ Constructions of this type provide information regarding spatial, temporal, and 
 
   + **Time period** – The construction refers to a time span during which an action or a situation takes place: e.g. **VP за NP-Ins**, as in _Он молчал за обедом._
 
-+ **Manner** – The construction specifies the manner of action, i.e. provides information on how the action is carried out. The construction refers to a qualitative characteristics of an activity, the method used in performing an activity: e.g. **VP-Ipfv без устали**, as in _Жена без устали готовила на кухне._
-  + No subtypes
++ **Manner** – The construction specifies the manner of action, i.e. provides information on how the action is carried out. The construction refers to a qualitative characteristics of an activity, the method used in performing an activity: e.g. **VP-Ipfv без устали**, as in _Жена без устали готовила на кухне._ No subtypes.
 
 ------
 
@@ -151,17 +145,13 @@ Constructions of this type provide information regarding spatial, temporal, and 
 
 The construction refers to the relationship between events in terms of cause, purpose, consequence, condition, or concession.
 
-+ **Cause** – The construction indicates the cause of an action: e.g. **VP от NP-Gen**, as in _Ноги дрожат от страха._
-  + No subtypes
++ **Cause** – The construction indicates the cause of an action: e.g. **VP от NP-Gen**, as in _Ноги дрожат от страха._ No subtypes.
 
-+ **Purpose** – The construction indicates the purpose of an action: e.g. **на что NP-Dat Cop NP-Nom?**, as in _На что мне эти книги?_
-  + No subtypes
++ **Purpose** – The construction indicates the purpose of an action: e.g. **на что NP-Dat Cop NP-Nom?**, as in _На что мне эти книги?_ No subtypes.
 
-+ **Consequence** – The construction refers to the consequences of an action: e.g. **Cl, вследствие чего Cl**, as in _Деньги расходовались нерационально, вследствие чего предприятие быстро разорилось._
-  + No subtypes
++ **Consequence** – The construction refers to the consequences of an action: e.g. **Cl, вследствие чего Cl**, as in _Деньги расходовались нерационально, вследствие чего предприятие быстро разорилось._ No subtypes.
 
-+ **Condition** – The construction introduces the condition of an action or a situation: e.g. **раз (уж) Cl, (то) Cl**, as in _Раз уж мы встретились, давайте обсудим эту проблему._
-  + No subtypes
++ **Condition** – The construction introduces the condition of an action or a situation: e.g. **раз (уж) Cl, (то) Cl**, as in _Раз уж мы встретились, давайте обсудим эту проблему._ No subtypes.
 
 + **Concession** – The constructions of this type counterpose two situations that are in conflict with each other. The constructions denote that one of these situations is deemed possible or happening in spite of the other adverse situation. We distinguish the subtypes of concession semantics by following Апресян 1999.
 
@@ -273,29 +263,17 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
 The constructions of this type contain information on the relationship between an element and a set. We distinguish between quantifiers and operators. The operators modify a proposition or a set and "apply" to simplex quantifiers to derive complex quantifiers.
 
-+ **Additive** – The construction denotes that some physical objects are added to a set (as opposed to Discourse additive denoting that some information is added to what has already been said): e.g. **VP в придачу (к NP-Dat)**, as in _В придачу к медали он получил премию._
++ **Additive** – The construction denotes that some physical objects are added to a set (as opposed to Discourse additive denoting that some information is added to what has already been said): e.g. **VP в придачу (к NP-Dat)**, as in _В придачу к медали он получил премию._ No subtypes.
   
-  + No subtypes
++ **Inclusive** – The construction denotes that an element is included in a set: e.g. **NP, в том числе (и) NP**, as in _Живые существа, в том числе и растения, пьют воду._ No subtypes.
   
-+ **Inclusive** – The construction denotes that an element is included in a set: e.g. **NP, в том числе (и) NP**, as in _Живые существа, в том числе и растения, пьют воду._
-
-  + No subtypes
++ **Exclusive** – The construction denotes that a physical entity, a participant or an action are viewed as the exceptional and the only of their kind, and can be encountered exclusively in a given situation. Because of its exclusivity, an element is distinguished from the set but is not excluded from the set: e.g. **не кто/что иной, как NP**, as in _Это был не кто иной, как директор школы._ No subtypes.
   
-+ **Exclusive** – The construction denotes that a physical entity, a participant or an action are viewed as the exceptional and the only of their kind, and can be encountered exclusively in a given situation. Because of its exclusivity, an element is distinguished from the set but is not excluded from the set: e.g. **не кто/что иной, как NP**, as in _Это был не кто иной, как директор школы._
++ **Еxceptive** – The construction denotes that an element is excluded from a set: e.g. **за исключением NP-Gen, Cl**, as in _Я прочитал все, за исключением последней главы._ No subtypes.
 
-  + No subtypes
++ **Subset** – The construction denotes a subset that belongs to a set. The construction often refers to the hyperonym vs. hyponym relationship (that is an umbrella term vs. a more specific word): e.g. **NP из круга NP-Gen**, as in _Знакомые из круга писателей._ No subtypes.
   
-+ **Еxceptive** – The construction denotes that an element is excluded from a set: e.g. **за исключением NP-Gen, Cl**, as in _Я прочитал все, за исключением последней главы._
-
-  + No subtypes
-
-+ **Subset** – The construction denotes a subset that belongs to a set. The construction often refers to the hyperonym vs. hyponym relationship (that is an umbrella term vs. a more specific word): e.g. **NP из круга NP-Gen**, as in _Знакомые из круга писателей._
-
-  + No subtypes
-  
-+ **Options** – The construction denotes that several options exist on equal rights and can occur in the situation: e.g. **хоть NP, хоть NP**, as in _Покупай хоть мотоцикл, хоть машину._
-
-  + No subtypes
++ **Options** – The construction denotes that several options exist on equal rights and can occur in the situation: e.g. **хоть NP, хоть NP**, as in _Покупай хоть мотоцикл, хоть машину._ No subtypes.
 
 + **Quantification** – The constructions with this tag contain quantifiers of various kinds. We adopt the classification of quantifiers typologically verified and applied for the Russian data in Татевосов 2002 and Paperno 2012:
 
@@ -393,11 +371,11 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
   + **Low degree of certainty** – The construction refers to a low degree of confidence in the proposition: the situation is assessed as highly improbable: e.g. **вроде (как) XP/Cl**, as in _Он вроде как идёт._
 
+------
+
 ### 2.2. Subclass Neighborhood of Core Modal Meanings
 
-+ **Volition** – The construction denotes a desire or a wish. This type of constructions includes both expressions of the desires of the speaker (optative) and expressions of the desires of any participant of the situation (desiderative): e.g. **вот бы (NP-Dat) (никогда не/всегда) VP-Inf!**, as in _Вот бы никогда не работать!_
-  
-  + No subtypes
++ **Volition** – The construction denotes a desire or a wish. This type of constructions includes both expressions of the desires of the speaker (optative) and expressions of the desires of any participant of the situation (desiderative): e.g. **вот бы (NP-Dat) (никогда не/всегда) VP-Inf!**, as in _Вот бы никогда не работать!_ No subtypes.
 
 + **Causation** – We use the tag Causation in a broad sense as 'encouragement to perform an action'. This does not necessarily entail the involvement of an additional participant (as would be expected from the grammatical term _causative_).
 
@@ -413,19 +391,17 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
   + **Prohibitive** – The construction expresses strict prohibition to perform an action in the future: e.g. **ни слова NP-Dat о NP-Loc!**, as in _Ни слова маме о нашей поездке!_
 
-+ **Threat** – The construction conveys a threat. The speaker condemns an action that is performed or can potentially be performed by the interlocutor or another participant of the situation. It is implied that the speaker can punish them if they do not obey: e.g. **я PronPers-Dat VP-Fut!**, as in _Я тебе поору!_
- 
-  + No subtypes
++ **Threat** – The construction conveys a threat. The speaker condemns an action that is performed or can potentially be performed by the interlocutor or another participant of the situation. It is implied that the speaker can punish them if they do not obey: e.g. **я PronPers-Dat VP-Fut!**, as in _Я тебе поору!_ No subtypes.
 
-+ **Request** – The construction conveys the speaker's request to perform an action: e.g. **нельзя ли Cop VP-Inf?**, as in _Нельзя ли сделать музыку потише?_
- 
-  + No subtypes
++ **Request** – The construction conveys the speaker's request to perform an action: e.g. **нельзя ли Cop VP-Inf?**, as in _Нельзя ли сделать музыку потише?_ No subtypes.
 
 + **Apprehension** – The construction expresses apprehension or warning regarding an "undesirable situation that the speaker deems possible and wants to avoid" (Baydina 2016). The speaker is afraid of that this situation can take place (Apprehensive sub-type) and urges the conversation partner to perform an action that would help to avoid this situation (Preventive sub-type) (cf. Добрушина 2006).
 
   + **Apprehensive** – The construction expresses apprehension on behalf of the speaker regarding an undesirable action or event that can take place: e.g. **((Я) боюсь,) как бы не VP-Pfv.Pst**, as in _Как бы Миша не опоздал!_
 
   + **Preventive** – The construction expresses warning and serves as an attempt of the speaker to prevent an undesirable action or event to take place: e.g. **смотреть-Imp, (не) VP-Imp**, as in _Смотрите, не опоздайте!_
+
++ **Curse** – See semantic class DISCOURSE, subclass Discourse clauses, semantic type Routine.
 
 ---
 
@@ -471,9 +447,7 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
   + **Expressing opinion** – The construction expresses the opinion of the participant regarding a certain topic: e.g. **по мнению NP-Gen, Cl**, as in _По мнению властей, необходимо принять меры и остановить загрязнение реки._
 
-+ **Mirative** – The construction expresses that the speaker is surprised with the new unexpected information (DeLancey 1997; Aikhenvald 2012): e.g. **NP-Nom возьми и VP-Imp**, as in _А он возьми и купи новую машину!_
-  
-  + No subtypes
++ **Mirative** – The construction expresses that the speaker is surprised with the new unexpected information (DeLancey 1997; Aikhenvald 2012): e.g. **NP-Nom возьми и VP-Imp**, as in _А он возьми и купи новую машину!_ No subtypes.
 
 ---
 
@@ -503,17 +477,13 @@ This group includes the constructions that organize the communication process, u
 
   + **Topic change** – The construction ends the discussion of one topic and switches attention to another topic of conversation: e.g. **Это всё Cop Pred, но Cl**, as in _Это всё хорошо, но самое главное – безопасность._
 
-+ **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a larger than speaker community of speakers. Compare the English _as they say_ (see also Nuyts 2005: 14): e.g. **так сказать, XP**, as in _Это один из тех фильмов, которые, так сказать, на века._
-  
-  + No subtypes
++ **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a larger than speaker community of speakers. Compare the English _as they say_ (see also Nuyts 2005: 14): e.g. **так сказать, XP**, as in _Это один из тех фильмов, которые, так сказать, на века._ No subtypes.
 
-+ **Objectivity** – The speaker presents some information as well-known to many people, accurate facts and objectivizes the content of his message by referring to the status of his information. Compare the English _in fact_: e.g. **как известно, Cl**, as in _Как известно, он мастер стихи сочинять._
-  
-  + No subtypes
++ **Objectivity** – The speaker presents some information as well-known to many people, accurate facts and objectivizes the content of his message by referring to the status of his information. Compare the English _in fact_: e.g. **как известно, Cl**, as in _Как известно, он мастер стихи сочинять._ No subtypes.
 
-+ **Source of information** – The construction indicates the source of the provided information: e.g. **по словам NP-Gen, Cl**, as in _По словам учителя, провести урок дистанционно не так просто._
-  
-  + No subtypes
++ **Source of information** – The construction indicates the source of the provided information: e.g. **по словам NP-Gen, Cl**, as in _По словам учителя, провести урок дистанционно не так просто._ No subtypes.
+
+---
 
 ### 4.2. Subclass Discourse Clauses
 
@@ -588,6 +558,8 @@ Parameters are understood here as the meanings of intensity and accuracy that ca
   + **Approximate** – The construction shows that the number of objects is approximate. It also includes cases where the situation does not entirely correspond to its definition: e.g. **NP-Gen.Pl NumCrd**, as in _На лекцию пришли человек двадцать._
 
   + **Exact** – The construction refers to an exact number of objects, exact time or perfectly suitable size: e.g. **(в) аккурат VP**, as in _Жди меня, и я вернусь в аккурат к обеду._
+
+---
 
 ## List of references
 
