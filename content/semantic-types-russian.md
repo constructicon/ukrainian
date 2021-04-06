@@ -406,33 +406,33 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
 ---
 
-## 3. Semantic class SUBJECTIVITY
+## 3. Семантический класс Выражение субъективности (SUBJECTIVITY)
 
-A large class of constructions incoding assessment, attitude, polarity value, mirativity, and source of opinion.
+Большой класс конструкций, которые выражают оценку, отношение, миративность или источник мнения.
 
-+ **Assessment** – Assessment constructions "express evaluation of an item external to the speaker" (Endresen and Janda 2020). This item can be a physical object, or an animate participant in a situation, or a situation itself.
++ **Assessment** (Оценка) – Конструкции этого типа выражают оценку внешнего по отношению к говорящему элемента ситуации (Endresen and Janda 2020). Объектом оценки может быть физический предмет, одушевленный участник или сама ситуация.
 
-  + **Assessment in relation to knowledge** – The construction evaluates an object, a participant, time, or space depending on whether they are known or unknown to the speaker: e.g. **бог весть PronInt**, as in _Они принесли в пакете бог весть что._
+  + **Assessment in relation to knowledge** (Оценка с учетом знания) – Компонент ситуации (объект, участник, время или место) оценивается в зависимости от того, является ли он известной или неизвестной информацией для говорящего: **бог весть PronInt** – _Они принесли в пакете бог весть что._
 
-  + **Assessment in relation to norms and expectations** – The construction encodes assessment in terms of what is normal, standard, and/or expected. Тhe speaker compares the evaluated item to their idealized model of the world that functions as a standard. The idea of what is normal suggests to the speaker what to expect (Endresen and Janda 2020): e.g. **VP как следует**, as in _Он работал как следует._
+  + **Assessment in relation to norms and expectations** (Оценка с точки зрения норм и ожиданий) – Объект оценивается с учетом нормального, стандартного, ожидаемого. Говорящий соотносит оцениваемый объект со своей идеализированной моделью мира, которая функционирует как некий стандарт. Представление о том, что соответствует норме, формирует ожидания говорящего (Endresen and Janda 2020): **VP как следует** – _Он работал как следует._
 
-  + **Assessment in relation to quantification** – The construction encodes assessment by referring to a certain degree, or quantity, of a property. The relevant degrees form a scale and include: none, little, some/enough, a lot, and beyond the limit: e.g. **VP/Adj сверх меры**, as in _Он одарён сверх меры._
+  + **Assessment in relation to quantification** (Оценка через измерение) – Объект оценивается посредством отсылки к степени проявления признака. Степени образуют шкалу и включают: нисколько, мало, немного, много, сверх меры: **VP/Adj сверх меры** – _Он одарён сверх меры._
 
-  + **Assessment specific to people** – The construction encodes assessment of characteristics specific to people, such as intellectual capacities, behavior, power, appearance, emotional state, etc.: e.g. **у NP-Gen NP-Nom хромать**, as in _У брата сильно хромает география._
+  + **Assessment specific to people** (Оценка характеристик специфичных для человека) – Объектом оценки являются характеристики присущие людям, такие как умственные способности, поведение, власть, внешность, эмоциональное состояние и пр.: **у NP-Gen NP-Nom хромать** – _У брата сильно хромает география._
 
-  + **General Assessment** – The construction expresses an overall, undifferentiated evaluation of an object by approaching it as a whole, holistically. General Assessment is usually expressed by the adjectives "good" or "bad" and their synonyms that vary in terms of expressivity and stylistics (Endresen and Janda 2020): e.g. **NP-Nom Cop хороший-Short/плохой-Short NP-Ins**, as in _Эти места хороши своими лесами._
+  + **General Assessment** (Общая оценка) – Объект оценивается целиком, а не с одной определенной стороны. Как правило, общая оценка выражается прилагательными "хороший", "плохой" и их синонимами, которые различаются по своей выразительности и стилистической окраске: **NP-Nom Cop хороший-Short/плохой-Short NP-Ins** – _Эти места хороши своими лесами._
 
-+ **Attitude** – Attitude constructions refer to the evaluation of the speaker’s internal state of mind or internal emotional approach taken towards a situation. The constructions еxpress how the speaker feels about something, what standpoint he or she takes, what the speaker’s personal perspective on a subject or a situation is (Endresen and Janda 2020).
++ **Attitude** (Отношение) – Конструкции этого типа выражают отношение, которое понимается как эмоционально-оценочный взгляд говорящего на ситуацию или ее участников. Выражается, что говорящий чувствует по отношению к ситуации, какую внутреннюю позицию он занимает, какой точки зрения он придерживается относительно ситуации или темы (Endresen and Janda 2020).
 
-  + **Acceptance** – The construction denotes that the speaker more or less accepts the situation. The constructions convey the semantics of support and lack of support of an idea or a situation, willingness or unwillingness to perform an action, concern or unconcern, reconciliation, remorse, etc. Each of these meanings suggests additional semantic nuances to the general meaning of acceptance: e.g. **XP так ~XP**, as in _Суп так суп._
+  + **Acceptance** (Принятие ситуации) – Указание на принятие или непринятие ситуации говорящим. В конкретных конструкциях эта общая семантика сужается до ряда вариантов, которые привносят дополнительные смысловые нюансы в общую семантику принятия (или непринятия) ситуации. Так, может выражаться поддержка или отсутствие поддержки говорящим идеи или ситуации, желание или нежелание его выполнять действие, безразличие или участие по отношению к ситуации или участнику, смирение, сожаление и др.: **XP так ~XP** – _Суп так суп._
 
-  + **Capacity and Preferences** – The construction denotes attitude motivated by the capacities or preferences of the speaker. Being capable to deal with something triggers the attitude of feeling comfortable or uncomfortable with a certain activity: e.g. **NP-Nom Cop с NP-Ins на "вы"**, as in _Я с техникой на "вы"._
+  + **Capacity and Preferences** (Способности и предпочтения) – Указание на предпочтения говорящего по отношению к некоторому роду деятельности. Эти предпочтения обусловлены способностями и знаниями говорящего и создают у него ощущение комфорта или дискомфорта: **NP-Nom Cop с NP-Ins на "вы"** – _Я с техникой на "вы"._
 
-  + **Dissatisfaction** – The construction denotes that the speaker is dissatisfied with another participant, their actions or the entire situation. The attitudes of this type form a scale from mild Discontent to strong Disapproval to Swearing to Curse: e.g. **(NP-Dat) только NP-Gen (ещё) не хватало!**, as in _Только дождя не хватало!_
+  + **Dissatisfaction** (Недовольство) – Указание на то, что говорящий недоволен другим участником, его действиями или всей ситуацией. Варианты недовольства образуют шкалу от слабого неодобрения до осуждения, использования ругательств и проклятий: **(NP-Dat) только NP-Gen (ещё) не хватало!** – _Только дождя не хватало!_
 
-  + **Emotional Attitude** – The construction denotes the emotional attitude of the speaker towards a situation. The constructions can name specific emotional attitudes, refer to strong uncontrolled emotions or emphasize the depth or scope of the feeling: e.g. **NP-Dat Noun-Nom Cop не (в) ~Noun (без NP-Gen)**, as in _Девочкам радость не в радость._
+  + **Emotional Attitude** (Эмоциональное отношение) – Указание на эмоциональное отношение говорящего к ситуации. Могут обозначаться конкретные эмоции и чувства, неконтролируемость эмоций или глубина чувств: **NP-Dat Noun-Nom Cop не (в) ~Noun (без NP-Gen)** – _Девочкам радость не в радость._
 
-  + **Mental Attitude** – The construction denotes attitude motivated by the speaker’s knowledge or expectations. The constructions encode skepticism, confidence, perplexity, or mirativity: e.g. **рассказывай/рассказывайте, Cl**, as in _Рассказывай, не было денег!_
+  + **Mental Attitude** (Отношение, мотивированное знаниями говорящего) – Указание на отношение, которое основано на знаниях и ожиданиях говорящего. Конструкции выражают скептицизм, уверенность, недоумение или удивление: **рассказывай/рассказывайте, Cl** – _Рассказывай, не было денег!_
 
 + **Polarity value** – This tag is applicable to Assessement and Attitude constructions and specifies whether they carry positive or negative evaluation.
 
@@ -478,61 +478,61 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
   + **Topic change** (Смена темы) – Конструкция завершает обсуждение одной темы и переводит внимание на другую тему разговора: **Это всё Cop Pred, но Cl** – _Это всё хорошо, но самое главное – безопасность._
 
-+ **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a larger than speaker community of speakers. Ср. англ. _as they say_ (см. также Nuyts 2005: 14): **так сказать, XP** – _Это один из тех фильмов, которые, так сказать, на века._ Без подтипов.
++ **Intersubjectivity** (Интерсубъективность) – Конструкция отсылает к широко известному, расхожему, часто идиоматическому выражению и таким образом апеллирует к широкого кругу говорящих, большему, чем отдельный индивид. Ср. англ. _as they say_ (см. также Nuyts 2005: 14): **так сказать, XP** – _Это один из тех фильмов, которые, так сказать, на века._ Без подтипов.
 
-+ **Objectivity** – The speaker presents some information as well-known to many people, accurate facts and objectivizes the content of his message by referring to the status of his information. Ср. англ. _in fact_: **как известно, Cl** – _Как известно, он мастер стихи сочинять._ Без подтипов.
++ **Objectivity** (Объективность) – Говорящий подает некоторую информацию как факт, хорошо известный многим людям. Конструкция объективизирует содержание высказывания, подчеркивая статус сообщаемой информации. Ср. англ. _in fact_: **как известно, Cl** – _Как известно, он мастер стихи сочинять._ Без подтипов.
 
 + **Source of information** (Источник информации) – Указание на источник сообщаемой информации: **по словам NP-Gen, Cl** – _По словам учителя, провести урок дистанционно не так просто._ Без подтипов.
 
 ---
 
-### 4.2. Subclass Discourse Clauses
+### 4.2. Подкласс Клаузальные конструкции с дискурсивной функцией (Discourse Clauses)
 
-This group includes the constructions that have a prominent communicative function and constitute an entire clause. Here we distinguish between two types: the constructions that express Reaction to the previous discourse and Routines.
+Эта группа включает конструкции, которые имеют ярко выраженную коммуникативную функцию и представляют собой целую клаузу. Выделяются две группы таких конструкций, а именно конструкции, выражающие Реакцию на предшествующий дискурс и Формулы речи.
 
-+ **Reaction to the previous discourse** – Previous context is crucial for understanding constructions of this type. These constructions show how the speaker reacts to the statement of the interlocutor or the speaker's own statements.  Such constructions also occur when presenting the inner monologue of the speaker that is constructed as a conversation in which the speaker is talking to him- or herself. We distingush the constructions that semantically equal 'Yes' or "No" (the subtypes Agreement and Disagreement accordingly) and the constructions that express the surprise, evidence or warning. 
++ **Reaction to the previous discourse** (Реакция на предшествующий дискурс) – Для понимания конструкций данного типа необходимо учитывать предыдущий контекст. Конструкции выражают реакцию говорящего на слова собеседника или слова самого говорящего. Конструкции также встречаются при передаче внутренней речи говорящего, которая конструируется как его диалог с самим собой. Мы рассматриваем многословные конструкции, которые могут быть равнозначны ответу "Да" или "Нет" (типы Согласие и Несогласие соответственно) или выражать удивление, обоснование или предупреждение. 
 
-  + **Agreement** – The construction indicates the speaker's agreement with the preceding statement: e.g. **как Cop не VP-Inf!**, as in _Как не знать!_
+  + **Agreement** (Согласие) – Конструкция выражает, что говорящий согласен с предшествующим высказыванием: **как Cop не VP-Inf!** – _Как не знать!_
 
-  + **Disagreement** – The construction indicates the speaker's disagreement with the preceding statement: e.g. **(а) кто (это) сказал, что Cl**, as in _А кто сказал, что мы не хотим в кино?_
+  + **Disagreement** (Несогласие) – Конструкция выражает, что говорящий не согласен с предшествующим высказыванием: **(а) кто (это) сказал, что Cl** – _А кто сказал, что мы не хотим в кино?_
 
-  + **Doubt** – The construction expresses the speaker's doubts about the interlocutor's earlier statement: e.g. **PronPers Verb-Fut.2.Sg!**, as in _– Ты должен его уговорить. – Его уговоришь!_
+  + **Doubt** (Сомнение) – Конструкция выражает сомнение говорящего относительно справедливости суждения, сделанного его собеседником: **PronPers Verb-Fut.2.Sg!** _– Ты должен его уговорить. – Его уговоришь!_
 
-  + **Insight** – The construction indicates that he speaker suddenly realizes the covert meaning of the interlocutor's earlier words or actions: e.g. **вот NP-Nom к чему (клонить)**, as in _Вот ты к чему клонишь..._
+  + **Insight** (Озарение) – Конструкция указывает на то, что говорящий вдруг понимает скрытый смысл слов или действий собеседника: **вот NP-Nom к чему (клонить)** – _Вот ты к чему клонишь..._
 
-  + **Irrelevance** – The construction indicates that an element of a situation is irrelevant to the speaker: e.g. **что/чего тут Cop VP-Inf?!**, as in _Что тут думать? Надо срочно покупать эту сумку!_
+  + **Irrelevance** (Нерелевантность) – Конструкция выражает, что некоторый элемент ситуации расценивается говорящим как нерелевантный, неважный или ненужный: **что/чего тут Cop VP-Inf?!** – _Что тут думать? Надо срочно покупать эту сумку!_
 
-  + **Self-evidence** – The construction expresses the idea that some information is, from the speaker's point of view, indisputable or even self-evident based on the speaker's general knowledge or their awareness about this specific situation: e.g. **ещё бы PronPers-Dat не Verb-Inf, Cl!**, as in _Ещё бы им не любить работу, когда они выросли в деревне!_
+  + **Self-evidence** (Самоочевидность) – Конструкция выражает, что некоторая информация с точки зрения говорящего является бесспорной или даже само собой разумеющейся, исходя из общих знаний говорящего или его осведомленности о ситуации: **ещё бы PronPers-Dat не Verb-Inf, Cl!** – _Ещё бы им не любить работу, когда они выросли в деревне!_
 
-  + **Surprise** – The construction indicates that the speaker is surprised with the received message: e.g. **как это XP/Cl?**, as in _Как это он не приедет?_
+  + **Surprise** (Удивление) – Конструкция выражает, что говорящий удивлен полученным сообщением: **как это XP/Cl?** – _Как это он не приедет?_
 
-  + **Warning** – The construction expresses the speaker's warning addressed to the interlocutor: e.g. **и (только) не говори потом, что Cl**, as in _И не говори потом, что я тебя не предупреждала!_
+  + **Warning** (Предупреждение) – Обозначение предупреждения, предостережения со стороны говорящего: **и (только) не говори потом, что Cl** – _И не говори потом, что я тебя не предупреждала!_
 
-  + **Accentuation** – The construction stresses out an element of the interlocutor's earlier statement: e.g. **в то́м-то и NP-Nom, (что) Cl**, as in _В том-то и дело, что не знаем._
+  + **Accentuation** (Выделение) – Конструкция специально акцентирует, выделяет элемент высказывания, сделанного собеседником: **в то́м-то и NP-Nom, (что) Cl** – _В том-то и дело, что не знаем._
 
-+ **Routine** – Fixed formulaic phrases used in typical communicative contexts (greetings, partings, apologies, etc.). 
++ **Routine** (Формулы речи) – Устойчивые фразы для этикетного общения. Используются в типичных коммуникативных ситуациях (приветствие, прощание, благодарность, извинение и т.д.).
 
-  + **Apology** – The construction expresses apologies: e.g. **Прошу прошения за NP-Acc/за то, что Cl**, as in _Прошу прощения за опоздание._
+  + **Apology** (Формулы извинений) – Выражение извинений: **Прошу прошения за NP-Acc/за то, что Cl** – _Прошу прощения за опоздание._
 
-  + **Conversation support** – The construction is used to keep the conversation going and encode the speaker's feedback: e.g. **Вот-вот, Cl**, as in _Вот-вот, мне тоже фильм понравился!_
+  + **Conversation support** (Формулы поддержания разговора) – Фразы для поддержания разговора, маркеры обратной связи: **Вот-вот, Cl** – _Вот-вот, мне тоже фильм понравился!_
 
-  + **Curse** – The construction expresses negative wishes and imposes destruction or damage on the interlocutor or another participant of the situation: e.g. **чтоб NP-Dat пусто было**, as in _И вообще, убирайтесь со своими советами. Чтоб вам всем пусто было!_
+  + **Curse** (Проклятия) – Выражение негативных пожеланий в адрес собеседника или другого участника ситуации: **чтоб NP-Dat пусто было** – _И вообще, убирайтесь со своими советами. Чтоб вам всем пусто было!_
 
-  + **Greeting** – The construction expresses greeting: e.g. **NP-Nom приветствовать NP-Acc**, as in _Приветствуем вас на нашей конференции!_
+  + **Greeting** (Формулы приветствия) – Фразы при приветствии: **NP-Nom приветствовать NP-Acc** – _Приветствуем вас на нашей конференции!_
 
-  + **Kind wishes** – The construction expresses kind wishes, condolences, and congratulations: e.g. **(NP-Nom поздравлять) c NP-Ins (NP-Acc)**, as in _С Новым годом!_
+  + **Kind wishes** (Формулы пожеланий) – Выражение пожеланий (в том числе соболезнований) и поздравлений: **(NP-Nom поздравлять) c NP-Ins (NP-Acc)** – _С Новым годом!_
 
-  + **Oath** – The construction expresses an oath or promise: e.g. **NP-Nom дать слово, что Cl**, as in _Даю слово, что ты меня больше никогда не увидишь._
+  + **Oath** (Клятва) – Формулировка обещания, клятвы, которую дает говорящий: **NP-Nom дать слово, что Cl** – _Даю слово, что ты меня больше никогда не увидишь._
 
-  + **Parting** – The construction is used in the situation of parting: e.g. **до NP-Gen!**, as in _До свидания!_
+  + **Parting** (Формулы прощания) – Фразы при прощании: **до NP-Gen!** – _До свидания!_
 
-  + **Politeness marker** – The construction serves to mark politeness on behalf of the speaker: e.g. **Уж простить-Imp/извинить-Imp, но Cl**, as in _Уж простите, но всё будет по договору._
+  + **Politeness marker** (Маркеры вежливости) – Выражение вежливости говорящего: **Уж простить-Imp/извинить-Imp, но Cl** – _Уж простите, но всё будет по договору._
 
-  + **Praise** – The construction expresses a praise: e.g. **Слава NP-Dat, (что) Cl**, as in _Слава богу, вижу прекрасно и всё слышу._
+  + **Praise** (Восхваление) – Восхваление и прославление говорящим других участников или абстрактных сил из чувства благодарности: **Слава NP-Dat, (что) Cl** – _Слава богу, вижу прекрасно и всё слышу._
 
-  + **Swearing** – Highly expressive constructions that contain taboo vocabulary and usually convey negative emotions of the speaker about the situation: e.g. **ни черта́ не VP**, as in _Я ни черта не вижу._
+  + **Swearing** (Ругательствa) – Экспрессивные фразы, которые содержат табуированную лексику и как правило выражают негативное отношение говорящего: **ни черта́ не VP** – _Я ни черта не вижу._
 
-  + **Thanks** – The construction expresses gratitude: e.g. **Спасибо NP-Dat (за NP-Acc/за то, что Cl)!**, as in _Спасибо тебе за помощь!_
+  + **Thanks** (Формулы благодарности) – Выражение благодарности: **Спасибо NP-Dat (за NP-Acc/за то, что Cl)!** – _Спасибо тебе за помощь!_
 
 ---
 
