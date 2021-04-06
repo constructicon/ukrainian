@@ -292,19 +292,19 @@ The constructions of this type contain information on the relationship between a
 
 ------
 
-### 1.7. Subclass Magnitude
+### 1.7. Подкласс Величины (Magnitude)
 
-This group of constructions includes three semantic types: Non-Existence, Measure, and Calculation.
+Группа конструкций, которая включает конструкции трех семантических типов: Несуществование, Измерение количества и Счет.
 
-+ **Non-Existence** – Constructions with this tag signify that an important component of a situation is absent, unaffected or disappears.
++ **Non-Existence** (Несуществование) – Конструкции с этим тегом содержат указание на полное отсутствие, незатронутость действием или исчезновение важного компонента ситуации.
 
-  + **Absence** – The construction signifies that a certain crucial for the speaker component of a situation (like time, space, object, partner, etc.) is absent (compare similar structures in English: there is nothing to live for; there is nowhere to go; there is nothing to eat; there is no one to talk to; etc.): e.g. **(NP-Dat) VP-Inf Cop нечего**, as in _Есть было нечего._
+  + **Absence** (Отсутствие компонента ситуации) – Указание на то, что некоторый важный для говорящего компонент ситуации (такой как время, место, объект, партнер и пр.) отсутствует. Близкие по значению конструкции в английском: _there is nothing to live for; there is nowhere to go; there is nothing to eat; there is noone to talk to_ и т.д.: **(NP-Dat) VP-Inf Cop нечего** – _Есть было нечего._
 
-  + **Disappear** – The construction signifies that an object or a participant of the situation vanishes: e.g. **NP-Gen как не бывало**, as in _Простуды как не бывало._
+  + **Disappear** (Исчезновение) – Указание на исчезновение объекта или участника ситуации: **NP-Gen как не бывало** – _Простуды как не бывало._
 
-  + **Unaffected generally** – The construction signifies that the object is not affected by the action at all: e.g. **ничего не VP**, as in _Вася ничего не ел._
+  + **Unaffected generally** (Незатронутый объект) – Указание на то, что действие совсем не затрагивает некоторый объект: **ничего не VP** – _Вася ничего не ел._
 
-  + **Unaffected small portion** – The construction signifies that not a single small portion of the object is affected by an action: e.g. **ни крошки не VP**, as in _Он так и не съел ни крошки._
+  + **Unaffected small portion** (Незатронутый квант) – Указание на то, что действие не затрагивает ни одну малейшую порцию объекта: **ни крошки не VP** – _Он так и не съел ни крошки._
 
 + **Measure** – Constructions of this type encode the quantity of discrete objects, amount of substance or values of quantified properties of objects such as size, length, volume, weight, etc. This type includes constructions with numerals or other, non-conventional, means of expressing amount or quantity.
 
@@ -350,59 +350,59 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
 ---
 
-## 2. Semantic class MODALITY AND ITS NEIGHBORHOOD
+## 2. Семантический класс МОДАЛЬНОСТЬ И СМЕЖНЫЕ КАТЕГОРИИ (MODALITY AND ITS NEIGHBORHOOD)
 
-On the one hand, we adopt the traditional widely accepted approach and take a narrow understanding of modality that refers to Root and Epistemic modality. On the other hand, we consider categories closely related to modality as its "neighborhood", and suggest that it includes Volition, Causation, Prohibition, Threat, Request, Apprehension, and Curse.
+С одной стороны, мы следуем традиционному подходу, в соответствии с которым модальность понимается узко и соотносится с исходной, "корневой" модальностью и эпистемической модальностью. С другой стороны, мы принимаем во внимание и категории, смежные с модальностью: Волитивность, Побуждение к действию, Запрет, Угроза, Просьба, Опасение и формулы речи, выражающие проклятия.
 
-### 2.1. Subclass Core Modal Meanings
+### 2.1. Подкласс Центральные модальные значения (Core Modal Meanings)
 
-+ **Root modality** – We adopt the traditional widely accepted approach and take a narrow understanding of modality. According to this approach, this category includes necessity and possibility (cf. van der Auwera & Plungian 1998; Nuyts 2016). For deontic participant-external possibility we use a separate tag Permission.
++ **Root modality** (Исходная ("корневая") модальность) – Мы следуем традиционному подходу, в соответствии с которым модальность понимается узко, т. е. как категория, включающая только значения необходимости и возможности (см. van der Auwera & Plungian 1998; Nuyts 2016). Для деонтической внешней возможности вводится отдельный тег Разрешение.
 
-  + **Necessity: Internal** – The construction refers to a participant-internal necessity determined by the needs or qualities (e.g. character, personality) of the partcipant: e.g. **(NP-Dat) Cop нужный-Short/необходимый-Short NP-Nom**, as in _Мне нужна ваша поддержка._
+  + **Necessity: Internal** (Необходимость: Внутренняя) – Указание на необходимость, обусловленную потребностями и свойствами (напр. чертами характера) участника: **(NP-Dat) Cop нужный-Short/необходимый-Short NP-Nom** – _Мне нужна ваша поддержка._
 
-  + **Necessity: External** – The construction refers to a participant-external necessity determined by the circumstances external to the participant and imposing a certain behavior: e.g. **(NP-Dat) пришлось/придётся VP-Inf**, as in _Пришлось выпить лекарство._
+  + **Necessity: External** (Необходимость: Внешняя) – Указание на необходимость, обусловленную внешними обстоятельствами, навязывающими участнику определенное поведение: **(NP-Dat) пришлось/придётся VP-Inf** – _Пришлось выпить лекарство._
 
-  + **Possibility** – The construction refers to a dynamic possibility that includes both participant-internal possibility, or ability (determined by the properties and capacities of the participant), and participant-external possibility (determined by the absence of obstacles for a situation): e.g. **(NP-Dat) Cop можно VP-Inf**, as in _До Москвы из Лондона можно долететь за четыре часа._
+  + **Possibility** (Возможность) – Указание на динамическую возможность, под которой понимается как внутренняя возможность (способность), обусловленная свойствами самого участника (его физическими качествами, умениями), так и внешняя возможность, обусловленная отсутствием препятствий для осуществления ситуации: **(NP-Dat) Cop можно VP-Inf** – _До Москвы из Лондона можно долететь за четыре часа._
 
-  + **Permission** – The construction refers to a deontic external possibility, i.e. permission to perform an action or the speaker's request for such permission: e.g. **не страшно/ничего, если Cl?**, as in _Не страшно, если я закурю?_
+  + **Permission** (Разрешение) – Указание на деонтическую внешнюю возможность, т. е. разрешение на осуществление ситуации или запрос на таковое со стороны говорящего: **не страшно/ничего, если Cl?** – _Не страшно, если я закурю?_
 
-+ **Epistemic modality** – We follow Nuyts (2016: 38) in understanding epistemic modality as an estimation of "the likelihood that the state of affairs expressed in the clause applies in the world". Therefore, epistemic modality indicates the degree of confidence in a proposition, typically on the side of the speaker (cf. Boye 2016:117).
++ **Epistemic modality** (Эпистемическая модальность) – Эпистемическая модальность подразумевает оценку вероятности некоторого положения дел (см. Nuyts 2016: 38) и указывает на степень уверенности (как правило, говорящего) в сообщаемой информации (см. Boye 2016: 117).
 
-  + **High degree of certainty** – The construction refers to a high degree of confidence in the proposition: the situation is assessed as probable or highly probable: e.g. **зуб даю, что Cl**, as in _Зуб даю, что никто в комнату не заходил._
+  + **High degree of certainty** (Уверенность) – Указание на высокую степень уверенности в сообщаемом: ситуация оценивается как вероятная или очень вероятная: **зуб даю, что Cl** – _Зуб даю, что никто в комнату не заходил._
 
-  + **Low degree of certainty** – The construction refers to a low degree of confidence in the proposition: the situation is assessed as highly improbable: e.g. **вроде (как) XP/Cl**, as in _Он вроде как идёт._
+  + **Low degree of certainty** (Неуверенность) – Указание на низкую степень уверенности в сообщаемом: ситуация оценивается как маловероятная: **вроде (как) XP/Cl** – _Он вроде как идёт._
 
 ------
 
-### 2.2. Subclass Neighborhood of Core Modal Meanings
+### 2.2. Подкласс Смежные с модальностью категории (Neighborhood of Core Modal Meanings)
 
-+ **Volition** – The construction denotes a desire or a wish. This type of constructions includes both expressions of the desires of the speaker (optative) and expressions of the desires of any participant of the situation (desiderative): e.g. **вот бы (NP-Dat) (никогда не/всегда) VP-Inf!**, as in _Вот бы никогда не работать!_ No subtypes.
++ **Volition** (Волитивность) – Указание на желание или пожелание. Mы включаем сюда и обозначение желания говорящего (оптатив), и обозначение желания любого участника ситуации (дезидератив): **вот бы (NP-Dat) (никогда не/всегда) VP-Inf!** – _Вот бы никогда не работать!_ Без подтипов.
 
-+ **Causation** – We use the tag Causation in a broad sense as 'encouragement to perform an action'. This does not necessarily entail the involvement of an additional participant (as would be expected from the grammatical term _causative_).
++ **Causation** (Побуждение к действию) – Мы используем тег Побуждение к действию в наиболее широком смысле, который не обязательно подразумевает появление нового участника в исходной диатезе (как ожидалось бы от каузативной актантной деривации).
 
-  + **Direct** – The construction expresses clear direct causation to perform an action (primarily imperative forms): e.g. **давай(те) VP-Fut.1.Pl!**, as in _Давайте пойдем в кино!_
+  + **Direct** (Прямое) – Конструкция содержит прямо и ясно выраженное побуждение к действию (прежде всего императивные формы): **давай(те) VP-Fut.1.Pl!** – _Давайте пойдем в кино!_
 
-  + **Indirect** – The construction expresses implicit or covert causation to perform an action (for example, in the form of a question): e.g. **как насчёт XP?**, as in _Как насчёт выпить?_
+  + **Indirect** (Непрямое) – Конструкция содержит имплицитное или несколько завуалированное побуждение к действию (например, в виде вопроса): **как насчёт XP?** – _Как насчёт выпить?_
 
-+ **Prohibition** – This tag refers to different ways of expressing prohibition: standard (Prohibitive) and attenuated (Attenuated prohibitive). Following (Рахилина 2013), we also include in this category continuative prohibitives as a separate subtype. 
++ **Prohibition** (Запрет) – Конструкции этого типа содержат различные способы выражения запрета, в частности, стандартный (Прохибитив) и смягченный (Аттенуативный прохибитив). Вслед за (Рахилина 2013), в этот класс мы также включаем континуативные прохибитивы.
 
-  + **Attenuated prohibitive** – The construction expresses prohibition to perform an action in the future. The prohibition is expressed in a mild, attenuated form and is pronounced in a less categorical tone compared to the standard prohibitive: e.g. **(NP-Dat) не стоит VP-Ipfv.Inf**, as in _Не стоит разговаривать с ним._
+  + **Attenuated prohibitive** (Аттенуативный прохибитив) – Конструкция выражает запрет на совершение действия в будущем, но имеет более смягченную форму и произносится менее категоричным тоном, чем прототипический прохибитив: **(NP-Dat) не стоит VP-Ipfv.Inf** – _Не стоит разговаривать с ним._
 
-  + **Continuative prohibitive** – The construction expresses encouragement to stop an action: e.g. **хорош VP-Ipfv.Inf!**, as in _Эй, наверху! Хорош прыгать!_
+  + **Continuative prohibitive** (Континуативный прохибитив) – Конструкция выражает побуждение прервать некоторое действие: **хорош VP-Ipfv.Inf!** – _Эй, наверху! Хорош прыгать!_
 
-  + **Prohibitive** – The construction expresses strict prohibition to perform an action in the future: e.g. **ни слова NP-Dat о NP-Loc!**, as in _Ни слова маме о нашей поездке!_
+  + **Prohibitive** (Прохибитив) – Конструкция выражает строгий категоричный запрет на совершение действия в будущем: **ни слова NP-Dat о NP-Loc!** – _Ни слова маме о нашей поездке!_
 
-+ **Threat** – The construction conveys a threat. The speaker condemns an action that is performed or can potentially be performed by the interlocutor or another participant of the situation. It is implied that the speaker can punish them if they do not obey: e.g. **я PronPers-Dat VP-Fut!**, as in _Я тебе поору!_ No subtypes.
++ **Threat** (Угроза) – Конструкция выражает угрозу. Говорящий осуждает действие, которое собеседник или другой участник ситуации совершает или потенциально может совершить. Подразумевается, что в случае неповиновения говорящий может его наказать: **я PronPers-Dat VP-Fut!** – _Я тебе поору!_ Без подтипов.
 
-+ **Request** – The construction conveys the speaker's request to perform an action: e.g. **нельзя ли Cop VP-Inf?**, as in _Нельзя ли сделать музыку потише?_ No subtypes.
++ **Request** (Просьба) – Конструкция выражает просьбу говорящего совершить действие: **нельзя ли Cop VP-Inf?** – _Нельзя ли сделать музыку потише?_ Без подтипов.
 
-+ **Apprehension** – The construction expresses apprehension or warning regarding an "undesirable situation that the speaker deems possible and wants to avoid" (Baydina 2016). The speaker is afraid of that this situation can take place (Apprehensive sub-type) and urges the conversation partner to perform an action that would help to avoid this situation (Preventive sub-type) (cf. Добрушина 2006).
++ **Apprehension** (Опасение) – TВыражение опасения или предостережения относительно некоторой нежелательной ситуации, которую говорящий считает возможной и хочет избежать (Baydina 2016). Говорящий опасается, что эта ситуация может произойти (подтип Аппрехенсив) и призывает собеседника совершить действие, которое бы помогло избежать этой ситуации (подтип Превентив) (cf. Добрушина 2006).
 
-  + **Apprehensive** – The construction expresses apprehension on behalf of the speaker regarding an undesirable action or event that can take place: e.g. **((Я) боюсь,) как бы не VP-Pfv.Pst**, as in _Как бы Миша не опоздал!_
+  + **Apprehensive** (Аппрехенсив) – Конструкция выражает опасение говорящего относительно того, что может произойти некоторая нежелательная ситуация: **((Я) боюсь,) как бы не VP-Pfv.Pst** – _Как бы Миша не опоздал!_
 
-  + **Preventive** – The construction expresses warning and serves as an attempt of the speaker to prevent an undesirable action or event to take place: e.g. **смотреть-Imp, (не) VP-Imp**, as in _Смотрите, не опоздайте!_
+  + **Preventive** (Превентив) – Конструкция выражает предостережение и является попыткой говорящего предотвратить нежела­тельное действие или событие: **смотреть-Imp, (не) VP-Imp** – _Смотрите, не опоздайте!_
 
-+ **Curse** – See semantic class DISCOURSE, subclass Discourse clauses, semantic type Routine.
++ **Curse** – См. семантический класс ДИСКУРС (DISCOURSE), подкласс Клаузальные конструкции с дискурсивной функцией (Discourse clauses), семантический тип Формулы речи (Routine).
 
 ---
 
@@ -434,21 +434,21 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
   + **Mental Attitude** (Отношение, мотивированное знаниями говорящего) – Указание на отношение, которое основано на знаниях и ожиданиях говорящего. Конструкции выражают скептицизм, уверенность, недоумение или удивление: **рассказывай/рассказывайте, Cl** – _Рассказывай, не было денег!_
 
-+ **Polarity value** – This tag is applicable to Assessement and Attitude constructions and specifies whether they carry positive or negative evaluation.
++ **Polarity value** (Значение полярности) – Данный тег используется для разметки конструкций с семантикой оценки и отношения и уточняет, какую (положительную или отрицательную) полярность они выражают.
 
-  + **Positive** – The construction denotes positive evaluation (assessment or attitude): e.g. **NP-Nom Cop ничего (такой-Nom)**, as in _Профессор он был ничего._
+  + **Positive** (Положительная полярность) – Положительная оценка объекта, ситуации или участника ситуации или положительное отношение к ним со стороны говорящего: **NP-Nom Cop ничего (такой-Nom)** – _Профессор он был ничего._
 
-  + **Negative** – The construction denotes negative evaluation (assessment or attitude): e.g. **с PronPers-Gen хватит/хватило (NP-Gen)/с PronPers-Gen Cop довольно (NP-Gen)!**, as in _С меня хватит!_
+  + **Negative** (Отрицательная полярность) – Отрицательная оценка объекта, ситуации или участника ситуации говорящим или отрицательное отношение к ним со стороны говорящего: **с PronPers-Gen хватит/хватило (NP-Gen)/с PronPers-Gen Cop довольно (NP-Gen)!** – _С меня хватит!_
 
-  + **Both Negative and Positive** – The construction can carry either positive or negative evaluation (assessment or attitude) depending on the fillers, possibility of negation, or a broader context: e.g. **на редкость Adj/Adv**, as in _На редкость просто._
+  + **Both Negative and Positive** (Отрицательная и положительная полярность) – Возможна и положительная, и отрицательная оценка или отношение говорящего в зависимости от лексического заполнения слота конструкции, постановки отрицания или более обширного контекста: **на редкость Adj/Adv** – _На редкость просто._
 
-+ **Source of opinion** – Constructions of this type refer to the author of an opinion.
++ **Source of opinion** (Источник мнения) – Указание на автора высказанного мнения.
 
-  + **Asking for opinion** – The construction formulates a question to a participant about their opinion regarding a certain topic: e.g. **PronPers-Nom не находить, что Cl?**, as in _Вы не находите, что это немного странно?_
+  + **Asking for opinion** (Вопрос о мнении) – Конструкция формулирует вопрос к участнику относительно его мнения по некоторой теме: **PronPers-Nom не находить, что Cl?** – _Вы не находите, что это немного странно?_
 
-  + **Expressing opinion** – The construction expresses the opinion of the participant regarding a certain topic: e.g. **по мнению NP-Gen, Cl**, as in _По мнению властей, необходимо принять меры и остановить загрязнение реки._
+  + **Expressing opinion** (Выражение мнения) – Конструкция выражает мнение участника по некоторой теме: **по мнению NP-Gen, Cl** – _По мнению властей, необходимо принять меры и остановить загрязнение реки._
 
-+ **Mirative** – The construction expresses that the speaker is surprised with the new unexpected information (DeLancey 1997; Aikhenvald 2012): e.g. **NP-Nom возьми и VP-Imp**, as in _А он возьми и купи новую машину!_ No subtypes.
++ **Mirative** (Миративность) – Выражение удивления говорящего неожиданно установленным фактом (DeLancey 1997; Aikhenvald 2012): **NP-Nom возьми и VP-Imp** – _А он возьми и купи новую машину!_ No subtypes.
 
 ---
 
