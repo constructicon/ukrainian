@@ -142,45 +142,45 @@
 
 ------
 
-### 1.4. Subclass Logical Relations
+### 1.4. Подкласс Логические отношения (Logical Relations)
 
-The construction refers to the relationship between events in terms of cause, purpose, consequence, condition, or concession.
+Указание на причинно-следственные отношения между событиями (подтипы Причина, Цель, Следствие, Условие и Уступка).
 
-+ **Cause** – The construction indicates the cause of an action: e.g. **VP от NP-Gen**, as in _Ноги дрожат от страха._ No subtypes.
++ **Cause** (Причина) – Указание на причину действия: **VP от NP-Gen** – _Ноги дрожат от страха._ Без подтипов.
 
-+ **Purpose** – The construction indicates the purpose of an action: e.g. **на что NP-Dat Cop NP-Nom?**, as in _На что мне эти книги?_ No subtypes.
++ **Purpose** (Цель) – Указание на цель действия: **на что NP-Dat Cop NP-Nom?** – _На что мне эти книги?_ Без подтипов.
 
-+ **Consequence** – The construction refers to the consequences of an action: e.g. **Cl, вследствие чего Cl**, as in _Деньги расходовались нерационально, вследствие чего предприятие быстро разорилось._ No subtypes.
++ **Consequence** (Следствие) – Указание на следствие действия: **Cl, вследствие чего Cl** – _Деньги расходовались нерационально, вследствие чего предприятие быстро разорилось._ Без подтипов.
 
-+ **Condition** – The construction introduces the condition of an action or a situation: e.g. **раз (уж) Cl, (то) Cl**, as in _Раз уж мы встретились, давайте обсудим эту проблему._ No subtypes.
++ **Condition** (Условие) – Указание на условие действия или ситуации: **раз (уж) Cl, (то) Cl** – _Раз уж мы встретились, давайте обсудим эту проблему._ Без подтипов.
 
-+ **Concession** – The constructions of this type counterpose two situations that are in conflict with each other. The constructions denote that one of these situations is deemed possible or happening in spite of the other adverse situation. We distinguish the subtypes of concession semantics by following Апресян 1999.
++ **Concession** (Уступка) – Конструкции этого типа противопоставляют две ситуации, которые исключают друг друга. Конструкции обозначают, что одна из этих ситуаций имеет место или возможна даже несмотря на враждебные ей условия, создаваемые другой ситуацией. При выделении подтипов уступки мы опираемся на классификацию уступительных конструкций в Апресян 1999.
 
-  + **At least** – Тhe speaker understands that it is very complicated or impossible to obtain something. The speaker agrees to obtain something of a minor value but at least available: e.g. **(Cl,) по крайней мере Cl**, as in _Если ты его не любишь, ты могла бы его по крайней мере уважать._
+  + **At least** (Уступка вопреки желанию) – Говорящий понимает, что иметь желаемое трудно или невозможно, и поэтому согласен вместо этого иметь нечто меньшее, обладание которым вполне возможно: **(Cl,) по крайней мере Cl** – _Если ты его не любишь, ты могла бы его по крайней мере уважать._
 
-  + **Compensation** – The construction indicates that the speaker accepts that a certain situation takes place, but draws the interlocutor's attention to a different independent situation that is evaluated the opposite way (by contrast with the first situation). In the speaker's opinion, the second situation is more important and compensates the first situation: e.g. **Cl, зато Cl**, as in _Мы опоздали на самолет, зато теперь есть дополнительный день отдыха._
+  + **Compensation** (Компенсация) – Говорящий признает наличие некоторой ситуации, но обращает внимание собеседника на другую независимую ситуацию, которая оценивается говорящим противоположно (по сравнению с первой ситуацией) и которую он считает важнее. Таким образом, вторая ситуация компенсирует первую: **Cl, зато Cl** – _Мы опоздали на самолет, зато теперь есть дополнительный день отдыха._
 
-  + **Concession with disagreement** – The construction indicates that a situation is not likely to take place from the speaker's perspective. If the situation takes place, it will be weakened or neutralized by a certain event: e.g. **(даже) если NP и VP, то Cl**, as in _Если он и выиграет матч, то чемпионом всё равно не станет._
+  + **Concession with disagreement** (Уступка с несогласием) – Указание на то, что некоторая ситуация с точки зрения говорящего маловероятна. Если эта ситуация будет иметь место, то она будет ослаблена или нейтрализована некоторым событием: **(даже) если NP и VP, то Cl** – _Если он и выиграет матч, то чемпионом всё равно не станет._
 
-  + **Extreme limit** – The speaker affirms that a certain situation must or will take place even inspite of the adverse circumstances that strongly go beyond what is normal: e.g. **хоть VP-Imp, (но/а) Cl**, as in _Хоть умри, а завтра должен быть на работе рано утром._
+  + **Extreme limit** (Предел) – Говорящий утверждает, что некоторая ситуация должна или будет иметь место, даже несмотря на обстоятельства, которые сильно выходят за пределы нормы: **хоть VP-Imp, (но/а) Cl** – _Хоть умри, а завтра должен быть на работе рано утром._
 
-  + **Failed expectation** – The construction indicates that a situation takes place in spite of the adverse circumstances of another situation: e.g. **Несмотря/Невзирая на NP-Acc, Cl**, as in _Несмотря на отзывы туристов, он всё равно поехал в Грузию._
+  + **Failed expectation** (Обманутое ожидание) – Указание на то, что некоторая ситуация происходит несмотря на препятствующие ей обстоятельства другой ситуации: **Несмотря/Невзирая на NP-Acc, Cl** – _Несмотря на отзывы туристов, он всё равно поехал в Грузию._
 
-  + **Imitative agreement** – The construction indicates that from the speaker's point of view, a certaion situation does not provide enough support for the second situation to take place. The construction encodes concession via reduplication of a component and an adversative conjunction in the second part: e.g. **VP-Inf(-то) ~VP, а/но Cl**, as in _Спросить спрошу, но он может не знать._
+  + **Imitative agreement** (Возражение под видом согласия) – Указание на то, что некоторая ситуация с точки зрения говорящего не создает достаточных условий для реализации второй ситуации. Значение уструпки выражается посредством повтора компонентов и наличия противительного союза во второй части: **VP-Inf(-то) ~VP, а/но Cl** – _Спросить спрошу, но он может не знать._
 
-  + **Limitation** – The construction indicates that the speaker accepts that a certain situation takes place, but draws the interlocutor's attention to a different independent situation that is less important and evaluated with the opposite polarity value (by contrast with the first situation). The second situation obstructs or causes difficulties for the first situation to take place: e.g. **(Cl), вот только Cl**, as in _Всё бы сделал, вот только времени не хватает._
+  + **Limitation** (Оговорка) – Говорящий признает наличие некоторой ситуации, но обращает внимание собеседника на другую независимую ситуацию, менее важную и оцениваемую говорящим противоположно (по сравнению с первой ситуацией). Вторая ситуация затрудняет реализацию первой: **(Cl), вот только Cl** – _Всё бы сделал, вот только времени не хватает._
 
-  + **Unspecified** – The constructions that do not belong to the subtypes described above: e.g. **(Cl) разве что/только Cl**, as in _Не буду пить, разве что пригублю._
+  + **Unspecified** (Уступка: Без уточнения) – Конструкции, не относящиеся к указанным выше подтипам: **(Cl) разве что/только Cl** – _Не буду пить, разве что пригублю._
 
 ------
 
-### 1.5. Subclass Properties
+### 1.5. Подкласс Характеристики (Properties)
 
-This group of constructions includes three semantic types: Salient Property, Temporary Characteristics, and Comparison.
+Группа конструкций, которая включает конструкции трех семантических типов: Значимый признак, Врéменная характеристика, Сравнение.
 
-+ **Salient property** – The construction refers to the core, prominent and usually constant characteristics of an object, participant or an action that determine their nature.
++ **Salient property** (Значимый признак) – Конструкции с этим тегом содержат указание на ключевую и как правило постоянную характеристику объекта, участника или действия, которая определяет их природу и сущность.
 
-  + **Belonging to a class** – The construction characterizes a participant or an object by assigning them to a class where they belong: e.g. **NP из Adj-Gen**, as in _Человек из любопытных._
+  + **Belonging to a class** – The construction characterizes a participant or an object by assigning them to a class where they belong: **NP из Adj-Gen** –  _Человек из любопытных._
 
   + **Capacity for an activity** – The construction characterizes a participant by referring to their capacity to perform a certain action: e.g. **NP-Nom Cop слишком Adj, чтобы VP-Inf**, as in _Он слишком слаб, чтобы лететь на самолете._
 
