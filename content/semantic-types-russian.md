@@ -452,37 +452,37 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
 ---
 
-## 4. Semantic class DISCOURSE
+## 4. Семантический класс ДИСКУРС (DISCOURSE)
 
-Discourse is written and spoken communication between the speaker and the conversation partner. We use the term Discourse to refer to a distinct large class of constructions that function at the discourse level. These constructions structure the text, organize the communication and often refer to a broader context than a single sentence.
+Дискурс понимается как письменная или устная коммуникация между говорящим и его собеседником. Термином "дискурс" мы обозначаем обширный класс конструкций, которые функционируют на коммуникативном уровне. Такие конструкции структурируют текст, организуют коммуникацию и как правило отсылают к более общирному контексту чем отдельное предложение, в котором они используются.
 
-### 4.1. Subclass Discourse Organization
+### 4.1. Подкласс Маркеры организации дискурса (Discourse Organization)
 
-This group includes the constructions that organize the communication process, usually by adding an optional commentary information in the form of parentheticals inserted or added to the main content of the clause. Here we distinguish between two types of constructions: Discourse structure constructions and Source of information constructions.
+Эта группа включает конструкции, функция которых состоит в организации процесса коммуникации. Как правило, такие конструкции добавляют факультативную информацию в виде комментария, оформленного как вводные или вставные элементы. Выделяются две группы таких конструкций, а именно конструкции, оформляющие Структуру дискурса, и конструкции, приводящие Источник информации.
 
-+ **Discourse structure** – The constructions are used to organize discourse, that is to itemize an argument or a narrative, introduce new information, summarize one's message, switch to a new topic, provide an illustrative example or explain a concept.
++ **Discourse structure** (Структура дискурса) – Конструкции этого типа организуют текст, его внутреннюю структуру, например, оформляют перечисление, введение новой информации, подытоживание, переход к новой теме, приведение примера или пояснение понятия.
 
-  + **Clarification** – The construction clarifies a certain statement by rephrasing the message in different words: e.g. **иначе говоря, XP**, as in _Смешное потому и смешно, что оно правдиво. Иначе говоря, не всё правдивое смешно, но всё смешное правдиво._
+  + **Clarification** (Пояснение) – Пояснение некоторой формулировки в тексте иными словами: **иначе говоря, XP** – _Смешное потому и смешно, что оно правдиво. Иначе говоря, не всё правдивое смешно, но всё смешное правдиво._
 
-  + **Discourse additive** – The construction adds more information to what has already been said: e.g. **ко всему прочему, Cl**, as in _Ко всему прочему, он курит и пьёт._
+  + **Discourse additive** (Дискурсивный аддитив) – Добавление некоторой информации к уже сказанному: **ко всему прочему, Cl** – _Ко всему прочему, он курит и пьёт._
 
-  + **Emphasis** – The construction emphasizes a certain element of the utterance: e.g. **(и) без того XP**, as in _Капитан и без того знал, что нужно делать._
+  + **Emphasis** (Эмфаза) – Логическое выделение какого-либо элемента высказывания: **(и) без того XP** – _Капитан и без того знал, что нужно делать._
 
-  + **Exеmplification** – The construction clarifies a certain statement by providing an example: e.g. **к примеру, Cl/XP**, as in _Вот, к примеру, мне нравится Мерилин Монро._
+  + **Exеmplification** (Пример) – Пояснение некоторого утверждения с помощью примера: **к примеру, Cl/XP** – _Вот, к примеру, мне нравится Мерилин Монро._
 
-  + **Sequence** – The construction shows that one part of the text follows another one: e.g. **в-NumOrd-ых, Cl**, as in _Во-первых, я бы хотел поблагодарить своего тренера._
+  + **Sequence** (Следование) – Указание на следование частей текста: **в-NumOrd-ых, Cl** – _Во-первых, я бы хотел поблагодарить своего тренера._
 
-  + **Summary** – The construction infers that some information is a conclusion from the previous statements. Alternatively, the construction makes a generalization over previous statements and provides a summary: e.g. **таким образом, Cl**, as in _Таким образом, наша команда за год добилась важных результатов._
+  + **Summary** (Подытоживание) – Конструкция содержит вывод, сделанный на основе предыдущих высказываний, или обобщает приведенную информацию, подводя итог сказанному: **таким образом, Cl** – _Таким образом, наша команда за год добилась важных результатов._
 
-  + **Topic** – The construction introduces a topic for discussion: e.g. **что касается NP-Gen, то Cl**, as in _Что касается спорта, то я никогда не любил бегать._
+  + **Topic** (Введение темы) – Конструкция вводит тему для обсуждения: **что касается NP-Gen, то Cl** – _Что касается спорта, то я никогда не любил бегать._
 
-  + **Topic change** – The construction ends the discussion of one topic and switches attention to another topic of conversation: e.g. **Это всё Cop Pred, но Cl**, as in _Это всё хорошо, но самое главное – безопасность._
+  + **Topic change** (Смена темы) – Конструкция завершает обсуждение одной темы и переводит внимание на другую тему разговора: **Это всё Cop Pred, но Cl** – _Это всё хорошо, но самое главное – безопасность._
 
-+ **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a larger than speaker community of speakers. Compare the English _as they say_ (see also Nuyts 2005: 14): e.g. **так сказать, XP**, as in _Это один из тех фильмов, которые, так сказать, на века._ No subtypes.
++ **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a larger than speaker community of speakers. Ср. англ. _as they say_ (см. также Nuyts 2005: 14): **так сказать, XP** – _Это один из тех фильмов, которые, так сказать, на века._ Без подтипов.
 
-+ **Objectivity** – The speaker presents some information as well-known to many people, accurate facts and objectivizes the content of his message by referring to the status of his information. Compare the English _in fact_: e.g. **как известно, Cl**, as in _Как известно, он мастер стихи сочинять._ No subtypes.
++ **Objectivity** – The speaker presents some information as well-known to many people, accurate facts and objectivizes the content of his message by referring to the status of his information. Ср. англ. _in fact_: **как известно, Cl** – _Как известно, он мастер стихи сочинять._ Без подтипов.
 
-+ **Source of information** – The construction indicates the source of the provided information: e.g. **по словам NP-Gen, Cl**, as in _По словам учителя, провести урок дистанционно не так просто._ No subtypes.
++ **Source of information** (Источник информации) – Указание на источник сообщаемой информации: **по словам NP-Gen, Cl** – _По словам учителя, провести урок дистанционно не так просто._ Без подтипов.
 
 ---
 
@@ -536,35 +536,35 @@ This group includes the constructions that have a prominent communicative functi
 
 ---
 
-## 5. Semantic class PARAMETERS
+## 5. Семантический класс ПАРАМЕТРЫ (PARAMETERS)
 
-Parameters are understood here as the meanings of intensity and accuracy that can apply and "build over" some other meanings (for example, temporal, spatial, or quantitative semantics, etc.). Parameters imply a certain scale (intensity scale or accuracy scale) that serves as a point of reference for a property or a situation characterized by a construction.
+Параметрами мы называем значения интенсивности и точности/неточности, которые могут накладываться на другие значения (времени, места, количества и др.) и в этом смысле обладают очень широкой дистрибуцией. Параметры предполагают некоторую шкалу (шкалу интенсивности или шкалу точности), с которой каждая отдельная конструкция соотносит ситуацию или признак.
 
-+ **Degree of intensity** – Degree of intensity construction is "any device that scales a quality, whether up or down or somewhere between the two". Degree of intensity is an indication of "a point on an abstractly conceived intensity scale; and the point indicated may be relatively low or relatively high" (Quirk et al. 1985: 589). Distinctions between the subtypes of intensifiers proposed in Quirk et al. 1985 are applied to the Russian constructions in Zhukova 2020.
++ **Degree of intensity (Степень интенсивности)** – Конструкции, выражающие степень интенсивности, соотносят проявление некоторого признака или ситуации со шкалой интенсивности и определяют место на этой шкале относительно полярных значений минимума и максимума. Каждая такая конструкция содержит указание на то, насколько сильно выражается или проявляется какой-либо признак. Группа конструкций степени интенсивности включает конструкции как высокой, так и низкой интенсивности. Теги-подтипы взяты из академической грамматики английского языка, которая содержит классификацию интенсификаторов в английском языке (Quirk et al. 1985). См. применение этой классификации к русским конструкциям в Zhukova 2020.
 
-  + **Maximizer** – The construction denotes the top extreme of an intensity scale and indicates that the quality cannot be increased further or that the action has reached its limit. Corresponds to English _absolutely, totally_: e.g. **как нельзя Adv-Cmp VP**, as in _Порошок как нельзя лучше отстирал жирные пятна._
+  + **Maximizer** (Максимальная степень) – Указание на максимальную степень проявления признака или на полноту выполнения действия. У признака или действия есть внутренний предел, который был достигнут: **как нельзя Adv-Cmp VP** – _Порошок как нельзя лучше отстирал жирные пятна._
 
-  + **Booster** – The construction denotes a high degree of intensity. Refers to qualities that can potentially increase infinitely. Corresponds to English _very, much_: e.g. **VP не в пример Adj-Cmp/Adv-Cmp**, as in _Он выглядел не в пример приятнее._
+  + **Booster** (Высокая степень) – Указание на высокую степень проявления признака, который может (теоретически) неограниченно возрастать, т.е. не имеет внутреннего предела: **VP не в пример Adj-Cmp/Adv-Cmp** – _Он выглядел не в пример приятнее._
 
-  + **Approximator** – The construction expresses “an approximation to the force of the verb, while indicating that the verb concerned expresses more than is relevant” (Quirk et al. 1985: 597). Corresponds to English _almost, enough_: e.g. **почти/практически XP**, as in _Мы почти приехали: осталось всего две остановки._
+  + **Approximator** (Приближение к норме) – Указание на почти полное приближение к норме признака или почти полное соответствие действию, а также на соответствие признаку или действию в достаточной степени: **почти/практически XP** – _Мы почти приехали: осталось всего две остановки._
 
-  + **Diminisher** – The construction emphasizes that a quality or an action is present or performed to a small extent or not fully (corresponds to English _merely, partly, mildly_). Diminishers refer to a larger degree of intensity than Minimizers. Diminishers mostly modify qualities expressed by adjectives and adverbs: e.g. **не такой уж и Adj**, as in _Не такой уж и страшный._
+  + **Diminisher** (Небольшая степень) – Указание на небольшую степень проявления признака или на небольшое отклонение от нормы. Степень интенсивности больше, чем у конструкций подтипа Minimizer. Как правило используется с прилагательными и наречиями: **не такой уж и Adj** – _Не такой уж и страшный._
 
-  + **Minimizer: Low** – The construction denotes a very small degree of intensity or a quantity that is very small (almost zero level). The construction does not deny that an action took place but rather downgrades it. Minimizers of low degree mostly modify verbs or VPs: e.g. **с трудом VP**, as in _Я с трудом верил его рассказу._
+  + **Minimizer: Low** (Минимизатор: Низкая степень) – Указание на крайне низкую степень проявления признака или действия. Как правило, используется с глаголами и глагольными группами. Часто дополнительно указывает на то, что выполнить действие затруднительно: **с трудом VP** – _Я с трудом верил его рассказу._
 
-  + **Minimizer: Absence** – The construction emphasizes that a quality or an action is totally absent or not available to any extent (zero level): e.g. **ни на грамм не VP**, as in _Она этому тону ни на грамм не верит._
+  + **Minimizer: Absence** (Минимизатор: Нулевая степень) – Указание на полное отсутствие проявления признака или действия. Часто через выражение отсутствия даже минимального кванта этого признака или действия: **ни на грамм не VP** – _Она этому тону ни на грамм не верит._
 
-+ **Degree of accuracy** – The degree to which the result of a measurement corresponds to the correct value or a standard.
++ **Degree of accuracy** (Степень точности) – Шкала точности: насколько близко к истинному значению / норме располагается реальное значение.
 
-  + **Approximate** – The construction shows that the number of objects is approximate. It also includes cases where the situation does not entirely correspond to its definition: e.g. **NP-Gen.Pl NumCrd**, as in _На лекцию пришли человек двадцать._
+  + **Approximate** (Приблизительное значение) – Указание на приблизительность чего-либо, как правило, числового значения (но включает также случаи типа _более или менее готов к экзамену_): **NP-Gen.Pl NumCrd** – _На лекцию пришли человек двадцать._
 
-  + **Exact** – The construction refers to an exact number of objects, exact time or perfectly suitable size: e.g. **(в) аккурат VP**, as in _Жди меня, и я вернусь в аккурат к обеду._
+  + **Exact** (Точное значение) – Указание на точность (точное числовое значение, точное время, точный, идеально подходящий размер и т. д.): **(в) аккурат VP** – _Жди меня, и я вернусь в аккурат к обеду._
 
 ---
 
-## List of references
+## Список литературы
 
-**Works written in English**
+**Англоязычные работы**
 
 Aijmer, Karin. 2004. The semantic path from modality to aspect: _Be able to_ in a cross-linguistic perspective. In: Hans Lindquist and Christian Mair (eds.) Corpus approaches to grammaticalization in English. Amsterdam / Philadelphia: John Benjamins. 57-78.
 
@@ -600,7 +600,7 @@ van der Auwera, Johan and Plungian, Vladimir. 1998. Modality's Semantic Map. In:
 
 Zhukova, Valentina. 2020. Intensifying constructions in Russian based on data from Russian Constructicon. Moscow: National Research University Higher School of Economics, MA Thesis.
 
-**Works written in Russian / Русскоязычные работы**
+**Русскоязычные работы**
  
 Апресян В. Ю. 1999. Уступительность в языке и слова со значением уступки. In: Вопросы языкознания. 1999. № 5. 24-44.
 
