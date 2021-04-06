@@ -88,57 +88,57 @@
 
 Терминология, которую мы используем в данном разделе, пересекается с названиями семантических ролей (Апресян 1974/1995). В данном случае выделенные разновидности относятся к конструкциям целиком, а термины описывают различные варианты взаимодействия участников ситуации или различные типы ситуаций (напр. обладание, отсутствие участника и пр.).
 
-+ **Addressee** – The addressee is understood as a hyperrole and includes not only the addressee of a speech event, but also the addressee of any non-verbal action. The action can affect the participant in a positive (Beneficiary) or negative (Maleficiary) way. The addressee of the speech event can be a single person (Core addressee) or a group of people (Audience).
++ **Addressee** (Адресат) – Адресат понимается как гиперроль и включает не только адресата речи, но и адресата неречевого действия. Это действие может затрагивать участника в позитивном (Бенефициант) или негативном (Малефициант) ключе. Адресат речи может быть одним человеком (Собственно адресат) или представлен группой людей (Аудитория).
 
-  + **Core Addressee** – The construction encodes a participant who receives a message from another participant in oral or written form: e.g. **NP в адрес NP-Gen**, as in _В адрес Вани послышались оскорбления._
+  + **Core Addressee** (Собственно адресат) – Указание на адресата некоторой информации в ситуации речи, то есть на участника, который в устном или письменном виде получает сообщение от другого участника: **NP в адрес NP-Gen** – _В адрес Вани послышались оскорбления._
 
-  + **Audience** – The construction encodes a group of people who receive a message in oral or written form: e.g. **NP/VP перед NP-Ins**, as in _Он умел говорить перед большой публикой._
+  + **Audience** (Аудитория) – Указание на множественного адресата некоторой информации в ситуации речи, то есть на группу людей, которые в устном или письменном виде получают некоторую информацию: **NP/VP перед NP-Ins** – _Он умел говорить перед большой публикой._
 
-  + **Beneficiary** – The construction encodes the addressee of an action who benefits from this action: e.g. **NP/VP в угоду NP-Dat**, as in _Он сказал это в угоду начальству._
+  + **Beneficiary** (Бенефициант) – Указание на адресата действия, который получает пользу от этого действия: **NP/VP в угоду NP-Dat** – _Он сказал это в угоду начальству._
 
-  + **Maleficiary** – The construction encodes a participant who is negatively affected by an event: e.g. **VP назло NP-Dat**, as in _Назло кондуктору куплю билет._
+  + **Maleficiary** (Малефициант) – Указание на участника, которому некоторое действие или ситуация принесли вред: **VP назло NP-Dat** – _Назло кондуктору куплю билет._
 
-+ **Instrument** – The construction encodes an instrument or a tool, that is, an object used by a participant in order to carry out an action: e.g. **VP с помощью/при помощи NP-Gen**, as in _Он всё починил с помощью отвёртки._ No subtypes.
++ **Instrument** (Инструмент) – Указание на инструмент или орудие действия, то есть на объект, используемый участником для совершения некоторого действия: **VP с помощью/при помощи NP-Gen** – _Он всё починил с помощью отвёртки._ Без подтипов.
 
-+ **Possession** – The construction denotes that a participant possesses an object or, more rarely, a quality or a right. This type is broader than the term _possessive_, which is traditionally understood merely as the possession of an object: e.g. **NP-Nom Cop/VP у NP-Gen на руках**, as in _Документы у меня на руках._ No subtypes.
++ **Possession** (Обладание) – Указание на обладание объектом или, реже, качеством, правом. Данный тип шире, чем посессив, который традиционно понимается исключительно как обладание объектом: **NP-Nom Cop/VP у NP-Gen на руках** – _Документы у меня на руках._ Без подтипов.
 
-+ **Comitative** – The construction expresses that a participant performs an action together with another participant or a group of participants. Unlike the Possession type, the Comitative type requires that both participants are animate: e.g. **VP за компанию (с NP-Ins)**, as in _Пойдёшь с нами за компанию?_ No subtypes.
++ **Comitative** (Комитатив) – Указание на совместное действие с другим участником или с группой участников. В отличие от типа Обладание, тип Комитатив подразумевает только одушевленных участников: **VP за компанию (с NP-Ins)** – _Пойдёшь с нами за компанию?_ Без подтипов.
 
-+ **Caritive** – The construction indicates the absence of a secondary agent or the absence of an object possessed by the main participant of the situation (Плунгян 2011: 125): e.g. **NP-Nom Cop без NP-Gen как без рук**, as in _Я без часов как без рук._ No subtypes.
++ **Caritive** (Каритив) – Указание на «отсутствие в ситуации второстепенного агенса или объекта обладания главного участника» (Плунгян 2011: 125): **NP-Nom Cop без NP-Gen как без рук** – _Я без часов как без рук._ Без подтипов.
 
-+ **Non-standard subject** – This tag refers to different ways of encoding the logical subject of an action, either by non-standard marking of the subject or denoting the substitution of the subject.
++ **Non-standard subject** (Нестандартный субъект действия) – Конструкции этого типа содержат различные способы выражения логического субъекта действия и включают нестандартное маркирование субъекта и замещение субъекта другим участником.
 
-  + **Non-standard subject marking** – The construction contains a non-standard marking of the subject, different from the standard Nominative case: e.g. **я PronPers-Dat VP-Fut!**, as in _Я тебе поору!_
+  + **Non-standard subject marking** (Нестандартное выражение субъекта) – Логический субъект выражается нестандартным способом, отличным от именительного падежа: **я PronPers-Dat VP-Fut!** – _Я тебе поору!_
 
-  + **Subject substitution** – The construction refers to the deputy of the subject or indicates that an action is carried out by a participant different from the expected subject: e.g. **VP за NP-Acc**, as in _Мать за дочь сделала домашнее задание._
+  + **Subject substitution** (Замещение субъекта) – Конструкция указывает на заместителя субъекта или на то, что действие выполняется участником, отличным от ожидаемого субъекта действия: **VP за NP-Acc** – _Мать за дочь сделала домашнее задание._
 
 ------
 
-### 1.3. Subclass Situation Modifiers
+### 1.3. Подкласс Модификаторы ситуации (Situation Modifiers)
 
-Constructions of this type provide information regarding spatial, temporal, and manner characteristics of a situation.
+Конструкции, принадлежащие к этому типу, содержат информацию о пространственных и временны́х характеристиках ситуации, а также об образе действия.
 
-+ **Spatial expressions** – Spacial expressions are constructions that indicate spatial characteristics (or modifiers) of a situation. Spacial expressions can be directional and locative. Directional spatial expressions encode subtypes of Path (such as Goal, Source, and Route), whereas non-directional spatial expressions encode Location (these distinctions are based on Mitrofanova 2016 and works cited therein).
++ **Spatial expressions** (Пространственные выражения) – Пространственные выражения - это конструкции, которые выражают пространственные отношения, указывают на пространственные характеристики (или модификаторы) ситуации. Мы различаем пространственные выражения со значением направления движения (подтипы Откуда, Куда, Траектория) и со значением нахождения (Где), согласно общепринятной классификации описанной в Mitrofanova 2016 и процитированных там работах.
 
-  + **Path:Source** – The construction refers to the direction of motion in space and encodes the starting point, or the Source, of the Path: e.g. **NP/VP с торца (NP-Gen)**, as in _Вход с торца._
+  + **Path:Source** (Откуда) – Указание на направление движения в пространстве, в фокусе внимания отправная точка движения (откуда): **NP/VP с торца (NP-Gen)** -  _Вход с торца._
 
-  + **Path:Goal** – The construction refers to the direction of motion in space and encodes the endpoint or destination, i.e. the Goal, of the Path: e.g. **NP-Nom вести в NP-Acc**, as in _Дверь вела в комнату._
+  + **Path:Goal** (Куда) – Указание на направление движения в пространстве, в фокусе внимания конечная точка движения, пункт назначения (куда): **NP-Nom вести в NP-Acc** - _Дверь вела в комнату._
 
-  + **Path:Route** – The construction refers to the directed motion in space and encodes the trajectory, or the Route, of the Path: e.g. **VP вдоль по NP-Dat**, as in _Мы пошли вдоль по улице._
+  + **Path:Route** (Траектория) – Указание на траекторию, маршрут направленного движения, в фокусе внимания сама траектория (ср. _идти по дороге, сквозь темноту, через лес_): **VP вдоль по NP-Dat** - _Мы пошли вдоль по улице._
 
-  + **Location** – The construction refers to location of an object in space (with no reference to either motion or its direction): e.g. **NP в NP-Loc**, as in _Боль в животе._
+  + **Location** (Где) – Указание на статическое местоположение объекта (нет указания на движение и на направление движения): **NP в NP-Loc** - _Боль в животе._
 
-+ **Temporal expressions** – The tag incorporates various ways of referring to time (e.g. temporal expressions) different from grammatical tense.
++ **Temporal expressions** (Темпоральные выражения) – Тег объединяет различные способы указания на время (e.g. темпоральные выражения), отличные от грамматического времени.
 
-  + **Clock** – The construction refers to a specific time on the clock: e.g. **без NumCrd-Gen (минут) NumCrd-Nom**, as in _Приходи к без пятнадцати десять._
+  + **Clock** (Время на часах) – Указание на конкретное время дня или ночи на часах: **без NumCrd-Gen (минут) NumCrd-Nom** - _Приходи к без пятнадцати десять._
 
-  + **Proper time** – The construction refers to the suitable time for performing an action (compare to English _high time_, _about time_): e.g. **(NP-Dat) давно пора Cop VP-Inf**, as in _Детям давно пора поесть._
+  + **Proper time** (Подходящее время) – Указание на подходящее время для совершения действия: **(NP-Dat) давно пора Cop VP-Inf** - _Детям давно пора поесть._
 
-  + **Temporal boundary** – The construction refers to a point on a timeline that serves as a starting or final point of an action or a situation: e.g. **до сих пор Cl**, as in _До сих пор мне грустно._
+  + **Temporal boundary** (Временнáя граница) – Указание на точку на оси времени, которая служит границей (начальной или конечной) в протекании действия или существовании ситуации: **до сих пор Cl** - _До сих пор мне грустно._
 
-  + **Time period** – The construction refers to a time span during which an action or a situation takes place: e.g. **VP за NP-Ins**, as in _Он молчал за обедом._
+  + **Time period** (Временнóй интервал) – Указание на промежуток времени, в рамках которого происходит действие или имеет место некоторая ситуация: **VP за NP-Ins** - _Он молчал за обедом._
 
-+ **Manner** – The construction specifies the manner of action, i.e. provides information on how the action is carried out. The construction refers to a qualitative characteristics of an activity, the method used in performing an activity: e.g. **VP-Ipfv без устали**, as in _Жена без устали готовила на кухне._ No subtypes.
++ **Manner** (Образ действия) – Указание на образ действия. Конструкции выражают качественную характеристику действия, способы его совершения: **VP-Ipfv без устали** - _Жена без устали готовила на кухне._ Без подтипов.
 
 ------
 
