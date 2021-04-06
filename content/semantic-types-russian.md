@@ -260,35 +260,35 @@
 
 ------
 
-### 1.6. Subclass Sets and Elements
+### 1.6. Подкласс Операции с множествами и их элементами (Sets and Elements)
 
-The constructions of this type contain information on the relationship between an element and a set. We distinguish between quantifiers and operators. The operators modify a proposition or a set and "apply" to simplex quantifiers to derive complex quantifiers.
+Конструкции, принадлежащие к этому типу, содержат информацию о соотношении элемента и некоторого множества. Мы различаем кванторы и операторы. Операторы модифицируют пропозицию или множество, "накладываются" на кванторы, вместе с которыми образуют сложные кванторы.
 
-+ **Additive** – The construction denotes that some physical objects are added to a set (as opposed to Discourse additive denoting that some information is added to what has already been said): e.g. **VP в придачу (к NP-Dat)**, as in _В придачу к медали он получил премию._ No subtypes.
++ **Additive** (Оператор добавления) – Указание на добавление физических объектов к числу других ("предметный" аддитив, в отличие от "дискурсивного аддитива", который обозначает добавление некоторой информации к уже сказанному): **VP в придачу (к NP-Dat)** – _В придачу к медали он получил премию._ Без подтипов.
   
-+ **Inclusive** – The construction denotes that an element is included in a set: e.g. **NP, в том числе (и) NP**, as in _Живые существа, в том числе и растения, пьют воду._ No subtypes.
++ **Inclusive** (Оператор включения) – Указание на включение элемента в множество: **NP, в том числе (и) NP** – _Живые существа, в том числе и растения, пьют воду._ Без подтипов.
   
-+ **Exclusive** – The construction denotes that a physical entity, a participant or an action are viewed as the exceptional and the only of their kind, and can be encountered exclusively in a given situation. Because of its exclusivity, an element is distinguished from the set but is not excluded from the set: e.g. **не кто/что иной, как NP**, as in _Это был не кто иной, как директор школы._ No subtypes.
++ **Еxceptive** (Оператор исключения) – Указание на исключение элемента из множества: **за исключением NP-Gen, Cl** – _Я прочитал все, за исключением последней главы._ Без подтипов.
+
++ **Exclusive** (Оператор исключительности) – Указание на физический объект, участника или действие, которые рассматриваются как единственные в своем роде, возможные и имеющие место исключительно в данной ситуации. Утверждение экслюзивности элемента выделяет, но не исключает его из множества: **не кто/что иной, как NP** – _Это был не кто иной, как директор школы._ Без подтипов.
+
++ **Subset** (Подмножество) – Указание на подмножество, принадлежность группе. Часто указание нa отношения гиперонима и гипонима: **NP из круга NP-Gen** – _Знакомые из круга писателей._ Без подтипов.
   
-+ **Еxceptive** – The construction denotes that an element is excluded from a set: e.g. **за исключением NP-Gen, Cl**, as in _Я прочитал все, за исключением последней главы._ No subtypes.
++ **Options** (Варианты на выбор) – Указание на наличие нескольких равноправных вариантов, которые могут реализоваться в ситуации: **хоть NP, хоть NP** – _Покупай хоть мотоцикл, хоть машину._ Без подтипов.
 
-+ **Subset** – The construction denotes a subset that belongs to a set. The construction often refers to the hyperonym vs. hyponym relationship (that is an umbrella term vs. a more specific word): e.g. **NP из круга NP-Gen**, as in _Знакомые из круга писателей._ No subtypes.
-  
-+ **Options** – The construction denotes that several options exist on equal rights and can occur in the situation: e.g. **хоть NP, хоть NP**, as in _Покупай хоть мотоцикл, хоть машину._ No subtypes.
++ **Quantification** (Кванторные слова) – Конструкции, принадлежащие к этому типу, содержат кванторы, или кванторные слова, разного рода. Мы опираемся на типологически обоснованную классификацию кванторов, примененную к данным русского языка в работах Татевосов 2002 и Paperno 2012:
 
-+ **Quantification** – The constructions with this tag contain quantifiers of various kinds. We adopt the classification of quantifiers typologically verified and applied for the Russian data in Татевосов 2002 and Paperno 2012:
+   + **Universal** (Универсальный квантор) –  Наличие в конструкции универсального кванторного слова, то есть квантора со значением всеобщности, полного охвата множества (напр. _все, всякий, любой, каждый, всегда, везде, весь_): **(NP) все до единый-Gen Cl** – _Они все до единого присутствовали на собрании._
 
-   + **Universal** –  The construction contains a universal quantifier, that is a quantifier with the semantics of totality (such as _все, всякий, любой, каждый, всегда, везде, весь_): e.g. **(NP) все до единый-Gen Cl**, as in _Они все до единого присутствовали на собрании._
+  + **Universal: Free Choice** (Универсальный квантор произвольного выбора) – Наличие в конструкции универсального квантора со значением произвольного выбора, подтипа универсальных кванторов (напр. _какой угодно, где угодно, любой, хоть_): **PronInt угодно** – _Вася попросил купить что угодно._
 
-  + **Universal: Free Choice** –  The construction contains a universal quantifier with the semantics of unrestricted free choice, a subtype of universal quantifiers (such as _какой угодно, где угодно, любой, хоть_): e.g. **PronInt угодно**, as in _Вася попросил купить что угодно._
+  + **Existential** (Обобщенный квантор существования) – Наличие в конструкции обобщенного кванторa существования, то есть квантора со значением существования множества множеств (напр. _большинство, несколько, меньшинство, иногда, периодически_): **(великое) множество NP-Gen.Pl** – _Можно найти великое множество примеров этой конструкции._
 
-  + **Existential** –  The construction contains a generalized existential quantifier, that is a quantifier that refers to the existence of a set of sets (such as _большинство, несколько, меньшинство, иногда, периодически_): e.g. **(великое) множество NP-Gen.Pl**, as in _Можно найти великое множество примеров этой конструкции._
+  + **Existential: Free Choice** (Обобщенный квантор произвольного выбора) – Наличие в конструкции oбобщенного квантора существования со значением произвольного выбора, подтипа обобщенных кванторов существования (напр. _сколько влезет, сколько хочешь, сколько угодно_): **VP-Ipfv.Imp/NP-Gen сколько хочешь** – _Читай сколько хочешь._
 
-  + **Existential: Free Choice** –  The construction contains a generalized existential quantifier with the semantics of unrestricted free choice, a subtype of generalized existential quantifiers (such as _сколько влезет, сколько хочешь, сколько угодно_): e.g. **VP-Ipfv.Imp/NP-Gen сколько хочешь**, as in _Читай сколько хочешь._
+  + **Proportional** (Пропорциональный квантор) – Наличие в конструкции пропорционального квантора, то есть квантора со значением пропорционального соотношения (напр. _во многом, по большей части, каждый пятый, в основном, нечасто, обычно, в целом, время от времени, редко, в большинстве своем_ и др.): **NP/PP в большинстве своем VP** – _Дети в большинстве своем были готовы к школе._
 
-  + **Proportional** –  The construction contains a proportional quantifier, that is a quantifier that refers to a proportion (such as _во многом, по большей части, каждый пятый, в основном, нечасто, обычно, в целом, время от времени, редко, в большинстве своем,_ etc.): e.g. **NP/PP в большинстве своем VP**, as in _Дети в большинстве своем были готовы к школе._
-
-  + **Existential: Value judgment quantifier** –  The construction contains a value judgment quantifier that expresses a subjective evaluation of the quantity (such as _много, мало, немного, сколько, столько_). This group of quantifiers is a subtype of generalized existential quantifiers: e.g. **столько NP-Gen Cop/VP, что Cl**, as in _На концерт пришло столько людей, что некуда было сесть._
+  + **Existential: Value judgment quantifier** (Квантор субъективной оценки количества) –  Наличие в конструкции квантора, который выражает субъективную оценку имеющегося количества (напр. _много, мало, немного, сколько, столько_). Это подтип обобщенных кванторов существования: **столько NP-Gen Cop/VP, что Cl** – _На концерт пришло столько людей, что некуда было сесть._
 
 ------
 
