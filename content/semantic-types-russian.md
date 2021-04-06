@@ -180,83 +180,83 @@
 
 + **Salient property** (Значимый признак) – Конструкции с этим тегом содержат указание на ключевую и как правило постоянную характеристику объекта, участника или действия, которая определяет их природу и сущность.
 
-  + **Belonging to a class** – The construction characterizes a participant or an object by assigning them to a class where they belong: **NP из Adj-Gen** –  _Человек из любопытных._
+  + **Belonging to a class** (Принадлежность классу) – Характеристика участника ситуации или объекта путем отнесения его к некоторому классу: **NP из Adj-Gen** –  _Человек из любопытных._
 
-  + **Capacity for an activity** – The construction characterizes a participant by referring to their capacity to perform a certain action: e.g. **NP-Nom Cop слишком Adj, чтобы VP-Inf**, as in _Он слишком слаб, чтобы лететь на самолете._
+  + **Capacity for an activity** (Способность выполнять действие) – Характеристика участника ситуации через его способность осуществлять некоторое действие: **NP-Nom Cop слишком Adj, чтобы VP-Inf** – _Он слишком слаб, чтобы лететь на самолете._
 
-  + **Characteristics through specification** – The construction characterizes a participant or an object by providing a more accurate name for them: e.g. **не Noun, а NP**, as in _Не дом у них, а столярная мастерская._
+  + **Characteristics through specification** (Характеристика через уточнение) – Характеристика участника ситуации или объекта с помощью уточнения его наименования: **не Noun, а NP** – _Не дом у них, а столярная мастерская._
 
-  + **Domain** – The construction characterizes a participant or an object by referring to the area of activity or thematic domain: e.g. **NP/VP по вопросам NP-Gen**, as in _Специалист по вопросам экологии._
+  + **Domain** (Область) – Характеристика участника ситуации или объекта через отсылку к области или сфере деятельности: **NP/VP по вопросам NP-Gen** – _Специалист по вопросам экологии._
 
-  + **Essence** – The construction characterizes a participant or an object by referring to their core nature, the most important qualities: e.g. **Noun-Nom – это ~Noun-Nom**, as in _Москва – это Москва._
+  + **Essence** (Сущность) – Характеристика участника ситуации или объекта через отсылку к его ключевой природе, наиболее важным качествам: **Noun-Nom – это ~Noun-Nom** – _Москва – это Москва._
 
-  + **Experience** – The construction characterizes a participant or an object by referring to their personal experience or the experience of use (for an object): e.g. **NP-Nom иметь дело с NP-Ins**, as in _Он когда-то имел дело с трудными подростками._
+  + **Experience** (Опыт) – Характеристика участника ситуации или объекта через отсылку к личному опыту или опыту его использования (в случае объекта): **NP-Nom иметь дело с NP-Ins** – _Он когда-то имел дело с трудными подростками._
 
-  + **Functionality** – The construction characterizes an object by referring to the way it is used or will be used: e.g. **NP от NP-Gen**, as in _Ключ от двери._
+  + **Functionality** (Использование) – Характеристика объекта через отсылку к текущему или планируемому способу его использования, применения: **NP от NP-Gen** – _Ключ от двери._
 
-  + **Matching the standard** – The construction characterizes a participant, an object or an action by evaluating whether they correspond to a certain standard, the norm: e.g. **чем NP-Nom Cop не NP-Nom?**, as in _Чем картошка не еда?_
+  + **Matching the standard** (Соответствие стандарту) – Характеристика участника ситуации, объекта или действия путем оценки соответствия его некому стандарту, норме: **чем NP-Nom Cop не NP-Nom?** – _Чем картошка не еда?_
 
-  + **Naming** – The construction refers to the name of an animate participant or an object (including lastname, patronymic, pseudonym, nickname, by-name, street name, etc.): e.g. **NP-Acc звать-Inf NP-Ins/NP-Nom**, as in _Мальчика звать Юрой._
+  + **Naming** (Наименование) – Указание на имя участника ситуации или название объекта (включая фамилию, отчество, псевдоним, кличку, прозвище, название улицы и пр.): **NP-Acc звать-Inf NP-Ins/NP-Nom** – _Мальчика звать Юрой._
 
-  + **Paragon** – The construction characterizes a participant or an object by referring to the prototypical examplar, perfect example of a particular quality: e.g. **(ну) Noun-Nom и ~Noun-Nom**, as in _Мужик здоровый такой. Ну медведь и медведь._
+  + **Paragon** (Образец) – Характеристика участника ситуации или объекта через отсылку к образцу, лучшему примеру некоторого качества: **(ну) Noun-Nom и ~Noun-Nom** – _Мужик здоровый такой. Ну медведь и медведь._
 
-  + **Personal interests** – The construction characterizes an object or an activity by referring to the area of personal interests, preferences or capacities of the participant. The object or an activity is characterized by being included in or excluded from this area: e.g. **XP это Cop не PronPoss-Nom**, as in _Математика это не моё._
+  + **Personal interests** (Личные интересы) – Характеристика объекта или деятельности через отсылку к сфере личных интересов, пристрастий или способностей участника ситуации. Характеристика осуществляется посредством включения в эту сферу или исключения из нее: **XP это Cop не PronPoss-Nom** – _Математика это не моё._
 
-  + **Personality** – The construction characterizes a participant by referring to their personality type, temper, or psychological qualities: e.g. **NP-Nom Cop себе на уме**, as in _Вася себе на уме, никогда не говорит всей правды._
+  + **Personality** (Личностные качества) – Характеристика участника ситуации через его личностные качества, тип темперамента, общие психологические особенности личности: **NP-Nom Cop себе на уме** – _Вася себе на уме, никогда не говорит всей правды._
 
-  + **Property assignment** – The construction expresses a general characteristics of an object by assigning it a certain property or by pointing out its peculiar features: e.g. **NP-Nom носить/иметь Adj-Acc характер-Acc**, as in _Большинство звонков носило консультационный характер._
+  + **Property assignment** (Присваивание признака) – Конструкции служат выражению общей характеристики объекта, присваивая ему некоторое качество или отмечая его особенности: **NP-Nom носить/иметь Adj-Acc характер-Acc** – _Большинство звонков носило консультационный характер._
 
-  + **Repeatedly the same** – The construction characterizes an action or a situation as preserving the same nature over time and as a matter of repetition: e.g. **VP-Ipfv одно и то же**, as in _Писал он всегда одно и то же._
+  + **Repeatedly the same** (Неоднократно одинаковый) – Характеристика действия или ситуации как одинаковых и повторяющихся: **VP-Ipfv одно и то же** – _Писал он всегда одно и то же._
 
-  + **Sensory property** – The construction characterizes a participant or an object by specifying their sensory properties, the appearance, taste, smell, etc.: e.g. **NP-Nom иметь вид NP-Gen**, as in _Лучи изгибались, имея вид гиперболы._
+  + **Sensory property** (Признаки, воспринимаемые органами чувств) – Характеристика участника ситуации или объекта с помощью определения визуальных особенностей, внешности, вкуса, запаха и др.: **NP-Nom иметь вид NP-Gen** – _Лучи изгибались, имея вид гиперболы._
 
-  + **Spatial characteristics** – The construction characterizes an object by referring to its spatial localization: e.g. **NP/VP с торца (NP-Gen)**, as in _Вход с торца._
+  + **Spatial characteristics** (Пространственная характеристика) – Характеристика объекта через отсылку к его расположению в пространстве: **NP/VP с торца (NP-Gen)** – _Вход с торца._
 
-  + **Status** – The construction characterizes a participant by referring to their status. The constructions of this type refer to family relations, friendship, job positions, academic ranks, hierarchy at work (employer vs employee), reputation, etc. The constructions of this type share the semantic component 'assign a certain status, place or role in a hierarchy or community to a participant': e.g. **NP-Nom приходиться NP-Dat NP-Ins**, as in _Этот мальчик приходится мне сыном._
+  + **Status** (Статус) – Характеристика участника ситуации через отсылку к его статусу. Конструкции называют как семейные отношения, так и отношения другого рода: дружба, должностные посты, академические степени, рабочие отношения (начальник vs подчиненный), репутацию. Общим является компонент значения 'присваивание субъекту статуса, места в определенной иерархии или общности': **NP-Nom приходиться NP-Dat NP-Ins** – _Этот мальчик приходится мне сыном._
 
-  + **Temporal characteristics** – The construction characterizes an object by referring to a period of time: e.g. **NP за NP-Acc**, as in _Журнал за ноябрь скоро выйдет из печати._
+  + **Temporal characteristics** (Временна́я характеристика) – Характеристика объекта через отсылку к периоду времени: **NP за NP-Acc** – _Журнал за ноябрь скоро выйдет из печати._
   
-+ **Temporary characteristics** – The constructions with this tag refer to temporary, non-constant characteristics that do not define the core nature of the participant, but rather describe their external manifestations, such as behavior, emotional and physical state, circumstances, etc.
++ **Temporary characteristics** (Врéменная характеристика) – Конструкции с этим тегом содержат указание на врéменные, непостоянные характеристики, которые не описывают сущность или ключевую природу участника ситуации, а характеруют его внешние проявления (поведение, эмоциональное и физическое состояние, внешние обстоятельства и т.д.).
 
-  + **Appropriateness** – The construction refers to appropriateness of an action or an object: e.g. **VP (не) по делу**, as in _Он всё говорил по делу._
+  + **Appropriateness** (Уместность) – The construction refers to appropriateness of an action or an object: **VP (не) по делу** – _Он всё говорил по делу._
 
-  + **Availability** – The construction refers to the presence and availability of an object or a participant: e.g. **VP на поверхности**, as in _Разгадка всё это время лежала на поверхности._
+  + **Availability** (Доступность) – Указание на наличие и возможность использовать некоторый объект или участника ситуации: **VP на поверхности** – _Разгадка всё это время лежала на поверхности._
 
-  + **Behavior** – The construction characterizes a participant by referring to their behavior: e.g. **NP-Nom держать NP-Acc при себе**, as in _Он держит мысли при себе._
+  + **Behavior** (Поведение) – Характеристика участника ситуации через отсылку к его поведению: **NP-Nom держать NP-Acc при себе** – _Он держит мысли при себе._
 
-  + **Bodily position** – The construction refers to the spatial configuration of the body of an object or a participant: e.g. **VP вниз головой**, as in _Девочка висит вниз головой._
+  + **Bodily position** (Положение в пространстве) – Указание на пространственную конфигурацию тела участника или объекта: **VP вниз головой** – _Девочка висит вниз головой._
 
-  + **Circumstances** – The construction characterizes a participant by referring to the external circumstances, the situation faced by the participant: e.g. **NP-Nom оказаться в NP-Loc**, as in _Он оказался в трудной ситуации._
+  + **Circumstances** (Обстоятельства) – Характеристика участника ситуации через отсылку к внешним обстоятельствам, ситуации, в которой он оказывается: **NP-Nom оказаться в NP-Loc** – _Он оказался в трудной ситуации._
 
-  + **Context** – The construction refers to the context of an action or a situation: e.g. **Cl в свете NP-Gen**, as in _В свете приближающихся выборов партии оживили свою работу._
+  + **Context** (Контекст) – Указание на контекст развития действия или ситуации: **Cl в свете NP-Gen** – _В свете приближающихся выборов партии оживили свою работу._
 
-  + **Control** – The construction expresses that a participant has the situation under control and feels comfortable: e.g. **у NP-Gen всё Cop схвачено**, as in _У нашего директора везде всё схвачено._
+  + **Control** (Контроль над ситуацией) – Указание на то, что участник ситуации держит ситуацию под контролем и в связи с этим ощущает себя комфортно: **у NP-Gen всё Cop схвачено** – _У нашего директора везде всё схвачено._
 
-  + **Emotional state** – The construction characterizes a participant by referring to their emotional state: e.g. **NP-Nom Cop вне себя**, as in _Иди скорее! Начальник вне себя!_
+  + **Emotional state** (Эмоциональное состояние) – Характеристика участника ситуации через отсылку к его эмоциональному состоянию: **NP-Nom Cop вне себя** – _Иди скорее! Начальник вне себя!_
 
-  + **Importance** – The construction refers to the importance and value of a participant or an object: e.g. **NP-Nom Cop в цене**, as in _Раньше дружба была в цене._
+  + **Importance** (Важность) – Указание на важность, ценность участника ситуации или объекта: **NP-Nom Cop в цене** – _Раньше дружба была в цене._
 
-  + **Matching the norm** – The construction characterizes an object or a situation with regard to the norm: e.g. **(у NP-Gen) NP-Nom Cop в порядке**, as in _У тебя всё в порядке?_
+  + **Matching the norm** (Соответствие норме) – Характеристика объекта или ситуации через соотнесение их с нормой: **(у NP-Gen) NP-Nom Cop в порядке** – _У тебя всё в порядке?_
 
-  + **Physical state** – The construction characterizes a participant by referring to their physical state: e.g. **NP-Nom Cop без сознания**, as in _Помогите, тут девушка без сознания!_
+  + **Physical state** (Физическое состояние) – Характеристика участника ситуации через отсылку к его физическому состоянию: **NP-Nom Cop без сознания** – _Помогите, тут девушка без сознания!_
 
-  + **Relevance** – The construction refers to the relevance of the object for the modern time, present moment. The object is viewed as up to date: e.g. **NP-Nom/VP-Inf Cop в моде/тренде**, as in _В моде сейчас яркие цвета в одежде._
+  + **Relevance** (Актуальность) – Указание на актуальность объекта на настоящий момент: **NP-Nom/VP-Inf Cop в моде/тренде** – _В моде сейчас яркие цвета в одежде._
 
-  + **Transformation** – The construction refers to the radical qualitative transformation of an object or a participant: e.g. **VP NP-Acc из ничего**, as in _Он смастерил шкатулку из ничего._
+  + **Transformation** (Трансформация) – Указание на качественное изменение, трансформацию объекта или участника ситуации: **VP NP-Acc из ничего** – _Он смастерил шкатулку из ничего._
 
-  + **Witnesses** – The construction indicates that an action or a situation takes place in the presence of witnesses: e.g. **VP при NP-Loc**, as in _Не ругайся при детях!_
+  + **Witnesses** (Свидетели) – Указание на то, что действие или ситуация происходит в присутствии свидетелей: **VP при NP-Loc** – _Не ругайся при детях!_
 
-+ **Comparison** – Comparison is understood as "evaluation of the degree of similarity or difference of two or more entities (Treis 2018: 1). We distinguish the following subtypes: Inequality, Equality, Similarity, Contrast and Imitation (cf. the term _simulation_ in typological literature).
++ **Comparison** – Сравнение понимается как оценка степени сходства или различия двух или более сущностей (Treis 2018: 1). Этот тип включает следующие подтипы: Неравенство, Равенство, Сходство, Контраст и Имитация (в типологической литературе также используется термин _Simulation_).
 
-  + **Equality** – The construction denotes that two entities are identical with regard to a certain property: e.g. **такой же XP как и NP**, as in _Сын такой же высокий, как и отец._
+  + **Equality** (Отождествление) – Конструкция выражает идентичность двух объектов по некоторому признаку: **такой же XP как и NP** – _Сын такой же высокий, как и отец._
 
-  + **Inequality** – The construction denotes that two entities are inequal with regard to a certain property, that is one entity is characterized with the larger or smaller degree of the property: e.g. **по-Adj/Adv-Cmp**, as in _К сыну надо относиться помягче._
+  + **Inequality** (Несходство) – Конструкция обозначает различие объектов по некоторому признаку: один из сравниваемых объектов имеет бо́льшую или меньшую степень проявления признака, чем другой: **по-Adj/Adv-Cmp** – _К сыну надо относиться помягче._
 
-  + **Similarity** – The construction denotes that two entities are similar with regard to a certain property: e.g. **NP в стиле NP-Gen**, as in _Истории в стиле Андерсена._
+  + **Similarity** (Сходство) – Конструкция выражает сходство объектов по некоторому признаку: **NP в стиле NP-Gen** – _Истории в стиле Андерсена._
 
-  + **Imitation** – The construction refers to a fake similarity of two entities: e.g. **VP под видом NP-Gen**, as in _Она приехала в город под видом туриста._
+  + **Imitation** (Имитация) – Конструкция указывает на мнимое сходство двух объектов: **VP под видом NP-Gen** – _Она приехала в город под видом туриста._
 
-  + **Contrast** – The construction denotes a contrast between two entities with regard to a certain property: e.g. **в отличие от NP-Gen VP**, as in _В отличие от Пети, Миша всегда говорил правду._
+  + **Contrast** (Контраст) – Конструкция выражает противопоставление объектов по некоторому признаку: **в отличие от NP-Gen VP** – _В отличие от Пети, Миша всегда говорил правду._
 
 ------
 
