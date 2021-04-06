@@ -3,6 +3,8 @@
 
 # Semantic types
 
+## Overview
+
 In the Russian Constructicon, we adopt a set of terms to tag syntactic types of constructions:
 
 ## 1. Semantic class **QUALIA**
@@ -10,9 +12,10 @@ In the Russian Constructicon, we adopt a set of terms to tag syntactic types of 
 Qualia is a term borrowed from philosophy where it is defined as individual instances or forms of conscious experience and intrinsic qualitative properties of experience. We use this term to refer to a large class of constructions that describe the properties of the given objective physical world, external to the speaker. In this sense, Qualia as a class is contrasted with the other four large classes of constructions termed Subjectivity, Modality & its neighborhood, Discourse, and Parameters. We apply the term Qualia as an umbrella notion that includes seven groups of semantic types of constructions, namely: Situation structure, Situation modifiers, Major roles, Logical relations, Properties, Magnitude, and Sets & elements.
 
 ### 1.1. Subclass Situation Structure
+
 Situation structure is an umbrella term for those semantic types of constructions that specify structural caharecteristics of a situation, namely Timeline, Taxis, Actionality, Pluractionality, Phase of Action, Result, and Actuality.
 
-+  **Timeline** – Localization of a situation on a timeline (in terms of past, present, and future).
++ **Timeline** – Localization of a situation on a timeline (in terms of past, present, and future).
 
     + **Distant past** –  The construction locates a situation in the distant past: e.g. **было время, (когда) Cl**, as in _Было время, когда её стихи очень любили._
     + **Recent past** –  The construction locates a situation in the recent past: e.g. **только что VP-Pfv.Pst**, as in _Вася только что принес деньги._
@@ -22,13 +25,11 @@ Situation structure is an umbrella term for those semantic types of construction
     + **Near future** –  The construction locates a situation in the near future: e.g. **вот-вот VP-Fut NP-Nom**, as in _Вот-вот прилетит самолёт._
     + **Distant future** –  The construction locates a situation in the distant future: e.g. **когда-нибудь (потом) VP-Fut**, as in _Я прочитаю эту книгу когда-нибудь потом._
 
-
 + **Taxis** – Taxis, or relative time, is understood as a category of temporal localization of events with respect to each other (simultaneity, anteriority, and posteriority). Whereas it is usually marked with special verb forms (Храковский 2003: 39-40; Храковский 2009: 21-22), here we observe constructional means to signify taxis relations between events.
 
   + **Preceding action** –  The construction indicates that an action precedes another action: e.g. **Cl, перед тем как Cl**, as in _Перед тем как сесть за стол, помой руки._
   + **Simultaneous action** –  The construction indicates that several actions take place simultaneously: e.g. **в тот NP-Acc, как/когда VP**, as in _Все ахнули в тот момент, когда она заговорила._
   + **Subsequent action** –  The construction indicates that an action follows another action: e.g. **XP, после чего XP**, as in _Нужно довести до кипения, после чего добавить овощи._
-
 
 + **Actionality** – This term refers to a cluster of constructions with aspectual semantics that correspond to various types of Aktionsarten ('types of action'). Some of these constructions contain a verb formed by a typical Aktionsart morphological marker (a prefix or a suffix) and the arguments of that verb, whereas other constructions encode Aktionsart lexically, in the fixed part of the construction (anchor words).
 
@@ -182,7 +183,7 @@ The construction refers to the relationship between events in terms of cause, pu
 
 ------
 
-###	1.5. Subclass Properties
+### 1.5. Subclass Properties
 
 This group of constructions includes three semantic types: Salient Property, Temporary Characteristics, and Comparison.
 
@@ -272,17 +273,29 @@ This group of constructions includes three semantic types: Salient Property, Tem
 
 The constructions of this type contain information on the relationship between an element and a set. We distinguish between quantifiers and operators. The operators modify a proposition or a set and "apply" to simplex quantifiers to derive complex quantifiers.
 
-+ **Еxceptive** – The construction denotes that an element is excluded from a set: e.g. **за исключением NP-Gen, Cl**, as in _Я прочитал все, за исключением последней главы._
-
++ **Additive** – The construction denotes that some physical objects are added to a set (as opposed to Discourse additive denoting that some information is added to what has already been said): e.g. **VP в придачу (к NP-Dat)**, as in _В придачу к медали он получил премию._
+  
+  + No subtypes
+  
 + **Inclusive** – The construction denotes that an element is included in a set: e.g. **NP, в том числе (и) NP**, as in _Живые существа, в том числе и растения, пьют воду._
 
-+ **Additive** – The construction denotes that some physical objects are added to a set (as opposed to Discourse additive denoting that some information is added to what has already been said): e.g. **VP в придачу (к NP-Dat)**, as in _В придачу к медали он получил премию._
-
+  + No subtypes
+  
 + **Exclusive** – The construction denotes that a physical entity, a participant or an action are viewed as the exceptional and the only of their kind, and can be encountered exclusively in a given situation. Because of its exclusivity, an element is distinguished from the set but is not excluded from the set: e.g. **не кто/что иной, как NP**, as in _Это был не кто иной, как директор школы._
+
+  + No subtypes
+  
++ **Еxceptive** – The construction denotes that an element is excluded from a set: e.g. **за исключением NP-Gen, Cl**, as in _Я прочитал все, за исключением последней главы._
+
+  + No subtypes
 
 + **Subset** – The construction denotes a subset that belongs to a set. The construction often refers to the hyperonym vs. hyponym relationship (that is an umbrella term vs. a more specific word): e.g. **NP из круга NP-Gen**, as in _Знакомые из круга писателей._
 
+  + No subtypes
+  
 + **Options** – The construction denotes that several options exist on equal rights and can occur in the situation: e.g. **хоть NP, хоть NP**, as in _Покупай хоть мотоцикл, хоть машину._
+
+  + No subtypes
 
 + **Quantification** – The constructions with this tag contain quantifiers of various kinds. We adopt the classification of quantifiers typologically verified and applied for the Russian data in Татевосов 2002 and Paperno 2012:
 
@@ -362,7 +375,7 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
 On the one hand, we adopt the traditional widely accepted approach and take a narrow understanding of modality that refers to Root and Epistemic modality. On the other hand, we consider categories closely related to modality as its "neighborhood", and suggest that it includes Volition, Causation, Prohibition, Threat, Request, Apprehension, and Curse.
 
-###	2.1. Subclass Core Modal Meanings
+### 2.1. Subclass Core Modal Meanings
 
 + **Root modality** – We adopt the traditional widely accepted approach and take a narrow understanding of modality. According to this approach, this category includes necessity and possibility (cf. van der Auwera & Plungian 1998; Nuyts 2016). For deontic participant-external possibility we use a separate tag Permission.
 
@@ -380,9 +393,10 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
   + **Low degree of certainty** – The construction refers to a low degree of confidence in the proposition: the situation is assessed as highly improbable: e.g. **вроде (как) XP/Cl**, as in _Он вроде как идёт._
 
-###	2.2. Subclass Neighborhood of Core Modal Meanings
+### 2.2. Subclass Neighborhood of Core Modal Meanings
 
 + **Volition** – The construction denotes a desire or a wish. This type of constructions includes both expressions of the desires of the speaker (optative) and expressions of the desires of any participant of the situation (desiderative): e.g. **вот бы (NP-Dat) (никогда не/всегда) VP-Inf!**, as in _Вот бы никогда не работать!_
+  
   + No subtypes
 
 + **Causation** – We use the tag Causation in a broad sense as 'encouragement to perform an action'. This does not necessarily entail the involvement of an additional participant (as would be expected from the grammatical term _causative_).
@@ -400,9 +414,11 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
   + **Prohibitive** – The construction expresses strict prohibition to perform an action in the future: e.g. **ни слова NP-Dat о NP-Loc!**, as in _Ни слова маме о нашей поездке!_
 
 + **Threat** – The construction conveys a threat. The speaker condemns an action that is performed or can potentially be performed by the interlocutor or another participant of the situation. It is implied that the speaker can punish them if they do not obey: e.g. **я PronPers-Dat VP-Fut!**, as in _Я тебе поору!_
+ 
   + No subtypes
 
 + **Request** – The construction conveys the speaker's request to perform an action: e.g. **нельзя ли Cop VP-Inf?**, as in _Нельзя ли сделать музыку потише?_
+ 
   + No subtypes
 
 + **Apprehension** – The construction expresses apprehension or warning regarding an "undesirable situation that the speaker deems possible and wants to avoid" (Baydina 2016). The speaker is afraid of that this situation can take place (Apprehensive sub-type) and urges the conversation partner to perform an action that would help to avoid this situation (Preventive sub-type) (cf. Добрушина 2006).
@@ -456,6 +472,7 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
   + **Expressing opinion** – The construction expresses the opinion of the participant regarding a certain topic: e.g. **по мнению NP-Gen, Cl**, as in _По мнению властей, необходимо принять меры и остановить загрязнение реки._
 
 + **Mirative** – The construction expresses that the speaker is surprised with the new unexpected information (DeLancey 1997; Aikhenvald 2012): e.g. **NP-Nom возьми и VP-Imp**, as in _А он возьми и купи новую машину!_
+  
   + No subtypes
 
 ---
@@ -464,7 +481,7 @@ A large class of constructions incoding assessment, attitude, polarity value, mi
 
 Discourse is written and spoken communication between the speaker and the conversation partner. We use the term Discourse to refer to a distinct large class of constructions that function at the discourse level. These constructions structure the text, organize the communication and often refer to a broader context than a single sentence.
 
-###	4.1. Subclass Discourse Organization
+### 4.1. Subclass Discourse Organization
 
 This group includes the constructions that organize the communication process, usually by adding an optional commentary information in the form of parentheticals inserted or added to the main content of the clause. Here we distinguish between two types of constructions: Discourse structure constructions and Source of information constructions.
 
@@ -487,12 +504,15 @@ This group includes the constructions that organize the communication process, u
   + **Topic change** – The construction ends the discussion of one topic and switches attention to another topic of conversation: e.g. **Это всё Cop Pred, но Cl**, as in _Это всё хорошо, но самое главное – безопасность._
 
 + **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a larger than speaker community of speakers. Compare the English _as they say_ (see also Nuyts 2005: 14): e.g. **так сказать, XP**, as in _Это один из тех фильмов, которые, так сказать, на века._
+  
   + No subtypes
 
 + **Objectivity** – The speaker presents some information as well-known to many people, accurate facts and objectivizes the content of his message by referring to the status of his information. Compare the English _in fact_: e.g. **как известно, Cl**, as in _Как известно, он мастер стихи сочинять._
+  
   + No subtypes
 
 + **Source of information** – The construction indicates the source of the provided information: e.g. **по словам NP-Gen, Cl**, as in _По словам учителя, провести урок дистанционно не так просто._
+  
   + No subtypes
 
 ### 4.2. Subclass Discourse Clauses
