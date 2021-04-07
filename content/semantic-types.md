@@ -16,7 +16,6 @@ Semantic types of constructions form larger units: subclasses and classes. For c
 <img width="967" alt="Semantic types 2" src="https://user-images.githubusercontent.com/63615172/113850771-1a2fd700-979b-11eb-8e76-0cd84bca69ff.png">
 
 
-In the Russian Constructicon, we adopt a set of terms to tag semantic types of constructions. Note that the bulleted names are tags available for search, whereas the numbered names are the headings of the groups.
 
 ## 1. Semantic class **QUALIA**
 
