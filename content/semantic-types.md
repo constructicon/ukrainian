@@ -7,16 +7,16 @@
 
 In Advanced Search, you can search for constructions with specific meaning, for example constructions that express comparison, evaluation, temporal boundary, etc. We refer to such types of meanings with the term “Semantic types”. Description of each construction includes one or more tags that specify the semantic type it represents. In the window “Semantic search”, the tags are presented in alphabetical order, whereas the purpose of this page is to represent how individual semantic types form a coherent system that is easy to navigate. 
 
-We distinguish between 53 semantic types that are more general and their 157 subtypes that are more specific and narrow. For example, a general semantic type Comparison has the subtypes Equality, Inequality, Similarity, Imitation, and Contrast. Taking into account the subtypes of semantic types can help you to narrow down your search. In order to “open” each semantic type in the search window, the user can click on the arrow symbol ›.
+We distinguish between 55 **semantic types** that are more general and their 182 **subtypes** that are more specific and narrow. For example, a general semantic type Comparison has the subtypes Equality, Inequality, Similarity, Imitation, and Contrast. Taking into account the subtypes of semantic types can help you to narrow down your search. In order to “open” each semantic type in the search window, the user can click on the arrow symbol ›.
 
-All general semantic types that we use in this resource are listed in the table below and explained in the text that follows. You can easily see all semantic types by the bullet symbol •. Those semantic types that have subtypes are indicated in the table with the plus +. For example, Addressee has subtypes in our annotation system, and Instrument does not. Definitions and illustrations of subtypes can be found in the text below the table, they are easy to find by empty circles bullets °.
+All general semantic types that we use in this resource are listed in the table below and explained in the text that follows. You can easily see all semantic types by the bullet symbol •. Those semantic types that have subtypes are indicated in the table with the plus +. For example, Addressee has subtypes in our annotation system, and Instrument does not. Definitions and illustrations of subtypes can be found in the text below the table, they are easy to find by empty circle bullets °.
 
 Semantic types of constructions form larger units: subclasses and classes. For convenience they are numbered and serve as headings that organize the inventory of semantic types into a structured system. The names of classes and subclasses are not available in the search window.
 
 <img width="967" alt="Semantic types 2" src="https://user-images.githubusercontent.com/63615172/113850771-1a2fd700-979b-11eb-8e76-0cd84bca69ff.png">
 
 
-In the Russian Constructicon, we adopt a set of terms to tag semantic types of constructions:
+In the Russian Constructicon, we adopt a set of terms to tag semantic types of constructions. Note that the bulleted names are tags available for search, whereas the numbered names are the headings of the groups.
 
 ## 1. Semantic class **QUALIA**
 
