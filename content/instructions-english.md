@@ -429,8 +429,8 @@ In the Russian Constructicon, we adopt a set of terms to tag the parts of speech
 
 ### 4.4.1. Semantic types
 
-In the Russian Constructicon, we adopt a set of terms to tag semantic types of constructions. Explanations of individual semantic tags are available [here](https://constructicon.github.io/russian/semantic-types/).
+In the Russian Constructicon, we employ a set of terms to tag semantic types of constructions. Explanations of individual semantic tags are available [here](https://constructicon.github.io/russian/semantic-types/).
 
 ### 4.4.2. Semantic roles
 
-We annotate all definitions of constructions and corpus-based example sentences for semantic roles, focusing primarily on the semantic roles of the slots. In descriptions of constructions, the annotated portions of text are put in square brackets [], and the corresponding semantic role appears in the subscript highlighted with color. In Advanced Search, the user can search for constructions with the slots that perform a particular semantic role. Our understanding of semantic roles does not deviate from the standard (cf. Апресян 1974/1995). Explanations and illustrations of semantic roles will appear here later.
+We annotate all definitions of constructions and corpus-based example sentences for semantic roles, focusing primarily on the semantic roles of the slots. In descriptions of constructions, the annotated portions of text are put in square brackets [], and the corresponding semantic role appears in the subscript highlighted with color. In Advanced Search, the user can search for constructions with slots that perform a particular semantic role. Our understanding of semantic roles does not deviate from standard linguistic descriptions (cf. Апресян 1974/1995). Explanations and illustrations of semantic roles will appear here later.
