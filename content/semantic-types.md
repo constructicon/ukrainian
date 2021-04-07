@@ -5,7 +5,7 @@
 
 ## Overview
 
-In Advanced Search, you can search for constructions with specific meaning, for example constructions that express comparison, evaluation, temporal boundary, etc. We refer to such types of meanings with the term “Semantic types”. Description of each construction includes one or more tags that specify the semantic type it represents. In the window “Semantic search”, the tags are presented in alphabetical order, whereas the purpose of this page is to represent how individual semantic types form a coherent system that is easy to navigate. 
+In Advanced Search, you can search for constructions with specific meaning, for example constructions that express comparison, evaluation, temporal boundary, etc. We refer to such types of meanings with the term “Semantic types”. Description of each construction includes one or more tags that specify the semantic type it represents. In the window **Semantic types**, the tags are presented in alphabetical order, whereas the purpose of this page is to represent how individual semantic types form a coherent system that is easy to navigate. 
 
 We distinguish between 55 **semantic types** that are more general and their 182 **subtypes** that are more specific and narrow. For example, a general semantic type Comparison has the subtypes Equality, Inequality, Similarity, Imitation, and Contrast. Taking into account the subtypes of semantic types can help you to narrow down your search. In order to “open” each semantic type in the search window, the user can click on the arrow symbol ›.
 
