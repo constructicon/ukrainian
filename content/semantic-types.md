@@ -5,11 +5,22 @@
 
 ## Overview
 
-In the Russian Constructicon, we adopt a set of terms to tag syntactic types of constructions:
+In Advanced Search, you can search for constructions with specific meaning, for example constructions that express comparison, evaluation, temporal boundary, etc. We refer to such types of meanings with the term “Semantic types”. Description of each construction includes one or more tags that specify the semantic type it represents. In the window “Semantic search”, the tags are presented in alphabetical order, whereas the purpose of this page is to represent how individual semantic types form a coherent system that is easy to navigate. 
+
+We distinguish between 53 semantic types that are more general and their 157 subtypes that are more specific and narrow. For example, a general semantic type Comparison has the subtypes Equality, Inequality, Similarity, Imitation, and Contrast. Taking into account the subtypes of semantic types can help you to narrow down your search. In order to “open” each semantic type in the search window, the user can click on the arrow symbol ›.
+
+All general semantic types that we use in this resource are listed in the table below and explained in the text that follows. You can easily see all semantic types by the bullet symbol •. Those semantic types that have subtypes are indicated in the table with the plus +. For example, Addressee has subtypes in our annotation system, and Instrument does not. Definitions and illustrations of subtypes can be found in the text below the table, they are easy to find by empty circles bullets °.
+
+Semantic types of constructions form larger units: subclasses and classes. For convenience they are numbered and serve as headings that organize the inventory of semantic types into a structured system. The names of classes and subclasses are not available in the search window.
+
+<img width="967" alt="Semantic types 2" src="https://user-images.githubusercontent.com/63615172/113850771-1a2fd700-979b-11eb-8e76-0cd84bca69ff.png">
+
+
+In the Russian Constructicon, we adopt a set of terms to tag semantic types of constructions:
 
 ## 1. Semantic class **QUALIA**
 
-Qualia is a term borrowed from philosophy where it is defined as individual instances or forms of conscious experience and intrinsic qualitative properties of experience. We use this term to refer to a large class of constructions that describe the properties of the given objective physical world, external to the speaker. In this sense, Qualia as a class is contrasted with the other four large classes of constructions termed Subjectivity, Modality & its neighborhood, Discourse, and Parameters. We apply the term Qualia as an umbrella notion that includes seven groups of semantic types of constructions, namely: Situation structure, Situation modifiers, Major roles, Logical relations, Properties, Magnitude, and Sets & elements.
+Qualia is a term borrowed from philosophy where it is defined as individual instances or forms of conscious experience and intrinsic qualitative properties of experience. We use this term to refer to a large class of constructions that describe the properties of the given objective physical world, external to the speaker. In this sense, Qualia as a class is contrasted with the other four large classes of constructions termed Subjectivity, Modality & its neighborhood, Discourse, and Parameters. We apply the term Qualia as an umbrella notion that includes seven groups of semantic types of constructions, namely (here termed subclasses): Situation structure, Situation modifiers, Major roles, Logical relations, Properties, Magnitude, and Sets & elements.
 
 ### 1.1. Subclass Situation Structure
 
@@ -17,27 +28,35 @@ Situation structure is an umbrella term for those semantic types of construction
 
 + **Timeline** – Localization of a situation on a timeline (in terms of past, present, and future).
 
-    + **Distant past** –  The construction locates a situation in the distant past: e.g. **было время, (когда) Cl**, as in _Было время, когда её стихи очень любили._
-    + **Recent past** –  The construction locates a situation in the recent past: e.g. **только что VP-Pfv.Pst**, as in _Вася только что принес деньги._
+    + **Distant past** – The construction locates a situation in the distant past: e.g. **было время, (когда) Cl**, as in _Было время, когда её стихи очень любили._
+    
+    + **Recent past** – The construction locates a situation in the recent past: e.g. **только что VP-Pfv.Pst**, as in _Вася только что принес деньги._
+    
     + **Past** –  The construction locates a situation in the past without additional specification for whether it is distant or recent past: e.g. **как-то раз VP**, as in _Я как-то раз видела её на концерте._
-    + **Present** –  The construction locates a situation in the moment of speech, in the present: e.g. **NP-Nom Cop на дворе**, as in _Куда ты собралась, ночь на дворе?!_
-    + **Future** –  The construction locates a situation in the future without additional specification for whether it is near or distant future: e.g. **со временем Cl**, as in _Со временем она обязательно научится готовить._
-    + **Near future** –  The construction locates a situation in the near future: e.g. **вот-вот VP-Fut NP-Nom**, as in _Вот-вот прилетит самолёт._
-    + **Distant future** –  The construction locates a situation in the distant future: e.g. **когда-нибудь (потом) VP-Fut**, as in _Я прочитаю эту книгу когда-нибудь потом._
+    
+    + **Present** – The construction locates a situation in the moment of speech, in the present: e.g. **NP-Nom Cop на дворе**, as in _Куда ты собралась, ночь на дворе?!_
+    
+    + **Future** – The construction locates a situation in the future without additional specification for whether it is near or distant future: e.g. **со временем Cl**, as in _Со временем она обязательно научится готовить._
+    
+    + **Near future** – The construction locates a situation in the near future: e.g. **вот-вот VP-Fut NP-Nom**, as in _Вот-вот прилетит самолёт._
+    
+    + **Distant future** – The construction locates a situation in the distant future: e.g. **когда-нибудь (потом) VP-Fut**, as in _Я прочитаю эту книгу когда-нибудь потом._
 
 + **Taxis** – Taxis, or relative time, is understood as a category of temporal localization of events with respect to each other (simultaneity, anteriority, and posteriority). Whereas it is usually marked with special verb forms (Храковский 2003: 39-40; Храковский 2009: 21-22), here we observe constructional means to signify taxis relations between events.
 
-  + **Preceding action** –  The construction indicates that an action precedes another action: e.g. **Cl, перед тем как Cl**, as in _Перед тем как сесть за стол, помой руки._
-  + **Simultaneous action** –  The construction indicates that several actions take place simultaneously: e.g. **в тот NP-Acc, как/когда VP**, as in _Все ахнули в тот момент, когда она заговорила._
-  + **Subsequent action** –  The construction indicates that an action follows another action: e.g. **XP, после чего XP**, as in _Нужно довести до кипения, после чего добавить овощи._
+  + **Preceding action** – The construction indicates that an action precedes another action: e.g. **Cl, перед тем как Cl**, as in _Перед тем как сесть за стол, помой руки._
+  
+  + **Simultaneous action** – The construction indicates that several actions take place simultaneously: e.g. **в тот NP-Acc, как/когда VP**, as in _Все ахнули в тот момент, когда она заговорила._
+  
+  + **Subsequent action** –  he construction indicates that an action follows another action: e.g. **XP, после чего XP**, as in _Нужно довести до кипения, после чего добавить овощи._
 
 + **Actionality** – This term refers to a cluster of constructions with aspectual semantics that correspond to various types of Aktionsarten ('types of action'). Some of these constructions contain a verb formed by a typical Aktionsart morphological marker (a prefix or a suffix) and the arguments of that verb, whereas other constructions encode Aktionsart lexically, in the fixed part of the construction (anchor words).
 
-  + **Attenuative** – The construction indicates that an action is performed slightly or without effort as opposed to how this action is normally performed. The construction contains a verb that represents the attenuative Aktionsart and is prefixed with pri-, pod- or po- (Зализняк, Шмелев 2000: 120): e.g. **при-Verb**, as in _Катя приоткрыла окно._
+  + **Attenuative** – The construction indicates that an action is performed slightly or without effort as opposed to how this action is normally performed. The construction contains a verb that represents the attenuative Aktionsart and is prefixed with _pri-, pod-_ or _po-_ (Зализняк, Шмелев 2000: 120): e.g. **при-Verb**, as in _Катя приоткрыла окно._
 
-  + **Cumulative** – The construction refers to the accumulation of results of an action (Зализняк, Шмелев 2000: 114), usually, the accumulation of a certain number of objects by means of performing successive portions of an action. Such constructions usually contain the verb prefixed with na- that represents the cumulative Aktionsart: e.g. **NP-Nom на-Verb NP-Gen.Pl**, as in _Он навёз домой много вещей._
+  + **Cumulative** – The construction refers to the accumulation of results of an action (Зализняк, Шмелев 2000: 114), usually, the accumulation of a certain number of objects by means of performing successive portions of an action. Such constructions usually contain the verb prefixed with _na-_ that represents the cumulative Aktionsart: e.g. **NP-Nom на-Verb NP-Gen.Pl**, as in _Он навёз домой много вещей._
 
-  + **Distributive** – The construction indicates that an action applies in turn to all objects of a set or is performed by a set of subjects. Such constructions usually contain a verb that represents the distributive Aktionsart and is prefixed with pere-, po- or raz- (Зализняк, Шмелев 2000: 120): e.g. **NP-Nom раз-Verb NP-Acc.Pl**, as in _Официант разнёс по столам подносы._
+  + **Distributive** – The construction indicates that an action applies in turn to all objects of a set or is performed by a set of subjects. Such constructions usually contain a verb that represents the distributive Aktionsart and is prefixed with _pere-, po-_ or _raz-_ (Зализняк, Шмелев 2000: 120): e.g. **NP-Nom раз-Verb NP-Acc.Pl**, as in _Официант разнёс по столам подносы._
 
   + **Gradual development** – The construction refers to a gradual, step by step development of a situation: e.g. **VP с каждым NP-Ins**, as in _Экономическая ситуация ухудшается с каждым днём._
 
@@ -69,9 +88,9 @@ Situation structure is an umbrella term for those semantic types of construction
 
   + **Terminative** – The construction refers to the termination (the end) of a situation: e.g. **NP-Nom бросить VP-Inf**, as in _Я бросил курить._
 
-  + **Cunctative** – The construction refers to the "non-beginning" of a situation, or the continuation of the "non-activity" (comparable with English not yet and certain verb forms in Bantu languages cf. Plungian 1999: 316; Плунгян 2011: 314): e.g. **NP-Nom так и не VP**, as in _Иван так и не женился._
+  + **Cunctative** – The construction refers to the "non-beginning" of a situation, or the continuation of the "non-activity" (comparable with English _not yet_ and certain verb forms in Bantu languages cf. Plungian 1999: 316; Плунгян 2011: 314): e.g. **NP-Nom так и не VP**, as in _Иван так и не женился._
 
-+ **Result** – Constructions of this type group around the concept of result and can denote a range of meanings: achieving a result; unachieved result; an attempt towards performing and action, thus achieving a result. Note that the term Result in the Russian Constructicon covers a larger scope of meanings than the term resultative, which normally refers to only resultative phase of action (Плунгян 2011: 282; e.g. _дверь открыта_ ‘the door is open’, _машина сломана_ ‘the car is broken’).
++ **Result** – Constructions of this type group around the concept of result and can denote a range of meanings: achieving a result; unachieved result; an attempt towards performing and action, thus achieving a result. Note that the term _Result_ in the Russian Constructicon covers a larger scope of meanings than the term _resultative_, which normally refers to only resultative phase of action (Плунгян 2011: 282; e.g. _дверь открыта_ ‘the door is open’, _машина сломана_ ‘the car is broken’).
 
   + **Antiresultative** – The construction refers to a violated resultative stage (cf. Плунгян 2001). There are two types of the antiresultative meaning: 1) a result has not been achieved as the movement towards the result has been interrupted; 2) a result has been achieved but then cancelled: e.g. **едва не VP-Pst**, as in _Иван Иванович едва не умер после такого розыгрыша._
 
@@ -79,7 +98,7 @@ Situation structure is an umbrella term for those semantic types of construction
 
   + **Unspecified** – The construction refers to an actual event or a state triggered by a preceding situation: e.g. **VP до NP-Gen**, as in _Все овощи нужно залить кипятком и варить до готовности._
 
-+ **Actuality** – The construction refers to a successful realization of an action (compare the English verb manage, cf. Plungian & van der Auwera 1998: 104), or “the successful result of the ability” (Aijmer 2004: 62). Actuality as a category lies at the intersection of Aspectuality and Modality (Мордашова Forthcoming): **NP-Dat удалось VP-Inf**, as in _Мише удалось покурить._ No subtypes.
++ **Actuality** – The construction refers to a successful realization of an action (compare the English verb _manage_, cf. Plungian & van der Auwera 1998: 104), or “the successful result of the ability” (Aijmer 2004: 62). Actuality as a category lies at the intersection of Aspectuality and Modality (Мордашова Forthcoming): **NP-Dat удалось VP-Inf**, as in _Мише удалось покурить._ No subtypes.
 
 ------
 
@@ -266,10 +285,10 @@ The constructions of this type contain information on the relationship between a
 + **Additive** – The construction denotes that some physical objects are added to a set (as opposed to Discourse additive denoting that some information is added to what has already been said): e.g. **VP в придачу (к NP-Dat)**, as in _В придачу к медали он получил премию._ No subtypes.
   
 + **Inclusive** – The construction denotes that an element is included in a set: e.g. **NP, в том числе (и) NP**, as in _Живые существа, в том числе и растения, пьют воду._ No subtypes.
-  
-+ **Exclusive** – The construction denotes that a physical entity, a participant or an action are viewed as the exceptional and the only of their kind, and can be encountered exclusively in a given situation. Because of its exclusivity, an element is distinguished from the set but is not excluded from the set: e.g. **не кто/что иной, как NP**, as in _Это был не кто иной, как директор школы._ No subtypes.
-  
+
 + **Еxceptive** – The construction denotes that an element is excluded from a set: e.g. **за исключением NP-Gen, Cl**, as in _Я прочитал все, за исключением последней главы._ No subtypes.
+
++ **Exclusive** – The construction denotes that a physical entity, a participant or an action are viewed as the exceptional and the only of their kind, and can be encountered exclusively in a given situation. Because of its exclusivity, an element is distinguished from the set but is not excluded from the set: e.g. **не кто/что иной, как NP**, as in _Это был не кто иной, как директор школы._ No subtypes.
 
 + **Subset** – The construction denotes a subset that belongs to a set. The construction often refers to the hyperonym vs. hyponym relationship (that is an umbrella term vs. a more specific word): e.g. **NP из круга NP-Gen**, as in _Знакомые из круга писателей._ No subtypes.
   
@@ -277,17 +296,17 @@ The constructions of this type contain information on the relationship between a
 
 + **Quantification** – The constructions with this tag contain quantifiers of various kinds. We adopt the classification of quantifiers typologically verified and applied for the Russian data in Татевосов 2002 and Paperno 2012:
 
-   + **Universal** –  The construction contains a universal quantifier, that is a quantifier with the semantics of totality (such as _все, всякий, любой, каждый, всегда, везде, весь_): e.g. **(NP) все до единый-Gen Cl**, as in _Они все до единого присутствовали на собрании._
+   + **Universal** – The construction contains a universal quantifier, that is a quantifier with the semantics of totality (such as _все, всякий, любой, каждый, всегда, везде, весь_): e.g. **(NP) все до единый-Gen Cl**, as in _Они все до единого присутствовали на собрании._
 
-  + **Universal: Free Choice** –  The construction contains a universal quantifier with the semantics of unrestricted free choice, a subtype of universal quantifiers (such as _какой угодно, где угодно, любой, хоть_): e.g. **PronInt угодно**, as in _Вася попросил купить что угодно._
+  + **Universal: Free Choice** – The construction contains a universal quantifier with the semantics of unrestricted free choice, a subtype of universal quantifiers (such as _какой угодно, где угодно, любой, хоть_): e.g. **PronInt угодно**, as in _Вася попросил купить что угодно._
 
-  + **Existential** –  The construction contains a generalized existential quantifier, that is a quantifier that refers to the existence of a set of sets (such as _большинство, несколько, меньшинство, иногда, периодически_): e.g. **(великое) множество NP-Gen.Pl**, as in _Можно найти великое множество примеров этой конструкции._
+  + **Existential** – The construction contains a generalized existential quantifier, that is a quantifier that refers to the existence of a set of sets (such as _большинство, несколько, меньшинство, иногда, периодически_): e.g. **(великое) множество NP-Gen.Pl**, as in _Можно найти великое множество примеров этой конструкции._
 
-  + **Existential: Free Choice** –  The construction contains a generalized existential quantifier with the semantics of unrestricted free choice, a subtype of generalized existential quantifiers (such as _сколько влезет, сколько хочешь, сколько угодно_): e.g. **VP-Ipfv.Imp/NP-Gen сколько хочешь**, as in _Читай сколько хочешь._
+  + **Existential: Free Choice** – The construction contains a generalized existential quantifier with the semantics of unrestricted free choice, a subtype of generalized existential quantifiers (such as _сколько влезет, сколько хочешь, сколько угодно_): e.g. **VP-Ipfv.Imp/NP-Gen сколько хочешь**, as in _Читай сколько хочешь._
 
-  + **Proportional** –  The construction contains a proportional quantifier, that is a quantifier that refers to a proportion (such as _во многом, по большей части, каждый пятый, в основном, нечасто, обычно, в целом, время от времени, редко, в большинстве своем,_ etc.): e.g. **NP/PP в большинстве своем VP**, as in _Дети в большинстве своем были готовы к школе._
+  + **Proportional** – The construction contains a proportional quantifier, that is a quantifier that refers to a proportion (such as _во многом, по большей части, каждый пятый, в основном, нечасто, обычно, в целом, время от времени, редко, в большинстве своем,_ etc.): e.g. **NP/PP в большинстве своем VP**, as in _Дети в большинстве своем были готовы к школе._
 
-  + **Existential: Value judgment quantifier** –  The construction contains a value judgment quantifier that expresses a subjective evaluation of the quantity (such as _много, мало, немного, сколько, столько_). This group of quantifiers is a subtype of generalized existential quantifiers: e.g. **столько NP-Gen Cop/VP, что Cl**, as in _На концерт пришло столько людей, что некуда было сесть._
+  + **Existential: Value judgment quantifier** – The construction contains a value judgment quantifier that expresses a subjective evaluation of the quantity (such as _много, мало, немного, сколько, столько_). This group of quantifiers is a subtype of generalized existential quantifiers: e.g. **столько NP-Gen Cop/VP, что Cl**, as in _На концерт пришло столько людей, что некуда было сесть._
 
 ------
 
@@ -365,7 +384,7 @@ On the one hand, we adopt the traditional widely accepted approach and take a na
 
   + **Permission** – The construction refers to a deontic external possibility, i.e. permission to perform an action or the speaker's request for such permission: e.g. **не страшно/ничего, если Cl?**, as in _Не страшно, если я закурю?_
 
-+ **Epistemic modality** – We follow Nuyts (2016: 38) in understanding epistemic modality as an estimation of "the likelihood that the state of affairs expressed in the clause applies in the world". Therefore, epistemic modality indicates the degree of confidence in a proposition, typically on the side of the speaker (cf. Boye 2016:117).
++ **Epistemic modality** – We follow Nuyts (2016: 38) in understanding epistemic modality as an estimation of "the likelihood that the state of affairs expressed in the clause applies in the world". Therefore, epistemic modality indicates the degree of confidence in a proposition, typically on the side of the speaker (cf. Boye 2016: 117).
 
   + **High degree of certainty** – The construction refers to a high degree of confidence in the proposition: the situation is assessed as probable or highly probable: e.g. **зуб даю, что Cl**, as in _Зуб даю, что никто в комнату не заходил._
 
