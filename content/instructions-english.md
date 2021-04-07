@@ -429,7 +429,7 @@ In the Russian Constructicon, we adopt a set of terms to tag the parts of speech
 
 ### 4.4.1. Semantic types
 
-In the Russian Constructicon, we adopt a set of terms to tag semantic types of constructions. Explanations of individual semantic tags are available [here](/semantic-types/).
+In the Russian Constructicon, we adopt a set of terms to tag semantic types of constructions. Explanations of individual semantic tags are available [here](https://constructicon.github.io/russian/semantic-types/).
 
 ### 4.4.2. Semantic roles
 
