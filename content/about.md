@@ -113,7 +113,8 @@ If you want to suggest a new construction for this resource, please enter it in 
 
 We hope that you will use information that you have found in the Russian Constructicon in your scholarly work (for example in oral presentations or publications). If you do, please be sure to give appropriate credit by citing the Russian Constructicon as follows:
 
-**The Russian Constructicon. An electronic database of the Russian grammatical constructions. Available at <https://constructicon.github.io/russian/>.**
+**Bast, Radovan, Anna Endresen, Laura A. Janda, Marianne Lund, Olga Lyashevskaya, Daria Mordashova, Tore Nesset, Ekaterina Rakhilina, Francis M. Tyers, Valentina Zhukova. 2021. The Russian Constructicon. An electronic database of the Russian grammatical constructions. Available at <https://constructicon.github.io/russian/>.**
+
 
 
 ## 6. Что такое Русский Конструктикон
@@ -138,5 +139,5 @@ We hope that you will use information that you have found in the Russian Constru
 
 Мы надеемся, что информация и данные, представленные в Русском Конструктиконе, окажутся актуальными для вашей научной работы и пригодятся в подготовке докладов и публикаций. Если вы будете использовать или приводить материалы этого ресурса, не забудьте дать соответствующую ссылку, цитируя Русский Конструктикон следующим образом:
 
-**The Russian Constructicon. An electronic database of the Russian grammatical constructions. Available at <https://constructicon.github.io/russian/>.**
+**Bast, Radovan, Anna Endresen, Laura A. Janda, Marianne Lund, Olga Lyashevskaya, Daria Mordashova, Tore Nesset, Ekaterina Rakhilina, Francis M. Tyers, Valentina Zhukova. 2021. The Russian Constructicon. An electronic database of the Russian grammatical constructions. Available at <https://constructicon.github.io/russian/>.**
 
