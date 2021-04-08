@@ -495,9 +495,9 @@ This group includes the constructions that organize the communication process, u
 
   + **Topic change** – The construction ends the discussion of one topic and switches attention to another topic of conversation: e.g. **Это всё Cop Pred, но Cl**, as in _Это всё хорошо, но самое главное – безопасность._
 
-+ **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a larger than speaker community of speakers. Compare the English _as they say_ (see also Nuyts 2005: 14): e.g. **так сказать, XP**, as in _Это один из тех фильмов, которые, так сказать, на века._ No subtypes.
++ **Intersubjectivity** – The construction refers to a common standard, often idiomatic, way of naming something and thus appeals to a large community of speakers. Compare English _as they say_ (see also Nuyts 2005: 14): e.g. **так сказать, XP**, as in _Это один из тех фильмов, которые, так сказать, на века._ No subtypes.
 
-+ **Objectivity** – The speaker presents some information as well-known to many people, accurate facts and objectivizes the content of his message by referring to the status of his information. Compare the English _in fact_: e.g. **как известно, Cl**, as in _Как известно, он мастер стихи сочинять._ No subtypes.
++ **Objectivity** – The speaker presents some information as well-known to many people accurate facts and objectivizes the content of the message by referring to the status of the information. Compare English _in fact_: e.g. **как известно, Cl**, as in _Как известно, он мастер стихи сочинять._ No subtypes.
 
 + **Source of information** – The construction indicates the source of the provided information: e.g. **по словам NP-Gen, Cl**, as in _По словам учителя, провести урок дистанционно не так просто._ No subtypes.
 
@@ -521,11 +521,11 @@ This group includes the constructions that have a prominent communicative functi
 
   + **Self-evidence** – The construction expresses the idea that some information is, from the speaker's point of view, indisputable or even self-evident based on the speaker's general knowledge or their awareness about this specific situation: e.g. **ещё бы PronPers-Dat не Verb-Inf, Cl!**, as in _Ещё бы им не любить работу, когда они выросли в деревне!_
 
-  + **Surprise** – The construction indicates that the speaker is surprised with the received message: e.g. **как это XP/Cl?**, as in _Как это он не приедет?_
+  + **Surprise** – The construction indicates that the speaker is surprised by the received message: e.g. **как это XP/Cl?**, as in _Как это он не приедет?_
 
-  + **Warning** – The construction expresses the speaker's warning addressed to the interlocutor: e.g. **и (только) не говори потом, что Cl**, as in _И не говори потом, что я тебя не предупреждала!_
+  + **Warning** – The construction expresses a speaker's warning addressed to the interlocutor: e.g. **и (только) не говори потом, что Cl**, as in _И не говори потом, что я тебя не предупреждала!_
 
-  + **Accentuation** – The construction stresses out an element of the interlocutor's earlier statement: e.g. **в то́м-то и NP-Nom, (что) Cl**, as in _В том-то и дело, что не знаем._
+  + **Accentuation** – The construction stresses an element of the interlocutor's earlier statement: e.g. **в то́м-то и NP-Nom, (что) Cl**, as in _В том-то и дело, что не знаем._
 
 + **Routine** – Fixed formulaic phrases used in typical communicative contexts (greetings, partings, apologies, etc.). 
 
@@ -545,7 +545,7 @@ This group includes the constructions that have a prominent communicative functi
 
   + **Politeness marker** – The construction serves to mark politeness on behalf of the speaker: e.g. **Уж простить-Imp/извинить-Imp, но Cl**, as in _Уж простите, но всё будет по договору._
 
-  + **Praise** – The construction expresses a praise: e.g. **Слава NP-Dat, (что) Cl**, as in _Слава богу, вижу прекрасно и всё слышу._
+  + **Praise** – The construction expresses praise: e.g. **Слава NP-Dat, (что) Cl**, as in _Слава богу, вижу прекрасно и всё слышу._
 
   + **Swearing** – Highly expressive constructions that contain taboo vocabulary and usually convey negative emotions of the speaker about the situation: e.g. **ни черта́ не VP**, as in _Я ни черта не вижу._
 
