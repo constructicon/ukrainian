@@ -2,7 +2,7 @@
 
 # Constructicon
 
-Experimenting with the Constructicon.
+Searchable database of multiword grammatical constructions of Russian.
 
 
 ### Using these libraries
