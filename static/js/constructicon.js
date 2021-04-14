@@ -73,7 +73,13 @@ function object_is_empty(obj) {
 function _helper(array) {
     var tree = [];
 
+    var keys = [];
     for (var prop in array) {
+        keys.push(prop);
+    }
+    keys.sort();
+
+    for (var prop of keys) {
         if (Object.prototype.hasOwnProperty.call(array, prop)) {
             if (object_is_empty(prop)) {
                 tree.push({
