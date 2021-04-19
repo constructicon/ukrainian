@@ -126,6 +126,16 @@
               <br>
 
               <br>
+              <b>COMMENT</b> {[ records[current_record_number].comment ]}
+              <br>
+
+              <br>
+              <b>COMMON FILLERS</b>
+              <ul>
+                <li v-for="item in records[current_record_number].common_fillers">{[ item ]}</li>
+              </ul>
+
+              <br>
               <b>REFERENCES</b>
               <ul>
                 <li v-for="item in records[current_record_number].references">{[ item ]}</li>
