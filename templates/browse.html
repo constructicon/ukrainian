@@ -74,16 +74,16 @@
 
             <div v-if="show_additional_information">
               <br>
-              <b>DEPENDENCY STRUCTURE</b>
-              <ol>
-                <li v-for="item in records[current_record_number].dependency_structure">{[ item ]}</li>
-              </ol>
+              <b>COMMON FILLERS</b>
+              <ul>
+                <li v-for="item in records[current_record_number].common_fillers">{[ item ]}</li>
+              </ul>
 
               <br>
-              <b>DEPENDENCY STRUCTURE OF ILLUSTRATION</b>
-              <ol>
-                <li v-for="item in records[current_record_number].dependency_structure_of_illustration">{[ item ]}</li>
-              </ol>
+              <b>SEMANTIC TYPE</b>
+              <ul>
+                <li v-for="item in records[current_record_number].semantic_types">{[ item ]}</li>
+              </ul>
 
               <br>
               <b>SYNTACTIC TYPE OF CONSTRUCTION</b>
@@ -110,10 +110,16 @@
               </ul>
 
               <br>
-              <b>SEMANTIC TYPES</b>
-              <ul>
-                <li v-for="item in records[current_record_number].semantic_types">{[ item ]}</li>
-              </ul>
+              <b>DEPENDENCY STRUCTURE</b>
+              <ol>
+                <li v-for="item in records[current_record_number].dependency_structure">{[ item ]}</li>
+              </ol>
+
+              <br>
+              <b>DEPENDENCY STRUCTURE OF ILLUSTRATION</b>
+              <ol>
+                <li v-for="item in records[current_record_number].dependency_structure_of_illustration">{[ item ]}</li>
+              </ol>
 
               <br>
               <b>COMMUNICATIVE TYPE</b>
@@ -128,12 +134,6 @@
               <br>
               <b>COMMENT</b> {[ records[current_record_number].comment ]}
               <br>
-
-              <br>
-              <b>COMMON FILLERS</b>
-              <ul>
-                <li v-for="item in records[current_record_number].common_fillers">{[ item ]}</li>
-              </ul>
 
               <br>
               <b>REFERENCES</b>
