@@ -1,6 +1,8 @@
 +++
 +++
 
+{{ youtube(id="gS70MpJPN9o", class="youtube") }}
+
 # Instructions
 
 ## 1. Explanation of tabs
