@@ -13,8 +13,7 @@ All general semantic types that we use in this resource are listed in the table 
 
 Semantic types of constructions form larger units: subclasses and classes. For convenience these classes are numbered and serve as headings that organize the inventory of semantic types into a structured system. The names of classes and subclasses are not available in the search window.
 
-<img width="967" alt="Semantic types 2" src="https://user-images.githubusercontent.com/63615172/113850771-1a2fd700-979b-11eb-8e76-0cd84bca69ff.png">
-
+<img width="973" alt="Table sem types corrected" src="https://user-images.githubusercontent.com/63615172/117973797-1a3c6d00-b32d-11eb-8098-2729fbc63513.png">
 
 
 ## 1. Semantic class **QUALIA**
