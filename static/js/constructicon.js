@@ -169,7 +169,6 @@ function flatten_semantic_types(record_numbers, records) {
 
 
 async function fetch_data(data, url_prefix) {
-    console.log("fetching data");
     // let r = await axios.get(url_prefix + 'data-combined-debug.yml');
     let r = await axios.get(url_prefix + 'data-combined.yml');
     var json_data = jsyaml.load(r.data);
@@ -205,19 +204,20 @@ async function fetch_data(data, url_prefix) {
     // for some reason it does not pick up the options otherwise
     data.records = flatten_semantic_types(data.record_numbers, data.records);
 
-    var keys = [
-        'semantic_roles',
-        'morphology',
-        'syntactic_type_of_construction',
-        'syntactic_function_of_anchor',
-        'syntactic_structure_of_anchor',
-        'part_of_speech_of_anchor',
-        'cefr_level',
-        'semantic_types_flat',
-    ];
-    data.search_index_advanced = build_search_index(data.record_numbers, data.records, keys);
-
-    data.search_index_simple = build_search_index(data.record_numbers, data.records, ['name', 'illustration']);
+    data.search_index = {};
+    for (var key of ['name',
+            'illustration',
+            'semantic_roles',
+            'morphology',
+            'syntactic_type_of_construction',
+            'syntactic_function_of_anchor',
+            'syntactic_structure_of_anchor',
+            'part_of_speech_of_anchor',
+            'cefr_level',
+            'semantic_types_flat',
+        ]) {
+        data.search_index[key] = build_search_index(data.record_numbers, data.records, [key]);
+    }
 
     data.all_data_loaded = true;
     data.show_data_spinner = false;
@@ -246,8 +246,7 @@ var app = new Vue({
     el: '#app',
     delimiters: ['{[', ']}'],
     data: {
-        search_index_advanced: null,
-        search_index_simple: null,
+        search_index: null,
         show_additional_information: false,
         show_data_spinner: true,
         all_data_loaded: false,
@@ -327,28 +326,53 @@ var app = new Vue({
         },
         search: function() {
             var record_numbers_matching_search = [];
+
             if (this.search_string == '') {
                 record_numbers_matching_search = this.record_numbers;
             } else {
-                for (var result of this.search_index_simple.search(this.search_string)) {
-                    record_numbers_matching_search.push(result.record);
+                for (var key of ["name", "illustration"]) {
+                    for (var result of this.search_index[key].search(this.search_string)) {
+                        record_numbers_matching_search.push(result.record);
+                    }
                 }
             }
+
+            record_numbers_matching_search = [...new Set(record_numbers_matching_search)];
             record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         advanced_search: function() {
             var record_numbers_matching_search = [];
-            var l = [];
-            for (var selected_options of [this.semantic_roles_selected, this.morphology_selected, this.syntactic_type_of_construction_selected, this.syntactic_function_of_anchor_selected, this.syntactic_structure_of_anchor_selected, this.part_of_speech_of_anchor_selected, this.level_selected, this.semantic_types_selected]) {
-                if (selected_options != null) {
-                    l = l.concat(selected_options);
+
+            var selected_options = {};
+            selected_options['semantic_roles'] = this.semantic_roles_selected;
+            selected_options['morphology'] = this.morphology_selected;
+            selected_options['syntactic_type_of_construction'] = this.syntactic_type_of_construction_selected;
+            selected_options['syntactic_function_of_anchor'] = this.syntactic_function_of_anchor_selected;
+            selected_options['syntactic_structure_of_anchor'] = this.syntactic_structure_of_anchor_selected;
+            selected_options['part_of_speech_of_anchor'] = this.part_of_speech_of_anchor_selected;
+            selected_options['cefr_level'] = this.level_selected;
+            selected_options['semantic_types_flat'] = this.semantic_types_selected;
+
+            for (var key of [
+                    'semantic_roles',
+                    'morphology',
+                    'syntactic_type_of_construction',
+                    'syntactic_function_of_anchor',
+                    'syntactic_structure_of_anchor',
+                    'part_of_speech_of_anchor',
+                    'cefr_level',
+                    'semantic_types_flat',
+                ]) {
+                if (selected_options[key] != null) {
+                    var search_string = '"' + selected_options[key].join('" "') + '"';
+                    for (var result of this.search_index[key].search(search_string)) {
+                        record_numbers_matching_search.push(result.record);
+                    }
                 }
             }
-            var search_string = '"' + l.join('" "') + '"';
-            for (var result of this.search_index_advanced.search(search_string)) {
-                record_numbers_matching_search.push(result.record);
-            }
+
+            record_numbers_matching_search = [...new Set(record_numbers_matching_search)];
             record_numbers_matching_search.sort((a, b) => a - b);
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
