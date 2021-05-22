@@ -15,13 +15,13 @@ function to_title_case(str) {
 
 
 function build_search_index(record_numbers, records, keys) {
-    var search_index = new JsSearch.Search('record');
+    let search_index = new JsSearch.Search('record');
     // https://github.com/bvaughn/js-search#configuring-the-index-strategy
     search_index.indexStrategy = new JsSearch.AllSubstringsIndexStrategy();
-    for (var key of keys) {
+    for (let key of keys) {
         search_index.addIndex(key);
     }
-    for (var record_number of record_numbers) {
+    for (let record_number of record_numbers) {
         search_index.addDocuments([records[record_number]]);
     }
     return search_index;
@@ -29,16 +29,16 @@ function build_search_index(record_numbers, records, keys) {
 
 
 function collect_options(record_numbers, records, key, is_list) {
-    var s = new Set();
-    for (var record_number of record_numbers) {
+    let s = new Set();
+    for (let record_number of record_numbers) {
         if (is_list) {
-            for (var element of records[record_number][key]) {
+            for (let element of records[record_number][key]) {
                 if (element != null) {
                     s.add(element);
                 }
             }
         } else {
-            var element = records[record_number][key];
+            let element = records[record_number][key];
             if (element != null) {
                 s.add(element);
             }
@@ -48,8 +48,8 @@ function collect_options(record_numbers, records, key, is_list) {
     let items = Array.from(s);
     items.sort();
 
-    var tree = [];
-    for (var element of items) {
+    let tree = [];
+    for (let element of items) {
         tree.push({
             id: element,
             label: element
@@ -61,7 +61,7 @@ function collect_options(record_numbers, records, key, is_list) {
 
 
 function object_is_empty(obj) {
-    for (var key in obj) {
+    for (let key in obj) {
         if (obj.hasOwnProperty(key))
             return false;
     }
@@ -71,15 +71,15 @@ function object_is_empty(obj) {
 
 // translates array to list of items
 function _helper(array) {
-    var tree = [];
+    let tree = [];
 
-    var keys = [];
-    for (var prop in array) {
+    let keys = [];
+    for (let prop in array) {
         keys.push(prop);
     }
     keys.sort();
 
-    for (var prop of keys) {
+    for (let prop of keys) {
         if (Object.prototype.hasOwnProperty.call(array, prop)) {
             if (object_is_empty(prop)) {
                 tree.push({
@@ -102,22 +102,22 @@ function _helper(array) {
 
 function collect_options_tree(record_numbers, records, key) {
     // first we build up a simpler array tree from all entries
-    var tree_array = {};
-    for (var record_number of record_numbers) {
+    let tree_array = {};
+    for (let record_number of record_numbers) {
         if (records[record_number][key] != null) {
-            for (var element_0 of records[record_number][key]) {
+            for (let element_0 of records[record_number][key]) {
                 let type_0 = element_0["type"];
                 if (!(type_0 in tree_array)) {
                     tree_array[type_0] = {};
                 }
                 if ("subtypes" in element_0) {
-                    for (var element_1 of element_0["subtypes"]) {
+                    for (let element_1 of element_0["subtypes"]) {
                         let type_1 = element_1["type"];
                         if (!(type_1 in tree_array[type_0])) {
                             tree_array[type_0][type_1] = {};
                         }
                         if ("subtypes" in element_1) {
-                            for (var element_2 of element_1["subtypes"]) {
+                            for (let element_2 of element_1["subtypes"]) {
                                 let type_2 = element_2["type"];
                                 if (!(type_2 in tree_array[type_0][type_1])) {
                                     tree_array[type_0][type_1][type_2] = {};
@@ -131,28 +131,28 @@ function collect_options_tree(record_numbers, records, key) {
     }
 
     // in the second step we translate this to a structure required by https://vue-treeselect.js.org/
-    var tree = _helper(tree_array);
+    let tree = _helper(tree_array);
 
     return tree;
 }
 
 
 function flatten_semantic_types(record_numbers, records) {
-    var key = "semantic_types";
+    let key = "semantic_types";
 
     // FIXME: this traversal is similar to function above
-    for (var record_number of record_numbers) {
-        var flattened_list = [];
+    for (let record_number of record_numbers) {
+        let flattened_list = [];
         if (records[record_number][key] != null) {
-            for (var element_0 of records[record_number][key]) {
+            for (let element_0 of records[record_number][key]) {
                 let type_0 = element_0["type"];
                 flattened_list.push(type_0);
                 if ("subtypes" in element_0) {
-                    for (var element_1 of element_0["subtypes"]) {
+                    for (let element_1 of element_0["subtypes"]) {
                         let type_1 = element_1["type"];
                         flattened_list.push(type_1);
                         if ("subtypes" in element_1) {
-                            for (var element_2 of element_1["subtypes"]) {
+                            for (let element_2 of element_1["subtypes"]) {
                                 let type_2 = element_2["type"];
                                 flattened_list.push(type_2);
                             }
@@ -171,13 +171,13 @@ function flatten_semantic_types(record_numbers, records) {
 async function fetch_data(data, url_prefix) {
     // let r = await axios.get(url_prefix + 'data-combined-debug.yml');
     let r = await axios.get(url_prefix + 'data-combined.yml');
-    var json_data = jsyaml.load(r.data);
+    let json_data = jsyaml.load(r.data);
 
-    var records = {};
-    var record_numbers = [];
-    var levels = new Set();
+    let records = {};
+    let record_numbers = [];
+    let levels = new Set();
 
-    for (var key of Object.keys(json_data)) {
+    for (let key of Object.keys(json_data)) {
         records[key] = json_data[key];
         records[key].record = key;
         record_numbers.push(key);
@@ -205,7 +205,7 @@ async function fetch_data(data, url_prefix) {
     data.records = flatten_semantic_types(data.record_numbers, data.records);
 
     data.search_index = {};
-    for (var key of ['name',
+    for (let key of ['name',
             'illustration',
             'semantic_roles',
             'morphology',
@@ -226,12 +226,12 @@ async function fetch_data(data, url_prefix) {
 
 // based on https://stackoverflow.com/a/19270021 (CC-BY-SA 3.0)
 function random_selection(arr, n_max) {
-    var len = arr.length;
-    var n = Math.min(n_max, len);
-    var result = new Array(n);
-    var taken = new Array(len);
+    let len = arr.length;
+    let n = Math.min(n_max, len);
+    let result = new Array(n);
+    let taken = new Array(len);
     while (n--) {
-        var x = Math.floor(Math.random() * len);
+        let x = Math.floor(Math.random() * len);
         result[n] = arr[x in taken ? taken[x] : x];
         taken[x] = --len in taken ? taken[len] : len;
     }
@@ -325,13 +325,13 @@ var app = new Vue({
             return x[Object.keys(x)[0]];
         },
         search: function() {
-            var record_numbers_matching_search = [];
+            let record_numbers_matching_search = [];
 
             if (this.search_string == '') {
                 record_numbers_matching_search = this.record_numbers;
             } else {
-                for (var key of ["name", "illustration"]) {
-                    for (var result of this.search_index[key].search(this.search_string)) {
+                for (let key of ["name", "illustration"]) {
+                    for (let result of this.search_index[key].search(this.search_string)) {
                         record_numbers_matching_search.push(result.record);
                     }
                 }
@@ -342,9 +342,9 @@ var app = new Vue({
             this.record_numbers_matching_search = record_numbers_matching_search;
         },
         advanced_search: function() {
-            var record_numbers_matching_search = [];
+            let record_numbers_matching_search = [];
 
-            var selected_options = {};
+            let selected_options = {};
             selected_options['semantic_roles'] = this.semantic_roles_selected;
             selected_options['morphology'] = this.morphology_selected;
             selected_options['syntactic_type_of_construction'] = this.syntactic_type_of_construction_selected;
@@ -354,7 +354,7 @@ var app = new Vue({
             selected_options['cefr_level'] = this.level_selected;
             selected_options['semantic_types_flat'] = this.semantic_types_selected;
 
-            for (var key of [
+            for (let key of [
                     'semantic_roles',
                     'morphology',
                     'syntactic_type_of_construction',
@@ -365,8 +365,8 @@ var app = new Vue({
                     'semantic_types_flat',
                 ]) {
                 if (selected_options[key] != null) {
-                    var search_string = '"' + selected_options[key].join('" "') + '"';
-                    for (var result of this.search_index[key].search(search_string)) {
+                    let search_string = '"' + selected_options[key].join('" "') + '"';
+                    for (let result of this.search_index[key].search(search_string)) {
                         record_numbers_matching_search.push(result.record);
                     }
                 }
@@ -379,19 +379,19 @@ var app = new Vue({
         annotate: function(text) {
             // renders words that come right after [...] as subscript with color
             let matches = text.match(/(?<=\])[A-Za-z]+/g);
-            for (var substring of matches) {
+            for (let substring of matches) {
                 text = text.replace(substring, '<sub><span style="color: #db2f6d">' + substring + '</span></sub>');
             }
             return text;
         },
         get_random_selection: function() {
-            var records_with_this_level = [];
-            for (var record_number of this.record_numbers) {
+            let records_with_this_level = [];
+            for (let record_number of this.record_numbers) {
                 if (this.records[record_number].cefr_level == this.daily_dose_level) {
                     records_with_this_level.push(record_number);
                 }
             }
-            var selected = random_selection(records_with_this_level, 5);
+            let selected = random_selection(records_with_this_level, 5);
             selected.sort((a, b) => a - b);
             this.record_numbers_matching_search = selected;
         }
