@@ -13,7 +13,7 @@ All general semantic types that we use in this resource are listed in the table 
 
 Semantic types of constructions form larger units: subclasses and classes. For convenience these classes are numbered and serve as headings that organize the inventory of semantic types into a structured system. The names of classes and subclasses are not available in the search window.
 
-<img width="973" alt="Table sem types corrected" src="https://user-images.githubusercontent.com/63615172/117973797-1a3c6d00-b32d-11eb-8098-2729fbc63513.png">
+<img width="987" alt="Screen Shot 2021-05-26 at 13 14 06" src="https://user-images.githubusercontent.com/63615172/119692605-d3319a00-be4b-11eb-8de0-211752884093.png">
 
 
 ## 1. Semantic class **QUALIA**
@@ -90,11 +90,11 @@ Situation structure is an umbrella term for those semantic types of construction
 
 + **Result** – Constructions of this type group around the concept of result and can denote a range of meanings: achieving a result; unachieved result; an attempt towards performing and action, thus achieving a result. Note that the term _Result_ in the Russian Constructicon covers a larger scope of meanings than the term _resultative_, which normally refers to only resultative phase of action (Плунгян 2011: 282; e.g. _дверь открыта_ ‘the door is open’, _машина сломана_ ‘the car is broken’).
 
+  + **Achieved Result** – The construction refers to an actual event or a state triggered by a preceding situation: e.g. **VP до NP-Gen**, as in _Все овощи нужно залить кипятком и варить до готовности._
+
   + **Antiresultative** – The construction refers to a violated resultative stage (cf. Плунгян 2001). There are two types of the antiresultative meaning: 1) a result has not been achieved as the movement towards the result has been interrupted; 2) a result has been achieved but then cancelled: e.g. **едва не VP-Pst**, as in _Иван Иванович едва не умер после такого розыгрыша._
 
   + **Conative** – The construction indicates an attempt to perform an action: e.g. **NP-Nom пробовать VP-Inf**, as in _Вася несколько раз пробовал открыть окно._
-
-  + **Unspecified** – The construction refers to an actual event or a state triggered by a preceding situation: e.g. **VP до NP-Gen**, as in _Все овощи нужно залить кипятком и варить до готовности._
 
 + **Actuality** – The construction refers to a successful realization of an action (compare the English verb _manage_, cf. Plungian & van der Auwera 1998: 104), or “the successful result of the ability” (Aijmer 2004: 62). Actuality as a category lies at the intersection of Aspectuality and Modality (Мордашова Forthcoming): **NP-Dat удалось VP-Inf**, as in _Мише удалось покурить._ No subtypes.
 
@@ -186,7 +186,7 @@ The construction refers to the relationship between events in terms of cause, pu
 
   + **Limitation** – The construction indicates that the speaker accepts that a certain situation takes place, but draws the interlocutor's attention to a different independent situation that is less important and evaluated with the opposite polarity value (by contrast with the first situation). The second situation obstructs or causes difficulties for the first situation to take place: e.g. **(Cl), вот только Cl**, as in _Всё бы сделал, вот только времени не хватает._
 
-  + **Unspecified** – The constructions that do not belong to the subtypes described above: e.g. **(Cl) разве что/только Cl**, as in _Не буду пить, разве что пригублю._
+  + **Other** – The constructions that do not belong to the subtypes described above: e.g. **(Cl) разве что/только Cl**, as in _Не буду пить, разве что пригублю._
 
 ------
 
@@ -340,11 +340,11 @@ This group of constructions includes three semantic types: Non-Existence, Measur
 
   + **Time** – The construction denotes measurement of a certain time period: e.g. **VP NumCrd-Nom NP-Gen**, as in _Он писал письмо четыре часа._
 
+  + **Unrestricted domain** – This subtype includes constructions that are not limited to a single measurement parameter: e.g. **куча NP-Gen**, as in _У меня всегда куча дел._
+
   + **Volume** – The construction denotes measurement of an object's volume. The construction is relevant for both the volume of a physical container or a metaphorical container of information, such as a book: e.g. **NP объёмом (в) NumCrd-Acc NP**, as in _Книга объёмом в сто страниц._
 
   + **Weight** – The construction denotes measurement of an object's weight: e.g. **NP весом/массой (в) NumCrd-Acc NP**, as in _Баржа весом в шесть тонн._
-
-  + **Unspecified** – This subtype includes constructions that are not limited to a single measurement parameter: e.g. **куча NP-Gen**, as in _У меня всегда куча дел._
 
 + **Calculation** – Constructions encode various mathematical operations (addition, subtraction, division, multiplication, exponentiation, and radical expression) as well as equations and fractions.
 
