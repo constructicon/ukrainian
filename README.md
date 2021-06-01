@@ -13,5 +13,5 @@ Searchable database of multiword grammatical constructions of Russian.
 - https://github.com/bvaughn/js-search (for searching)
 - https://getbootstrap.com/ (CSS)
 - https://github.com/nodeca/js-yaml (parsing YAML files)
-- https://github.com/axios/axios (synchronous HTTP requests)
+- https://github.com/axios/axios (fetching the data)
 - https://lodash.com/ (debouncing)
