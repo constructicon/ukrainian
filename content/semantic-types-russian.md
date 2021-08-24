@@ -17,7 +17,7 @@
 
 Ниже мы приводим русскоязычный аналог сводной таблицы семантических типов конструкций. Обратите внимание, что поиск задается только с помощью английских терминов.
 
-<img width="1339" alt="TableRussian" src="https://user-images.githubusercontent.com/63615172/130576515-3d8e735d-ce93-41a9-ad2f-5ed4f8861a1f.png">
+<img width="987" alt="021-08-24 at 09 52 23" src="https://user-images.githubusercontent.com/63615172/130578650-81abc3cf-5398-4336-afad-45bc33064942.png">
 
 ## 1. Семантический класс КВАЛИА (QUALIA)
 
