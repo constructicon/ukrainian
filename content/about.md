@@ -46,7 +46,7 @@ Learning”, CPRU-2017/10027) in 2017-2020 supported by Norwegian Agency for
 International Cooperation and Quality Enhancement in Higher Education (Diku,
 <https://diku.no/en>).
 
-For more details on this resource see the project page <https://site.uit.no/russian-constructicon/>.
+For more details on this resource see the [project page](https://site.uit.no/russian-constructicon/) and the [YouTube channel](https://www.youtube.com/channel/UC8q-_F8c8bx9gI7fYET1-dQ).
 
 If you want to suggest a new construction for this resource, please enter it in the [electronic form](https://forms.gle/tkyDAY6UM6QbizGs7).
 
@@ -61,9 +61,18 @@ If you want to suggest a new construction for this resource, please enter it in 
 
 - [Laura A. Janda](https://uit.no/ansatte/person?p_document_id=41561) (UiT The Arctic University of Norway): Background research,
   Concept, Design, Data mining, Editing of content, Dissemination of findings
-  and results
-- [Tore Nesset](https://en.uit.no/ansatte/person?p_document_id=41533) (UiT The Arctic University of Norway): Background research,
-  Concept, Design, Editing of content, Dissemination of findings and results 
+  and results, Translation of definitions to English, Annotation of CEFR levels
+- [Radovan Bast](https://bast.fr/) (UiT The Arctic University of Norway, Department of information
+  technology): New user interface, design and programming
+- [Anna Endresen](https://en.uit.no/ansatte/person?p_document_id=585584) (UiT The Arctic University of Norway): Content, Design, Data
+  mining, Editing, Semantic and syntactic annotation, Usage labels, Writing definitions,
+  Dissemination of findings and results, Coordination of teamwork
+- [Valentina Zhukova](https://www.researchgate.net/profile/Valentina-Zhukova-4) (National Research University Higher School of Economics in
+  Moscow): Content, Design, Data mining, Semantic and syntactic annotation, Writing definitions,
+  Dissemination of findings and results
+- [Daria Mordashova](https://iling-ran.ru/web/en/scholars/mordashova) (Lomonosov Moscow State University, Institute of Linguistics
+  of the Russian Academy of Sciences): Content, Design, Data mining, Semantic
+  and syntactic annotation, Writing definitions, Dissemination of findings and results
 - [Ekaterina Rakhilina](https://www.hse.ru/en/org/persons/26736782) (National Research University Higher School of Economics
   in Moscow, Vinogradov Institute of Russian Language at Russian Academy of
   Sciences): Background research, Concept, Design, Content, Data mining,
@@ -72,21 +81,15 @@ If you want to suggest a new construction for this resource, please enter it in 
   Moscow, Vinogradov Institute of Russian Language at Russian Academy of
   Sciences): Concept, Design, Data mining, UD analysis, Syntactic annotation,
   Dissemination of findings and results
+- [Tore Nesset](https://en.uit.no/ansatte/person?p_document_id=41533) (UiT The Arctic University of Norway): Background research,
+  Concept, Design, Editing of content, Dissemination of findings and results, Annotation of CEFR levels 
 - [Francis M. Tyers](https://github.com/ftyers) (Indiana University; earlier affiliated with UiT The Arctic
   University of Norway and National Research University Higher School of
   Economics): Concept, Design, UD for Russian
-- [Radovan Bast](https://bast.fr/) (UiT The Arctic University of Norway, Department of information
-  technology): New user interface, design and programming
 - Marianne Lund: Translation of definitions to Norwegian
-- [Valentina Zhukova](https://www.researchgate.net/profile/Valentina-Zhukova-4) (National Research University Higher School of Economics in
-  Moscow): Content, Design, Data mining, Semantic and syntactic annotation,
-  Dissemination of findings and results
-- [Daria Mordashova](https://iling-ran.ru/web/en/scholars/mordashova) (Lomonosov Moscow State University, Institute of Linguistics
-  of the Russian Academy of Sciences): Content, Design, Data mining, Semantic
-  and syntactic annotation, Dissemination of findings and results
-- [Anna Endresen](https://en.uit.no/ansatte/person?p_document_id=585584) (UiT The Arctic University of Norway): Content, Design, Data
-  mining, Editing, Semantic and syntactic annotation, Usage labels,
-  Dissemination of findings and results, Coordination of teamwork
+- James McDonald: Translation of definitions to English
+- Kathleen Megan Dickson: Translation of definitions to English
+
 
 ## 4. Key publications
 
@@ -131,7 +134,7 @@ We hope that you will use information that you have found in the Russian Constru
 
 Создание ресурса финансировалось грантом “Constructing a Russian Constructicon” (NCM-RU-2016/10025) в 2016 г., а также из бюджета проекта TWIRLL (“Targeting Wordforms in Russian Language Learning”, CPRU-2017/10027) в 2017-2020 гг., поддержанного Норвежским агентством по международному сотрудничеству и повышению качества высшего образования (Diku, <https://diku.no/en>).
  
-Дополнительная информация о ресурсе доступна на сайте <https://site.uit.no/russian-constructicon/>.
+Дополнительная информация о ресурсе доступна на [сайте](https://site.uit.no/russian-constructicon/) и на [YouTube-канале](https://www.youtube.com/channel/UC8q-_F8c8bx9gI7fYET1-dQ).
  
 Если вы хотите предложить конструкцию для пополнения нашего ресурса, заполните [форму](https://forms.gle/tkyDAY6UM6QbizGs7).
 
