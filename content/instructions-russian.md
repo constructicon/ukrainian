@@ -3,6 +3,8 @@
 
 {{ youtube(id="gS70MpJPN9o", class="youtube") }}
 
+{{ youtube(id="hEbVtimsoJQ", class="youtube") }}
+
 # Инструкции
 
 ## 1. Объяснение страниц сайта
