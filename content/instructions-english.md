@@ -436,3 +436,21 @@ In the Russian Constructicon, we employ a set of terms to tag semantic types of 
 ### 4.4.2. Semantic roles
 
 We annotate all definitions of constructions and corpus-based example sentences for semantic roles, focusing primarily on the semantic roles of the slots. In descriptions of constructions, the annotated portions of text are put in square brackets [], and the corresponding semantic role appears in the subscript highlighted with color. In Advanced Search, the user can search for constructions with slots that perform a particular semantic role. Our understanding of semantic roles does not deviate from standard linguistic descriptions (cf. Апресян 1974/1995). Explanations and illustrations of semantic roles will appear here later.
+
+---
+
+### 4.5. Communicative type of construction
+
+In the Russian constructicon, we specify the Communicative type only for those constructions that form a clause or a combination of clauses. This applies to the constructions that carry the syntactic tags Clause, Clause and Modifier Construction, Clause/XP with parentheticals, Copula Construction, Biclausal construction, and Matrix and Sentential Complement Construction. For the remaining constructions we use the tag Not applicable.
+
+We distinguish between three communicative types of constructions: **Declarative**, **Interrogative**, and **Exclamatory**.
+
++ **Declarative** – The construction is primarily used in sentences that make statements, provide information, and are emotionally neutral: e.g. ID 43 **NP-Nom Cop за то, чтобы Cl/VP-Inf** as in _Я за то, чтобы ты у нас жил._
+
++ **Interrogative** – The construction is used for asking questions: e.g. ID 1715 **откуда взяться-Pst NP-Nom?** as in _Откуда взялся этот странный запах?_
+
++ **Exclamatory** – The construction serves to express an emotional attitude or the speaker’s will (prohibition, threat, command, request, etc.). The constructions of this type are characterized with emotional exclamatory intonation: e.g. ID 1246 **прекратить/перестать-Imp VP-Ipfv.Inf!** as in _Прекрати капризничать!_; ID 68 **вот это Cop NP-Nom!** as in _Вот это подарок!_
+
+Some constructions carry two tags separated with a slash: **Interrogative / Exclamatory**. These constructions form utterances that simultaneously combine the properties of both communicative types indicated. They are characterized with the intonation contour that is both Interrogative and Exclamatory. Usually, this is indicative of rhetorical questions: e.g. ID 287 **разве не NP-Nom Cop?** as in _– Разве не красота?_
+
+---
