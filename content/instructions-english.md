@@ -435,7 +435,19 @@ In the Russian Constructicon, we employ a set of terms to tag semantic types of 
 
 ### 4.4.2. Semantic roles
 
-We annotate all definitions of constructions and corpus-based example sentences for semantic roles, focusing primarily on the semantic roles of the slots. In descriptions of constructions, the annotated portions of text are put in square brackets [], and the corresponding semantic role appears in the subscript highlighted with color. In Advanced Search, the user can search for constructions with slots that perform a particular semantic role. Our understanding of semantic roles does not deviate from standard linguistic descriptions (cf. Апресян 1974/1995). Explanations and illustrations of semantic roles will appear here later.
+We annotate all definitions of constructions and corpus-based example sentences for semantic roles, focusing primarily on the semantic roles of the slots. In descriptions of constructions, the annotated portions of text are put in square brackets [], and the corresponding semantic role appears in the subscript highlighted with color. In Advanced Search, the user can search for constructions with slots that perform a particular semantic role. below we provide explanations and illustrations of semantic roles:
+
++ **Agent** – Active animate participant who initiates the action, affects other participants (or themselves), and changes the current situation. An Agent controls the action, that is they perform the action consciously or intentionally. The tag is also used to annotate the Subject of movement in space that is normally characterized a lesser degree of control over the situation, intentionality, consciousness and activity.
+Example: _Ни с того ни с сего [главный тренер]Agent взял и пригласил в сборную Александра Юдина._ **(ID 57 NP-Nom взять и VP-Pfv)**
+
++ **Counteragent** – Active animate participant of a social situation (a game, trade, friendship, etc.), who interacts with the Agent.
+Example: _― Пойдем, отец. Дай Валентине с Серегой поговорить. ― [Я]Agent [ей]Counteragent поговорю!_ **(ID 389 я PronPers-Dat VP-Fut!)**
+
++ **Deputy** – Active animate participant who performs an action instead of another participant.
+Example: _Я упросил [напарника]Agent [отдежурить]Action за [меня]Deputy на рации._ **(ID 127: VP за NP-Acc)**
+
++ **Cognizer** –
+
 
 ---
 
