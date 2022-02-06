@@ -465,7 +465,7 @@ E.g.: _Не позволяйте [себе]Causee под давлением [о�
 E.g.: _Не позволяйте [себе]Causee под давлением [оппонента]Causer растерять собственную самооценку._ **(ID 1287 VP под давлением NP-Gen)**
 
 + **Participant** – Animate participant of a situation that cannot be coded by any other semantic role from the list above.
-E.g.: TBA
+E.g.: _[Деду]Participant на вид лет восемьдесят с небольшим._ **(ID 1143 NP-Dat на вид Cop лет NumCrd)**
 
 + **Force** – Inanimate external entity (Force) that intensively affects other participants in the situation and causes the situation to change. By contrast with Agent, Force is always inanimate, non-volitive and unable to control the situation.
 E.g.: no examples in the Russian Constructicon yet; _[Ветром]Effector сдуло шляпу._
@@ -513,7 +513,7 @@ E.g.: _Уникальный [завод]Possessed кварцевого стек�
 Constructions that belong to the semantic type Addressee feature the following semantic roles:
 
 + **Addressee** – An animate participant who receives a message or, more rarely, an emotional reaction or an action.
-E.g. _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
+E.g.: _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
 
 + **Beneficiary** – An animate participant who gains from the presence of a situation or action.
 E.g.: _Светочка [росла]Action, на радость [маме и папе]Beneficiary, умницей._ **(ID 1784 VP на радость NP-Dat)**
@@ -577,7 +577,7 @@ E.g.: _[Моё детство и юность прошли]Situation в обст
 + **Concession** – A situation in spite of which another situation takes place.
 E.g.: _Несмотря на [отзывы туристов]Concession, он всё равно поехал этот отель._ **(ID 2088 Несмотря/Невзирая на NP-Acc, Cl)**
 
-Constructions that belong to the semantic type Spatial expression often feature the following semantic roles:
+Constructions that belong to the semantic type Spatial expressions often feature the following semantic roles:
 
 + **Path** – The trajectory of movement of an object or a participant.
 E.g.: _Мы пошли вдоль по [улице]Path._ **(ID 849 VP вдоль по NP-Dat)**
@@ -627,7 +627,7 @@ E.g.: _[Это человек дисциплинированных чувств,
 E.g.: _[Это человек дисциплинированных чувств, умеренный во всем, и позитивист.]Rephrasee Иначе говоря, [он доверяет своей голове и своим рукам]Rephrasing._ **(ID 1086 иначе говоря, XP/Cl)**
 
 + **Addressee** – An animate participant who receives a message or, more rarely, an emotional reaction or an action.
-E.g. _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
+E.g.: _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
 
 The constructions that characterize objects or participants often feature the following semantic roles: 
 
