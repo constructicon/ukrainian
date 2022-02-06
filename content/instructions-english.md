@@ -548,7 +548,13 @@ E.g.: _[Любая страна]Set, в том числе и [Мексика]Ele
 + **Set** – A collection of elements (inanimate objects or animate participants) that share a certain characteristic.
 E.g.: _[Любая страна]Set, в том числе и [Мексика]Element, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
 
++ **Measure** – A unit of measurement used to quantify length, breadth, weight, volume, price or other quantitative characteristics of an object (for example, meter, kilogram, liter, ruble, etc.).
+E.g.: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]Quantity [килограммов]Measure._ **(ID 55 NP весом/массой (в) NumCrd NP)**
 
++ **Quantity** – A number of elements or units of measurement, expressed numerically.
+E.g.: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]Quantity [килограммов]Measure._ **(ID 55 NP весом/массой (в) NumCrd NP)**
+
++ **
 
 ---
 
