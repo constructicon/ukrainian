@@ -465,99 +465,99 @@ Constructions that belong to the semantic types Quantification, Inclusive, Excep
 + **Set** (Множество) – Совокупность элементов, которые объединены некой общей характеристикой. Элементами могут быть как неодушевленные объекты, так и одушевленные участники.
 Пример: _[Любая страна]Set, в том числе и [Мексика]Element, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
 
-+ **Measure** – A unit of measurement used to quantify length, breadth, weight, volume, price or other quantitative characteristics of an object (for example, meter, kilogram, liter, ruble, etc.).
++ **Measure** (Мера) – Единица измерения, которая используется для определения длины, ширины, веса, объема, стоимости и других количественных характеристик объекта (например, метры, килограммы, литры, рубли и проч.).
 Пример: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]Quantity [килограммов]Measure._ **(ID 55 NP весом/массой (в) NumCrd NP)**
 
-+ **Quantity** – A number of elements or units of measurement, expressed numerically.
++ **Quantity** (Количество) – Количество элементов или единиц измерения, выраженное числом.
 Пример: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]Quantity [килограммов]Measure._ **(ID 55 NP весом/массой (в) NumCrd NP)**
 
-+ **Result** – A situation that takes shape as a final consequence of an action or an event. This tag is often used to annotate constructions that belong to the semantic type Result. In constructions that denote Calculation this semantic role indicates the final number obtained as a result of calculation, a specific arithmetic operation (addition, subtraction, division, etc.).
++ **Result** (Результат) – Ситуация, возникшая в результате действия или события. Тег как правило актуален для конструкций, которые относятся к семантическому типу Результат. В конструкциях счета эта семантическая роль обозначает итоговое число, полученное в результате вычисления, некоторой арифметической операции (сложения, вычитания, деления и проч.).
 Пример: _Дело доходит до [драки]Result_ **(ID 961 дело дойти/доходить до NP-Gen)**; _Сколько бы вы ни выигрывали, вы всё равно [проиграете]Result в конечном счёте._ **(ID 762 в конечном счете VP)**; _Крыжовник [проварить]Action до [мягкости]Result, добавив цедру лимона и сахар._ **(ID 1575 VP до NP-Gen)**; _В итоге обсуждения правление [одобрило заявку]Result_ **(ID 1680 в итоге NP-Gen VP)**; _[Три]Quantity плюс [три]Quantity будет [шесть]Result._ **(ID 1856 NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat)**
 
 Situation modifiers:
 
-+ **Condition** – A situation needed for another situation to take place.
++ **Condition** (Условие) – Ситуация, необходимая для возникновения другой ситуации.
 Пример: _В условиях [современной динамики]Condition во всех сферах хозяйства [важное значение приобретает контроль развития территорий.]Situation_ **(ID 51 в условиях NP-Gen Cl)**; _[Цена такого набора варьируется]Situation в зависимости от [качества и дизайна]Condition._ **(ID 49 Cl в зависимости от NP-Gen)**
 
-+ **Manner** – A mode of action, a way of performing an action.
++ **Manner** (Образ действия) – Способ выполнения действия.
 Пример: _Второй день [я]Agent [хожу]Action [хромаю]Manner, ногу, кажется, подвернула._ **(ID 579 NP-Nom Verb VP)**
 
-+ **Cause** – The reason why a certain situation takes place.
++ **Cause** (Причина) – Причина возникновения определенной ситуации.
 Пример: _В основном [сокращение расходов произошло]Situation вследствие [сокращения численности персонала агенства.]Cause_ **(ID 90 вследствие NP-Gen Cl)**
 
-+ **Purpose** – The aim of an intended action or the purpose of an object.
++ **Purpose** (Цель) – Цель намеренного действия или назначение объекта.
 Пример: _Я [подошёл]Action [посмотреть]Purpose, что он пишет._ **(ID 559 VP VP-Inf)**; _В вечных пробках города забываешь, что автомобиль [создан]Action, чтобы [на нем ездить…]Purpose_ **(ID 557 Cl, чтобы Cl)**; _[Договор]Object на то и [договор]Object , чтобы [описывать правила]Purpose._ **(ID 528 NP-Nom на то и ~NP-Nom, чтобы VP-Inf)**
 
-+ **Circumstance** – Attributes of time and space that accompany an action or a situation and are external in regard to this action or situation.
++ **Circumstance** (Обстоятельство) – Атрибуты времени и пространства, сопровождающие действие или ситуацию и внешние по отношению к ним.
 Пример: _[Моё детство и юность прошли]Situation в обстановке [коммунальной квартиры]Circumstance._ **(ID 779 VP в обстановке NP-Gen)**
 
-+ **Concession** – A situation in spite of which another situation takes place.
++ **Concession** (Уступка) – Ситуация, вопреки которой происходит данная ситуация. При обычном положении дел, такая ситуация препятствует наступлению данной, в данном случае ситуация наступает вопреки ожиданиям.
 Пример: _Несмотря на [отзывы туристов]Concession, он всё равно поехал этот отель._ **(ID 2088 Несмотря/Невзирая на NP-Acc, Cl)**
 
 Constructions that belong to the semantic type Spatial expression often feature the following semantic roles:
 
-+ **Path** – The trajectory of movement of an object or a participant.
++ **Path** (Траектория) – Путь движения объекта или участника.
 Пример: _Мы пошли вдоль по [улице]Path._ **(ID 849 VP вдоль по NP-Dat)**
 
-+ **Direction** – The vector of movement towards a certain side or to a certain point in space or time.
++ **Direction** (Направление) – Обращенность движения в определенную сторону или к определенному пункту в пространстве или во времени.
 Пример: _Ну а маятник качнулся вовсе не [вправо]Direction, а влево._ **(ID 60 вовсе не XP)**; _Когда я работал юрисконсультом, то постоянно ходил пешком на работу по парку «Сокольники» ― полчаса [туда]Direction, полчаса [назад]Direction._ **(ID 965 Noun XP, ~Noun XP)**
 
-+ **Source** – The point of departure, initial point of a transfer, origin or source of information.
++ **Source** (Источник) – Начальная точка движения, место происхождения или источник информации.
 Пример: _Углекислый газ приходит изнутри [организма]Source._ **(ID 1737 XP изнутри (NP-Gen))**; _Маша узнала о победителе конкурса из [газет]Source._ **(ID 1999 NP-Nom узнать о NP-Loc из NP-Gen)**; _«[Древнюю архитектуру]Theme [мы]Experiencer знаем по [развалинам]Source, [скульптуру]Theme по [копиям]Source, [живопись]Theme по [описаниям]Source._ **(ID 132 NP-Nom знать NP-Acc по NP-Dat)**
 
-+ **Goal** – The end point of a movement, a destination.
++ **Goal** (Конечная точка) – Место назначения движения.
 Пример: _Мальчик побежал навстречу [другу]Goal._ **(ID 1738 XP навстречу NP-Dat)**
 
-+ **Location** – A place where an object or participant is located or some situation occurs.
++ **Location** (Место) – Место, в котором находится предмет или участник или происходит некоторая ситуация.
 Пример: _[Лучшие рестораны Франции находятся]Situation вовсе не [в Париже]Location._ **(ID 60 вовсе не XP)**
 
-+ **Landmark** – А prominent, conspicuous and stable object or other reference point that is easily recognizable and helps to identify the location of another entity. A Landmark can be spatial, temporal, or numerical.
++ **Landmark** (Ориентир) – Заметный, четкий и стабильный объект или другая точка отсчета, которая легко узнаваема и помогает определить местонахождение другого объекта. Ориентир может быть пространственным, временным или числовым.
 Пример: _Мороз уже за [тридцать]Landmark градусов._ **(ID 128 за NumCrd-Acc NP- Gen. Pl)**; _Шесть недель отдыхали на базе отдыха под [Киевом]Landmark на реке Десна._ **(ID 272 XP под NP-Ins)**
 
-+ **Limit** – A spatial or temporal, physical or abstract boundary.
++ **Limit** (Предел) – Пространственная или временная, физическая или абстрактная граница.
 Пример: _Она была коротко подстрижена и в [юбке]Theme до [колен]Limit._ **(ID 984 NP до NP-Gen)**; _[Иногда я могу танцевать хоть]Situation до [утра.]Limit_ **(ID 113 до NP-Gen Cl)**; _Моему сыну 13, [проблемный]Property до [невозможности]Limit_ **(ID 572 Adj до NP-Gen NP)**; _Ситуация обострилась до [предела]Limit_ **(ID 1578 VP до NP-Gen)**
 
-+ **Distance** – The space between objects or participants. Can also indicate the length of time that it takes to overcome this space.
++ **Distance** (Расстояние) – Пространство между объектами или участниками. Может также обозначаться отрезком времени, которое нужно затратить, чтобы преодолеть это пространство.
 Пример: _В [двух кварталах]Distance [отсюда]Landmark находится [магазин «Охотник»]Theme._ **(ID 750 Cl в NumCrd-Loc кварталах/домах (от NP-Gen))**; _Я живу в [пяти минутах]Distance от [метро]Landmark._ **(ID 1561 NP-Nom Cop/VP в NumCrd-Loc минутах/часах (ходьбы/езды/лёта) (от/до NP-Gen))**
 
-+ **Container** – An enclosure (vessel, box, etc.) that serves to enclose the content (Contained).
++ **Container** (Контейнер) – Некоторая ёмкость (сосуд, коробка, ящик и проч.), которая служит для хранения Содержимого.
 Пример: _Их [дом]Container часто был полон [гостей]Contained._;_[Ее взгляд]Container был полон [растерянности]Contained._ **(ID 44 NP-Nom Cop полный-Short NP-Gen)**; _Мы наконец выкинули все [старые коробки]Container из-под [обуви]Contained._ **(ID 521 NP из-под NP-Gen)**
 
-+ **Contained** – What is enclosed inside a Container.
++ **Contained** (Содержимое) – То, что находится внутри некоторой ёмкости (Контейнера).
 Пример: _Их [дом]Container часто был полон [гостей]Contained._;_[Ее взгляд]Container был полон [растерянности]Contained._ **(ID 44 NP-Nom Cop полный-Short NP-Gen)**; _Мы наконец выкинули все [старые коробки]Container из-под [обуви]Contained._ **(ID 521 NP из-под NP-Gen)**
 
 Constructions that belong to the semantic type Discourse structure often feature the following semantic roles:
 
-+ **Speaker** – An animate participant who produces an utterance, the subject of speech.
++ **Speaker** (Говорящий) – Одушевленный участник, который порождает высказывание, субъект речи. Говорящий выражен местоимением первого лица и размечается в слотах дискурсивных конструкций.
 Пример: _На [мой]Speaker взгляд, [он рассуждает в правильном направлении]Evaluation._ **(ID 1137 на PronPoss-Acc взгляд, Cl)**
 
-+ **ContentOfSpeech** – The statement made by the Speaker regarding a certain issue (Topic) that may contain either factual information or subjective opinion and assessments. Normally, ContentOfSpeech is expressed by a whole clause and reveals exactly what was said.
++ **ContentOfSpeech** (Содержание высказывания) – Утверждение говорящего по некоторому вопросу (Теме), которое может содержать как фактическую информацию, так и субъективное мнение и оценки. Как правило, выражено целой клаузой и раскрывает, что именно было сказано.
 Пример: _Что касается второго вопроса, то, [на мой взгляд, в нашей стране Академия наук должна выполнять функции главного экспертного центра.]ContentOfSpeech_ **(ID 365 что касается NP-Gen, то Cl)**
 
-+ **Topic** – The subject that is discussed or studied. Topic is normally expressed by a noun phrase that is introduced with a preposition.
++ **Topic** (Тема высказывания) – Предмет обсуждения или изучения. Тема обычно выражена именной группой, которая вводится предлогом.
 Пример: _А насчёт [папы]Topic – он уехал на рыбалку._ **(ID 687 (а) насчёт NP-Gen – Cl)**
 
-+ **Rephrasee** – The word, phrase, or utterance that is being reformulated, undergoes Rephrasing.
++ **Rephrasee** (Переформулируемое) – Слово, фраза или высказывание, которое выражается иными словами, подвергается Переформулировке.
 Пример: _[Это человек дисциплинированных чувств, умеренный во всем, и позитивист.]Rephrasee Иначе говоря, [он доверяет своей голове и своим рукам]Rephrasing._ **(ID 1086 иначе говоря, XP/Cl)**
 
-+ **Rephrasing** – Expression of some meaning (Rephrasee) in other words, the outcome of reformulation.
++ **Rephrasing** (Переформулировка) – Выражение некоторого смысла (Переформулируемого) иными словами, результат переформулировки.
 Пример: _[Это человек дисциплинированных чувств, умеренный во всем, и позитивист.]Rephrasee Иначе говоря, [он доверяет своей голове и своим рукам]Rephrasing._ **(ID 1086 иначе говоря, XP/Cl)**
 
-+ **Addressee** – An animate participant who receives a message or, more rarely, an emotional reaction or an action.
++ **Addressee** (Адресат) – Одушевленный участник, которому адресовано речевое сообщение, реже – эмоциональная реакция или некоторое действие. 
 Пример: _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
 
 The constructions that characterize objects or participants often feature the following semantic roles: 
 
-+ **Property** – A characteristic of an animate participant or inanimate object.
++ **Property** (Признак) – Характеристика одушевленного участника или неодушевленного объекта.
 Пример: _Нет, все-таки Андрей был чертовски [талантливым]Property человеком!_ **(ID 1936 чертовски XP)**
 
-+ **Name** – The proper name of an animate participant or inanimate object.
++ **Name** (Имя) – Имя одушевленного участника или название неодушевленного объекта.
 Пример: _Позднее она вышла замуж за коллегу, за аптекаря по фамилии [Славуцкий.]Name_ **(ID 1938 NP по NP-Dat NP-Nom)**; _Cтарый добрый [цирк]Theme имени [братьев Никитиных]Name готовится к приёму гостей._ **(ID 1084 NP имени NP-Gen)**
 
-+ **Status** – The social role or position in society of an animate participant.
++ **Status** (Социальный статус) – Социальная роль или положение в обществе одушевленного участника.
 Пример: _Она уже давно ходит в [невестах.]Status_ **(ID 345 NP-Nom ходить в NP-Loc.Pl)**; _Этот мальчик приходится мне [сыном.]Status_ **(ID 551 NP-Nom приходиться NP-Dat NP-Ins)**; _Митя ― студент последнего курса мединститута, без пяти минут [врач]Status._ **(ID 33 без пяти минут NP)**
 
-+ **Evaluation** – A subjective evaluative characteristic of an object, participant or situation.
++ **Evaluation** (Оценка) – Субъективная оценочная характеристика объекта, участника или ситуации.
 Пример: _Вот [молодец!]Evaluation_ **(ID 69  вот NP-Nom!)**; _Как по мне, [фильм того совершенно не стоил]Evaluation._ **(ID 11  (как) по мне, (так) Cl)**
 
 ---
