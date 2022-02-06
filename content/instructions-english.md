@@ -444,204 +444,204 @@ E.g.: _Ни с того ни с сего [главный тренер]<sub>Agent
 E.g.: _― Пойдем, отец. Дай Валентине с Серегой поговорить. ― [Я]<sub>Agent</sub> [ей]<sub>Counteragent</sub> поговорю!_ **(ID 389 я PronPers-Dat VP-Fut!)**
 
 + **Deputy** – Active animate participant who performs an action instead of another participant.
-E.g.: _Я упросил [напарника]Agent [отдежурить]Action за [меня]Deputy на рации._ **(ID 127: VP за NP-Acc)**
+E.g.: _Я упросил [напарника]<sub>Agent</sub> [отдежурить]<sub>Action</sub> за [меня]<sub>Deputy</sub> на рации._ **(ID 127: VP за NP-Acc)**
 
 + **Cognizer** – Animate participant, the subject of a mental state or a mental activity.
-E.g.: _[Бог]Cognizer его знает, где они сейчас._ **(ID 5 (а) Noun-Nom/кто (же) (PronPers-3.Acc) знает, Cl)**; _Никто не мог это [сделать]Action без ведома [президента]Cognizer_ **(ID 713 VP без ведома NP-Gen)**
+E.g.: _[Бог]<sub>Cognizer</sub> его знает, где они сейчас._ **(ID 5 (а) Noun-Nom/кто (же) (PronPers-3.Acc) знает, Cl)**; _Никто не мог это сделать без ведома [президента]<sub>Cognizer</sub>_ **(ID 713 VP без ведома NP-Gen)**
 
 + **Patient** – Passive inactive animate participant or inanimate object affected or changed by the Agent.
-E.g.: _Надо было схватить [тебя]Patient за шиворот и втащить в вагон._ **(ID 1039 VP за шиворот)**
+E.g.: _Надо было схватить [тебя]<sub>Patient</sub> за шиворот и втащить в вагон._ **(ID 1039 VP за шиворот)**
 
 + **Experiencer** – Animate participant who experiences an emotional state or feeling or receives a sensory input.
-E.g.: _Неохота [мне]Experiencer было [ей звонить…]Action_ **(ID 1210 (NP-Dat) охота/неохота Cop VP-Inf)**
+E.g.: _Неохота [мне]<sub>Experiencer</sub> было ей звонить…_ **(ID 1210 (NP-Dat) охота/неохота Cop VP-Inf)**
 
 + **Stimulus** – An object or a participant that triggers a certain emotional state for the Experiencer or serves as a source of visual, auditory / acoustical or other sensory information received by the Experiencer.
-E.g.: _Из палатки несёт [рыбой.]Stimulus_ **(ID 258 от/из NP-Gen нести NP-Ins)**; _На [шум]Stimulus в палату пришел санитар._ **(ID 1298 VP на NP-Acc)**; _Я должен показать, что знаю правила этикета, чтобы ему не пришлось краснеть за [меня]Stimulus перед уважаемыми людьми._ **(ID 169 NP-Nom краснеть за NP-Acc (перед NP-Ins))**
+E.g.: _Из палатки несёт [рыбой.]<sub>Stimulus</sub>_ **(ID 258 от/из NP-Gen нести NP-Ins)**; _На [шум]<sub>Stimulus</sub> в палату пришел санитар._ **(ID 1298 VP на NP-Acc)**; _Я должен показать, что знаю правила этикета, чтобы ему не пришлось краснеть за [меня]<sub>Stimulus</sub> перед уважаемыми людьми._ **(ID 169 NP-Nom краснеть за NP-Acc (перед NP-Ins))**
 
 + **Causer** – Animate participant who's actions stimulate another participant (Causee) to perform an action. This tag is used in the constructions that belong to the semantic type Causation.
-E.g.: _Не позволяйте [себе]Causee под давлением [оппонента]Causer растерять собственную самооценку._ **(ID 1287 VP под давлением NP-Gen)**
+E.g.: _Не позволяйте [себе]<sub>Causee</sub> под давлением [оппонента]<sub>Causer</sub> растерять собственную самооценку._ **(ID 1287 VP под давлением NP-Gen)**
 
 + **Causee** – Animate participant who is stimulated by the actions of another participant (Causer) to perform an action. This tag is used in the constructions that belong to the semantic type Causation.
-E.g.: _Не позволяйте [себе]Causee под давлением [оппонента]Causer растерять собственную самооценку._ **(ID 1287 VP под давлением NP-Gen)**
+E.g.: _Не позволяйте [себе]<sub>Causee</sub> под давлением [оппонента]<sub>Causer</sub> растерять собственную самооценку._ **(ID 1287 VP под давлением NP-Gen)**
 
 + **Participant** – Animate participant of a situation that cannot be coded by any other semantic role from the list above.
-E.g.: _[Деду]Participant на вид лет восемьдесят с небольшим._ **(ID 1143 NP-Dat на вид Cop лет NumCrd)**
+E.g.: _[Деду]<sub>Participant</sub> на вид лет восемьдесят с небольшим._ **(ID 1143 NP-Dat на вид Cop лет NumCrd)**
 
 + **Force** – Inanimate external entity (Force) that intensively affects other participants in the situation and causes the situation to change. By contrast with Agent, Force is always inanimate, non-volitive and unable to control the situation.
-E.g.: no examples in the Russian Constructicon yet; _[Ветром]Effector сдуло шляпу._
+E.g.: no examples in the Russian Constructicon yet; _[Ветром]<sub>Force</sub> сдуло шляпу._
 
 + **Theme** – Inanimate object that is not changed or modified by the Agent or is the only inactive participant of the situation (that is, it neither controls the situation nor causes any changes).
-E.g.: _Не успели мы доехать до Парижа, пришёл возмущённый [факс]Theme на имя Спивакова_ **(ID 1830 NP на имя NP-Gen)**
+E.g.: _Не успели мы доехать до Парижа, пришёл возмущённый [факс]<sub>Theme</sub> на имя Спивакова_ **(ID 1830 NP на имя NP-Gen)**
 
 + **Recipient** – Animate participant who receives an object (Theme), the endpoint of a transfer.
-E.g.: _Отец передал [сыновьям]Recipient в наследство по [дому]Theme._ **(ID 586 VP (NP-Dat.Pl) по NP-Dat/по NumCrd-Acc NP-Gen)**
+E.g.: _Отец передал [сыновьям]<sub>Recipient</sub> в наследство по [дому.]<sub>Theme</sub>_ **(ID 586 VP (NP-Dat.Pl) по NP-Dat/по NumCrd-Acc NP-Gen)**
 
 + **Instrument** – Inanimate object used by an active animate participant of the situation (Agent) as a tool for performing an action.
-E.g.: _Часовщик при помощи своего [увеличительного стекла]Instrument увеличивает мелкие механизмы._ **(ID 1295 VP с помощью/при помощи NP-Gen)**; _Ехать в Японию смотреть футбол ― не необходимость, можно посмотреть по [телевизору]Instrument._ **(ID 1976 VP по NP-Dat)**
+E.g.: _Часовщик при помощи своего [увеличительного стекла]<sub>Instrument</sub> увеличивает мелкие механизмы._ **(ID 1295 VP с помощью/при помощи NP-Gen)**; _Ехать в Японию смотреть футбол ― не необходимость, можно посмотреть по [телевизору.]<sub>Instrument</sub>_ **(ID 1976 VP по NP-Dat)**
 
 Many constructions that contain verb phrases as open slots feature the following semantic roles:
 
 + **Action** – Purposeful goal-oriented intentional telic activity that is carried out by a participant and has an end result or natural limit.
-E.g.: _Она была не против [помочь бабушке]Action._ **(ID 455 NP-Nom Cop не против VP-Inf)**
+E.g.: _Она была не против [помочь бабушке.]<sub>Action</sub>_ **(ID 455 NP-Nom Cop не против VP-Inf)**
 
 + **Activity** – Atelic process-like behavior that is performed by a participant and has no end result or natural limit.
-+ E.g.: _Я бросила [курить]Activity, заболев астмой._ **(ID 38 NP-Nom бросить VP-Inf)**; _Всю неделю я [работал]Activity как сумасшедший._ **(ID 2260 VP как сумасшедший/ошалелый/очумелый/ненормальный)**; _Света [прогуливалась]Activity туда-сюда вдоль стенки ларька со скучающим видом._ **(ID 1748 VP туда-сюда)**
++ E.g.: _Я бросила [курить]<sub>Activity</sub>, заболев астмой._ **(ID 38 NP-Nom бросить VP-Inf)**; _Всю неделю я [работал]<sub>Activity</sub> как сумасшедший._ **(ID 2260 VP как сумасшедший/ошалелый/очумелый/ненормальный)**; _Света [прогуливалась]<sub>Activity</sub> туда-сюда вдоль стенки ларька со скучающим видом._ **(ID 1748 VP туда-сюда)**
 
 + **State** – A non-dynamic, unvarying state of affairs. The tag can be used for annotating both noun and verb phrases.
-E.g.: _Мне чертовски [хотелось]State домой, подальше от всех этих проблем._ **(ID 1936 чертовски XP)**; _Положите на веки на 7-8 минут кружочки свежего огурца. [Усталости]State как не бывало…_ **(ID 1002 NP-Gen как не бывало)**
+E.g.: _Мне чертовски [хотелось]<sub>State</sub> домой, подальше от всех этих проблем._ **(ID 1936 чертовски XP)**; _Положите на веки на 7-8 минут кружочки свежего огурца. [Усталости]<sub>State</sub> как не бывало…_ **(ID 1002 NP-Gen как не бывало)**
 
 + **Event** – An incident, a completed action that has a visible result and usually is out of the participant's control. It can be positive, negative or neutral. The tag is often used to annotate whole clauses.
-E.g.: _Порой мы сильно и навсегда ссорились, но я никогда не теряла надежды, что однажды [зазвонит телефон]Event и я [услышу её голос]Event или [получу от неё письмо]Event._ **(ID 1648 однажды VP-Fut)**
+E.g.: _Порой мы сильно и навсегда ссорились, но я никогда не теряла надежды, что однажды [зазвонит телефон]<sub>Event</sub> и я [услышу её голос]<sub>Event</sub> или [получу от неё письмо.]<sub>Event</sub>_ **(ID 1648 однажды VP-Fut)**
 
 + **Situation** – A certain state of affairs. The tag is widely used to annotate whole clauses.
-E.g.: _Зрение птиц феноменально. Так, [коршун с высоты 2000 метров заметит падаль, лежащую на земле.]Situation_ **(ID 2350 так, Cl)**; _[Издательство обязано выплатить автору все 100% гонорара]Situation ввиду того, что [рукопись отклонена уже после одобрения]Cause_ **(ID 53 ввиду того́, что Cl, Cl)**; _Ведь [фильм интересен]Situation и в наши дни, хотя прошло уже несколько десятилетий со дня его выхода на экраны._ **(ID 1659 в наши дни VP)**
+E.g.: _Зрение птиц феноменально. Так, [коршун с высоты 2000 метров заметит падаль, лежащую на земле.]<sub>Situation</sub>_ **(ID 2350 так, Cl)**; _[Издательство обязано выплатить автору все 100% гонорара]<sub>Situation</sub> ввиду того, что [рукопись отклонена уже после одобрения]<sub>Cause</sub>_ **(ID 53 ввиду того́, что Cl, Cl)**; _Ведь [фильм интересен]<sub>Situation</sub> и в наши дни, хотя прошло уже несколько десятилетий со дня его выхода на экраны._ **(ID 1659 в наши дни VP)**
 
 + **BackgroundSituation** – A state or a situation that serves as the background for an action or another situation.
-E.g.: _Он [вышел на сцену]Action под [гром аплодисментов.]BackgroundSituation_ **(ID 635 VP под NP-Acc)**
+E.g.: _Он [вышел на сцену]<sub>Action</sub> под [гром аплодисментов.]<sub>BackgroundSituation</sub>_ **(ID 635 VP под NP-Acc)**
 
 + **Result** – A situation that takes shape as a final consequence of an action or an event. This tag is often used to annotate constructions that belong to the semantic type Result. In constructions that denote Calculation this semantic role indicates the final number obtained as a result of calculation, a specific arithmetic operation (addition, subtraction, division, etc.).
-E.g.: _Дело доходит до [драки]Result_ **(ID 961 дело дойти/доходить до NP-Gen)**; _Сколько бы вы ни выигрывали, вы всё равно [проиграете]Result в конечном счёте._ **(ID 762 в конечном счете VP)**; _Крыжовник [проварить]Action до [мягкости]Result, добавив цедру лимона и сахар._ **(ID 1575 VP до NP-Gen)**; _В итоге обсуждения правление [одобрило заявку]Result_ **(ID 1680 в итоге NP-Gen VP)**; _[Три]Quantity плюс [три]Quantity будет [шесть]Result._ **(ID 1856 NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat)**
+E.g.: _Дело доходит до [драки]<sub>Result</sub>_ **(ID 961 дело дойти/доходить до NP-Gen)**; _Сколько бы вы ни выигрывали, вы всё равно [проиграете]<sub>Result</sub> в конечном счёте._ **(ID 762 в конечном счете VP)**; _Крыжовник [проварить]<sub>Action</sub> до [мягкости]<sub>Result</sub>, добавив цедру лимона и сахар._ **(ID 1575 VP до NP-Gen)**; _В итоге обсуждения правление [одобрило заявку]<sub>Result</sub>_ **(ID 1680 в итоге NP-Gen VP)**; _[Три]<sub>Quantity</sub> плюс [три]<sub>Quantity</sub> будет [шесть.]<sub>Result</sub>_ **(ID 1856 NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat)**
 
 Constructions that belong to the semantic type Possession feature the following semantic roles:
 
 + **Possessor** – An animate participant who owns an object or a body part.
-E.g.: _Уникальный [завод]Possessed кварцевого стекла оказался в собственности у [американской компании]Possessor._ **(ID 1947 NP-Nom Cop/VP в собственности (у) NP-Gen)**; _У [мальчика]Possessor отсутствовало не только [постельное белье]Possessed, но и [одеяло]Possessed._; _Там никто ничего не выдумывает, [фантазия]Possessed у [людей]Possessor отсутствует._ **(ID 1950 у NP-Gen отсутствовать/присутствовать NP-Nom)**
+E.g.: _Уникальный [завод]<sub>Possessed</sub> кварцевого стекла оказался в собственности у [американской компании.]<sub>Possessor</sub>_ **(ID 1947 NP-Nom Cop/VP в собственности (у) NP-Gen)**; _У [мальчика]<sub>Possessor</sub> отсутствовало не только [постельное белье]<sub>Possessed</sub>, но и [одеяло.]<sub>Possessed</sub>_; _Там никто ничего не выдумывает, [фантазия]<sub>Possessed</sub> у [людей]<sub>Possessor</sub> отсутствует._ **(ID 1950 у NP-Gen отсутствовать/присутствовать NP-Nom)**
 
 + **Possessed** – An object (less often a participant) that is the property of an animate participant.
-E.g.: _Уникальный [завод]Possessed кварцевого стекла оказался в собственности у [американской компании]Possessor._ **(ID 1947 NP-Nom Cop/VP в собственности (у) NP-Gen)**; _У [мальчика]Possessor отсутствовало не только [постельное белье]Possessed, но и [одеяло]Possessed._; _Там никто ничего не выдумывает, [фантазия]Possessed у [людей]Possessor отсутствует._ **(ID 1950 у NP-Gen отсутствовать/присутствовать NP-Nom)**
+E.g.: _Уникальный [завод]<sub>Possessed</sub> кварцевого стекла оказался в собственности у [американской компании.]<sub>Possessor</sub>_ **(ID 1947 NP-Nom Cop/VP в собственности (у) NP-Gen)**; _У [мальчика]<sub>Possessor</sub> отсутствовало не только [постельное белье]<sub>Possessed</sub>, но и [одеяло.]<sub>Possessed</sub>_; _Там никто ничего не выдумывает, [фантазия]<sub>Possessed</sub> у [людей]<sub>Possessor</sub> отсутствует._ **(ID 1950 у NP-Gen отсутствовать/присутствовать NP-Nom)**
 
 Constructions that belong to the semantic type Addressee feature the following semantic roles:
 
 + **Addressee** – An animate participant who receives a message or, more rarely, an emotional reaction or an action.
-E.g.: _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
+E.g.: _В адрес [собеседника]<sub>Addressee</sub> летят [иронические замечания.]<sub>Theme</sub> **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]<sub>Addressee</sub> запрещается [проявлять даже малейшую грубость или недовольство.]<sub>Action</sub>_ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]<sub>Theme</sub> в отношении [автомобилистов.]<sub>Addressee</sub>_ **(ID 789 VP/NP в отношении NP-Gen)**
 
 + **Beneficiary** – An animate participant who gains from the presence of a situation or action.
-E.g.: _Светочка [росла]Action, на радость [маме и папе]Beneficiary, умницей._ **(ID 1784 VP на радость NP-Dat)**
+E.g.: _Светочка росла, на радость [маме и папе]<sub>Beneficiary</sub>, умницей._ **(ID 1784 VP на радость NP-Dat)**
 
 + **Maleficiary** – An animate participant who is harmed by a situation or action.
-E.g.: _Назло [мужу]Maleficiary она обрезала свои длинные волосы._ **(ID 904 VP назло NP-Dat)**
+E.g.: _Назло [мужу]<sub>Maleficiary</sub> она обрезала свои длинные волосы._ **(ID 904 VP назло NP-Dat)**
 
 Constructions that belong to the semantic type Comitative feature the following semantic roles:
 
 + **Accompanee** – The animate participant who is accompanied by a more peripheral participant (Companion). The two participants take part in a shared activity or experience the same state. The tag is used in comitative constructions.
-E.g.: _[Родные]Accompanee и [друзья]Accompanee веселятся вместе с [участниками ансамбля]Companion._ **(ID 1883 VP вместе с NP-Ins)**
+E.g.: _[Родные]<sub>Accompanee</sub> и [друзья]<sub>Accompanee</sub> веселятся вместе с [участниками ансамбля.]<sub>Companion</sub>_ **(ID 1883 VP вместе с NP-Ins)**
 
 + **Companion** – The animate participant who accompanies another participant (Accompanee) in a shared activity or experiences the same state. The two participants take part in a shared activity or experience the same state. The tag is used in comitative constructions.
-E.g.: _[Родные]Accompanee и [друзья]Accompanee веселятся вместе с [участниками ансамбля]Companion._ **(ID 1883 VP вместе с NP-Ins)**
+E.g.: _[Родные]<sub>Accompanee</sub> и [друзья]<sub>Accompanee</sub> веселятся вместе с [участниками ансамбля.]<sub>Companion</sub>_ **(ID 1883 VP вместе с NP-Ins)**
 
 Constructions that belong to the semantic type Comparison feature the following semantic roles:
 
 + **Comparee** – The entity that is being compared against the Standard of comparison. For example, in the sentence _Mary is taller than Peter_, _Mary_ is the Comparee. A Comparee can be an inanimate object, an animate participant or a whole situation.
-E.g.: _И [Хоккей]Comparee ничем не [страшнее]Parameter и не [опаснее]Parameter [других видов спорта]Standard._ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]Comparee [фигурой]Parameter в [бабушку]Standard: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**
+E.g.: _И [Хоккей]<sub>Comparee</sub> ничем не [страшнее]<sub>Parameter</sub> и не [опаснее]<sub>Parameter</sub> [других видов спорта.]<sub>Standard</sub>_ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]<sub>Comparee</sub> [фигурой]<sub>Parameter</sub> в [бабушку]<sub>Standard</sub>: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**
 
 + **Standard** – The entity that the Comparee is being compared against. For example, in the sentence _Mary is taller than Peter_, _Peter_ is the Standard of comparison. The Standard of comparison can be an inanimate object, an animate participant or a whole situation.
-E.g.: _И [Хоккей]Comparee ничем не [страшнее]Parameter и не [опаснее]Parameter [других видов спорта]Standard._ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]Comparee [фигурой]Parameter в [бабушку]Standard: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**; _[Телефон]Comparee, он и в Африке [телефон]Standard. Надо только уметь пользоваться._ **(ID 1441 Noun-Nom, PronPers-3.Nom и в Африке ~Noun-Nom)**
+E.g.: _И [Хоккей]<sub>Comparee</sub> ничем не [страшнее]<sub>Parameter</sub> и не [опаснее]<sub>Parameter</sub> [других видов спорта.]<sub>Standard</sub>_ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]<sub>Comparee</sub> [фигурой]<sub>Parameter</sub> в [бабушку]<sub>Standard</sub>: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**; _[Телефон]<sub>Comparee</sub>, он и в Африке [телефон]<sub>Standard</sub>. Надо только уметь пользоваться._ **(ID 1441 Noun-Nom, PronPers-3.Nom и в Африке ~Noun-Nom)**
 
 + **Parameter** – А certain gradable property that serves for comparing the Comparee and the Standard. For example, in the sentence _Mary is taller than Peter_, _taller_ indicates the Parameter of comparison.
-E.g.: _И [Хоккей]Comparee ничем не [страшнее]Parameter и не [опаснее]Parameter [других видов спорта]Standard._ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]Comparee [фигурой]Parameter в [бабушку]Standard: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**
+E.g.: _И [Хоккей]<sub>Comparee</sub> ничем не [страшнее]<sub>Parameter</sub> и не [опаснее]<sub>Parameter</sub> [других видов спорта.]<sub>Standard</sub>_ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]<sub>Comparee</sub> [фигурой]<sub>Parameter</sub> в [бабушку]<sub>Standard</sub>: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**
 
 Constructions that belong to the semantic types Quantification, Inclusive, Exceptive, Calculation, and Measure often feature the following semantic roles:
 
 + **Element** – A distinct member of a set; can be a subset.
-E.g.: _[Любая страна]Set, в том числе и [Мексика]Element, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
+E.g.: _[Любая страна]<sub>Set</sub>, в том числе и [Мексика]<sub>Element</sub>, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
 
 + **Set** – A collection of elements (inanimate objects or animate participants) that share a certain characteristic.
-E.g.: _[Любая страна]Set, в том числе и [Мексика]Element, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
+E.g.: _[Любая страна]<sub>Set</sub>, в том числе и [Мексика]<sub>Element</sub>, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
 
 + **Measure** – A unit of measurement used to quantify length, breadth, weight, volume, price or other quantitative characteristics of an object (for example, meter, kilogram, liter, ruble, etc.).
-E.g.: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]Quantity [килограммов]Measure._ **(ID 55 NP весом/массой (в) NumCrd NP)**
+E.g.: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]<sub>Quantity</sub> [килограммов.]<sub>Measure</sub>_ **(ID 55 NP весом/массой (в) NumCrd NP)**
 
 + **Quantity** – A number of elements or units of measurement, expressed numerically.
-E.g.: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]Quantity [килограммов]Measure._ **(ID 55 NP весом/массой (в) NumCrd NP)**
+E.g.: _Мускульная сила каждого работника позволяет ему поднять и перетащить камень весом в [пять]<sub>Quantity</sub> [килограммов.]<sub>Measure</sub>_ **(ID 55 NP весом/массой (в) NumCrd NP)**
 
 + **Result** – A situation that takes shape as a final consequence of an action or an event. This tag is often used to annotate constructions that belong to the semantic type Result. In constructions that denote Calculation this semantic role indicates the final number obtained as a result of calculation, a specific arithmetic operation (addition, subtraction, division, etc.).
-E.g.: _Дело доходит до [драки]Result_ **(ID 961 дело дойти/доходить до NP-Gen)**; _Сколько бы вы ни выигрывали, вы всё равно [проиграете]Result в конечном счёте._ **(ID 762 в конечном счете VP)**; _Крыжовник [проварить]Action до [мягкости]Result, добавив цедру лимона и сахар._ **(ID 1575 VP до NP-Gen)**; _В итоге обсуждения правление [одобрило заявку]Result_ **(ID 1680 в итоге NP-Gen VP)**; _[Три]Quantity плюс [три]Quantity будет [шесть]Result._ **(ID 1856 NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat)**
+E.g.: _Дело доходит до [драки]<sub>Result</sub>_ **(ID 961 дело дойти/доходить до NP-Gen)**; _Сколько бы вы ни выигрывали, вы всё равно [проиграете]<sub>Result</sub> в конечном счёте._ **(ID 762 в конечном счете VP)**; _Крыжовник [проварить]<sub>Action</sub> до [мягкости]<sub>Result</sub>, добавив цедру лимона и сахар._ **(ID 1575 VP до NP-Gen)**; _В итоге обсуждения правление [одобрило заявку]<sub>Result</sub>_ **(ID 1680 в итоге NP-Gen VP)**; _[Три]<sub>Quantity</sub> плюс [три]<sub>Quantity</sub> будет [шесть.]<sub>Result</sub>_ **(ID 1856 NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat)**
 
 Situation modifiers:
 
 + **Condition** – A situation needed for another situation to take place.
-E.g.: _В условиях [современной динамики]Condition во всех сферах хозяйства [важное значение приобретает контроль развития территорий.]Situation_ **(ID 51 в условиях NP-Gen Cl)**; _[Цена такого набора варьируется]Situation в зависимости от [качества и дизайна]Condition._ **(ID 49 Cl в зависимости от NP-Gen)**
+E.g.: _В условиях [современной динамики]<sub>Condition</sub> во всех сферах хозяйства [важное значение приобретает контроль развития территорий.]<sub>Situation</sub>_ **(ID 51 в условиях NP-Gen Cl)**; _[Цена такого набора варьируется]<sub>Situation</sub> в зависимости от [качества и дизайна.]<sub>Condition</sub>_ **(ID 49 Cl в зависимости от NP-Gen)**
 
 + **Manner** – A mode of action, a way of performing an action.
-E.g.: _Второй день [я]Agent [хожу]Action [хромаю]Manner, ногу, кажется, подвернула._ **(ID 579 NP-Nom Verb VP)**
+E.g.: _Второй день я [хожу]<sub>Action</sub> [хромаю]<sub>Manner</sub>, ногу, кажется, подвернула._ **(ID 579 NP-Nom Verb VP)**
 
 + **Cause** – The reason why a certain situation takes place.
-E.g.: _В основном [сокращение расходов произошло]Situation вследствие [сокращения численности персонала агенства.]Cause_ **(ID 90 вследствие NP-Gen Cl)**
+E.g.: _В основном [сокращение расходов произошло]<sub>Situation</sub> вследствие [сокращения численности персонала агенства.]<sub>Cause</sub>_ **(ID 90 вследствие NP-Gen Cl)**
 
 + **Purpose** – The aim of an intended action or the purpose of an object.
-E.g.: _Я [подошёл]Action [посмотреть]Purpose, что он пишет._ **(ID 559 VP VP-Inf)**; _В вечных пробках города забываешь, что автомобиль [создан]Action, чтобы [на нем ездить…]Purpose_ **(ID 557 Cl, чтобы Cl)**; _[Договор]Object на то и [договор]Object , чтобы [описывать правила]Purpose._ **(ID 528 NP-Nom на то и ~NP-Nom, чтобы VP-Inf)**
+E.g.: _Я [подошёл]<sub>Action</sub> [посмотреть]<sub>Purpose</sub>, что он пишет._ **(ID 559 VP VP-Inf)**; _В вечных пробках города забываешь, что автомобиль [создан]<sub>Action</sub>, чтобы [на нем ездить…]<sub>Purpose</sub>_ **(ID 557 Cl, чтобы Cl)**; _[Договор]<sub>Theme</sub> на то и [договор]<sub>Theme</sub>, чтобы [описывать правила.]<sub>Purpose</sub>_ **(ID 528 NP-Nom на то и ~NP-Nom, чтобы VP-Inf)**
 
 + **Circumstance** – Attributes of time and space that accompany an action or a situation and are external in regard to this action or situation.
-E.g.: _[Моё детство и юность прошли]Situation в обстановке [коммунальной квартиры]Circumstance._ **(ID 779 VP в обстановке NP-Gen)**
+E.g.: _[Моё детство и юность прошли]<sub>Situation</sub> в обстановке [коммунальной квартиры.]<sub>Circumstance</sub>_ **(ID 779 VP в обстановке NP-Gen)**
 
 + **Concession** – A situation in spite of which another situation takes place.
-E.g.: _Несмотря на [отзывы туристов]Concession, он всё равно поехал этот отель._ **(ID 2088 Несмотря/Невзирая на NP-Acc, Cl)**
+E.g.: _Несмотря на [отзывы туристов]<sub>Concession</sub>, он всё равно поехал этот отель._ **(ID 2088 Несмотря/Невзирая на NP-Acc, Cl)**
 
 Constructions that belong to the semantic type Spatial expressions often feature the following semantic roles:
 
 + **Path** – The trajectory of movement of an object or a participant.
-E.g.: _Мы пошли вдоль по [улице]Path._ **(ID 849 VP вдоль по NP-Dat)**
+E.g.: _Мы пошли вдоль по [улице.]<sub>Path</sub>_ **(ID 849 VP вдоль по NP-Dat)**
 
 + **Direction** – The vector of movement towards a certain side or to a certain point in space or time.
-E.g.: _Ну а маятник качнулся вовсе не [вправо]Direction, а влево._ **(ID 60 вовсе не XP)**; _Когда я работал юрисконсультом, то постоянно ходил пешком на работу по парку «Сокольники» ― полчаса [туда]Direction, полчаса [назад]Direction._ **(ID 965 Noun XP, ~Noun XP)**
+E.g.: _Ну а маятник качнулся вовсе не [вправо]<sub>Direction</sub>, а влево._ **(ID 60 вовсе не XP)**; _Когда я работал юрисконсультом, то постоянно ходил пешком на работу по парку «Сокольники» ― полчаса [туда]<sub>Direction</sub>, полчаса [назад.]<sub>Direction</sub>_ **(ID 965 Noun XP, ~Noun XP)**
 
 + **Source** – The point of departure, initial point of a transfer, origin or source of information.
-E.g.: _Углекислый газ приходит изнутри [организма]Source._ **(ID 1737 XP изнутри (NP-Gen))**; _Маша узнала о победителе конкурса из [газет]Source._ **(ID 1999 NP-Nom узнать о NP-Loc из NP-Gen)**; _«[Древнюю архитектуру]Theme [мы]Experiencer знаем по [развалинам]Source, [скульптуру]Theme по [копиям]Source, [живопись]Theme по [описаниям]Source._ **(ID 132 NP-Nom знать NP-Acc по NP-Dat)**
+E.g.: _Углекислый газ приходит изнутри [организма.]<sub>Source</sub>_ **(ID 1737 XP изнутри (NP-Gen))**; _Маша узнала о победителе конкурса из [газет.]<sub>Source</sub>_ **(ID 1999 NP-Nom узнать о NP-Loc из NP-Gen)**; _Древнюю архитектуру мы знаем по [развалинам]<sub>Source</sub>, скульптуру по [копиям]<sub>Source</sub>, живопись по [описаниям.]<sub>Source</sub>_ **(ID 132 NP-Nom знать NP-Acc по NP-Dat)**
 
 + **Goal** – The end point of a movement, a destination.
-E.g.: _Мальчик побежал навстречу [другу]Goal._ **(ID 1738 XP навстречу NP-Dat)**
+E.g.: _Мальчик побежал навстречу [другу.]<sub>Goal</sub>_ **(ID 1738 XP навстречу NP-Dat)**
 
 + **Location** – A place where an object or participant is located or some situation occurs.
-E.g.: _[Лучшие рестораны Франции находятся]Situation вовсе не [в Париже]Location._ **(ID 60 вовсе не XP)**
+E.g.: _[Лучшие рестораны Франции находятся]<sub>Situation</sub> вовсе не [в Париже.]<sub>Location</sub>_ **(ID 60 вовсе не XP)**
 
 + **Landmark** – А prominent, conspicuous and stable object or other reference point that is easily recognizable and helps to identify the location of another entity. A Landmark can be spatial, temporal, or numerical.
-E.g.: _Мороз уже за [тридцать]Landmark градусов._ **(ID 128 за NumCrd-Acc NP- Gen. Pl)**; _Шесть недель отдыхали на базе отдыха под [Киевом]Landmark на реке Десна._ **(ID 272 XP под NP-Ins)**
+E.g.: _Мороз уже за [тридцать]<sub>Landmark</sub> градусов._ **(ID 128 за NumCrd-Acc NP- Gen. Pl)**; _Шесть недель отдыхали на базе отдыха под [Киевом]<sub>Landmark</sub> на реке Десна._ **(ID 272 XP под NP-Ins)**
 
 + **Limit** – A spatial or temporal, physical or abstract boundary.
-E.g.: _Она была коротко подстрижена и в [юбке]Theme до [колен]Limit._ **(ID 984 NP до NP-Gen)**; _[Иногда я могу танцевать хоть]Situation до [утра.]Limit_ **(ID 113 до NP-Gen Cl)**; _Моему сыну 13, [проблемный]Property до [невозможности]Limit_ **(ID 572 Adj до NP-Gen NP)**; _Ситуация обострилась до [предела]Limit_ **(ID 1578 VP до NP-Gen)**
+E.g.: _Она была коротко подстрижена и в [юбке]<sub>Theme</sub> до [колен.]<sub>Limit</sub>_ **(ID 984 NP до NP-Gen)**; _[Иногда я могу танцевать хоть]<sub>Situation</sub> до [утра.]<sub>Limit</sub>_ **(ID 113 до NP-Gen Cl)**; _Моему сыну 13, [проблемный]<sub>Property</sub> до [невозможности]<sub>Limit</sub>_ **(ID 572 Adj до NP-Gen NP)**; _Ситуация обострилась до [предела]<sub>Limit</sub>_ **(ID 1578 VP до NP-Gen)**
 
 + **Distance** – The space between objects or participants. Can also indicate the length of time that it takes to overcome this space.
-E.g.: _В [двух кварталах]Distance [отсюда]Landmark находится [магазин «Охотник»]Theme._ **(ID 750 Cl в NumCrd-Loc кварталах/домах (от NP-Gen))**; _Я живу в [пяти минутах]Distance от [метро]Landmark._ **(ID 1561 NP-Nom Cop/VP в NumCrd-Loc минутах/часах (ходьбы/езды/лёта) (от/до NP-Gen))**
+E.g.: _В [двух кварталах]<sub>Distance</sub> [отсюда]<sub>Landmark</sub> находится [магазин «Охотник».]<sub>Theme</sub>_ **(ID 750 Cl в NumCrd-Loc кварталах/домах (от NP-Gen))**; _Я живу в [пяти минутах]<sub>Distance</sub> от [метро.]<sub>Landmark</sub>_ **(ID 1561 NP-Nom Cop/VP в NumCrd-Loc минутах/часах (ходьбы/езды/лёта) (от/до NP-Gen))**
 
 + **Container** – An enclosure (vessel, box, etc.) that serves to enclose the content (Contained).
-E.g.: _Их [дом]Container часто был полон [гостей]Contained._;_[Ее взгляд]Container был полон [растерянности]Contained._ **(ID 44 NP-Nom Cop полный-Short NP-Gen)**; _Мы наконец выкинули все [старые коробки]Container из-под [обуви]Contained._ **(ID 521 NP из-под NP-Gen)**
+E.g.: _Их [дом]<sub>Container</sub> часто был полон [гостей.]<sub>Contained</sub>_;_[Ее взгляд]<sub>Container</sub> был полон [растерянности.]<sub>Contained</sub>_ **(ID 44 NP-Nom Cop полный-Short NP-Gen)**; _Мы наконец выкинули все [старые коробки]<sub>Container</sub> из-под [обуви.]<sub>Contained</sub>_ **(ID 521 NP из-под NP-Gen)**
 
 + **Contained** – What is enclosed inside a Container.
-E.g.: _Их [дом]Container часто был полон [гостей]Contained._;_[Ее взгляд]Container был полон [растерянности]Contained._ **(ID 44 NP-Nom Cop полный-Short NP-Gen)**; _Мы наконец выкинули все [старые коробки]Container из-под [обуви]Contained._ **(ID 521 NP из-под NP-Gen)**
+E.g.: _Их [дом]<sub>Container</sub> часто был полон [гостей.]<sub>Contained</sub>_;_[Ее взгляд]<sub>Container</sub> был полон [растерянности.]<sub>Contained</sub>_ **(ID 44 NP-Nom Cop полный-Short NP-Gen)**; _Мы наконец выкинули все [старые коробки]<sub>Container</sub> из-под [обуви.]<sub>Contained</sub>_ **(ID 521 NP из-под NP-Gen)**
 
 Constructions that belong to the semantic type Discourse structure often feature the following semantic roles:
 
 + **Speaker** – An animate participant who produces an utterance, the subject of speech.
-E.g.: _На [мой]Speaker взгляд, [он рассуждает в правильном направлении]Evaluation._ **(ID 1137 на PronPoss-Acc взгляд, Cl)**
+E.g.: _На [мой]<sub>Speaker</sub> взгляд, [он рассуждает в правильном направлении.]<sub>Evaluation</sub>_ **(ID 1137 на PronPoss-Acc взгляд, Cl)**
 
 + **ContentOfSpeech** – The statement made by the Speaker regarding a certain issue (Topic) that may contain either factual information or subjective opinion and assessments. Normally, ContentOfSpeech is expressed by a whole clause and reveals exactly what was said.
-E.g.: _Что касается второго вопроса, то, [на мой взгляд, в нашей стране Академия наук должна выполнять функции главного экспертного центра.]ContentOfSpeech_ **(ID 365 что касается NP-Gen, то Cl)**
+ContentOfSpeech</sub>_ **(ID 365 что касается NP-Gen, то Cl)**
 
 + **Topic** – The subject that is discussed or studied. Topic is normally expressed by a noun phrase that is introduced with a preposition.
-E.g.: _А насчёт [папы]Topic – он уехал на рыбалку._ **(ID 687 (а) насчёт NP-Gen – Cl)**
+E.g.: _А насчёт [папы]<sub>Topic</sub> – он уехал на рыбалку._ **(ID 687 (а) насчёт NP-Gen – Cl)**
 
 + **Rephrasee** – The word, phrase, or utterance that is being reformulated, undergoes Rephrasing.
-E.g.: _[Это человек дисциплинированных чувств, умеренный во всем, и позитивист.]Rephrasee Иначе говоря, [он доверяет своей голове и своим рукам]Rephrasing._ **(ID 1086 иначе говоря, XP/Cl)**
+E.g.: _[Это человек дисциплинированных чувств, умеренный во всем, и позитивист.]<sub>Rephrasee</sub> Иначе говоря, [он доверяет своей голове и своим рукам.]<sub>Rephrasing</sub>_ **(ID 1086 иначе говоря, XP/Cl)**
 
 + **Rephrasing** – Expression of some meaning (Rephrasee) in other words, the outcome of reformulation.
-E.g.: _[Это человек дисциплинированных чувств, умеренный во всем, и позитивист.]Rephrasee Иначе говоря, [он доверяет своей голове и своим рукам]Rephrasing._ **(ID 1086 иначе говоря, XP/Cl)**
+E.g.: _[Это человек дисциплинированных чувств, умеренный во всем, и позитивист.]<sub>Rephrasee</sub> Иначе говоря, [он доверяет своей голове и своим рукам.]<sub>Rephrasing</sub>_ **(ID 1086 иначе говоря, XP/Cl)**
 
 + **Addressee** – An animate participant who receives a message or, more rarely, an emotional reaction or an action.
-E.g.: _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
+E.g.: _В адрес [собеседника]<sub>Addressee</sub> летят [иронические замечания.]<sub>Theme</sub> **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]<sub>Addressee</sub> запрещается [проявлять даже малейшую грубость или недовольство.]<sub>Action</sub>_ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]<sub>Theme</sub> в отношении [автомобилистов.]<sub>Addressee</sub>_ **(ID 789 VP/NP в отношении NP-Gen)**
 
 The constructions that characterize objects or participants often feature the following semantic roles: 
 
 + **Property** – A characteristic of an animate participant or inanimate object.
-E.g.: _Нет, все-таки Андрей был чертовски [талантливым]Property человеком!_ **(ID 1936 чертовски XP)**
+E.g.: _Нет, все-таки Андрей был чертовски [талантливым]<sub>Property</sub> человеком!_ **(ID 1936 чертовски XP)**
 
 + **Name** – The proper name of an animate participant or inanimate object.
-E.g.: _Позднее она вышла замуж за коллегу, за аптекаря по фамилии [Славуцкий.]Name_ **(ID 1938 NP по NP-Dat NP-Nom)**; _Cтарый добрый [цирк]Theme имени [братьев Никитиных]Name готовится к приёму гостей._ **(ID 1084 NP имени NP-Gen)**
+E.g.: _Позднее она вышла замуж за коллегу, за аптекаря по фамилии [Славуцкий.]<sub>Name</sub>_ **(ID 1938 NP по NP-Dat NP-Nom)**; _Cтарый добрый [цирк]<sub>Theme</sub> имени [братьев Никитиных]<sub>Name</sub> готовится к приёму гостей._ **(ID 1084 NP имени NP-Gen)**
 
 + **Status** – The social role or position in society of an animate participant.
-E.g.: _Она уже давно ходит в [невестах.]Status_ **(ID 345 NP-Nom ходить в NP-Loc.Pl)**; _Этот мальчик приходится мне [сыном.]Status_ **(ID 551 NP-Nom приходиться NP-Dat NP-Ins)**; _Митя ― студент последнего курса мединститута, без пяти минут [врач]Status._ **(ID 33 без пяти минут NP)**
+E.g.: _Она уже давно ходит в [невестах.]<sub>Status</sub>_ **(ID 345 NP-Nom ходить в NP-Loc.Pl)**; _Этот мальчик приходится мне [сыном.]<sub>Status</sub>_ **(ID 551 NP-Nom приходиться NP-Dat NP-Ins)**; _Митя ― студент последнего курса мединститута, без пяти минут [врач.]<sub>Status</sub>_ **(ID 33 без пяти минут NP)**
 
 + **Evaluation** – A subjective evaluative characteristic of an object, participant or situation.
-E.g.: _Вот [молодец!]Evaluation_ **(ID 69  вот NP-Nom!)**; _Как по мне, [фильм того совершенно не стоил]Evaluation._ **(ID 11  (как) по мне, (так) Cl)**
+E.g.: _Вот [молодец!]<sub>Evaluation</sub>_ **(ID 69  вот NP-Nom!)**; _Как по мне, [фильм того совершенно не стоил.]<sub>Evaluation</sub>_ **(ID 11  (как) по мне, (так) Cl)**
 
 ---
 
