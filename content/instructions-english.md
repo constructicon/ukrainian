@@ -447,7 +447,7 @@ E.g.: _― Пойдем, отец. Дай Валентине с Серегой �
 E.g.: _Я упросил [напарника]<sub>Agent</sub> [отдежурить]<sub>Action</sub> за [меня]<sub>Deputy</sub> на рации._ **(ID 127: VP за NP-Acc)**
 
 + **Cognizer** – Animate participant, the subject of a mental state or a mental activity.
-E.g.: _[Бог]<sub>Cognizer</sub> его знает, где они сейчас._ **(ID 5 (а) Noun-Nom/кто (же) (PronPers-3.Acc) знает, Cl)**; _Никто не мог это сделать без ведома [президента]<sub>Cognizer</sub>_ **(ID 713 VP без ведома NP-Gen)**
+E.g.: _[Бог]<sub>Cognizer</sub> его знает, где они сейчас._ **(ID 5 (а) Noun-Nom/кто (же) (PronPers-3.Acc) знает, Cl)**; _Никто не мог это сделать без ведома [начальника.]<sub>Cognizer</sub>_ **(ID 713 VP без ведома NP-Gen)**
 
 + **Patient** – Passive inactive animate participant or inanimate object affected or changed by the Agent.
 E.g.: _Надо было схватить [тебя]<sub>Patient</sub> за шиворот и втащить в вагон._ **(ID 1039 VP за шиворот)**
