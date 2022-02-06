@@ -438,15 +438,116 @@ In the Russian Constructicon, we employ a set of terms to tag semantic types of 
 We annotate all definitions of constructions and corpus-based example sentences for semantic roles, focusing primarily on the semantic roles of the slots. In descriptions of constructions, the annotated portions of text are put in square brackets [], and the corresponding semantic role appears in the subscript highlighted with color. In Advanced Search, the user can search for constructions with slots that perform a particular semantic role. below we provide explanations and illustrations of semantic roles:
 
 + **Agent** – Active animate participant who initiates the action, affects other participants (or themselves), and changes the current situation. An Agent controls the action, that is they perform the action consciously or intentionally. The tag is also used to annotate the Subject of movement in space that is normally characterized a lesser degree of control over the situation, intentionality, consciousness and activity.
-Example: _Ни с того ни с сего [главный тренер]Agent взял и пригласил в сборную Александра Юдина._ **(ID 57 NP-Nom взять и VP-Pfv)**
+E.g.: _Ни с того ни с сего [главный тренер]Agent взял и пригласил в сборную Александра Юдина._ **(ID 57 NP-Nom взять и VP-Pfv)**
 
 + **Counteragent** – Active animate participant of a social situation (a game, trade, friendship, etc.), who interacts with the Agent.
-Example: _― Пойдем, отец. Дай Валентине с Серегой поговорить. ― [Я]Agent [ей]Counteragent поговорю!_ **(ID 389 я PronPers-Dat VP-Fut!)**
+E.g.: _― Пойдем, отец. Дай Валентине с Серегой поговорить. ― [Я]Agent [ей]Counteragent поговорю!_ **(ID 389 я PronPers-Dat VP-Fut!)**
 
 + **Deputy** – Active animate participant who performs an action instead of another participant.
-Example: _Я упросил [напарника]Agent [отдежурить]Action за [меня]Deputy на рации._ **(ID 127: VP за NP-Acc)**
+E.g.: _Я упросил [напарника]Agent [отдежурить]Action за [меня]Deputy на рации._ **(ID 127: VP за NP-Acc)**
 
-+ **Cognizer** –
++ **Cognizer** – Animate participant, the subject of a mental state or a mental activity.
+E.g.: _[Бог]Cognizer его знает, где они сейчас._ **(ID 5 (а) Noun-Nom/кто (же) (PronPers-3.Acc) знает, Cl)**; _Никто не мог это [сделать]Action без ведома [президента]Cognizer_ **(ID 713 VP без ведома NP-Gen)**
+
++ **Patient** – Passive inactive animate participant or inanimate object affected or changed by the Agent.
+E.g.: _Надо было схватить [тебя]Patient за шиворот и втащить в вагон._ **(ID 1039 VP за шиворот)**
+
++ **Experiencer** – Animate participant who experiences an emotional state or feeling or receives a sensory input.
+E.g.: _Неохота [мне]Experiencer было [ей звонить…]Action_ **(ID 1210 (NP-Dat) охота/неохота Cop VP-Inf)**
+
++ **Stimulus** – An object or a participant that triggers a certain emotional state for the Experiencer or serves as a source of visual, auditory / acoustical or other sensory information received by the Experiencer.
+E.g.: _Из палатки несёт [рыбой.]Stimulus_ **(ID 258 от/из NP-Gen нести NP-Ins)**; _На [шум]Stimulus в палату пришел санитар._ **(ID 1298 VP на NP-Acc)**; _Я должен показать, что знаю правила этикета, чтобы ему не пришлось краснеть за [меня]Stimulus перед уважаемыми людьми._ **(ID 169 NP-Nom краснеть за NP-Acc (перед NP-Ins))**
+
++ **Causer** – Animate participant who's actions stimulate another participant (Causee) to perform an action. This tag is used in the constructions that belong to the semantic type Causation.
+E.g.: _Не позволяйте [себе]Causee под давлением [оппонента]Causer растерять собственную самооценку._ **(ID 1287 VP под давлением NP-Gen)**
+
++ **Causee** – Animate participant who is stimulated by the actions of another participant (Causer) to perform an action. This tag is used in the constructions that belong to the semantic type Causation.
+E.g.: _Не позволяйте [себе]Causee под давлением [оппонента]Causer растерять собственную самооценку._ **(ID 1287 VP под давлением NP-Gen)**
+
++ **Participant** – Animate participant of a situation that cannot be coded by any other semantic role from the list above.
+E.g.: TBA
+
++ **Force** – Inanimate external entity (Force) that intensively affects other participants in the situation and causes the situation to change. By contrast with Agent, Force is always inanimate, non-volitive and unable to control the situation.
+E.g.: no examples in the Russian Constructicon yet; _[Ветром]Effector сдуло шляпу._
+
++ **Theme** – Inanimate object that is not changed or modified by the Agent or is the only inactive participant of the situation (that is, it neither controls the situation nor causes any changes).
+E.g.: _Не успели мы доехать до Парижа, пришёл возмущённый [факс]Theme на имя Спивакова_ **(ID 1830 NP на имя NP-Gen)**
+
++ **Recipient** – Animate participant who receives an object (Theme), the endpoint of a transfer.
+E.g.: _Отец передал [сыновьям]Recipient в наследство по [дому]Theme._ **(ID 586 VP (NP-Dat.Pl) по NP-Dat/по NumCrd-Acc NP-Gen)**
+
++ **Instrument** – Inanimate object used by an active animate participant of the situation (Agent) as a tool for performing an action.
+E.g.: _Часовщик при помощи своего [увеличительного стекла]Instrument увеличивает мелкие механизмы._ **(ID 1295 VP с помощью/при помощи NP-Gen)**; _Ехать в Японию смотреть футбол ― не необходимость, можно посмотреть по [телевизору]Instrument._ **(ID 1976 VP по NP-Dat)**
+
+Many constructions that contain verb phrases as open slots feature the following semantic roles:
+
++ **Action** – Purposeful goal-oriented intentional telic activity that is carried out by a participant and has an end result or natural limit.
+E.g.: _Она была не против [помочь бабушке]Action._ **(ID 455 NP-Nom Cop не против VP-Inf)**
+
++ **Activity** – Atelic process-like behavior that is performed by a participant and has no end result or natural limit.
++ E.g.: _Я бросила [курить]Activity, заболев астмой._ **(ID 38 NP-Nom бросить VP-Inf)**; _Всю неделю я [работал]Activity как сумасшедший._ **(ID 2260 VP как сумасшедший/ошалелый/очумелый/ненормальный)**; _Света [прогуливалась]Activity туда-сюда вдоль стенки ларька со скучающим видом._ **(ID 1748 VP туда-сюда)**
+
++ **State** – A non-dynamic, unvarying state of affairs. The tag can be used for annotating both noun and verb phrases.
+E.g.: _Мне чертовски [хотелось]State домой, подальше от всех этих проблем._ **(ID 1936 чертовски XP)**; _Положите на веки на 7-8 минут кружочки свежего огурца. [Усталости]State как не бывало…_ **(ID 1002 NP-Gen как не бывало)**
+
++ **Event** – An incident, a completed action that has a visible result and usually is out of the participant's control. It can be positive, negative or neutral. The tag is often used to annotate whole clauses.
+E.g.: _Порой мы сильно и навсегда ссорились, но я никогда не теряла надежды, что однажды [зазвонит телефон]Event и я [услышу её голос]Event или [получу от неё письмо]Event._ **(ID 1648 однажды VP-Fut)**
+
++ **Situation** – A certain state of affairs. The tag is widely used to annotate whole clauses.
+E.g.: _Зрение птиц феноменально. Так, [коршун с высоты 2000 метров заметит падаль, лежащую на земле.]Situation_ **(ID 2350 так, Cl)**; _[Издательство обязано выплатить автору все 100% гонорара]Situation ввиду того, что [рукопись отклонена уже после одобрения]Cause_ **(ID 53 ввиду того́, что Cl, Cl)**; _Ведь [фильм интересен]Situation и в наши дни, хотя прошло уже несколько десятилетий со дня его выхода на экраны._ **(ID 1659 в наши дни VP)**
+
++ **BackgroundSituation** – A state or a situation that serves as the background for an action or another situation.
+E.g.: _Он [вышел на сцену]Action под [гром аплодисментов.]BackgroundSituation_ **(ID 635 VP под NP-Acc)**
+
++ **Result** – A situation that takes shape as a final consequence of an action or an event. This tag is often used to annotate constructions that belong to the semantic type Result. In constructions that denote Calculation this semantic role indicates the final number obtained as a result of calculation, a specific arithmetic operation (addition, subtraction, division, etc.).
+E.g.: _Дело доходит до [драки]Result_ **(ID 961 дело дойти/доходить до NP-Gen)**; _Сколько бы вы ни выигрывали, вы всё равно [проиграете]Result в конечном счёте._ **(ID 762 в конечном счете VP)**; _Крыжовник [проварить]Action до [мягкости]Result, добавив цедру лимона и сахар._ **(ID 1575 VP до NP-Gen)**; _В итоге обсуждения правление [одобрило заявку]Result_ **(ID 1680 в итоге NP-Gen VP)**; _[Три]Quantity плюс [три]Quantity будет [шесть]Result._ **(ID 1856 NumCrd-Nom плюс/и NumCrd-Nom – (равно/VP) NumCrd-Nom/NumCrd-Dat)**
+
+Constructions that belong to the semantic type Possession feature the following semantic roles:
+
++ **Possessor** – An animate participant who owns an object or a body part.
+E.g.: _Уникальный [завод]Possessed кварцевого стекла оказался в собственности у [американской компании]Possessor._ **(ID 1947 NP-Nom Cop/VP в собственности (у) NP-Gen)**; _У [мальчика]Possessor отсутствовало не только [постельное белье]Possessed, но и [одеяло]Possessed._; _Там никто ничего не выдумывает, [фантазия]Possessed у [людей]Possessor отсутствует._ **(ID 1950 у NP-Gen отсутствовать/присутствовать NP-Nom)**
+
++ **Possessed** – An object (less often a participant) that is the property of an animate participant.
+E.g.: _Уникальный [завод]Possessed кварцевого стекла оказался в собственности у [американской компании]Possessor._ **(ID 1947 NP-Nom Cop/VP в собственности (у) NP-Gen)**; _У [мальчика]Possessor отсутствовало не только [постельное белье]Possessed, но и [одеяло]Possessed._; _Там никто ничего не выдумывает, [фантазия]Possessed у [людей]Possessor отсутствует._ **(ID 1950 у NP-Gen отсутствовать/присутствовать NP-Nom)**
+
+Constructions that belong to the semantic type Addressee feature the following semantic roles:
+
++ **Addressee** – An animate participant who receives a message or, more rarely, an emotional reaction or an action.
+E.g. _В адрес [собеседника]Addressee летят [иронические замечания]Theme. **(ID 752 NP в адрес NP-Gen)**; _В отношении [родителей]Addressee запрещается [проявлять даже малейшую грубость или недовольство]Action._ **(ID 789 VP/NP в отношении NP-Gen)**; _Недавно ввели новые [штрафы]Theme в отношении [автомобилистов]Addressee._ **(ID 789 VP/NP в отношении NP-Gen)**
+
++ **Beneficiary** – An animate participant who gains from the presence of a situation or action.
+E.g.: _Светочка [росла]Action, на радость [маме и папе]Beneficiary, умницей._ **(ID 1784 VP на радость NP-Dat)**
+
++ **Maleficiary** – An animate participant who is harmed by a situation or action.
+E.g.: _Назло [мужу]Maleficiary она обрезала свои длинные волосы._ **(ID 904 VP назло NP-Dat)**
+
+Constructions that belong to the semantic type Comitative feature the following semantic roles:
+
++ **Accompanee** – The animate participant who is accompanied by a more peripheral participant (Companion). The two participants take part in a shared activity or experience the same state. The tag is used in comitative constructions.
+E.g.: _[Родные]Accompanee и [друзья]Accompanee веселятся вместе с [участниками ансамбля]Companion._ **(ID 1883 VP вместе с NP-Ins)**
+
++ **Companion** – The animate participant who accompanies another participant (Accompanee) in a shared activity or experiences the same state. The two participants take part in a shared activity or experience the same state. The tag is used in comitative constructions.
+E.g.: _[Родные]Accompanee и [друзья]Accompanee веселятся вместе с [участниками ансамбля]Companion._ **(ID 1883 VP вместе с NP-Ins)**
+
+Constructions that belong to the semantic type Comparison feature the following semantic roles:
+
++ **Comparee** – The entity that is being compared against the Standard of comparison. For example, in the sentence _Mary is taller than Peter_, _Mary_ is the Comparee. A Comparee can be an inanimate object, an animate participant or a whole situation.
+E.g.: _И [Хоккей]Comparee ничем не [страшнее]Parameter и не [опаснее]Parameter [других видов спорта]Standard._ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]Comparee [фигурой]Parameter в [бабушку]Standard: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**
+
++ **Standard** – The entity that the Comparee is being compared against. For example, in the sentence _Mary is taller than Peter_, _Peter_ is the Standard of comparison. The Standard of comparison can be an inanimate object, an animate participant or a whole situation.
+E.g.: _И [Хоккей]Comparee ничем не [страшнее]Parameter и не [опаснее]Parameter [других видов спорта]Standard._ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]Comparee [фигурой]Parameter в [бабушку]Standard: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**; _[Телефон]Comparee, он и в Африке [телефон]Standard. Надо только уметь пользоваться._ **(ID 1441 Noun-Nom, PronPers-3.Nom и в Африке ~Noun-Nom)**
+
++ **Parameter** – А certain gradable property that serves for comparing the Comparee and the Standard. For example, in the sentence _Mary is taller than Peter_, _taller_ indicates the Parameter of comparison.
+E.g.: _И [Хоккей]Comparee ничем не [страшнее]Parameter и не [опаснее]Parameter [других видов спорта]Standard._ **(ID 244 NP-Nom Cop ничем не Adj-Cmp NP-Gen/VP ничем не Adv-Cmp NP-Gen)**; _Всю жизнь все считали, что [я]Comparee [фигурой]Parameter в [бабушку]Standard: маленькая ростом._ **(ID 498 NP-Ins NP-Nom Cop в NP-Acc)**
+
+Constructions that belong to the semantic types Quantification, Inclusive, Exceptive, Calculation, and Measure often feature the following semantic roles:
+
++ **Element** – A distinct member of a set; can be a subset.
+E.g.: _[Любая страна]Set, в том числе и [Мексика]Element, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
+
++ **Set** – A collection of elements (inanimate objects or animate participants) that share a certain characteristic.
+E.g.: _[Любая страна]Set, в том числе и [Мексика]Element, заинтересована в международных связях._ **(ID 441 NP, в том числе (и) NP)**
+
 
 
 ---
