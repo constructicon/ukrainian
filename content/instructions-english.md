@@ -444,7 +444,7 @@ E.g.: _Ни с того ни с сего [главный тренер]<sub>Agent
 E.g.: _― Пойдем, отец. Дай Валентине с Серегой поговорить. ― [Я]<sub>Agent</sub> [ей]<sub>Counteragent</sub> поговорю!_ **(ID 389 я PronPers-Dat VP-Fut!)**
 
 + **Deputy** – Active animate participant who performs an action instead of another participant.
-E.g.: _Я упросил [напарника]<sub>Agent</sub> [отдежурить]<sub>Action</sub> за [меня]<sub>Deputy</sub> на рации._ **(ID 127: VP за NP-Acc)**
+E.g.: _Я упросил [напарника]<sub>Deputy</sub> [отдежурить]<sub>Action</sub> за [меня]<sub>Participant</sub> на рации._ **(ID 127: VP за NP-Acc)**
 
 + **Cognizer** – Animate participant, the subject of a mental state or a mental activity.
 E.g.: _[Бог]<sub>Cognizer</sub> его знает, где они сейчас._ **(ID 5 (а) Noun-Nom/кто (же) (PronPers-3.Acc) знает, Cl)**; _Никто не мог это сделать без ведома [начальника.]<sub>Cognizer</sub>_ **(ID 713 VP без ведома NP-Gen)**
