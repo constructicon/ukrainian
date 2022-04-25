@@ -61,6 +61,12 @@
             integrity="sha256-LD9UsSATk+xTzAbk8nD2gA2bjHKvetXtCMDAFkM2K5Q="
             crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0-rc.1/chartjs-plugin-datalabels.min.js" integrity="sha512-+UYTD5L/bU1sgAfWA0ELK5RlQ811q8wZIocqI7+K0Lhh8yVdIoAMEs96wJAIbgFvzynPm36ZCXtkydxu1cs27w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
     <link href="{{ config.base_url | safe }}/css/style.css" rel="stylesheet">
   </head>
 
@@ -97,6 +103,9 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ config.base_url | safe }}/instructions-russian/">Instructions (Russian)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ config.base_url | safe }}/statistics/">Statistics</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ config.base_url | safe }}/about/">About</a>
@@ -152,6 +161,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
+
     {% block extrajs %}
     {% endblock extrajs %}
 
