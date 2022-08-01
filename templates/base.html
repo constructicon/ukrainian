@@ -78,7 +78,9 @@
       <div class="row top-buffer">
         <div class="col-md-3">
           <figure class="figure">
-            <img src="{{ resize_image(path="logo/constructicon.png", width=300, op="fit_width") | safe }}"
+            {% set img = resize_image(path="logo/constructicon.png", width=300,
+ op="fit_width") %}
+            <img src="{{ img.url }}"
                  class="figure-img img-fluid rounded" alt="Constructicon logo">
           </figure>
         </div>
@@ -128,7 +130,8 @@
 
           <a href="https://diku.no/" target="_blank">
             <figure class="figure">
-              <img src="{{ resize_image(path="logo/diku.jpg", width=100, op="fit_width") | safe }}"
+              {% set img = resize_image(path="logo/diku.jpg", width=100, op="fit_width") %}
+              <img src="{{ img.url }}"
                    class="figure-img img-fluid rounded" alt="Diku logo">
             </figure>
           </a>
@@ -137,14 +140,16 @@
 
           <a href="https://uit.no/" target="_blank">
             <figure class="figure">
-              <img src="{{ resize_image(path="logo/uit.png", width=90, op="fit_width") | safe }}"
+              {% set img = resize_image(path="logo/uit.png", width=90, op="fit_width") %}
+              <img src="{{ img.url }}"
                    class="figure-img img-fluid rounded" alt="UiT logo">
             </figure>
           </a>
 
           <a href="https://www.hse.ru/en/" target="_blank">
             <figure class="figure">
-              <img src="{{ resize_image(path="logo/hse.jpg", width=150, op="fit_width") | safe }}"
+              {% set img = resize_image(path="logo/hse.jpg", width=150, op="fit_width") %}
+              <img src="{{ img.url }}"
                    class="figure-img img-fluid rounded" alt="HSE logo">
             </figure>
           </a>
