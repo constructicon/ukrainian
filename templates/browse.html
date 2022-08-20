@@ -82,7 +82,12 @@
               <br>
               <b>SEMANTIC TYPE</b>
               <ul>
-                <li v-for="item in records[current_record_number].semantic_types">{[ item ]}</li>
+                <li v-for="item in records[current_record_number].semantic_types">
+                  {[ item['type'] ]}
+                  <ul>
+                    <li v-for="it in item['subtypes']">{[ it['type'] ]}</li>
+                  </ul>
+                </li>
               </ul>
 
               <br>
@@ -137,7 +142,7 @@
 
               <br>
               <b>REFERENCES</b>
-              <ul>
+              <ul v-if="records[current_record_number].references[0] != ''" >
                 <li v-for="item in records[current_record_number].references">{[ item ]}</li>
               </ul>
             </div>
