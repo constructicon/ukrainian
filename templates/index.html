@@ -1,10 +1,15 @@
 {% extends "browse.html" %}
 
 {% block search %}
+<div class="col-md-6 top-buffer">
   <form>
     <div class="form-group">
       <label>Search in names and illustrations</label>
-      <input v-model="search_string" class="form-control">
+      <input v-model="search_string" class="form-control" placeholder="не говоря о" onkeydown="if(event.keyCode==13){return false;}">
     </div>
   </form>
+</div>
+<div class="col-md-6">
+  {{ macros::treeselect(key="level") }}
+</div>
 {% endblock search %}
