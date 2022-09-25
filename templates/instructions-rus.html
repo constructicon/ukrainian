@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"> -->
+
+<div class="row">
+  <div class="col-4">
+    <nav id="my_content" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills" style="position: relative; height: 500px; overflow-y: scroll;">
+        <a class="nav-link" href="#pages">1. Объяснение страниц сайта</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">1.1. Стартовая страница (Browse)</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">1.2. Дневная порция (Daily Dose)</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-3">1.3. Продвинутый поиск (Advanced Search)</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-4">1.4. Инструкции по-английски (Instructions (English))</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-5">1.5. Инструкции по-русски (Instructions (Russian))</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-6">1.6. О проекте (About)</a>
+        </nav>
+        <a class="nav-link" href="#abbrev">2. Сокращения и символы</a>
+        <a class="nav-link" href="#rules">3. Правила записи имени конструкции</a>
+        <a class="nav-link" href="#terms">4. Объяснение терминов</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-4-1">4.1. Стилистические пометы (Usage labels)</a>
+          <a class="nav-link ms-3 my-1" href="#item-4-2">4.2. Морфологические пометы (Morphological terms)</a>
+          <a class="nav-link ms-3 my-1" href="#item-4-3">4.3. Синтаксические пометы</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-5 my-1" href="#item-4-3-1">4.3.1. Синтаксический тип конструкции (Syntactic type of construction)</a>
+            <a class="nav-link ms-5 my-1" href="#item-4-3-2">4.3.2. Синтаксическая функция якоря (Syntactic function of anchor)</a>
+            <a class="nav-link ms-5 my-1" href="#item-4-3-3">4.3.3. Синтаксическая структура якоря (Syntactic structure of anchor)</a>
+            <a class="nav-link ms-5 my-1" href="#item-4-3-4">4.3.4. Часть речи якоря (Part of speech of anchor)</a>
+          </nav>
+          <a class="nav-link ms-3 my-1" href="#item-4-4">4.4. Семантические пометы (Semantic terms)</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-5 my-1" href="#item-4-4-1">4.4.1. Семантические типы конструкций (Semantic types)</a>
+            <a class="nav-link ms-5 my-1" href="#item-4-4-2">4.4.2. Семантические роли (Semantic roles)</a>
+          </nav>
+          <a class="nav-link ms-3 my-1" href="#item-4-5">4.5. Коммуникативный тип конструкции (Communicative type)</a>
+        </nav>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#my_content" data-bs-smooth-scroll="true" style="position: relative; height: 500px; overflow-y: scroll;">
+      <div id="pages">
+        
+      </div>
+      <div id="item-1-1">
+        <h3>Стартовая страница (Browse)</h3>
+        <p>На этой странице пользователь может просмотреть весь список из более чем 2200 конструкций, включенных в Русский Конструктикон. Запись каждой конструкции в списке включает ее Номер, Имя (обобщенную формулу) и Иллюстрацию. Некоторые номера конструкций не следуют подряд друг за другом. Это не ошибка, а результат длительного процесса сбора конструкций и удаления дублирующих друг друга единиц на более поздних стадиях.</p>
+        <p>Список конструкций помещен в отдельном окне справа, где его можно прокрутить вниз или вверх, выбрать из него отдельную конструкцию и нажатием на нее открыть ее описание. Под описанием конструкции расположена кнопка “Show additional information”, которая открывает дополнительную информацию о конструкции.</p>
+        <p>Пользователь может искать конструкции, вводя любую последовательность символов  в поисковую строку слева. Здесь можно задать точный поиск по элементам, входящим в состав конструкции. Можно ввести ввести слово или словоформу или обозначения категорий типа NP, Dat, Pfv (см. список сокращений). Результаты поиска появятся в окне справа, где прежде помещался весь список конструкций.</p>
+        <p>NB! Загрузка страницы может  занять несколько секунд. Если вы ждете слишком долго, попробуйте открыть сайт в другом браузере.</p>
+      </div>
+      <div id="item-1-2">
+        <h3>Дневная порция (Daily Dose)</h3>
+        <p>На этой странице пользователь может выбрать уровень владения языком и нажатием кнопки “Get random records“ получить случайную подборку из пяти конструкций этого уровня. Такая обозримая порция конструкций может использоваться студентами РКИ для самостоятельной работы. Как и на стартовой странице, пользователь видит Номер, Имя и Иллюстрацию конструкции, а полную информацию о конструкции получает при нажатии на нее.</p>
+      </div>
+      <div id="item-1-3">
+        <h3>Продвинутый поиск (Advanced Search)</h3>
+        <p>На этой странице пользователь может задать поиск конструкций по различным параметрам, которые можно комбинировать. Описание категорий, доступных для поиска, смотри в отдельных разделах инструкций.</p>
+      </div>
+      <div id="item-1-4">
+        <h3>Инструкции по-английски (Instructions (English))</h3>
+        <p>Эта страница содержит инструкции для пользователей на английском языке.</p>
+      </div>
+      <div id="item-1-5">
+        <h3>Инструкции по-русски (Instructions (Russian))</h3>
+        <p>Эта страница содержит инструкции для пользователей на русском языке.</p>
+      </div>
+      <div id="item-1-6">
+        <h3>О проекте (About)</h3>
+        <p>Эта страница содержит информацию о ресурсе и разработчиках.</p>
+      </div>
+      <div id="abbrev">
+        <h4>Item 2</h4>
+        
+      </div>
+      <div id="rules">
+        <h4>Item 3</h4>
+      </div>
+      <div id="item-3-1">
+        <h5>Item 3-1</h5>
+        <p>
+
+      </div>
+      <div id="item-3-2">
+        <h5>Item 3-2</h5>
+
+      </div>
+      <div id="terms">
+        <h4>Item 3</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+{% endblock content %}
