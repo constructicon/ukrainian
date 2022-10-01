@@ -26,9 +26,10 @@
             <div class="form-group">
               <label>Results</label>
               <select v-model="current_record_number" class="form-control" size="10">
+                
                 <option v-for="record_number in record_numbers_matching_search" :value="record_number">
                   {[ record_number ]}.
-
+                  
                   <b>{[ records[record_number].name ]}</b>
                   &nbsp;
                   |
@@ -37,6 +38,10 @@
                 </option>
               </select>
             </div>
+            Number of matching constructions: {[record_numbers_matching_search.length]}
+          </div>
+          <div v-else>
+            No matching constructions
           </div>
         </div>
 <!--      <div>-->
