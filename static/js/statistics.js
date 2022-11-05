@@ -25,10 +25,10 @@ async function drawChartSem() {
             }]
         },
         plugins: [ChartDataLabels],
-        options:{
+        options: {
             maintainAspectRatio: false,
-            plugins:{
-                legend:{
+            plugins: {
+                legend: {
                     display: false
                 },
                 tooltip: {
@@ -69,12 +69,12 @@ async function drawChartSTC() {
             }]
         },
         plugins: [ChartDataLabels],
-        options:{
-            plugins:{
-                legend:{
+        options: {
+            plugins: {
+                legend: {
                     display: false
                 },
-                tooltip:{
+                tooltip: {
                     enabled: false
                 }
             },
@@ -104,9 +104,9 @@ async function drawChartSFA() {
             }]
         },
         plugins: [ChartDataLabels],
-        options:{
-            plugins:{
-                legend:{
+        options: {
+            plugins: {
+                legend: {
                     display: false
                 },
                 tooltip: {
@@ -120,30 +120,28 @@ async function drawChartSFA() {
 
 // get data
 
-async function getDataSFA () {
+async function getDataSFA() {
     const data = await d3.csv('https://raw.githubusercontent.com/constructicon/russian-data/main/database.csv');
     const synt_func_anchor = [];
     const nullConstr = 0;
-    data.forEach(function (d){
-        if (d['Synt. func. of anchor'] != null){
-            for (let item of d['Synt. func. of anchor'].split(', ')){
-                if (item != ''){
+    data.forEach(function(d) {
+        if (d['Synt. func. of anchor'] != null) {
+            for (let item of d['Synt. func. of anchor'].split(', ')) {
+                if (item != '') {
                     synt_func_anchor.push(item)
                 }
             }
-        }
-        else {
+        } else {
             nullConstr++
         }
     });
-    const countedSFA = synt_func_anchor.reduce(function (dictSFA, synt_func_anchor) {
-      if (synt_func_anchor in dictSFA) {
-        dictSFA[synt_func_anchor]++
-      }
-      else {
-        dictSFA[synt_func_anchor] = 1
-      }
-      return dictSFA
+    const countedSFA = synt_func_anchor.reduce(function(dictSFA, synt_func_anchor) {
+        if (synt_func_anchor in dictSFA) {
+            dictSFA[synt_func_anchor]++
+        } else {
+            dictSFA[synt_func_anchor] = 1
+        }
+        return dictSFA
     }, {});
     const sortable = [];
     for (let type in countedSFA) {
@@ -155,33 +153,35 @@ async function getDataSFA () {
     const counted = Object.fromEntries(sortable)
     const labels = Object.keys(counted)
     const numbers = Object.values(counted)
-    return {labels, numbers, nullConstr};
+    return {
+        labels,
+        numbers,
+        nullConstr
+    };
 }
 
-async function getDataSTC () {
+async function getDataSTC() {
     const data = await d3.csv('https://raw.githubusercontent.com/constructicon/russian-data/main/database.csv');
     const synt_func = [];
     const nullConstr = 0;
-    data.forEach(function (d){
-        if (d['Synt. type of construction'] != null){
-            for (let item of d['Synt. type of construction'].split(', ')){
-                if (item != ''){
+    data.forEach(function(d) {
+        if (d['Synt. type of construction'] != null) {
+            for (let item of d['Synt. type of construction'].split(', ')) {
+                if (item != '') {
                     synt_func.push(item)
                 }
             }
-        }
-        else {
+        } else {
             nullConstr++
         }
     });
-    const countedSTC = synt_func.reduce(function (dictSTC, synt_func) {
-      if (synt_func in dictSTC) {
-        dictSTC[synt_func]++
-      }
-      else {
-        dictSTC[synt_func] = 1
-      }
-      return dictSTC
+    const countedSTC = synt_func.reduce(function(dictSTC, synt_func) {
+        if (synt_func in dictSTC) {
+            dictSTC[synt_func]++
+        } else {
+            dictSTC[synt_func] = 1
+        }
+        return dictSTC
     }, {});
     const sortable = [];
     for (let type in countedSTC) {
@@ -193,34 +193,36 @@ async function getDataSTC () {
     const counted = Object.fromEntries(sortable)
     const labels = Object.keys(counted)
     const numbers = Object.values(counted)
-    return {labels, numbers, nullConstr};
+    return {
+        labels,
+        numbers,
+        nullConstr
+    };
 }
 
 async function getDataSem(x) {
     const data = await d3.csv('https://raw.githubusercontent.com/constructicon/russian-data/main/database.csv');
     const sem_types = [];
     const sem_columns = data.columns.slice(data.columns.indexOf('Actionality'));
-    data.forEach(function (d){
-        if (x == 'All'){
-            sem_columns.forEach(function(column){
+    data.forEach(function(d) {
+        if (x == 'All') {
+            sem_columns.forEach(function(column) {
                 if (d[column] != '') {
                     sem_types.push(column)
                 }
-             })
-        }
-        else if (d['Synt. type of construction'] == x) {
-            sem_columns.forEach(function (column) {
+            })
+        } else if (d['Synt. type of construction'] == x) {
+            sem_columns.forEach(function(column) {
                 if (d[column] != '') {
                     sem_types.push(column)
                 }
             })
         }
     });
-    const countedSem = sem_types.reduce(function (dictSem, sem_types) {
+    const countedSem = sem_types.reduce(function(dictSem, sem_types) {
         if (sem_types in dictSem) {
             dictSem[sem_types]++
-        }
-        else {
+        } else {
             dictSem[sem_types] = 1
         }
         return dictSem
@@ -235,10 +237,13 @@ async function getDataSem(x) {
     const counted = Object.fromEntries(sortable)
     const labels = Object.keys(counted)
     const numbers = Object.values(counted)
-    return {labels, numbers};
+    return {
+        labels,
+        numbers
+    };
 }
 
-async function changeData (chart_id){
+async function changeData(chart_id) {
     const datapoints = await getDataSem(document.getElementById("syntType").value);
     const chart = Chart.getChart(chart_id);
     chart.data.labels = datapoints.labels;
@@ -253,12 +258,10 @@ async function changeData (chart_id){
     if (totalBars > 25) {
         newHeight = totalBars * 20;
         chartBox.style.height = newHeight + 'px'
-    }
-    else if (totalBars < 7) {
+    } else if (totalBars < 7) {
         newHeight = totalBars * 50;
         chartBox.style.height = newHeight + 'px'
-    }
-    else{
+    } else {
         newHeight = totalBars * 35;
         chartBox.style.height = newHeight + 'px'
     }
@@ -266,12 +269,12 @@ async function changeData (chart_id){
 
 // Top of anchors by parts of speech
 
-async function makeTopLists () {
+async function makeTopLists() {
     const data = await d3.csv('https://raw.githubusercontent.com/constructicon/russian-data/main/database.csv');
     // добавить обработку столбика с леммами и частями речи
 }
 
-async function printTopLists (words, id){
+async function printTopLists(words, id) {
     const div = document.getElementById(id);
     const ol = document.createElement('ol');
     div.appendChild(ol);
@@ -290,4 +293,3 @@ const adjectives = ['равный', 'хороший', 'полный', 'друг�
 printTopLists(verbs, 'TopVerbs')
 printTopLists(nouns, 'TopNouns')
 printTopLists(adjectives, 'TopAdjectives')
-

@@ -122,6 +122,14 @@ function collect_options_tree(record_numbers, records, key) {
                                 if (!(type_2 in tree_array[type_0][type_1])) {
                                     tree_array[type_0][type_1][type_2] = {};
                                 }
+                                if ("subtypes" in element_2) {
+                                    for (let element_3 of element_2["subtypes"]) {
+                                        let type_3 = element_3["type"];
+                                        if (!(type_3 in tree_array[type_0][type_1][type_2])) {
+                                            tree_array[type_0][type_1][type_2][type_3] = {};
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -155,6 +163,12 @@ function flatten_semantic_types(record_numbers, records) {
                             for (let element_2 of element_1["subtypes"]) {
                                 let type_2 = element_2["type"];
                                 flattened_list.push(type_2);
+                                if ("subtypes" in element_2) {
+                                    for (let element_3 of element_2["subtypes"]) {
+                                        let type_3 = element_3["type"];
+                                        flattened_list.push(type_3);
+                                    }
+                                }
                             }
                         }
                     }
