@@ -1,3 +1,0 @@
-+++
-template = "instructions-eng.html"
-+++
