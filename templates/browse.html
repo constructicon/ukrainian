@@ -1,3 +1,5 @@
+{% import "macros.html" as macros %}
+
 {% extends "base.html" %}
 
 {% block content %}
@@ -15,46 +17,50 @@
     </div>
 
     <div v-if="all_data_loaded">
-
-      <div class="row top-buffer">
-        <div class="col-md-6">
-          {% block search %}
-          {% endblock search %}
-        </div>
-
-        <div class="col-md-6">
+      <div class="row">
+        {% block search %}
+        {% endblock search %}
+        <div class="row top-buffer">
+        <div class="col-md-12 ">
           <div v-if="record_numbers_matching_search.length > 0">
-
             <div class="form-group">
               <label>Results</label>
               <select v-model="current_record_number" class="form-control" size="10">
+                
                 <option v-for="record_number in record_numbers_matching_search" :value="record_number">
-                  {[ record_number ]}
-                  -
+                  {[ record_number ]}.
+                  
                   <b>{[ records[record_number].name ]}</b>
                   &nbsp;
-                  -
+                  |
                   &nbsp;
                   <i>{[ records[record_number].illustration ]}</i>
                 </option>
               </select>
             </div>
+            Number of matching constructions: {[record_numbers_matching_search.length]}
+          </div>
+          <div v-else>
+            No matching constructions
           </div>
         </div>
-      <div>
 
+          <div v-if="current_record_number == null">
+            {% block carousel %}
+            {% endblock carousel %}
+          </div>
       <div class="row top-buffer">
         <div class="col-md-12">
           <div v-if="current_record_number != null">
             {[ current_record_number ]}
             <br>
 
-            <b>NAME</b>
+            <b>NAME</b><br>
             <b>{[ records[current_record_number].name ]}</b> - <i>{[ records[current_record_number].illustration ]}</i>
 
             <div v-for="definition in records[current_record_number].definitions">
               <br>
-              <b>DEFINITION ({[ to_title_case(key(definition)) ]})</b> <span v-html="annotate(value(definition))"></span>
+              <b>DEFINITION ({[ to_title_case(key(definition)) ]})</b> <br><span v-html="annotate(value(definition))"></span>
               <br>
             </div>
 
@@ -65,7 +71,7 @@
             </ol>
 
             <br>
-            <b>CEFR LEVEL</b> {[ records[current_record_number].cefr_level ]}
+            <b>CEFR LEVEL:</b> {[ records[current_record_number].cefr_level ]}
             <br>
 
             <br>
@@ -74,12 +80,23 @@
 
             <div v-if="show_additional_information">
               <br>
+              <b>EQUIVALENTS (English)</b>
+
+              <br>
+              <br>
+
+              <b>EQUIVALENTS (Norwegian)</b>
+
+              <br>
+              <br>
               <b>COMMON FILLERS</b>
-              <ul>
+              <ul v-if="records[current_record_number].common_fillers[0] != null">
                 <li v-for="item in records[current_record_number].common_fillers">{[ item ]}</li>
               </ul>
 
               <br>
+              <br>
+
               <b>SEMANTIC TYPE</b>
               <ul>
                 <li v-for="item in records[current_record_number].semantic_types">
@@ -137,7 +154,7 @@
               <br>
 
               <br>
-              <b>COMMENT</b> {[ records[current_record_number].comment ]}
+              <b>COMMENT</b> <br> {[ records[current_record_number].comment ]}
               <br>
 
               <br>

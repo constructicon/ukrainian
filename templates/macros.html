@@ -1,10 +1,10 @@
 {% macro treeselect(key) %}
-  <div class="row top-buffer">
-    {{ key | replace(from="_", to=" ") | capitalize }}
+  <div class="col-md-6 top-buffer">
+    <label>{{ key | replace(from="_", to=" ") | capitalize }}</label>
     <treeselect
       :multiple="true"
       :options="{{ key }}_options"
-      placeholder="Select {{ key }}"
+      placeholder="Select {{ key | replace(from='_', to=' ')}}"
       v-model="{{ key }}_selected"
       />
     <treeselect-value :value="{{ key }}_selected" />
