@@ -2,7 +2,7 @@
 
 # Constructicon
 
-Searchable database of multiword grammatical constructions of Russian.
+Searchable database of multiword grammatical constructions of Ukrainian.
 
 
 ### Using these libraries
