@@ -20,7 +20,7 @@
       <div class="row">
         {% block search %}
         {% endblock search %}
-        <div class="row top-buffer">
+<!--        <div class="row top-buffer">-->
         <div class="col-md-12 ">
           <div v-if="record_numbers_matching_search.length > 0">
             <div class="form-group">
@@ -45,10 +45,10 @@
           </div>
         </div>
 
-          <div v-if="current_record_number == null">
-            {% block carousel %}
-            {% endblock carousel %}
-          </div>
+<!--          <div v-if="current_record_number == null">-->
+<!--            {% block carousel %}-->
+<!--            {% endblock carousel %}-->
+<!--          </div>-->
       <div class="row top-buffer">
         <div class="col-md-12">
           <div v-if="current_record_number != null">
@@ -79,22 +79,17 @@
             <label for="checkbox">Show additional information</label>
 
             <div v-if="show_additional_information">
-              <br>
-              <b>EQUIVALENTS (English)</b>
-
-              <br>
-              <br>
-
-              <b>EQUIVALENTS (Norwegian)</b>
-
-              <br>
+              <div v-for="equivalent in records[current_record_number].equivalents">
+                <br>
+                <b>EQUIVALENTS ({[ to_title_case(key(equivalent)) ]})</b> <br><span v-html="value(equivalent)"></span>
+                <br>
+              </div>
               <br>
               <b>COMMON FILLERS</b>
               <ul v-if="records[current_record_number].common_fillers[0] != null">
                 <li v-for="item in records[current_record_number].common_fillers">{[ item ]}</li>
               </ul>
 
-              <br>
               <br>
 
               <b>SEMANTIC TYPE</b>
@@ -130,18 +125,6 @@
               <ul>
                 <li v-for="item in records[current_record_number].part_of_speech_of_anchor">{[ item ]}</li>
               </ul>
-
-              <br>
-              <b>DEPENDENCY STRUCTURE</b>
-              <ol>
-                <li v-for="item in records[current_record_number].dependency_structure">{[ item ]}</li>
-              </ol>
-
-              <br>
-              <b>DEPENDENCY STRUCTURE OF ILLUSTRATION</b>
-              <ol>
-                <li v-for="item in records[current_record_number].dependency_structure_of_illustration">{[ item ]}</li>
-              </ol>
 
               <br>
               <b>COMMUNICATIVE TYPE</b>
