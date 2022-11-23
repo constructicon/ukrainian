@@ -1,66 +1,130 @@
 {% extends "base.html" %}
 
 {% block content %}
+<ul class="nav nav-tabs " id="myTab" role="tablist" style="margin-left: 50px; margin-top: 15px;">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="ukr-tab" data-bs-toggle="tab" data-bs-target="#ukr" type="button" role="tab" aria-controls="ukrainian" aria-selected="false">Ukr</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="false">Eng</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="rus-tab" data-bs-toggle="tab" data-bs-target="#rus" type="button" role="tab" aria-controls="russian" aria-selected="true">Rus</button>
+  </li>
+</ul>
+<div class="tab-content p-3" id="myTabContent">
 
-<div class="row">
-    <div class="col-4">
-      <nav id="my_content" class="h-100 flex-column align-items-stretch pe-4 border-end">
-        <nav class="nav nav-pills flex-column" style="position: relative; height: 500px;">
-          <a class="nav-link" href="#about">About the project</a>
-          <nav class="nav nav-pills flex-column">
-<!--            <a class="nav-link ml-3 my-1" href="#item-1">1. What is the Russian Constructicon</a>-->
-<!--            <a class="nav-link ml-3 my-1" href="#item-2">2. Code and data</a>-->
-<!--            <a class="nav-link ml-3 my-1" href="#item-3">3. Team behind this project</a>-->
-<!--            <a class="nav-link ml-3 my-1" href="#item-4">4. Key publications</a>-->
-<!--            <a class="nav-link ml-3 my-1" href="#item-5">5. How to cite</a>-->
-<!--            <a class="nav-link ml-3 my-1" href="#item-6">6. Что такое Русский Конструктикон</a>-->
-          </nav>
-        </nav>
-      </nav>
-    </div>
-
-    <div class="col-8">
-        <div data-bs-spy="scroll" data-bs-target="#my_content" data-bs-smooth-scroll="true" style="position: relative; height: 500px; overflow-y: scroll;">
-          <div id="about">
-            <h2>About the project</h2>
-          </div>
-          <div id="item-1">
-            The Ukrainian Constructicon (UkrCon) is a collection of Ukrainian multi-word grammatical
-            constructions, i.e. prominent linguistic patterns of phrase and sentence structures that are
-            characteristic of the Ukrainian language.
-            <br>
-            Frequently used and recognizable Ukrainian constructions include structures like
-            час від часу VP ‘do something occasionally’, чи то NP, чи то NP ‘it is unclear whether X or Y’,
-            чого доброго VP-Pfv.Fut ‘it can happen’, and many others.
-            <br>
-            A construction is understood here according to Construction Grammar theory (Goldberg 2004)
-            as a central unit of language structure and language description: each construction is a pairing
-            of form and meaning (or function) learned in the process of language use. More specifically, a
-            construction is a generalization that speakers (might) make over specific linguistic usages.
-            <br>
-            Constructions in a language form a system, a structured inventory, termed construct-i-con, that
-            accounts for the entirety of the language (see Fillmore 1988, Langacker 2008, Goldberg &amp;
-            Herbst 2021).
-            <br>
-            UkrCon is a research project that aims to contribute to the emergent interdisciplinary field of
-            Constructicography that lies at the crossroads of theoretical linguistics, usage-based methods,
-            and language technology (Lyngfelt et al. 2018).
-            <br>
-            Today, comparable constructicon resources exist for very few languages. In this light, the
-            Ukrainian Constructicon serves to develop and enrich this scholarly field with additional
-            empirical data that can potentially facilitate new theoretical insights.
-            <br>
-            This project takes the initiative of making the linguistic data on Ukrainian constructions more
-            accessible and visible to the scholarly linguistic community, as well as to learners of Ukrainian
-            as a second language and to the general public. Moreover, the outcome product can serve to
-            develop automatic translation software and educational materials.
-            <br>
-            The project is administered at UiT The Arctic University of Norway.
-          </div>
-
+  <div class="tab-pane fade show active" id="ukr" role="tabpanel" aria-labelledby="ukr-tab">
+    <p>
+      Український конструктикон (УкрКон) – це збірка українських багатослівних граматичних
+      конструкцій, тобто яскравих мовних моделей структур фраз і речень, характерних для
+      української мови.
+      <br><br>
+      Такими частотними та впізнаваними українськими конструкціями є, наприклад, структури
+      типу <b>час від часу VP; чи то NP, чи то NP; чого доброго VP-Pfv.Fut</b> та багато інших.
+      Згідно з теорією Граматики конструкцій (Goldberg 2004), конструкція розуміється як
+      центральна одиниця мовної структури та опису мови: кожна конструкція є поєднанням
+      форми та значення (або функції), яке засвоюється у процесі використання мови. Зокрема,
+      конструкція як правило є деяким узагальненням, яке (гіпотетично) складається у того, хто
+      говорить у результаті абстрагування від безпосередніх прикладів її вживання. У мові
+      конструкції утворюють систему, чи організовану певним чином мережу, яку заведено
+      позначати терміном «конструктикон» (див. Fillmore 1988, Langacker 2008, Goldberg&amp;Herbst
+      2021). За допомогою конструкцій можна описати кожну окрему мову у всій її повноті та
+      унікальності.
+      <br><br>
+      УкрКон – це дослідницький проект, який прагне зробити внесок у нову міждисциплінарну
+      галузь, конструктікографію, що лежить на перехресті теоретичної лінгвістики, методів
+      вивчення функціонування мови, та комп&#39;ютерної лінгвістики (Lyngfelt та ін. 2018).
+      <br><br>
+      Аналогічні ресурси існують сьогодні лише для украй невеликої кількості мов. У цьому
+      світлі створення Українського конструктикону розвиває цю область досліджень та збагачує
+      її новими та додатковими емпіричними мовними даними, які потенційно можуть сприяти
+      появі нових ідей у теоретичному осмисленні мови.
+      <br><br>
+      Завдяки цьому проекту українські конструкції та їх мовні особливості залучать увагу
+      наукової лінгвістичної спільноти, стануть більш зрозумілими та доступними для тих, хто
+      вивчає українську як другу мову, а також для широкої аудиторії користувачів загалом. Крім
+      того, зібрані дані будуть корисними для розробки та вдосконалення програмного
+      забезпечення автоматичного перекладу та при створенні нових навчальних матеріалів.
+      <br><br>
+      Проектом керує Університет Тромсе – Арктичний університет Норвегії.
+    </p>
+  </div>
+  <div class="tab-pane fade show" id="eng" role="tabpanel" aria-labelledby="eng-tab">
+    The Ukrainian Constructicon (UkrCon) is a collection of Ukrainian multi-word grammatical
+    constructions, i.e. prominent linguistic patterns of phrase and sentence structures that are
+    characteristic of the Ukrainian language.
+    <br><br>
+    Frequently used and recognizable Ukrainian constructions include structures like
+    <b>час від часу VP</b> ‘do something occasionally’, <b>чи то NP, чи то NP</b> ‘it is unclear whether X or Y’,
+    <b>чого доброго VP-Pfv.Fut</b> ‘it can happen’, and many others.
+    <br><br>
+    A construction is understood here according to Construction Grammar theory (Goldberg 2004)
+    as a central unit of language structure and language description: each construction is a pairing
+    of form and meaning (or function) learned in the process of language use. More specifically, a
+    construction is a generalization that speakers (might) make over specific linguistic usages.
+    Constructions in a language form a system, a structured inventory, termed construct-i-con, that
+    accounts for the entirety of the language (see Fillmore 1988, Langacker 2008, Goldberg &amp;
+    Herbst 2021).
+    <br><br>
+    UkrCon is a research project that aims to contribute to the emergent interdisciplinary field of
+    Constructicography that lies at the crossroads of theoretical linguistics, usage-based methods,
+    and language technology (Lyngfelt et al. 2018).
+    <br><br>
+    Today, comparable constructicon resources exist for very few languages. In this light, the
+    Ukrainian Constructicon serves to develop and enrich this scholarly field with additional
+    empirical data that can potentially facilitate new theoretical insights.
+    <br><br>
+    This project takes the initiative of making the linguistic data on Ukrainian constructions more
+    accessible and visible to the scholarly linguistic community, as well as to learners of Ukrainian
+    as a second language and to the general public. Moreover, the outcome product can serve to
+    develop automatic translation software and educational materials.
+    <br><br>
+    The project is administered at UiT The Arctic University of Norway.
+  </div>
+  <div class="tab-pane fade show" id="rus" role="tabpanel" aria-labelledby="rus-tab">
+    Украинский конструктикон (УкрКон) – это коллекция украинских неоднословных
+    грамматических конструкций, то есть тех значимых типов структуры предложений и фраз,
+    которые являются характерными для украинского языка.
+    <br><br>
+    Такими частотными и узнаваемыми украинскими конструкциями являются, например,
+    структуры типа <b>час від часу VP</b> со значением ‘делать что-то время от времени’, <b>чи то NP,
+    чи то NP</b> со значением ‘неясно, то ли это X или Y’, <b>чого доброго VP-Pfv.Fut</b> со значением
+    ‘чего доброго, ...’, и многие другие.
+    <br><br>
+    Конструкция понимается здесь в соответствии с теорией Грамматики Конструкций, а
+    именно как центральная и основная единица языкового устройства и его описания.
+    Каждая конструкция представляет собой единство формы и значения (или функции),
+    которое усваивается в процессе использования языка. В частности, конструкция как
+    правило является некоторым обобщением, которое (гипотетически) складывается у
+    говорящего в результате абстрагирования от непосредственных примеров ее
+    употребления. В языке конструкции образуют систему, или организованную
+    определенным образом сеть, которую принято обозначать термином конструктикон (см.
+    Fillmore 1988, Langacker 2008, Goldberg &amp; Herbst 2021). Посредством конструкций можно
+    описать каждый отдельный язык во всей его полноте и уникальности.
+    <br><br>
+    УкрКон – это научный проект, который стремится внести вклад в зарождающуюся
+    междисциплинарную область исследований, получившую название конструктикография
+    и лежащую на пересечении 1) теоретической лингвистики, 2) методов изучения
+    функционирования языка и 3) компьютерной лингвистики (Lyngfelt et al. 2018).
+    <br><br>
+    Аналогичные ресурсы существуют сегодня только для крайне небольшого числа языков. В
+    этом свете создание Украинского конструктикона развивает данную область
+    исследований и обогащает ее новыми эмпирическими языковыми данными, которые
+    потенциально могут способствовать появлению новых идей в теоретическом осмыслении
+    языка.
+    <br><br>
+    Благодаря этому проекту украинские конструкции и их языковые особенности привлекут
+    внимание новых исследователей лингвистов, а также станут более понятными и
+    доступными для тех, кто изучает украинский как второй язык, а также для широкой
+    аудитории пользователей в целом. Более того, собранные данные будут полезны для
+    разработки и усовершенствования программного обеспечения автоматического перевода
+    и при создании новых учебных материалов.
+    <br><br>
+    Проект осуществляется Университетом Тромсе – Норвежским Арктическим
+    Университетом.
+  </div>
 </div>
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 {% endblock content %}
