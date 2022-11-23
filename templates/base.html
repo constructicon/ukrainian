@@ -127,31 +127,16 @@
 		{% block footer %}
           <hr>
 
-          <a href="https://diku.no/" target="_blank">
-            <figure class="figure">
-              {% set img = resize_image(path="logo/diku.jpg", width=100, op="fit_width") %}
-              <img src="{{ img.url }}"
-                   class="figure-img img-fluid rounded" alt="Diku logo">
-            </figure>
-          </a>
-
           <span style="display:inline-block; width: 25px;"></span>
 
           <a href="https://uit.no/" target="_blank">
             <figure class="figure">
-              {% set img = resize_image(path="logo/uit.png", width=90, op="fit_width") %}
+              {% set img = resize_image(path="logo/uit.png", width=390, op="fit_width") %}
               <img src="{{ img.url }}"
                    class="figure-img img-fluid rounded" alt="UiT logo">
             </figure>
           </a>
 
-          <a href="https://www.hse.ru/en/" target="_blank">
-            <figure class="figure">
-              {% set img = resize_image(path="logo/hse.jpg", width=150, op="fit_width") %}
-              <img src="{{ img.url }}"
-                   class="figure-img img-fluid rounded" alt="HSE logo">
-            </figure>
-          </a>
         {% endblock footer %}
       </div>
     </div>
