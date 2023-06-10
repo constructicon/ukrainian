@@ -44,7 +44,10 @@
             No matching constructions
           </div>
         </div>
-
+        <div v-if="current_record_number == null">
+          {% block carousel %}
+          {% endblock carousel %}
+        </div>
       <div class="row top-buffer">
         <div class="col-md-12">
           <div v-if="current_record_number != null">
