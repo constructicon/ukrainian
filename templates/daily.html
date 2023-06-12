@@ -1,8 +1,8 @@
 {% extends "browse.html" %}
 
 {% block search %}
-  <div class="row top-buffer">
-    <div class="col-md-3">
+<!--  <div class="row top-buffer my-3">-->
+    <div class="col-md-1 my-3">
       <label>Level</label>
       <select v-model="daily_dose_level" class="form-control">
         <option v-for="level in levels">
@@ -10,14 +10,14 @@
         </option>
       </select>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-11 my-3">
       <label>Get 5 random records for level {[ daily_dose_level ]}</label>
       <br>
       <button v-on:click="get_random_selection()" type="button" class="btn btn-info">
         Get random records
       </button>
     </div>
-  </div>
+<!--  </div>-->
 {% endblock search %}
 
 {% block footer %}
