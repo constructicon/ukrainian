@@ -1,353 +1,351 @@
 {% extends "base.html" %}
 
 {% block content %}
-<ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-left: 50px; margin-top: 15px;">
+<ul class="nav nav-tabs " id="myTab" role="tablist" style="margin-left: 50px; margin-top: 15px;">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="true">Eng</button>
+        <button class="nav-link active btn btn-outline-info" id="ukr-tab" data-bs-toggle="tab" data-bs-target="#ukr" type="button" role="tab" aria-controls="ukrainian" aria-selected="true">Ukr</button>
     </li>
     <li class="nav-item" role="presentation">
-        <button class="nav-link" id="ukr-tab" data-bs-toggle="tab" data-bs-target="#ukr" type="button" role="tab" aria-controls="ukrainian" aria-selected="false">Ukr</button>
+        <button class="nav-link btn btn-outline-info" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="false">Eng</button>
     </li>
 </ul>
-
 <div class="tab-content p-3" id="myTabContent">
 
-    <div class="tab-pane fade show" id="ukr" role="tabpanel" aria-labelledby="ukr-tab">
+    <div class="tab-pane fade show active" id="ukr" role="tabpanel" aria-labelledby="ukr-tab">
         <!--ukrainian instructions-->
-<!--        -->
-<!--        <div class="row">-->
-<!--            <div class="col-4">-->
-<!--                <nav id="my_content-ukr" class="h-100 flex-column align-items-stretch pe-4 border-end">-->
-<!--                    <nav class="nav nav-pills" style="position: relative; height: 500px; overflow-y: scroll;">-->
-<!--                        <a class="nav-link" href="#pages-ukr">1. Пояснення вкладок сайту</a>-->
-<!--                        <nav class="nav nav-pills flex-column">-->
-<!--                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-1">1.1. Browse</a>-->
-<!--                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-2">1.2. Daily Dose</a>-->
-<!--                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-3">1.3. Advanced Search</a>-->
-<!--                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-4">1.4. Statistics</a>-->
-<!--                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-5">1.5. Instructions</a>-->
-<!--                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-6">1.6. About</a>-->
-<!--                        </nav>-->
-<!--                        <a class="nav-link" href="#ukr-abbrev">2. Пояснення скорочень</a>-->
+        <div class="row">
+            <div class="col-4">
+                <nav id="my_content-ukr" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                    <nav class="nav nav-pills" style="position: relative; height: 500px; overflow-y: scroll;">
+                        <a class="nav-link" href="#pages-ukr">1. Пояснення вкладок сайту</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-1">1.1. Browse</a>
+                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-2">1.2. Daily Dose</a>
+                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-3">1.3. Advanced Search</a>
+                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-4">1.4. Statistics</a>
+                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-5">1.5. Instructions</a>
+                            <a class="nav-link ml-3 my-1" href="#ukr-item-1-6">1.6. About</a>
+                        </nav>
+                        <a class="nav-link" href="#ukr-abbrev">2. Пояснення скорочень</a>
 
 
-<!--                    </nav>-->
-<!--                </nav>-->
-<!--            </div>-->
+                    </nav>
+                </nav>
+            </div>
 
-<!--            <div class="col-8">-->
-<!--                <div data-bs-spy="scroll" data-bs-target="#my_content-ukr" data-bs-smooth-scroll="true" style="position: relative; height: 500px; overflow-y: scroll;">-->
-<!--                    <div id="pages-ukr">-->
-<!--                        <h2>1. Пояснення вкладок сайту</h2>-->
-<!--                    </div>-->
-<!--                    <div id="ukr-item-1-1">-->
-<!--                        <h3>Browse</h3>-->
-<!--                        <p>Вкладка Browse служить для переходу на стартову сторінку, де користувач може-->
-<!--                            переглянути весь список конструкцій українського конструктикону. На сторінці у вікні-->
-<!--                            пошуку ‘Search in names and illustrations’ користувач може задати пошук будь-яких-->
-<!--                            елементів, що входять до складу конструкції, наприклад слово, словоформи, категорії-->
-<!--                            NP, Acc, VP, та інші. У списку відображаються номер, узагальнена формула (ім’я) та-->
-<!--                            ілюстрація конструкцій. Натиснувши на будь-яку конструкцію можна відкрити її-->
+            <div class="col-8">
+                <div data-bs-spy="scroll" data-bs-target="#my_content-ukr" data-bs-smooth-scroll="true" style="position: relative; height: 500px; overflow-y: scroll;">
+                    <div id="pages-ukr">
+                        <h2>1. Пояснення вкладок сайту</h2>
+                    </div>
+                    <div id="ukr-item-1-1">
+                        <h3>Browse</h3>
+                        <p>Вкладка Browse служить для переходу на стартову сторінку, де користувач може
+                            переглянути весь список конструкцій українського конструктикону. На сторінці у вікні
+                            пошуку ‘Search in names and illustrations’ користувач може задати пошук будь-яких
+                            елементів, що входять до складу конструкції, наприклад слово, словоформи, категорії
+                            NP, Acc, VP, та інші. У списку відображаються номер, узагальнена формула (ім’я) та
+                            ілюстрація конструкцій. Натиснувши на будь-яку конструкцію можна відкрити її
 
-<!--                            опис. Кнопка &quot;Show additional information&quot; під описом конструкції дозволяє побачити-->
-<!--                            додаткову інформацію про конструкцію.</p>-->
-<!--                    </div>-->
-<!--                    <div id="ukr-item-1-2">-->
-<!--                        <h3>Daily Dose</h3>-->
-<!--                        <p>Вкладка Денна порція (Daily Dose) дозволяє створювати випадкову добірку із п&#39;яти-->
-<!--                            конструкцій, які можна відсортувати залежно від рівня володіння мовою (CEFR - -->
-<!--                            Загальноєвропейські компетенції володіння іноземною мовою), який користувач може-->
-<!--                            налаштувати у відповідному меню. На вкладці відображається номер, ім&#39;я та-->
-<!--                            ілюстрацію конструкції. Для отримання повного опису необхідно натиснути на-->
-<!--                            відповідну конструкцію.</p>-->
-<!--                    </div>-->
-<!--                    <div id="ukr-item-1-3">-->
-<!--                        <h3>Advanced Search</h3>-->
-<!--                        <p>Вкладка Розширений пошук (Advanced Search) служить для швидкого пошуку-->
-<!--                            конструкцій ресурсу за різними параметрами, які може встановити користувач у-->
-<!--                            відповідних полях.</p>-->
-<!--                    </div>-->
-<!--                    <div id="ukr-item-1-4">-->
-<!--                        <h3>Statistics</h3>-->
-<!--                        <p>Модуль Statistics відкриває статистичні данні та дозволяє систематизувати всі-->
-<!--                            конструкції згідно з їх синтаксичного та семантичного типу, синтаксичної функції-->
-<!--                            незмінного елемента та інших параметрів.</p>-->
-<!--                    </div>-->
-<!--                    <div id="ukr-item-1-5">-->
-<!--                        <h3>Instructions</h3>-->
-<!--                        <p>На сторінці Інструкції користувач може завантажити пояснення українською та-->
-<!--                            англійською мовами щодо архітектури сайту, скорочень та термінів, що-->
-<!--                            використовуються у ресурсі.</p>-->
-<!--                    </div>-->
-<!--                    <div id="ukr-item-1-6">-->
-<!--                        <h3>About</h3>-->
-<!--                        <p>Вкладка Про проект (About) містить інформацію про ресурс, код і джерело даних,-->
-<!--                            розробників, та публікації.</p>-->
-<!--                        <hr>-->
-<!--                    </div>-->
-<!--                    <div id="ukr-abbrev">-->
-<!--                        <h2>2. Пояснення скорочень</h2>-->
-<!--                        <table class="table table-striped">-->
-<!--                            <thead>-->
-<!--                            <tr>-->
-<!--                                <th>Позначення</th>-->
-<!--                                <th>Пояснення</th>-->
-<!--                            </tr>-->
-<!--                            </thead>-->
-<!--                            <tbody>-->
-<!--                            <tr>-->
-<!--                                <td>1</td>-->
-<!--                                <td>перша особа</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>2</td>-->
-<!--                                <td>друга особа</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>3</td>-->
-<!--                                <td>третя особа</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>()</td>-->
-<!--                                <td>факультативний елемент конструкції</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>/</td>-->
-<!--                                <td>альтернативні елементи конструкції</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>~</td>-->
-<!--                                <td>редуплікація (повторення елемента, зазвичай повторення слова чи-->
-<!--                                    морфеми)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Acc</td>-->
-<!--                                <td>знахідний відмінок</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Adj</td>-->
-<!--                                <td>прикметник</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Adv</td>-->
-<!--                                <td>прислівник</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Anim</td>-->
-<!--                                <td>істота</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Bare</td>-->
-<!--                                <td>чиста основа дієслова (напр., <em>шльоп, скок</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Cconj</td>-->
-<!--                                <td>сполучник сурядності</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Cl</td>-->
-<!--                                <td>клауза</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Cmp</td>-->
-<!--                                <td>порівняльна ступінь</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Cop</td>-->
-<!--                                <td>сполучне дієслово</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Cvb</td>-->
-<!--                                <td>дієприслівник</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Dat</td>-->
-<!--                                <td>давальний відмінок</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>F</td>-->
-<!--                                <td>жіночий рід</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Fut</td>-->
-<!--                                <td>майбутній час</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Gen</td>-->
-<!--                                <td>родовий відмінок</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Gen2</td>-->
-<!--                                <td>родовий частини, партитивний генітів</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Imp</td>-->
-<!--                                <td>наказовий спосіб</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Inan</td>-->
-<!--                                <td>неістота</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Ind</td>-->
-<!--                                <td>дійсний спосіб</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Inf</td>-->
-<!--                                <td>інфінітив</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Ins</td>-->
-<!--                                <td>орудний відмінок</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Ipfv</td>-->
-<!--                                <td>дієслово недоконаного виду</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Loc</td>-->
-<!--                                <td>місцевий відмінок</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>M</td>-->
-<!--                                <td>чоловічий рід</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>N</td>-->
-<!--                                <td>жіночий рід</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>N-</td>-->
-<!--                                <td>не- (напр., Nsg = не-однина, Npst = не минулий час)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Intj</td>-->
-<!--                                <td>вигук</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Nom</td>-->
-<!--                                <td>називний відмінок</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Noun</td>-->
-<!--                                <td>іменник без залежних слів, часто у складі редуплікативних-->
-<!--                                    конструкцій</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>NP</td>-->
-<!--                                <td>іменна група</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>NumColl</td>-->
-<!--                                <td>збірний числівник (напр., <em>двоє, троє</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>NumCrd</td>-->
-<!--                                <td>кількісний числівник (напр., <em>один, два</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>NumOrd</td>-->
-<!--                                <td>порядковий числівник (напр., <em>перший, другий</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Pfv</td>-->
-<!--                                <td>дієслово доконаного виду</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Pl</td>-->
-<!--                                <td>множина</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>PP</td>-->
-<!--                                <td>прийменникова група</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Pred</td>-->
-<!--                                <td>предикатив чи категорія стану</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Prep</td>-->
-<!--                                <td>прийменник</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>PronDem</td>-->
-<!--                                <td>вказівний займенник (напр., <em>цей, той</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>PronInt</td>-->
-<!--                                <td>питально-відносний займенник (напр., <em>хто, що, який, котрий, чий, коли, де, куди</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>PronPers</td>-->
-<!--                                <td>особовий займенник (напр., <em>я, ми, ти, ви, він, вона, він, вони</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>PronPoss</td>-->
-<!--                                <td>присвійний займенник (напр., <em>мій, твій, наш, його, її, їх</em>)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Prs</td>-->
-<!--                                <td>теперішній час</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Pst</td>-->
-<!--                                <td>минулий час</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>PtcpAct</td>-->
-<!--                                <td>активний дієприкметник</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>PtcpPass</td>-->
-<!--                                <td>пасивний дієприкметник</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Sbjv</td>-->
-<!--                                <td>умовний спосіб</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Sconj</td>-->
-<!--                                <td>сполучник підрядності</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Sg</td>-->
-<!--                                <td>однина</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Short</td>-->
-<!--                                <td>коротка форма</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Superl</td>-->
-<!--                                <td>найвищий ступінь</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Verb</td>-->
-<!--                                <td>дієслово без залежних (часто в конструкціях з дієслівними-->
-<!--                                    приставками)</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>Voc</td>-->
-<!--                                <td>вокатив, клична форма</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>VP</td>-->
-<!--                                <td>дієслівна група</td>-->
-<!--                            </tr>-->
-<!--                            <tr>-->
-<!--                                <td>XP</td>-->
-<!--                                <td>будь-яка фразова група (слот, який може бути NP чи VP чи AP чи PP)</td>-->
-<!--                            </tr>-->
-<!--                            </tbody>-->
-<!--                        </table>-->
-<!--                        <hr>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+                            опис. Кнопка &quot;Show additional information&quot; під описом конструкції дозволяє побачити
+                            додаткову інформацію про конструкцію.</p>
+                    </div>
+                    <div id="ukr-item-1-2">
+                        <h3>Daily Dose</h3>
+                        <p>Вкладка Денна порція (Daily Dose) дозволяє створювати випадкову добірку із п&#39;яти
+                            конструкцій, які можна відсортувати залежно від рівня володіння мовою (CEFR -
+                            Загальноєвропейські компетенції володіння іноземною мовою), який користувач може
+                            налаштувати у відповідному меню. На вкладці відображається номер, ім&#39;я та
+                            ілюстрацію конструкції. Для отримання повного опису необхідно натиснути на
+                            відповідну конструкцію.</p>
+                    </div>
+                    <div id="ukr-item-1-3">
+                        <h3>Advanced Search</h3>
+                        <p>Вкладка Розширений пошук (Advanced Search) служить для швидкого пошуку
+                            конструкцій ресурсу за різними параметрами, які може встановити користувач у
+                            відповідних полях.</p>
+                    </div>
+                    <div id="ukr-item-1-4">
+                        <h3>Statistics</h3>
+                        <p>Модуль Statistics відкриває статистичні данні та дозволяє систематизувати всі
+                            конструкції згідно з їх синтаксичного та семантичного типу, синтаксичної функції
+                            незмінного елемента та інших параметрів.</p>
+                    </div>
+                    <div id="ukr-item-1-5">
+                        <h3>Instructions</h3>
+                        <p>На сторінці Інструкції користувач може завантажити пояснення українською та
+                            англійською мовами щодо архітектури сайту, скорочень та термінів, що
+                            використовуються у ресурсі.</p>
+                    </div>
+                    <div id="ukr-item-1-6">
+                        <h3>About</h3>
+                        <p>Вкладка Про проект (About) містить інформацію про ресурс, код і джерело даних,
+                            розробників, та публікації.</p>
+                        <hr>
+                    </div>
+                    <div id="ukr-abbrev">
+                        <h2>2. Пояснення скорочень</h2>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Позначення</th>
+                                <th>Пояснення</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>перша особа</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>друга особа</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>третя особа</td>
+                            </tr>
+                            <tr>
+                                <td>()</td>
+                                <td>факультативний елемент конструкції</td>
+                            </tr>
+                            <tr>
+                                <td>/</td>
+                                <td>альтернативні елементи конструкції</td>
+                            </tr>
+                            <tr>
+                                <td>~</td>
+                                <td>редуплікація (повторення елемента, зазвичай повторення слова чи
+                                    морфеми)</td>
+                            </tr>
+                            <tr>
+                                <td>Acc</td>
+                                <td>знахідний відмінок</td>
+                            </tr>
+                            <tr>
+                                <td>Adj</td>
+                                <td>прикметник</td>
+                            </tr>
+                            <tr>
+                                <td>Adv</td>
+                                <td>прислівник</td>
+                            </tr>
+                            <tr>
+                                <td>Anim</td>
+                                <td>істота</td>
+                            </tr>
+                            <tr>
+                                <td>Bare</td>
+                                <td>чиста основа дієслова (напр., <em>шльоп, скок</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>Cconj</td>
+                                <td>сполучник сурядності</td>
+                            </tr>
+                            <tr>
+                                <td>Cl</td>
+                                <td>клауза</td>
+                            </tr>
+                            <tr>
+                                <td>Cmp</td>
+                                <td>порівняльна ступінь</td>
+                            </tr>
+                            <tr>
+                                <td>Cop</td>
+                                <td>сполучне дієслово</td>
+                            </tr>
+                            <tr>
+                                <td>Cvb</td>
+                                <td>дієприслівник</td>
+                            </tr>
+                            <tr>
+                                <td>Dat</td>
+                                <td>давальний відмінок</td>
+                            </tr>
+                            <tr>
+                                <td>F</td>
+                                <td>жіночий рід</td>
+                            </tr>
+                            <tr>
+                                <td>Fut</td>
+                                <td>майбутній час</td>
+                            </tr>
+                            <tr>
+                                <td>Gen</td>
+                                <td>родовий відмінок</td>
+                            </tr>
+                            <tr>
+                                <td>Gen2</td>
+                                <td>родовий частини, партитивний генітів</td>
+                            </tr>
+                            <tr>
+                                <td>Imp</td>
+                                <td>наказовий спосіб</td>
+                            </tr>
+                            <tr>
+                                <td>Inan</td>
+                                <td>неістота</td>
+                            </tr>
+                            <tr>
+                                <td>Ind</td>
+                                <td>дійсний спосіб</td>
+                            </tr>
+                            <tr>
+                                <td>Inf</td>
+                                <td>інфінітив</td>
+                            </tr>
+                            <tr>
+                                <td>Ins</td>
+                                <td>орудний відмінок</td>
+                            </tr>
+                            <tr>
+                                <td>Ipfv</td>
+                                <td>дієслово недоконаного виду</td>
+                            </tr>
+                            <tr>
+                                <td>Loc</td>
+                                <td>місцевий відмінок</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>чоловічий рід</td>
+                            </tr>
+                            <tr>
+                                <td>N</td>
+                                <td>жіночий рід</td>
+                            </tr>
+                            <tr>
+                                <td>N-</td>
+                                <td>не- (напр., Nsg = не-однина, Npst = не минулий час)</td>
+                            </tr>
+                            <tr>
+                                <td>Intj</td>
+                                <td>вигук</td>
+                            </tr>
+                            <tr>
+                                <td>Nom</td>
+                                <td>називний відмінок</td>
+                            </tr>
+                            <tr>
+                                <td>Noun</td>
+                                <td>іменник без залежних слів, часто у складі редуплікативних
+                                    конструкцій</td>
+                            </tr>
+                            <tr>
+                                <td>NP</td>
+                                <td>іменна група</td>
+                            </tr>
+                            <tr>
+                                <td>NumColl</td>
+                                <td>збірний числівник (напр., <em>двоє, троє</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>NumCrd</td>
+                                <td>кількісний числівник (напр., <em>один, два</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>NumOrd</td>
+                                <td>порядковий числівник (напр., <em>перший, другий</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>Pfv</td>
+                                <td>дієслово доконаного виду</td>
+                            </tr>
+                            <tr>
+                                <td>Pl</td>
+                                <td>множина</td>
+                            </tr>
+                            <tr>
+                                <td>PP</td>
+                                <td>прийменникова група</td>
+                            </tr>
+                            <tr>
+                                <td>Pred</td>
+                                <td>предикатив чи категорія стану</td>
+                            </tr>
+                            <tr>
+                                <td>Prep</td>
+                                <td>прийменник</td>
+                            </tr>
+                            <tr>
+                                <td>PronDem</td>
+                                <td>вказівний займенник (напр., <em>цей, той</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>PronInt</td>
+                                <td>питально-відносний займенник (напр., <em>хто, що, який, котрий, чий, коли, де, куди</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>PronPers</td>
+                                <td>особовий займенник (напр., <em>я, ми, ти, ви, він, вона, він, вони</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>PronPoss</td>
+                                <td>присвійний займенник (напр., <em>мій, твій, наш, його, її, їх</em>)</td>
+                            </tr>
+                            <tr>
+                                <td>Prs</td>
+                                <td>теперішній час</td>
+                            </tr>
+                            <tr>
+                                <td>Pst</td>
+                                <td>минулий час</td>
+                            </tr>
+                            <tr>
+                                <td>PtcpAct</td>
+                                <td>активний дієприкметник</td>
+                            </tr>
+                            <tr>
+                                <td>PtcpPass</td>
+                                <td>пасивний дієприкметник</td>
+                            </tr>
+                            <tr>
+                                <td>Sbjv</td>
+                                <td>умовний спосіб</td>
+                            </tr>
+                            <tr>
+                                <td>Sconj</td>
+                                <td>сполучник підрядності</td>
+                            </tr>
+                            <tr>
+                                <td>Sg</td>
+                                <td>однина</td>
+                            </tr>
+                            <tr>
+                                <td>Short</td>
+                                <td>коротка форма</td>
+                            </tr>
+                            <tr>
+                                <td>Superl</td>
+                                <td>найвищий ступінь</td>
+                            </tr>
+                            <tr>
+                                <td>Verb</td>
+                                <td>дієслово без залежних (часто в конструкціях з дієслівними
+                                    приставками)</td>
+                            </tr>
+                            <tr>
+                                <td>Voc</td>
+                                <td>вокатив, клична форма</td>
+                            </tr>
+                            <tr>
+                                <td>VP</td>
+                                <td>дієслівна група</td>
+                            </tr>
+                            <tr>
+                                <td>XP</td>
+                                <td>будь-яка фразова група (слот, який може бути NP чи VP чи AP чи PP)</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="tab-pane fade show active" id="eng" role="tabpanel" aria-labelledby="eng-tab">
-        <!--english instructions-->
+    <div class="tab-pane fade" id="eng" role="tabpanel" aria-labelledby="eng-tab">
+<!--        english instructions-->
         <div class="row">
             <div class="col-4">
                 <nav id="my_content-eng" class="h-100 flex-column align-items-stretch pe-4 border-end">
@@ -675,4 +673,5 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 {% endblock content %}
