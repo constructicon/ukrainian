@@ -28,12 +28,11 @@
     {% else %}
       <meta name="twitter:title" content="{{ config.title }}" />
     {% endif %}
-
-    <link rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../css/bootstrap.css" crossorigin="anonymous">
+<!--    <link rel="stylesheet"-->
+<!--      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"-->
+<!--      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"-->
+<!--      crossorigin="anonymous">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -92,23 +91,23 @@
                         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                             <ul class="navbar-nav ">
                                 <li class="nav-item mr-5">
-                                    <a class="btn btn-outline-info" href="{{ config.base_url | safe }}/" role="button">BROWSE</a>
+                                    <a class="btn btn-info btn-block" href="{{ config.base_url | safe }}/" role="button">BROWSE</a>
                                 </li>
                                 <li class="nav-item mr-5">
-                                    <a class="btn btn-outline-info" href="{{ config.base_url | safe }}/advanced-search/" role="button">ADVANCED SEARCH</a>
+                                    <a class="btn btn-info btn-block" href="{{ config.base_url | safe }}/advanced-search/" role="button">ADVANCED SEARCH</a>
                                 </li>
                                 <li class="nav-item mr-5">
-                                    <a class="btn btn-outline-info" href="{{ config.base_url | safe }}/daily/" role="button">DAILY DOSE</a>
+                                    <a class="btn btn-info btn-block" href="{{ config.base_url | safe }}/daily/" role="button">DAILY DOSE</a>
                                 </li>
                                 <li class="nav-item mr-5">
-                                    <a class="btn btn-outline-info" href="{{ config.base_url | safe }}/statistics/" role="button">STATISTICS</a>
+                                    <a class="btn btn-info btn-block" href="{{ config.base_url | safe }}/statistics/" role="button">STATISTICS</a>
                                 </li>
                                 <li class="nav-item mr-5">
-                                    <a class="btn btn-outline-info" href="{{ config.base_url | safe }}/instructions/" role="button">INSTRUCTIONS</a>
+                                    <a class="btn btn-info btn-block" href="{{ config.base_url | safe }}/instructions/" role="button">INSTRUCTIONS</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="btn btn-outline-info" href="{{ config.base_url | safe }}/about/" role="button">ABOUT</a>
+                                    <a class="btn btn-info btn-block" href="{{ config.base_url | safe }}/about/" role="button">ABOUT</a>
                                 </li>
                             </ul>
                         </div>
