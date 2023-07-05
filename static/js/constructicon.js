@@ -204,7 +204,7 @@ async function fetch_data(data, url_prefix) {
     data.levels = Array.from(levels);
     data.levels.sort();
 
-    // data.semantic_roles_options = collect_options(data.record_numbers, data.records, 'semantic_roles', true);
+    data.semantic_roles_options = collect_options(data.record_numbers, data.records, 'semantic_roles', true);
     data.morphology_options = collect_options(data.record_numbers, data.records, 'morphology', true);
     data.syntactic_type_of_construction_options = collect_options(data.record_numbers, data.records, 'syntactic_type_of_construction', true);
     data.syntactic_function_of_anchor_options = collect_options(data.record_numbers, data.records, 'syntactic_function_of_anchor', true);
@@ -221,6 +221,7 @@ async function fetch_data(data, url_prefix) {
     data.search_index = {};
     for (let key of ['name',
             'illustration',
+            'semantic_roles',
             'morphology',
             'syntactic_type_of_construction',
             'syntactic_function_of_anchor',
@@ -270,6 +271,8 @@ var app = new Vue({
         daily_dose_level: 'A1',
         search_string: '',
         levels: [],
+        semantic_roles_options: [],
+        semantic_roles_selected: null,
         morphology_options: [],
         morphology_selected: null,
         syntactic_type_of_construction_options: [],
@@ -300,6 +303,9 @@ var app = new Vue({
         },
         search_string: function(new_, old_) {
             this.search_debounced();
+        },
+        semantic_roles_selected: function(new_, old_) {
+            this.advanced_search_debounced();
         },
         morphology_selected: function(new_, old_) {
             this.advanced_search_debounced();
@@ -353,6 +359,7 @@ var app = new Vue({
             let record_numbers_matching_search = [];
 
             let selected_options = {};
+            selected_options['semantic_roles'] = this.semantic_roles_selected;
             selected_options['morphology'] = this.morphology_selected;
             selected_options['syntactic_type_of_construction'] = this.syntactic_type_of_construction_selected;
             selected_options['syntactic_function_of_anchor'] = this.syntactic_function_of_anchor_selected;
@@ -362,6 +369,7 @@ var app = new Vue({
             selected_options['semantic_types_flat'] = this.semantic_types_selected;
 
             for (let key of [
+                    'semantic_roles',
                     'morphology',
                     'syntactic_type_of_construction',
                     'syntactic_function_of_anchor',
