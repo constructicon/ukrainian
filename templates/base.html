@@ -118,7 +118,8 @@
             $(function(){
                 $('a').each(function(){
                     if ($(this).prop('href') == window.location.href) {
-                        $(this).addClass('btn-warning'); $(this).parents('li').addClass('btn-warning');
+                        $(this)[0].classList.remove('btn-info');
+                        $(this).addClass('btn-warning');
                     }
                 });
             });
