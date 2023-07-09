@@ -1,0 +1,532 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://constructicon.github.io/ukrainian/img/favicon.ico">
+
+    <title>Constructicon</title>
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/constructicon/russian/main/content/logo/constructicon-round.png" />
+    
+
+    
+      <meta name="description" content="Description of the Constructicon.
+" />
+      <meta name="twitter:description" content="Description of the Constructicon.
+" />
+    
+
+    
+      <meta name="twitter:title" content="Constructicon" />
+    
+    <link rel="stylesheet" href="https://constructicon.github.io/ukrainian/css/bootstrap.css" crossorigin="anonymous">
+<!--    <link rel="stylesheet"-->
+<!--      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"-->
+<!--      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"-->
+<!--      crossorigin="anonymous">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"
+            integrity="sha256-ngFW3UnAN0Tnm76mDuu7uUtYEcG3G5H1+zioJw3t+68="
+            crossorigin="anonymous"></script>
+
+    <!-- https://vue-treeselect.js.org/ -->
+    <script src="https://cdn.jsdelivr.net/npm/@riophae/vue-treeselect@^0.4.0/dist/vue-treeselect.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@riophae/vue-treeselect@^0.4.0/dist/vue-treeselect.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"
+            integrity="sha256-8mtDTinb8+d2bC/9KhCJoCRBEylWUIV/3YEt5cSUvRk="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js"
+            integrity="sha256-Jvh9+A4HNbbWsWl1Dw7kAzNsU3y8elGIjLnUSUNMtLg="
+            crossorigin="anonymous"></script>
+
+    <!-- https://github.com/bvaughn/js-search -->
+    <script src="https://cdn.jsdelivr.net/npm/js-search@2.0.0/dist/umd/js-search.min.js"
+            integrity="sha256-LD9UsSATk+xTzAbk8nD2gA2bjHKvetXtCMDAFkM2K5Q="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0-rc.1/chartjs-plugin-datalabels.min.js" integrity="sha512-+UYTD5L/bU1sgAfWA0ELK5RlQ811q8wZIocqI7+K0Lhh8yVdIoAMEs96wJAIbgFvzynPm36ZCXtkydxu1cs27w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <link href="https://constructicon.github.io/ukrainian/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+        <!-- navigation -->
+        <div class="top-buffer px-5 pb-3 shadow-sm">
+<!--        <div class="container top-buffer px-5 py-3 shadow-sm" style="background-color: #FFFFFF; margin: 0px">-->
+            <div class="row d-flex justify-content-center">
+
+                <img src="https://raw.githubusercontent.com/constructicon/ukrainian/main/content/logo/UkrCon_logo_vector_cropped.svg"  alt="Ukrainian Constructicon logo" width="400">
+
+                </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item mr-5">
+                                    <a class="btn btn-info btn-block" href="https://constructicon.github.io/ukrainian/" role="button">BROWSE</a>
+                                </li>
+                                <li class="nav-item mr-5">
+                                    <a class="btn btn-info btn-block" href="https://constructicon.github.io/ukrainian/advanced-search/" role="button">ADVANCED SEARCH</a>
+                                </li>
+                                <li class="nav-item mr-5">
+                                    <a class="btn btn-info btn-block" href="https://constructicon.github.io/ukrainian/daily/" role="button">DAILY DOSE</a>
+                                </li>
+                                <li class="nav-item mr-5">
+                                    <a class="btn btn-info btn-block" href="https://constructicon.github.io/ukrainian/statistics/" role="button">STATISTICS</a>
+                                </li>
+                                <li class="nav-item mr-5">
+                                    <a class="btn btn-info btn-block" href="https://constructicon.github.io/ukrainian/instructions/" role="button">INSTRUCTIONS</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="btn btn-info btn-block" href="https://constructicon.github.io/ukrainian/about/" role="button">ABOUT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $('a').each(function(){
+                    if ($(this).prop('href') == window.location.href) {
+                        $(this)[0].classList.remove('btn-info');
+                        $(this).addClass('btn-warning');
+                    }
+                });
+            });
+        </script>
+
+        </div>
+      <!-- end navigation -->
+        <div class="container">
+
+      <div class="top-buffer">
+        
+<ul class="nav nav-tabs " id="myTab" role="tablist" style="margin-left: 50px; margin-top: 15px;">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active btn btn-outline-info" id="ukr-tab" data-bs-toggle="tab" data-bs-target="#ukr" type="button" role="tab" aria-controls="ukrainian" aria-selected="true">Ukr</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link btn btn-outline-info" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="false">Eng</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link btn btn-outline-info" id="rus-tab" data-bs-toggle="tab" data-bs-target="#rus" type="button" role="tab" aria-controls="russian" aria-selected="false">Rus</button>
+  </li>
+</ul>
+<div class="tab-content p-3" id="myTabContent">
+
+  <div class="tab-pane fade show active" id="ukr" role="tabpanel" aria-labelledby="ukr-tab">
+    <div class="row">
+      <div class="col-4">
+        <nav id="my_content-ukr" class="h-100 flex-column align-items-stretch pe-4 border-end">
+          <nav class="nav nav-pills" style="position: relative; height: 500px; overflow-y: scroll;">
+            <a class="nav-link ml-3 mr-5 my-1" href="#ukr-video">1. Вiдео про ресурс</a>
+            <a class="nav-link ml-3 my-1" href="#ukr-project">2. Проєкт</a>
+            <a class="nav-link ml-3 my-1" href="#ukr-prog">3. Програмний код та дані</a>
+            <a class="nav-link ml-3 my-1" href="#ukr-dev">4. Розробники</a>
+            <a class="nav-link ml-3 my-1" href="#ukr-pub">5. Статті та доповіді</a>
+            <a class="nav-link ml-3 my-1" href="#ukr-cite">6. Як цитувати</a>
+            <a class="nav-link ml-3 my-1" href="#ukr-suggest">7. Як запропонувати конструкцію</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#my_content-ukr" data-bs-smooth-scroll="true" style="position: relative; height: 500px; overflow-y: scroll;">
+          <div id="ukr-video">
+            <h2>Вiдео про ресурс</h2>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe src=https://player.vimeo.com/video/834381826?h=e01c7ff709&badge=0&autopause=0&player_id=0&app_id=58479/embed
+                      allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+
+              </iframe>
+            </div>
+          </div>
+          <div id="ukr-project">
+            <h2>Проєкт</h2>
+            <p>
+              Український конструктикон (УкрКон) – це збірка українських багатослівних
+              граматичних конструкцій, тобто яскравих мовних моделей структур фраз і речень,
+              характерних для української мови.
+              <br><br>
+              Такими частотними та характерними українськими конструкціями є, наприклад,
+              структури типу <b>час від часу VP; чи то NP, чи то NP; чого доброго VP-Pfv.Fut</b> та
+              багато інших. Згідно з теорією Граматики конструкцій (Goldberg 2004),
+              конструкція розуміється як центральна та основна одиниця мови та її опису:
+              кожна конструкція є єдністю форми та значення (або функції), яка засвоюється у
+              процесі використання мови. Зокрема, конструкція, як правило, є деяким
+              узагальненням, яке (гіпотетично) складається у мовця у результаті
+              абстрагування від безпосередніх прикладів її вживання. У мові конструкції
+              утворюють систему, чи організовану певним чином мережу, яку позначають
+              терміном «конструктикон» (див. Fillmore 1988, Langacker 2008, Goldberg&amp;Herbst
+              2021). За допомогою конструкцій можна описати кожну окрему мову у всій її
+              повноті та унікальності.
+              <br><br>
+              УкрКон – це дослідницький проект, який прагне зробити внесок у нову
+              міждисциплінарну галузь, конструктікографію, що лежить на перехресті
+              теоретичної лінгвістики, методів вивчення функціонування мови та комп&#39;ютерної
+              лінгвістики (Lyngfelt та ін. 2018).
+              <br><br>
+              Аналогічні ресурси існують сьогодні лише для невеликої кількості мов. Таким
+              чином, створення Українського конструктикону розвиває цю область досліджень
+              та збагачує її новими та додатковими емпіричними мовними даними, які
+              потенційно можуть сприяти появі нових ідей у теоретичному осмисленні мови.
+              <br><br>
+              Завдяки цьому проекту українські конструкції та їх мовні особливості залучать
+              увагу наукової лінгвістичної спільноти, стануть більш зрозумілими та доступними
+              для тих, хто вивчає українську як іноземну, а також для широкої аудиторії
+              користувачів. Крім того, зібрані дані будуть корисними для розробки та
+              вдосконалення програмного забезпечення автоматичного перекладу та при
+              створенні нових навчальних матеріалів.
+              <br><br>
+              Для кожної конструкції ресурс містить визначення її семантики (англійською,
+              українською та російською мовами), набір тегів і пропонує приклади її
+              використання в автентичних українських текстах із <b>Генерального регіонального
+              анотованого корпусу української мови (ГРАК)</b> (GRAC, <a href="http://uacorpus.org/Kyiv/en/gracinfo">http://uacorpus.org/Kyiv/en/gracinfo</a>).
+              <br><br>
+              Проектом керує Університет Тромсе – Арктичний університет Норвегії.
+              Логотип до интерфейсу создан Даниэлем Коваликом.
+          </div>
+          <div id="ukr-prog">
+            <h2>Програмний код та дані</h2>
+            <p>
+              Програмний код: <a href="https://github.com/constructicon/ukrainian">https://github.com/constructicon/ukrainian</a><br>
+              Дані: <a href="https://github.com/constructicon/ukrainian-data">https://github.com/constructicon/ukrainian-data</a>
+            </p>
+          </div>
+          <div id="ukr-dev">
+            <h2>Розробники</h2>
+            <p>
+              Юлія Палій (доцент української лінгвістики, Університет Тромсе – Арктичний університет
+              Норвегії): контент, збір мовних даних, аналіз, опис конструкцiй, анотування, статті та
+              доповіді<br><br>
+              Зоя Бутенко (студентка факультету iнформатики, Університет
+              Осло): програмування, інтерфейс, статті та доповіді<br><br>
+              Лора А. Янда (професор, Університет Тромсе – Арктичний університет Норвегії): загальна
+              концепція, аналіз даних, статті та доповіді<br><br>
+              Анна Ендресен (науковий спiвробiтник, Університет Тромсе – Арктичний університет
+              Норвегії): загальна концепція, попереднє дослідження, дизайн iнтерфейсу, статті та
+              доповіді<br><br>
+              Валентина Жукова (докторський науковий співробітник, Університет Тромсе – Арктичний
+              університет Норвегії): загальна концепція, попереднє дослідження, дизайн iнтерфейсу,
+              статті та доповіді
+            </p>
+          </div>
+          <div id="ukr-pub">
+            <h2>Статті та доповіді</h2>
+            <p>
+              “A Constructicon for Ukrainian: Objectives, Strategies, Results” [= Конструктикон для
+              української мови: цілі, стратегії, результати], доповідь на 16 Міжнародній конференції з
+              ïДюссельдорфський університет іменi Генріха Гейне, Дюссельдорф, Німеччина, 7–11
+              серпня 2023 р., <a href="https://iclc16.phil.hhu.de">https://iclc16.phil.hhu.de</a>
+            </p>
+            <p>
+              “The Ukrainian Constructicon: a new research-based educational linguistic resource for
+              Ukrainian” [= Укранський конструктикон: новий науково-дослідний освітній лінгвістичний
+              ресурс для української мови] – випуск ресурсу, Університет Тромсе – Арктичний
+              університет Норвегії, серпень 2023 р.
+            </p>
+          </div>
+          <div id="ukr-cite">
+            <h2>Як цитувати</h2>
+            <p>
+              Український конструктикон. 2023. Палій, Юлія, Бутенко Зоя, Янда Лора А., Ендресен Анна,
+              Жукова Валентина. <a href="https://github.com/constructicon/ukrainian">https://github.com/constructicon/ukrainian</a>
+            </p>
+          </div>
+          <div id="ukr-suggest">
+            <h2>Як запропонувати конструкцію</h2>
+            <p>
+              Ви можете запропонувати конструкцію для цього ресурсу, надіславши листа за адресою <a href = "mailto: yuliia.palii@hotmail.com">yuliia.palii@hotmail.com</a>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-pane fade show" id="eng" role="tabpanel" aria-labelledby="eng-tab">
+    <div class="row">
+      <div class="col-4">
+        <nav id="my_content-eng" class="h-100 flex-column align-items-stretch pe-4 border-end">
+          <nav class="nav nav-pills" style="position: relative; height: 500px; overflow-y: scroll;">
+            <a class="nav-link ml-3 mr-5 my-1" href="#eng-video">1. Video introduction</a>
+            <a class="nav-link ml-3 mr-5 my-1" href="#eng-project">2. Project</a>
+            <a class="nav-link ml-3 mr-5 my-1" href="#eng-prog">3. Code and data</a>
+            <a class="nav-link ml-3 mr-5 my-1" href="#eng-dev">4. Developers</a>
+            <a class="nav-link ml-3 mr-5 my-1" href="#eng-pub">5. Dissemination</a>
+            <a class="nav-link ml-3 mr-5 my-1" href="#eng-cite">6. How to cite</a>
+            <a class="nav-link ml-3 mr-5 my-1" href="#eng-suggest">7. How to suggest a construction</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#my_content-eng" data-bs-smooth-scroll="true" style="position: relative; height: 500px; overflow-y: scroll;">
+          <div id="eng-video">
+            <h2>Video introduction</h2>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe src=https://player.vimeo.com/video/834381826?h=e01c7ff709&badge=0&autopause=0&player_id=0&app_id=58479/embed
+                      allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+
+              </iframe>
+            </div>
+          </div>
+          <div id="eng-project">
+            <h2>Project</h2>
+
+            The Ukrainian Constructicon (UkrCon) is a collection of Ukrainian multi-word grammatical
+            constructions, i.e. prominent linguistic patterns of phrase and sentence structures that are
+            characteristic of the Ukrainian language.
+            <br><br>
+            Frequently used and recognizable Ukrainian constructions include structures like
+            <b>час від часу VP</b> ‘do something occasionally’, <b>чи то NP, чи то NP</b> ‘it is unclear whether X or Y’,
+            <b>чого доброго VP-Pfv.Fut</b> ‘it can happen’, and many others.
+            <br><br>
+            A construction is understood here according to Construction Grammar theory (Goldberg 2004)
+            as a central unit of language structure and language description: each construction is a pairing
+            of form and meaning (or function) learned in the process of language use. More specifically, a
+            construction is a generalization that speakers (might) make over specific linguistic usages.
+            Constructions in a language form a system, a structured inventory, termed construct-i-con, that
+            accounts for the entirety of the language (see Fillmore 1988, Langacker 2008, Goldberg &amp;
+            Herbst 2021).
+            <br><br>
+            UkrCon is a research project that aims to contribute to the emergent interdisciplinary field of
+            Constructicography that lies at the crossroads of theoretical linguistics, usage-based methods,
+            and language technology (Lyngfelt et al. 2018).
+            <br><br>
+            Today, comparable constructicon resources exist for very few languages. In this light, the
+            Ukrainian Constructicon serves to develop and enrich this scholarly field with additional
+            empirical data that can potentially facilitate new theoretical insights.
+            <br><br>
+            This project takes the initiative of making the linguistic data on Ukrainian constructions more
+            accessible and visible to the scholarly linguistic community, as well as to learners of Ukrainian
+            as a second language and to the general public. Moreover, the outcome product can serve to
+            develop automatic translation software and educational materials.
+            <br><br>
+            For each construction, the resource provides definition of its semantics (written in English,
+            Ukrainian, and Russian), a set of tags, and offers examples of its use in authentic Ukrainian texts
+            from the General Regionally Annotated Corpus of Ukrainian (GRAC, <a href="http://uacorpus.org/Kyiv/en/gracinfo">http://uacorpus.org/Kyiv/en/gracinfo</a>).
+            <br><br>
+            The project is administered at UiT The Arctic University of Norway.
+            The logo of the interface is created by Daniel Kovalik.
+          </div>
+          <div id="eng-prog">
+            <h2>Code and data</h2>
+            Source code: <a href="https://github.com/constructicon/ukrainian">https://github.com/constructicon/ukrainian</a> <br>
+            Source data: <a href="https://github.com/constructicon/ukrainian-data">https://github.com/constructicon/ukrainian-data</a>
+          </div>
+          <div id="eng-dev">
+            <h2>Developers</h2>
+            Yuliia Palii (associate professor in Ukrainian linguistics, UiT The Arctic University of Norway):
+            content, data mining, data analysis, data description, annotation, dissemination<br><br>
+            Zoia Butenko (undergraduate student in Language Technology, University of Oslo): programming, interface, dissemination<br><br>
+            Laura A. Janda (professor, UiT The Arctic University of Norway): general concept, data analysis,
+            dissemination<br><br>
+            Anna Endresen (postdoctoral researcher, UiT The Arctic University of Norway): general concept,
+            background research, design, dissemination<br><br>
+            Valentina Zhukova (doctoral research fellow, UiT The Arctic University of Norway): general
+            concept, background research, design, dissemination
+          </div>
+          <div id="eng-pub">
+            <h2>Dissemination</h2>
+            “A Constructicon for Ukrainian: Objectives, Strategies, Results”, talk at the 16 th International
+            Cognitive Linguistics Conference (ICLC 16), Heinrich Heine University Düsseldorf, Germany,
+            August 7-11, 2023, <a href="https://iclc16.phil.hhu.de">https://iclc16.phil.hhu.de</a><br><br>
+            “The Ukrainian Constructicon: a new research-based educational linguistic resource for
+            Ukrainian” - Public launch, UiT The Arctic University of Norway, August 2023
+          </div>
+          <div id="eng-cite">
+            <h2>How to cite</h2>
+            The Ukrainian Constructicon. 2023. Palii, Yuliia, Zoia Butenko, Laura A. Janda, Anna Endresen,
+            Valentina Zhukova. <a href="https://github.com/constructicon/ukrainian">https://github.com/constructicon/ukrainian</a>
+          </div>
+          <div id="eng-suggest">
+            <h2>How to suggest a construction</h2>
+            You can suggest a construction for this resource by sending an e-mail to <a href = "mailto: yuliia.palii@hotmail.com">yuliia.palii@hotmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade show" id="rus" role="tabpanel" aria-labelledby="rus-tab">
+    <div class="row">
+      <div class="col-4">
+        <nav id="my_content-rus" class="h-100 flex-column align-items-stretch pe-4 border-end">
+          <nav class="nav nav-pills" style="position: relative; height: 500px; overflow-y: scroll;">
+            <a class="nav-link ml-3 mr-5 my-1" href="#rus-video">1. Видео о ресурсе</a>
+            <a class="nav-link ml-3 my-1" href="#rus-project">2. Проект</a>
+            <a class="nav-link ml-3 my-1" href="#rus-prog">3. Программный код и данные</a>
+            <a class="nav-link ml-3 my-1" href="#rus-dev">4. Разработчики</a>
+            <a class="nav-link ml-3 my-1" href="#rus-pub">5. Статьи и доклады</a>
+            <a class="nav-link ml-3 my-1" href="#rus-cite">6. Как цитировать</a>
+            <a class="nav-link ml-3 my-1" href="#rus-suggest">7. Как предложить конструкцию</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#my_content-rus" data-bs-smooth-scroll="true" style="position: relative; height: 500px; overflow-y: scroll;">
+          <div id="rus-video">
+            <h2>Видео о ресурсе</h2>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe src=https://player.vimeo.com/video/834381826?h=e01c7ff709&badge=0&autopause=0&player_id=0&app_id=58479/embed
+                      allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+
+              </iframe>
+            </div>
+          </div>
+          <div id="rus-project">
+            <h2>Проект</h2>
+            Украинский конструктикон (УкрКон) – это коллекция украинских неоднословных
+            грамматических конструкций, то есть тех значимых типов структуры предложений и фраз,
+            которые являются характерными для украинского языка.
+            <br><br>
+            Такими частотными и узнаваемыми украинскими конструкциями являются, например,
+            структуры типа <b>час від часу VP</b> со значением ‘делать что-то время от времени’, <b>чи то NP,
+            чи то NP</b> со значением ‘неясно, то ли это X или Y’, <b>чого доброго VP-Pfv.Fut</b> со значением
+            ‘чего доброго, ...’, и многие другие.
+            <br><br>
+            Конструкция понимается здесь в соответствии с теорией Грамматики Конструкций, а
+            именно как центральная и основная единица языкового устройства и его описания.
+            Каждая конструкция представляет собой единство формы и значения (или функции),
+            которое усваивается в процессе использования языка. В частности, конструкция как
+            правило является некоторым обобщением, которое (гипотетически) складывается у
+            говорящего в результате абстрагирования от непосредственных примеров ее
+            употребления. В языке конструкции образуют систему, или организованную
+            определенным образом сеть, которую принято обозначать термином конструктикон (см.
+            Fillmore 1988, Langacker 2008, Goldberg &amp; Herbst 2021). Посредством конструкций можно
+            описать каждый отдельный язык во всей его полноте и уникальности.
+            <br><br>
+            УкрКон – это научный проект, который стремится внести вклад в зарождающуюся
+            междисциплинарную область исследований, получившую название конструктикография
+            и лежащую на пересечении 1) теоретической лингвистики, 2) методов изучения
+            функционирования языка и 3) компьютерной лингвистики (Lyngfelt et al. 2018).
+            <br><br>
+            Аналогичные ресурсы существуют сегодня только для крайне небольшого числа языков. В
+            этом свете создание Украинского конструктикона развивает данную область
+            исследований и обогащает ее новыми эмпирическими языковыми данными, которые
+            потенциально могут способствовать появлению новых идей в теоретическом осмыслении
+            языка.
+            <br><br>
+            Благодаря этому проекту украинские конструкции и их языковые особенности привлекут
+            внимание новых исследователей лингвистов, а также станут более понятными и
+            доступными для тех, кто изучает украинский как второй язык, а также для широкой
+            аудитории пользователей в целом. Более того, собранные данные будут полезны для
+            разработки и усовершенствования программного обеспечения автоматического перевода
+            и при создании новых учебных материалов.
+            <br><br>
+            Для каждой конструкции ресурс содержит определение ее семантики (на английском,
+            украинском и русском языках), набор тегов и предлагает примеры использования
+            конструкции в аутентичных украинских текстах из Генерального регионального
+            аннотированного корпуса украинского языка (ГРАК, <a href="http://uacorpus.org/Kyiv/en/gracinfo">http://uacorpus.org/Kyiv/en/gracinfo</a>).
+            <br><br>
+            Проект осуществляется Университетом Тромсе – Норвежским Арктическим
+            Университетом.
+            Логотип для интерфейса создан Даниэлем Коваликом.
+          </div>
+          <div id="rus-prog">
+            <h2>Программный код и данные</h2>
+            Программный код: <a href="https://github.com/constructicon/ukrainian">https://github.com/constructicon/ukrainian</a> <br>
+            Данные: <a href="https://github.com/constructicon/ukrainian-data">https://github.com/constructicon/ukrainian-data</a>
+          </div>
+          <div id="rus-dev">
+            <h2>Разработчики</h2>
+            Юлия Палий (доцент, Университет Тромсе – Арктический университет Норвегии): контент,
+            сбор языковых данных, анализ, описание конструкций, аннотирование, статьи и доклады<br><br>
+            Зоя Бутенко (студентка факультета информатики, Университет
+            Осло): программирование, создание интерфейса, статьи и доклады<br><br>
+            Лора А. Янда (профессор, Университет Тромсе – Арктический университет Норвегии):
+            общая концепция, анализ языковых данных, статьи и доклады<br><br>
+            Анна Эндресен (постдок, Университет Тромсе – Арктический университет Норвегии):
+            общая концепция, предварительные исследования, дизайн ресурса, статьи и доклады<br><br>
+            Валентина Жукова (аспирант, Университет Тромсе – Арктический университет Норвегии):
+            общая концепция, предварительные исследования, дизайн ресурса, статьи и доклады
+          </div>
+          <div id="rus-pub">
+            <h2>Статьи и доклады</h2>
+            “A Constructicon for Ukrainian: Objectives, Strategies, Results” [= Конструктикон для
+            украинского языка: цели, стратегии, результаты], доклад на 16-й Международной
+            конференции по когнитивной лингвистике (ICLC 16), Университет Дюссельдорфа им.
+            Генриха Гейне, Дюссельдорф, Германия, 7–11 августа 2023 г., <a href="https://iclc16.phil.hhu.de">https://iclc16.phil.hhu.de</a>
+            <br><br>
+            “The Ukrainian Constructicon: a new research-based educational linguistic resource for
+            Ukrainian” [= Украинский конструктикон: новый научно-исследовательский
+            образовательный лингвистический ресурс для украинского языка] – выпуск ресурса
+            Университет Тромсе – Норвежский арктический университет, август 2023 г.
+          </div>
+          <div id="rus-cite">
+            <h2>Как цитировать</h2>
+            The Ukrainian Constructicon. 2023. Palii, Yuliia, Zoia Butenko, Laura A. Janda, Anna Endresen,
+            Valentina Zhukova. <a href="https://github.com/constructicon/ukrainian">https://github.com/constructicon/ukrainian</a>
+          </div>
+          <div id="rus-suggest">
+            <h2>Как предложить конструкцию</h2>
+            Вы можете предложить конструкцию для этого ресурса, отправив письмо по адресу
+            <a href = "mailto: yuliia.palii@hotmail.com">yuliia.palii@hotmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+      </div>
+
+      <div class="more-buffer">
+		
+          <hr>
+
+          <span style="display:inline-block; width: 25px;"></span>
+
+          <a href="https://uit.no/" target="_blank">
+            <figure class="figure">
+              
+              <img src="https:&#x2F;&#x2F;constructicon.github.io&#x2F;ukrainian&#x2F;processed_images&#x2F;8d916d6bbfd10b4e00.png"
+                   class="figure-img img-fluid rounded" alt="UiT logo">
+            </figure>
+          </a>
+
+        
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+
+    
+    
+
+  </body>
+</html>
